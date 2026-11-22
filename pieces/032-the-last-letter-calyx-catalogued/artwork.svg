@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#070510"/><stop offset="50%" stop-color="#15102a"/><stop offset="100%" stop-color="#e8d5c4"/></linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0%" stop-color="#f5e6d3" stop-opacity="0.22"/><stop offset="100%" stop-color="#f5e6d3" stop-opacity="0"/></radialGradient>
+    <linearGradient id="fadeup" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#fff"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <mask id="thin"><rect x="300" y="240" width="200" height="520" fill="url(#fadeup)"/></mask>
+    <pattern id="tess" width="18" height="18" patternUnits="userSpaceOnUse"><rect x="1" y="1" width="16" height="16" fill="#c4956a" fill-opacity="0.45" stroke="#0d0b1a" stroke-width="0.8"/></pattern>
+    <path id="vessel" d="M340 240c0 0-30 40-30 100v300c0 60 30 100 90 100s90-40 90-100V340c0-60-30-100-90-100z"/>
+    <path id="calyx" d="M352 150c-10 20-26 36-22 60s30 36 70 36 66-12 70-36-12-40-22-60"/>
+    <path id="thread" d="M400 740c-2-80 40-120 60-180s-70-110-50-190 50-70 36-140"/>
+    <clipPath id="vclip"><use href="#vessel"/></clipPath>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <ellipse cx="400" cy="440" rx="300" ry="320" fill="url(#glow)"/>
+  <use href="#vessel" fill="#0d0b1a" opacity="0.35"/>
+  <g clip-path="url(#vclip)" mask="url(#thin)"><rect x="300" y="240" width="200" height="520" fill="url(#tess)"/></g>
+  <use href="#vessel" fill="none" stroke="#c4956a" stroke-width="1.6" opacity="0.9"/>
+  <use href="#vessel" fill="none" stroke="#f5e6d3" stroke-width="0.6" opacity="0.5" transform="translate(-3 -3)"/>
+  <path d="M370 320v400c0 0 15 10 30 10s30-10 30-10V320" fill="none" stroke="#f5e6d3" stroke-width="0.8" opacity="0.35"/>
+  <g fill="none" stroke-linecap="butt">
+    <use href="#thread" stroke="#f5e6d3" stroke-width="14" opacity="0.08"/>
+    <use href="#thread" stroke="#f5e6d3" stroke-width="5" opacity="0.18"/>
+    <use href="#thread" stroke="#fffaf0" stroke-width="3" opacity="0.95" stroke-dasharray="6 7"/>
+  </g>
+  <use href="#calyx" fill="#0d0b1a" opacity="0.45"/>
+  <use href="#calyx" fill="none" stroke="#c4956a" stroke-width="1.8" stroke-linecap="round"/>
+  <use href="#calyx" fill="none" stroke="#f5e6d3" stroke-width="0.6" opacity="0.5" transform="translate(-3 -3)"/>
+  <path d="M330 210c20-8 46-10 70-10s50 2 70 10" fill="none" stroke="#c4956a" stroke-width="1" opacity="0.7"/>
+  <g stroke="#c4956a" stroke-width="0.6" opacity="0.6" fill="none"><path d="M352 182h96M352 206h96M352 230h96M384 170v70M416 170v70"/></g>
+  <g fill="#fffaf0">
+    <ellipse cx="368" cy="194" rx="5" ry="8"/><ellipse cx="400" cy="194" rx="4" ry="8" transform="rotate(12 400 194)"/><ellipse cx="432" cy="194" rx="5" ry="7"/>
+    <ellipse cx="368" cy="218" rx="4" ry="8" transform="rotate(-15 368 218)"/><ellipse cx="400" cy="218" rx="5" ry="9"/><ellipse cx="432" cy="218" rx="5" ry="8" transform="rotate(20 432 218)"/>
+    <ellipse cx="368" cy="242" rx="5" ry="7" transform="rotate(8 368 242)"/><ellipse cx="400" cy="242" rx="4" ry="8"/><ellipse cx="432" cy="242" rx="5" ry="8" transform="rotate(-10 432 242)" opacity="0.6"/>
+  </g>
+  <circle cx="400" cy="210" r="60" fill="#fff7e6" opacity="0.12"/>
+  <circle cx="400" cy="740" r="5" fill="#f5e6d3" opacity="0.9"/>
+  <circle cx="400" cy="740" r="14" fill="none" stroke="#f5e6d3" stroke-width="0.6" opacity="0.5"/>
+  <g fill="none" stroke="#f5e6d3" stroke-width="0.6" opacity="0.4"><path d="M60 60h30v30M740 60h-30v30M60 740h30v-30M740 740h-30v-30"/></g>
+</svg>

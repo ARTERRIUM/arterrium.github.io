@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#0d0b1a"/><stop offset="50%" stop-color="#1a1535"/><stop offset="100%" stop-color="#e8d5c4"/></linearGradient>
+    <linearGradient id="wood" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#8a6a44"/><stop offset="60%" stop-color="#c4956a"/><stop offset="100%" stop-color="#e9d6bd"/></linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.4" r="0.5"><stop offset="0%" stop-color="#f5e6d3" stop-opacity="0.15"/><stop offset="100%" stop-color="#f5e6d3" stop-opacity="0"/></radialGradient>
+    <path id="vessel" d="M340 120c0 0-30 40-30 100v360c0 60 30 100 90 100s90-40 90-100V220c0-60-30-100-90-100z"/>
+    <clipPath id="vclip"><use href="#vessel"/></clipPath>
+    <g id="rings" fill="none" stroke="#4a3326" stroke-linecap="round">
+      <ellipse cx="402" cy="404" rx="10" ry="16" stroke-width="1.2"/><ellipse cx="402" cy="404" rx="17" ry="26" stroke-width="0.8"/><ellipse cx="401" cy="403" rx="23" ry="36" stroke-width="1.4"/>
+      <ellipse cx="401" cy="403" rx="28" ry="46" stroke-width="0.7"/><ellipse cx="400" cy="402" rx="35" ry="58" stroke-width="1.1"/><ellipse cx="400" cy="402" rx="40" ry="68" stroke-width="0.7"/>
+      <ellipse cx="400" cy="401" rx="47" ry="80" stroke-width="1.5"/><ellipse cx="399" cy="401" rx="52" ry="90" stroke-width="0.7"/><ellipse cx="399" cy="400" rx="58" ry="102" stroke-width="1"/>
+      <ellipse cx="399" cy="400" rx="63" ry="112" stroke-width="0.7"/><ellipse cx="398" cy="400" rx="70" ry="126" stroke-width="1.3"/><ellipse cx="398" cy="400" rx="75" ry="136" stroke-width="0.7"/>
+      <ellipse cx="398" cy="399" rx="81" ry="148" stroke-width="1"/><ellipse cx="398" cy="399" rx="86" ry="158" stroke-width="0.7"/><ellipse cx="397" cy="399" rx="92" ry="170" stroke-width="1.4"/>
+      <ellipse cx="397" cy="398" rx="97" ry="180" stroke-width="0.7"/><ellipse cx="397" cy="398" rx="103" ry="192" stroke-width="1"/><ellipse cx="397" cy="398" rx="108" ry="202" stroke-width="0.7"/>
+      <ellipse cx="396" cy="398" rx="114" ry="214" stroke-width="1.2"/><ellipse cx="396" cy="398" rx="119" ry="224" stroke-width="0.7"/><ellipse cx="396" cy="398" rx="125" ry="236" stroke-width="1"/>
+      <ellipse cx="396" cy="398" rx="130" ry="246" stroke-width="0.7"/><ellipse cx="396" cy="398" rx="136" ry="258" stroke-width="1.5"/><ellipse cx="396" cy="398" rx="141" ry="268" stroke-width="0.7"/>
+      <ellipse cx="397" cy="399" rx="147" ry="280" stroke-width="1"/><ellipse cx="397" cy="399" rx="152" ry="290" stroke-width="0.7"/><ellipse cx="397" cy="399" rx="158" ry="302" stroke-width="1.2"/>
+      <ellipse cx="398" cy="400" rx="163" ry="312" stroke-width="0.7"/><ellipse cx="398" cy="400" rx="169" ry="324" stroke-width="1"/><ellipse cx="398" cy="400" rx="174" ry="334" stroke-width="0.7"/>
+      <ellipse cx="399" cy="400" rx="180" ry="346" stroke-width="1.3"/><ellipse cx="399" cy="400" rx="185" ry="356" stroke-width="0.7"/><ellipse cx="400" cy="400" rx="191" ry="368" stroke-width="1"/>
+      <ellipse cx="400" cy="400" rx="196" ry="378" stroke-width="0.7"/><ellipse cx="400" cy="400" rx="202" ry="390" stroke-width="1.1"/>
+    </g>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <ellipse cx="400" cy="380" rx="320" ry="300" fill="url(#glow)"/>
+  <use href="#vessel" opacity="0.15" transform="translate(8 12)" fill="#0d0b1a"/>
+  <use href="#vessel" fill="url(#wood)"/>
+  <g clip-path="url(#vclip)">
+    <use href="#rings" opacity="0.8"/>
+    <use href="#rings" opacity="0.35" transform="translate(2 1)" stroke="#e9d6bd"/>
+    <path d="M400 120c-4 60 6 120-2 180s-2 60 0 100 4 80-2 140 2 90 4 140" fill="none" stroke="#1a1535" stroke-width="2.2" opacity="0.8"/>
+    <path d="M402 120c-4 60 6 120-2 180s-2 60 0 100 4 80-2 140 2 90 4 140" fill="none" stroke="#e9d6bd" stroke-width="0.6" opacity="0.5"/>
+  </g>
+  <use href="#vessel" fill="none" stroke="#3a2a1e" stroke-width="7" opacity="0.9"/>
+  <use href="#vessel" fill="none" stroke="#c4956a" stroke-width="1.2" opacity="0.6"/>
+  <ellipse cx="402" cy="404" rx="6" ry="10" fill="#0d0b1a"/>
+  <circle cx="400" cy="720" r="3" fill="#f5e6d3" opacity="0.4"/>
+</svg>

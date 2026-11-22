@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#0d0b1a"/><stop offset="50%" stop-color="#1a1535"/><stop offset="100%" stop-color="#e8d5c4"/></linearGradient>
+    <linearGradient id="wood" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#8a6a44"/><stop offset="60%" stop-color="#c4956a"/><stop offset="100%" stop-color="#e9d6bd"/></linearGradient>
+    <path id="vessel" d="M300 120c0 0-30 40-30 100v360c0 60 30 100 90 100s90-40 90-100V220c0-60-30-100-90-100z"/>
+    <clipPath id="vclip"><use href="#vessel"/></clipPath>
+    <g id="rings" fill="none" stroke="#4a3326">
+      <ellipse cx="362" cy="404" rx="10" ry="16" stroke-width="1.2"/><ellipse cx="362" cy="404" rx="17" ry="26" stroke-width="0.8"/><ellipse cx="361" cy="403" rx="23" ry="36" stroke-width="1.4"/><ellipse cx="361" cy="403" rx="28" ry="46" stroke-width="0.7"/><ellipse cx="360" cy="402" rx="35" ry="58" stroke-width="1.1"/><ellipse cx="360" cy="402" rx="40" ry="68" stroke-width="0.7"/><ellipse cx="360" cy="401" rx="47" ry="80" stroke-width="1.5"/><ellipse cx="359" cy="401" rx="52" ry="90" stroke-width="0.7"/><ellipse cx="359" cy="400" rx="58" ry="102" stroke-width="1"/><ellipse cx="359" cy="400" rx="63" ry="112" stroke-width="0.7"/><ellipse cx="358" cy="400" rx="70" ry="126" stroke-width="1.3"/><ellipse cx="358" cy="400" rx="75" ry="136" stroke-width="0.7"/><ellipse cx="358" cy="399" rx="81" ry="148" stroke-width="1"/><ellipse cx="358" cy="399" rx="86" ry="158" stroke-width="0.7"/><ellipse cx="357" cy="399" rx="92" ry="170" stroke-width="1.4"/><ellipse cx="357" cy="398" rx="97" ry="180" stroke-width="0.7"/><ellipse cx="357" cy="398" rx="103" ry="192" stroke-width="1"/><ellipse cx="357" cy="398" rx="108" ry="202" stroke-width="0.7"/><ellipse cx="356" cy="398" rx="114" ry="214" stroke-width="1.2"/><ellipse cx="356" cy="398" rx="119" ry="224" stroke-width="0.7"/><ellipse cx="356" cy="398" rx="125" ry="236" stroke-width="1"/><ellipse cx="356" cy="398" rx="130" ry="246" stroke-width="0.7"/><ellipse cx="356" cy="398" rx="136" ry="258" stroke-width="1.5"/><ellipse cx="356" cy="398" rx="141" ry="268" stroke-width="0.7"/><ellipse cx="357" cy="399" rx="147" ry="280" stroke-width="1"/><ellipse cx="357" cy="399" rx="152" ry="290" stroke-width="0.7"/><ellipse cx="357" cy="399" rx="158" ry="302" stroke-width="1.2"/><ellipse cx="358" cy="400" rx="163" ry="312" stroke-width="0.7"/><ellipse cx="358" cy="400" rx="169" ry="324" stroke-width="1"/><ellipse cx="358" cy="400" rx="174" ry="334" stroke-width="0.7"/><ellipse cx="359" cy="400" rx="180" ry="346" stroke-width="1.3"/><ellipse cx="359" cy="400" rx="185" ry="356" stroke-width="0.7"/><ellipse cx="360" cy="400" rx="191" ry="368" stroke-width="1"/><ellipse cx="360" cy="400" rx="196" ry="378" stroke-width="0.7"/><ellipse cx="360" cy="400" rx="202" ry="390" stroke-width="1.1"/>
+    </g>
+    <pattern id="core" x="0" y="124" width="30" height="64" patternUnits="userSpaceOnUse">
+      <rect width="30" height="10" fill="#4a3326"/><rect y="10" width="30" height="6" fill="#c4956a"/><rect y="16" width="30" height="12" fill="#8a6a44"/><rect y="28" width="30" height="5" fill="#e9d6bd"/><rect y="33" width="30" height="9" fill="#4a3326"/><rect y="42" width="30" height="7" fill="#c4956a"/><rect y="49" width="30" height="4" fill="#3a2a1e"/><rect y="53" width="30" height="11" fill="#a07a50"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <use href="#vessel" opacity="0.15" transform="translate(8 12)" fill="#0d0b1a"/>
+  <use href="#vessel" fill="url(#wood)"/>
+  <g clip-path="url(#vclip)">
+    <use href="#rings" opacity="0.8"/><use href="#rings" opacity="0.35" transform="translate(2 1)" stroke="#e9d6bd"/>
+    <path d="M360 120c-4 60 6 120-2 180s-2 60 0 100 4 80-2 140 2 90 4 140" fill="none" stroke="#1a1535" stroke-width="2.2" opacity="0.8"/>
+    <rect x="392" y="110" width="16" height="590" fill="#0d0b1a"/>
+    <rect x="392" y="110" width="3" height="590" fill="#3a2a1e"/>
+  </g>
+  <use href="#vessel" fill="none" stroke="#3a2a1e" stroke-width="7" opacity="0.9"/>
+  <use href="#vessel" fill="none" stroke="#c4956a" stroke-width="1.2" opacity="0.6"/>
+  <ellipse cx="362" cy="404" rx="6" ry="10" fill="#0d0b1a"/>
+  <g transform="translate(560 0)">
+    <rect x="0" y="118" width="30" height="568" fill="#0d0b1a" opacity="0.35" transform="translate(6 8)"/>
+    <rect x="0" y="120" width="30" height="564" fill="url(#core)"/>
+    <rect x="0" y="120" width="30" height="564" fill="none" stroke="#e9d6bd" stroke-width="1"/>
+    <rect x="0" y="396" width="30" height="12" fill="#0d0b1a"/>
+    <g stroke="#e8d5c4" stroke-width="0.8" opacity="0.7"><path d="M40 120h10M40 184h6M40 248h10M40 312h6M40 376h10M40 440h6M40 504h10M40 568h6M40 632h10M40 684h10"/><path d="M45 120v564" stroke-width="0.5"/></g>
+    <path d="M-20 402h16" stroke="#e8d5c4" stroke-width="0.8" opacity="0.6" stroke-dasharray="2 3"/>
+  </g>
+  <path d="M408 402c40 0 90 0 136 0" stroke="#e8d5c4" stroke-width="0.6" opacity="0.4" stroke-dasharray="2 4"/>
+  <circle cx="360" cy="720" r="3" fill="#f5e6d3" opacity="0.4"/>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="30%" r="75%"><stop offset="0%" stop-color="#f3f6f9"/><stop offset="100%" stop-color="#d6dfe8"/></radialGradient>
+    <linearGradient id="basin" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#cfc4b2"/><stop offset="60%" stop-color="#a99b86"/><stop offset="100%" stop-color="#6d6052"/></linearGradient>
+    <pattern id="tess" width="26" height="26" patternUnits="userSpaceOnUse"><rect x="1" y="1" width="24" height="24" fill="none" stroke="#7b8ea0" stroke-width="0.5"/></pattern>
+    <pattern id="drytess" width="26" height="26" patternUnits="userSpaceOnUse"><rect x="1" y="1" width="24" height="24" fill="none" stroke="#5a4d42" stroke-width="0.6"/></pattern>
+    <g id="sig" fill="none" stroke-linecap="round">
+      <path d="M400 700Q410 600 395 500T400 300Q405 200 400 100" stroke-width="11"/>
+      <path d="M395 500Q350 450 300 400T200 350Q150 320 100 300M400 400Q450 380 500 350T600 300Q650 280 700 250" stroke-width="8"/>
+      <path d="M300 400Q280 380 260 390T220 410M400 100Q380 80 360 90T320 110M400 100Q420 80 440 90T480 110" stroke-width="5"/>
+      <g stroke="none"><circle cx="395" cy="500" r="8"/><circle cx="400" cy="300" r="8"/><circle cx="300" cy="400" r="8"/><circle cx="500" cy="350" r="8"/><circle cx="200" cy="350" r="6"/><circle cx="100" cy="300" r="6"/><circle cx="600" cy="300" r="6"/><circle cx="700" cy="250" r="6"/><circle cx="400" cy="100" r="6"/></g>
+    </g>
+  </defs>
+  <rect width="800" height="800" fill="url(#sky)"/>
+  <rect width="800" height="520" fill="url(#tess)" opacity="0.5"/>
+  <rect y="520" width="800" height="280" fill="url(#basin)"/>
+  <rect y="520" width="800" height="280" fill="url(#drytess)" opacity="0.5"/>
+  <g transform="matrix(1 0 0.04 -1 -20 1220)">
+    <use href="#sig" stroke="#8a6a3a" fill="#8a6a3a" opacity="0.22"/>
+    <use href="#sig" stroke="#6b4f2a" fill="#6b4f2a" opacity="0.28" transform="translate(0 0) scale(0.92 1) translate(32 0)"/>
+    <circle cx="330" cy="150" r="5" fill="#8a6a3a" opacity="0.3"/>
+  </g>
+  <g fill="none" stroke="#5a4d42" stroke-width="0.9" opacity="0.6" stroke-linecap="round">
+    <path d="M120 600c20 10 30 30 26 56M180 700c14-10 30-8 44 4M520 620c-16 8-20 26-14 44M640 580c10 14 26 16 40 10M300 740c20-6 36 4 50 16M700 700c-6 18-22 24-36 30"/>
+  </g>
+  <g fill="none" stroke="#f3f6f9" stroke-width="1.2" opacity="0.7">
+    <rect x="248" y="592" width="26" height="26" transform="rotate(6 261 605)"/><rect x="408" y="642" width="26" height="26" transform="rotate(-5 421 655)"/><rect x="582" y="552" width="26" height="26" transform="rotate(4 595 565)"/>
+  </g>
+  <path d="M0 520h800" stroke="#f3f6f9" stroke-width="1.5" opacity="0.8"/>
+  <path d="M0 526c120 3 220-4 400 0s260 3 400 0" fill="none" stroke="#6d6052" stroke-width="1" opacity="0.5"/>
+  <g fill="none" stroke="#6d6052" stroke-width="0.8" opacity="0.5"><ellipse cx="400" cy="526" rx="26" ry="3"/><ellipse cx="400" cy="532" rx="54" ry="5"/><ellipse cx="400" cy="540" rx="90" ry="7"/></g>
+  <circle cx="400" cy="520" r="6" fill="#3a5a40"/>
+  <g fill="none" stroke="#3a5a40" stroke-linecap="round">
+    <path d="M400 526c-4 20 8 36-2 58s6 28 0 40" stroke-width="2"/>
+    <path d="M399 552c-10 4-16 14-20 22M398 584c10 4 14 12 18 20" stroke-width="1.1"/>
+  </g>
+  <path d="M392 548c-8-2-12-8-13-15 8 1 12 8 13 15z" fill="#87BFA7"/>
+  <circle cx="400" cy="520" r="250" fill="none" stroke="#588157" stroke-width="0.5" opacity="0.18"/>
+</svg>

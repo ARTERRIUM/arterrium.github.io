@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="day" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fbf7ee"/><stop offset="52%" stop-color="#f1e8d6"/><stop offset="56%" stop-color="#e6dbc6"/><stop offset="100%" stop-color="#d9cdb6"/></linearGradient>
+    <linearGradient id="band" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fff" stop-opacity="0"/><stop offset="50%" stop-color="#fff" stop-opacity="0.7"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <path id="stem" d="M400 700Q410 600 395 500T400 300Q405 200 400 100" fill="none" stroke-linecap="round"/>
+    <g id="shoot" fill="none" stroke="#2b2630" stroke-linecap="round">
+      <path d="M0 0c-2-20 6-34-2-56s4-30 0-44" stroke-width="2.2"/>
+      <path d="M-2-40c-9-2-14-10-15-18 9 1 14 9 15 18zM0-60c6-5 8-12 6-20-6 4-9 12-6 20z" fill="#2b2630" stroke-width="0.6"/>
+    </g>
+    <g id="shadow" fill="none" stroke="#2b2630" stroke-linecap="round" opacity="0.18">
+      <path d="M0 0c-14-4-26-10-40-12" stroke-width="3"/>
+      <path d="M-20-6c-8-4-14-4-22-8" stroke-width="2"/>
+    </g>
+  </defs>
+  <rect width="800" height="800" fill="url(#day)"/>
+  <rect y="400" width="800" height="60" fill="url(#band)"/>
+  <g transform="translate(400 430) rotate(90) translate(-400 -400)">
+    <use href="#stem" stroke="#fff" stroke-width="6" stroke-opacity="0.6"/>
+    <use href="#stem" stroke="#fffaf0" stroke-width="1.2" stroke-opacity="0.9"/>
+  </g>
+  <g fill="none" stroke="#2b2630" stroke-width="0.6"><circle cx="400" cy="700" r="120" opacity="0.08"/><circle cx="400" cy="400" r="250" opacity="0.07"/><circle cx="400" cy="250" r="380" opacity="0.05"/></g>
+  <use href="#shadow" transform="translate(100 430) scale(0.8)"/><use href="#shadow" transform="translate(200 428) scale(0.6)"/><use href="#shadow" transform="translate(300 425) scale(1.6)"/><use href="#shadow" transform="translate(500 430) scale(1.1)"/><use href="#shadow" transform="translate(600 432) scale(0.7)"/>
+  <use href="#shoot" transform="translate(100 430) scale(0.8)"/><use href="#shoot" transform="translate(200 428) scale(0.6)"/><use href="#shoot" transform="translate(300 425) scale(1.6)"/><use href="#shoot" transform="translate(500 430) scale(1.1) rotate(-6)"/><use href="#shoot" transform="translate(600 432) scale(0.7) rotate(5)"/>
+  <g fill="#2b2630" opacity="0.85"><circle cx="100" cy="430" r="6"/><circle cx="300" cy="425" r="6"/><circle cx="500" cy="430" r="6"/></g>
+  <g fill="#2b2630" opacity="0.5"><circle cx="200" cy="428" r="3.5"/><circle cx="600" cy="432" r="3.5"/></g>
+  <circle cx="400" cy="130" r="5" fill="#fff" opacity="0.9"/>
+  <circle cx="400" cy="130" r="26" fill="none" stroke="#2b2630" stroke-width="0.6" opacity="0.15"/>
+</svg>

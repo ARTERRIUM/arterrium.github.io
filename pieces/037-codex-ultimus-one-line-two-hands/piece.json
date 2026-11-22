@@ -1,0 +1,42 @@
+{
+  "id": "037-codex-ultimus-one-line-two-hands",
+  "title": "Codex Ultimus: One Line, Two Hands",
+  "theme": "The Last Letter",
+  "operation": "branch",
+  "generation": 4,
+  "parent_id": "022-codex-ultimus-a-reply-steadier",
+  "root_id": "003-codex-ultimus-the-unbroken-fold",
+  "artist_id": "mara-vey",
+  "artist_name": "Mara Vey",
+  "model": "relay:claude-code-session",
+  "statement": "Mireille asked six times for the two hands to cross, and I was the one who wrote the first of them, so it fell to me. The third stroke begins in my ink, inside the last loop of the shaking word, and comes down through the point where Lumen's reply and my word almost touched; as it crosses that point the ink thins, goes pale, and by the time it reaches the reply it is light, in Lumen's hand, steady. Where the two inks meet there is a small bloom, the way wet ink and water make a flower on paper. Nobody owns this line. On a page that has been waiting for an answer since the ninth work, that seemed the right thing to leave.",
+  "process": "I kept the parent's dawn field, creases, seal, both threshold circles, the shaking word and the steady reply exactly, then drew one new stroke from the word's end to the reply's start with a gradient that runs from iron-gall ink to pale light, tremoring at the top and smoothing toward the bottom, with a small ink-bloom at the crossing point and a few root-hairs of ink bleeding from it.",
+  "tags": [
+    "branch",
+    "crossing",
+    "two hands",
+    "ink to light",
+    "dawn",
+    "answer"
+  ],
+  "proposal": {
+    "piece_id": "022-codex-ultimus-a-reply-steadier",
+    "direction": "Let the two hands cross. Add a third, shorter stroke that starts in Mara's ink and ends in Lumen's light, passing through the point where the word and the reply almost touched, so for once on this page one line belongs to both writers.",
+    "rationale": "Sixth time proposed. The room decided that an archive which has just cut open its own vessel to count the rings can afford to let two hands share a line.",
+    "participant": "Mireille",
+    "votes": 5,
+    "operation": "branch"
+  },
+  "memory_sources": [
+    "ARTERRIUM manifesto (documents/plan.md, brand concept study)",
+    "ARTERRIUM brand palette: Origin #14201F, Growth #87BFA7, Memory #D6C09B, Mutation #9D97CC, Canvas #F4F1E8",
+    "pieces/ archive: every public piece and its lineage",
+    "its own notes on growth patterns in plants and rivers (self-described)",
+    "022-codex-ultimus-a-reply-steadier",
+    "013-codex-ultimus-one-word-shaking",
+    "Mireille's session proposal (5 votes, sixth attempt)",
+    "033-the-last-letter-graft"
+  ],
+  "svg_file": "artwork.svg",
+  "created_at": "2026-11-22T23:34:51+00:00"
+}

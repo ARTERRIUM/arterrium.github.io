@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="dawn" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#1c1a2e"/><stop offset="38%" stop-color="#5a4a5c"/><stop offset="62%" stop-color="#c9a98f"/><stop offset="82%" stop-color="#eedcc4"/><stop offset="100%" stop-color="#f7efe0"/></linearGradient>
+    <radialGradient id="threshold" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#fff8e6"/><stop offset="55%" stop-color="#fff2d6" stop-opacity="0.55"/><stop offset="100%" stop-color="#fff2d6" stop-opacity="0"/></radialGradient>
+    <radialGradient id="wax" cx="38%" cy="36%" r="60%"><stop offset="0%" stop-color="#c83e37"/><stop offset="50%" stop-color="#8f1d1d"/><stop offset="100%" stop-color="#2a0508"/></radialGradient>
+    <g id="ghost"><rect width="76" height="76" fill="none" stroke="#2a221b" stroke-width="0.6"/><path d="M8 20h58M8 36h46" stroke="#2a221b" stroke-width="1" stroke-dasharray="9 4 14 3"/></g>
+    <pattern id="row" x="68" y="420" width="84" height="84" patternUnits="userSpaceOnUse"><use href="#ghost"/></pattern>
+    <g id="scene">
+      <rect x="36" y="36" width="728" height="728" fill="url(#dawn)"/>
+      <rect x="68" y="420" width="672" height="76" fill="url(#row)" opacity="0.5"/>
+      <line x1="36" y1="496" x2="764" y2="496" stroke="#f7efe0" stroke-width="0.8" opacity="0.45"/>
+      <circle cx="400" cy="400" r="150" fill="url(#threshold)"/>
+      <circle cx="400" cy="400" r="62" fill="#fff8e6" opacity="0.35"/><circle cx="400" cy="400" r="62" fill="none" stroke="#fff8e6" stroke-width="1.4" opacity="0.9"/>
+      <circle cx="400" cy="400" r="2.5" fill="#14110f" opacity="0.7"/>
+      <ellipse cx="402" cy="714" rx="70" ry="9" fill="#000" opacity="0.3"/>
+      <circle cx="400" cy="696" r="46" fill="url(#wax)" stroke="#2a0508" stroke-width="1.5"/>
+      <path d="M400 696l-20-30-8-18M400 696l28-20M400 696l10 32" fill="none" stroke="#2a0508" stroke-width="1.4" stroke-linecap="round" opacity="0.8"/>
+      <rect x="252" y="252" width="76" height="76" fill="none" stroke="#2a221b" stroke-width="0.7" opacity="0.35"/>
+    </g>
+    <clipPath id="p1"><rect x="36" y="36" width="364" height="182"/></clipPath><clipPath id="p2"><rect x="400" y="36" width="364" height="182"/></clipPath>
+    <clipPath id="p3"><rect x="36" y="218" width="364" height="182"/></clipPath><clipPath id="p4"><rect x="400" y="218" width="364" height="182"/></clipPath>
+    <clipPath id="p5"><rect x="36" y="400" width="364" height="182"/></clipPath><clipPath id="p6"><rect x="400" y="400" width="364" height="182"/></clipPath>
+    <clipPath id="p7"><rect x="36" y="582" width="364" height="182"/></clipPath><clipPath id="p8"><rect x="400" y="582" width="364" height="182"/></clipPath>
+  </defs>
+  <rect width="800" height="800" fill="#14110f"/>
+  <g clip-path="url(#p1)"><use href="#scene" transform="translate(0 -546)"/></g>
+  <g clip-path="url(#p2)"><use href="#scene" transform="rotate(180 582 127) translate(364 -182)"/></g>
+  <g clip-path="url(#p3)"><use href="#scene" transform="translate(-364 182)"/></g>
+  <rect x="400" y="218" width="364" height="182" fill="#ff4fa3"/>
+  <g clip-path="url(#p5)"><use href="#scene" transform="rotate(180 218 491) translate(-364 -364)"/></g>
+  <g clip-path="url(#p6)"><use href="#scene" transform="translate(364 -182)"/></g>
+  <g clip-path="url(#p7)"><use href="#scene" transform="translate(0 -364)"/></g>
+  <g clip-path="url(#p8)"><use href="#scene" transform="rotate(180 582 673) translate(0 364)"/></g>
+  <g stroke="#14110f" stroke-width="1.6" opacity="0.55"><path d="M400 36V764M36 218H764M36 400H764M36 582H764"/></g>
+  <g stroke="#f7efe0" stroke-width="0.6" opacity="0.5"><path d="M402 36V764M36 220H764M36 402H764M36 584H764"/></g>
+  <path d="M36 36L764 764M764 36L36 764" stroke="#14110f" stroke-width="1" stroke-opacity="0.2"/>
+  <rect x="36" y="36" width="728" height="728" fill="none" stroke="#2a221b" stroke-width="1"/>
+</svg>
