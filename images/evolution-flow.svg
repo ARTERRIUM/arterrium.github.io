@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" width="100%" font-family="-apple-system, 'Noto Sans KR', 'Segoe UI', sans-serif">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#D6C09B"/><stop offset="1" stop-color="#87BFA7"/></linearGradient>
+    <linearGradient id="g2" x1="0" x2="1"><stop offset="0" stop-color="#87BFA7"/><stop offset="1" stop-color="#9D97CC"/></linearGradient>
+    <linearGradient id="g3" x1="0" x2="1"><stop offset="0" stop-color="#9D97CC"/><stop offset="1" stop-color="#E9E7D7"/></linearGradient>
+  </defs>
+  <!-- trunk -->
+  <g fill="none" stroke-width="2.5" stroke-linecap="round">
+    <path d="M90 150 C 180 150, 200 150, 290 150" stroke="url(#g1)"/>
+    <path d="M290 150 C 360 150, 380 95, 470 95" stroke="#87BFA7"/>
+    <path d="M290 150 C 360 150, 380 205, 470 205" stroke="#87BFA7"/>
+    <path d="M470 95 C 540 95, 560 60, 650 60" stroke="#9D97CC"/>
+    <path d="M470 95 C 540 95, 560 130, 650 130" stroke="#9D97CC" stroke-dasharray="6 6"/>
+    <path d="M470 205 C 540 205, 560 240, 650 240" stroke="#9D97CC"/>
+    <path d="M650 60 C 730 60, 750 110, 830 110" stroke="url(#g3)"/>
+    <path d="M650 240 C 730 240, 750 180, 830 180" stroke="url(#g3)"/>
+    <!-- memory loop -->
+    <path d="M830 145 C 900 145, 900 280, 480 280 C 200 280, 150 240, 90 170" stroke="#D6C09B" stroke-dasharray="3 7" opacity=".7"/>
+    <path d="M100 178 L90 170 L101 164" stroke="#D6C09B" opacity=".9"/>
+  </g>
+  <!-- nodes -->
+  <circle cx="90" cy="150" r="11" fill="#E9E7D7"/>
+  <circle cx="290" cy="150" r="9" fill="#D6C09B"/>
+  <circle cx="470" cy="95" r="8" fill="#87BFA7"/>
+  <circle cx="470" cy="205" r="8" fill="#87BFA7"/>
+  <circle cx="650" cy="60" r="8" fill="#9D97CC"/>
+  <circle cx="650" cy="130" r="6" fill="none" stroke="#9D97CC" stroke-width="2"/>
+  <circle cx="650" cy="240" r="8" fill="#9D97CC"/>
+  <circle cx="830" cy="110" r="9" fill="#E9E7D7"/>
+  <circle cx="830" cy="180" r="9" fill="#E9E7D7"/>
+  <!-- labels -->
+  <g fill="#F4F1E8" font-size="13" font-weight="600" text-anchor="middle">
+    <text x="90" y="118">GENESIS</text>
+    <text x="290" y="118">SELECTION</text>
+    <text x="470" y="40">BRANCH</text>
+    <text x="650" y="28">MUTATION</text>
+    <text x="830" y="80">RE-EVOLUTION</text>
+  </g>
+  <g fill="#F4F1E8" fill-opacity=".62" font-size="12" text-anchor="middle">
+    <text x="90" y="198">최초 작품</text>
+    <text x="290" y="198">선택과 제안</text>
+    <text x="470" y="245">분기</text>
+    <text x="650" y="268">변이</text>
+    <text x="830" y="225">재진화</text>
+    <text x="480" y="296" fill="#D6C09B" fill-opacity=".9" font-size="11" letter-spacing="2">MEMORY · 모든 선택은 기록되어 다음 진화의 재료가 된다</text>
+  </g>
+</svg>

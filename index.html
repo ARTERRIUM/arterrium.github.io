@@ -1,0 +1,639 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARTERRIUM — A Living Museum of Artistic Co-Evolution</title>
+<meta name="description" content="ARTERRIUM은 인간과 AI가 함께 작품을 진화시키는 살아 있는 미술관입니다. 예술은 완성되는 것이 아니라, 우리와 함께 되어 가는 것입니다.">
+<meta property="og:title" content="ARTERRIUM — Art Is Always Becoming">
+<meta property="og:description" content="인간과 AI가 함께 작품을 진화시키는 살아 있는 미술관. See anywhere. Evolve here.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/svg+xml" href="images/logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300&family=Noto+Serif+KR:wght@400;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --origin:#14201F;
+    --origin-2:#1B2A28;
+    --origin-3:#223431;
+    --growth:#87BFA7;
+    --memory:#D6C09B;
+    --mutation:#9D97CC;
+    --canvas:#F4F1E8;
+    --ink:rgba(244,241,232,.72);
+    --ink-dim:rgba(244,241,232,.48);
+    --line:rgba(244,241,232,.12);
+    --line-strong:rgba(244,241,232,.24);
+    --serif-en:"Fraunces","Noto Serif KR",Georgia,serif;
+    --serif-ko:"Noto Serif KR","Fraunces",serif;
+    --sans:"Noto Sans KR",-apple-system,"Segoe UI",sans-serif;
+    --max:1180px;
+    --gutter:clamp(16px,4vw,48px);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--origin);color:var(--canvas);font-family:var(--sans);font-weight:300;line-height:1.75;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  a{color:inherit;text-decoration:none}
+  img,svg{max-width:100%;display:block}
+  h1,h2,h3{font-weight:400;margin:0;line-height:1.2}
+  p{margin:0 0 1em}
+  strong{font-weight:500;color:var(--canvas)}
+  em{font-style:italic}
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 var(--gutter)}
+  .eyebrow{font-family:var(--sans);font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--memory);font-weight:500}
+  .en{font-family:var(--serif-en)}
+  .ko{font-family:var(--serif-ko)}
+  .muted{color:var(--ink)}
+  .dim{color:var(--ink-dim)}
+
+  /* ---------- nav ---------- */
+  nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:rgba(20,32,31,.78);border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px}
+  .brand{display:flex;align-items:center;gap:10px;font-family:var(--serif-en);font-size:1.05rem;letter-spacing:.14em}
+  .brand img{width:34px;height:22px}
+  .menu{display:flex;gap:26px;font-size:.82rem;letter-spacing:.04em;color:var(--ink)}
+  .menu a:hover{color:var(--canvas)}
+  .menu .cta{color:var(--origin);background:var(--growth);padding:6px 14px;border-radius:999px;font-weight:500}
+  .menu .cta:hover{color:var(--origin);background:#9fd0ba}
+  @media (max-width:760px){.menu a:not(.cta){display:none}}
+
+  /* ---------- hero ---------- */
+  .hero{position:relative;padding:clamp(56px,9vw,110px) 0 clamp(40px,6vw,72px);overflow:hidden}
+  .hero::before{content:"";position:absolute;inset:-20% -10% auto;height:120%;background:
+    radial-gradient(60% 50% at 20% 30%,rgba(135,191,167,.14),transparent 60%),
+    radial-gradient(40% 40% at 85% 20%,rgba(157,151,204,.14),transparent 60%),
+    radial-gradient(40% 40% at 70% 90%,rgba(214,192,155,.10),transparent 60%);pointer-events:none}
+  .hero .wrap{position:relative;display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(28px,5vw,64px);align-items:center}
+  @media (max-width:900px){.hero .wrap{grid-template-columns:1fr}}
+  .hero h1{font-family:var(--serif-en);font-size:clamp(2.6rem,6.2vw,4.9rem);font-weight:300;letter-spacing:-.01em;margin:18px 0 20px;line-height:1.05}
+  .hero h1 em{color:var(--growth);font-weight:300}
+  .hero .ko-lead{font-family:var(--serif-ko);font-size:clamp(1.05rem,1.8vw,1.3rem);color:var(--canvas);line-height:1.7;margin-bottom:14px}
+  .hero .sub{color:var(--ink);font-size:1rem;max-width:34em}
+  .btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+  .btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:999px;font-size:.9rem;font-weight:500;letter-spacing:.02em;border:1px solid var(--line-strong);transition:.2s}
+  .btn.primary{background:var(--canvas);color:var(--origin);border-color:var(--canvas)}
+  .btn.primary:hover{background:#fff}
+  .btn.ghost:hover{border-color:var(--canvas)}
+  .live-card{position:relative;background:linear-gradient(160deg,var(--origin-2),var(--origin));border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:0 30px 80px rgba(0,0,0,.35)}
+  .live-card .head{display:flex;justify-content:space-between;align-items:center;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink)}
+  .live-card .head b{font-weight:500;color:var(--canvas)}
+  .pulse{display:inline-flex;align-items:center;gap:7px;color:var(--growth)}
+  .pulse i{width:7px;height:7px;border-radius:50%;background:var(--growth);box-shadow:0 0 0 0 rgba(135,191,167,.6);animation:pulse 1.8s infinite}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(135,191,167,.55)}70%{box-shadow:0 0 0 9px rgba(135,191,167,0)}100%{box-shadow:0 0 0 0 rgba(135,191,167,0)}}
+  canvas#tree{width:100%;height:auto;aspect-ratio:4/3;border-radius:12px;background:radial-gradient(80% 70% at 50% 100%,rgba(135,191,167,.08),transparent 70%);margin:14px 0 10px}
+  .live-card .foot{display:flex;justify-content:space-between;align-items:baseline;gap:12px;font-size:.75rem;color:var(--ink-dim)}
+  .live-card .foot span:first-child{font-family:var(--serif-en);font-size:.95rem;color:var(--canvas)}
+  .live-card .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px;border-top:1px solid var(--line);padding-top:12px}
+  .live-card .stats div{font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-dim)}
+  .live-card .stats b{display:block;font-family:var(--serif-en);font-size:1.35rem;font-weight:400;color:var(--canvas);letter-spacing:0}
+  .strip{margin-top:clamp(40px,6vw,72px);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:14px 0;overflow:hidden;white-space:nowrap}
+  .strip .track{display:inline-block;animation:marquee 38s linear infinite;font-family:var(--serif-en);font-size:.95rem;letter-spacing:.18em;color:var(--ink-dim)}
+  .strip .track span{margin-right:64px}
+  .strip .track span::after{content:"◦";margin-left:64px;color:var(--memory)}
+  @keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+  /* ---------- sections ---------- */
+  section{padding:clamp(64px,9vw,120px) 0;border-top:1px solid var(--line)}
+  section h2{font-family:var(--serif-ko);font-size:clamp(1.7rem,3.4vw,2.5rem);font-weight:400;margin:14px 0 18px;letter-spacing:-.01em}
+  section h2 .en{font-size:.92em;color:var(--canvas)}
+  .lead{font-size:clamp(1rem,1.5vw,1.12rem);color:var(--ink);max-width:40em}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,72px);align-items:start}
+  @media (max-width:860px){.two{grid-template-columns:1fr}}
+  .sticky{position:sticky;top:90px}
+  @media (max-width:860px){.sticky{position:static}}
+
+  /* manifesto */
+  .manifesto blockquote{margin:0;font-family:var(--serif-ko);font-size:clamp(1.15rem,2.2vw,1.55rem);line-height:1.75;color:var(--canvas);border-left:2px solid var(--memory);padding-left:clamp(18px,3vw,32px)}
+  .manifesto blockquote p+p{margin-top:1em}
+  .feel{margin-top:40px;padding:clamp(22px,3vw,34px);border:1px solid var(--line);border-radius:16px;background:linear-gradient(135deg,rgba(214,192,155,.08),transparent 60%)}
+  .feel .eyebrow{color:var(--growth)}
+  .feel .big{font-family:var(--serif-ko);font-size:clamp(1.3rem,2.6vw,1.9rem);line-height:1.5;margin:10px 0 8px}
+  .feel .vs{color:var(--ink-dim);font-size:.9rem}
+  .feel .vs s{color:var(--ink-dim)}
+
+  /* principles */
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:40px}
+  @media (max-width:860px){.grid3{grid-template-columns:1fr}}
+  .card{background:var(--origin-2);border:1px solid var(--line);border-radius:18px;padding:clamp(22px,3vw,32px);position:relative;overflow:hidden;transition:transform .35s,border-color .35s}
+  .card:hover{transform:translateY(-4px);border-color:var(--line-strong)}
+  .card .num{font-family:var(--serif-en);font-size:.85rem;color:var(--ink-dim);letter-spacing:.1em}
+  .card .icon{width:52px;height:52px;margin:18px 0 20px}
+  .card.growth .icon{color:var(--growth)} .card.memory .icon{color:var(--memory)} .card.mutation .icon{color:var(--mutation)}
+  .card h3{font-family:var(--serif-en);font-size:1.5rem;font-weight:400;margin-bottom:4px}
+  .card .ko-t{font-family:var(--serif-ko);font-size:1.02rem;color:var(--canvas);margin-bottom:12px}
+  .card p{color:var(--ink);font-size:.95rem;margin:0}
+  .card::after{content:"";position:absolute;right:-40px;top:-40px;width:140px;height:140px;border-radius:50%;filter:blur(40px);opacity:.25;pointer-events:none}
+  .card.growth::after{background:var(--growth)} .card.memory::after{background:var(--memory)} .card.mutation::after{background:var(--mutation)}
+
+  /* how it works */
+  .flow{margin:36px 0 10px;padding:clamp(16px,3vw,32px);background:var(--origin-2);border:1px solid var(--line);border-radius:18px}
+  .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:28px}
+  @media (max-width:960px){.steps{grid-template-columns:repeat(2,1fr)}}
+  @media (max-width:560px){.steps{grid-template-columns:1fr}}
+  .step{border-top:1px solid var(--line-strong);padding-top:16px}
+  .step .k{font-family:var(--serif-en);font-size:.8rem;letter-spacing:.14em;color:var(--memory)}
+  .step h3{font-family:var(--serif-ko);font-size:1.12rem;margin:8px 0 8px}
+  .step p{font-size:.92rem;color:var(--ink);margin:0}
+  .rules{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:40px}
+  @media (max-width:760px){.rules{grid-template-columns:1fr}}
+  .rule{display:flex;gap:16px;padding:22px;border:1px solid var(--line);border-radius:14px;background:rgba(244,241,232,.02)}
+  .rule .dot{flex:0 0 10px;height:10px;border-radius:50%;margin-top:9px}
+  .rule h3{font-size:1rem;font-weight:500;font-family:var(--sans);margin-bottom:6px}
+  .rule p{margin:0;font-size:.92rem;color:var(--ink)}
+
+  /* platform */
+  .menus{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:40px}
+  @media (max-width:860px){.menus{grid-template-columns:repeat(2,1fr)}}
+  @media (max-width:520px){.menus{grid-template-columns:1fr}}
+  .menu-card{padding:24px;border:1px solid var(--line);border-radius:16px;background:var(--origin-2);display:flex;flex-direction:column;gap:6px;min-height:150px}
+  .menu-card .en{font-size:1.35rem}
+  .menu-card .idx{font-size:.7rem;letter-spacing:.2em;color:var(--ink-dim)}
+  .menu-card p{color:var(--ink);font-size:.92rem;margin:4px 0 0}
+  .menu-card.hl{border-color:rgba(135,191,167,.5)}
+
+  /* brand */
+  .journey{display:grid;grid-template-columns:1fr auto 1fr;align-items:stretch;gap:18px;margin-top:40px}
+  @media (max-width:760px){.journey{grid-template-columns:1fr}.journey .arrow{transform:rotate(90deg);justify-self:center}}
+  .jbox{border:1px solid var(--line);border-radius:16px;padding:26px;background:var(--origin-2)}
+  .jbox .name{font-family:var(--serif-en);font-size:clamp(1.8rem,3.5vw,2.6rem);letter-spacing:.12em;margin-bottom:6px}
+  .jbox.old .name{color:var(--ink-dim);text-decoration:line-through;text-decoration-color:rgba(214,192,155,.6);text-decoration-thickness:1px}
+  .jbox.new .name{color:var(--canvas)}
+  .jbox .tag{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--memory);margin-bottom:14px}
+  .jbox ul{margin:0;padding-left:1.1em;color:var(--ink);font-size:.92rem}
+  .jbox li+li{margin-top:5px}
+  .arrow{align-self:center;color:var(--growth);font-size:1.6rem}
+  .verdict{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:16px 0 18px}
+  .verdict div{background:rgba(0,0,0,.18);border-radius:10px;padding:10px 12px;font-size:.78rem;color:var(--ink-dim)}
+  .verdict b{display:block;font-weight:500;font-size:.95rem;margin-top:2px}
+  .b-high{color:#e0a3a3}.b-good{color:var(--growth)}.b-low{color:var(--memory)}
+  @media (max-width:560px){.verdict{grid-template-columns:1fr}.verdict div{display:flex;justify-content:space-between;align-items:center}.verdict b{margin:0}}
+  .compose{display:flex;align-items:baseline;gap:4px;flex-wrap:wrap;margin:8px 0 14px;font-family:var(--serif-en);font-size:clamp(1.4rem,3vw,2rem);letter-spacing:.08em}
+  .compose span{position:relative;padding-bottom:4px}
+  .compose .a{color:var(--memory)} .compose .b{color:var(--growth)} .compose .c{color:var(--mutation)}
+  .compose small{display:block;font-family:var(--sans);font-size:.72rem;letter-spacing:.02em;color:var(--ink-dim);margin-top:2px}
+  .note{font-size:.82rem;color:var(--ink-dim);border-left:2px solid var(--line-strong);padding-left:12px;margin-top:18px}
+
+  .palette{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:40px}
+  @media (max-width:760px){.palette{grid-template-columns:repeat(2,1fr)}}
+  .sw{border-radius:14px;overflow:hidden;border:1px solid var(--line)}
+  .sw .c{height:110px}
+  .sw .t{padding:12px 14px;background:var(--origin-2);font-size:.8rem;color:var(--ink)}
+  .sw .t b{display:block;font-family:var(--serif-en);font-size:1.05rem;color:var(--canvas);font-weight:400;letter-spacing:.06em}
+  .sw .t code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.72rem;color:var(--ink-dim)}
+  .logo-stage{margin-top:40px;display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  @media (max-width:760px){.logo-stage{grid-template-columns:1fr}}
+  .logo-box{border:1px solid var(--line);border-radius:18px;padding:28px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;min-height:280px}
+  .logo-box.dark{background:var(--origin-2)}
+  .logo-box.light{background:var(--canvas);color:var(--origin)}
+  .logo-box img{width:200px}
+  .logo-box .wm{font-family:var(--serif-en);letter-spacing:.3em;font-size:1.3rem}
+  .logo-box .tg{font-size:.62rem;letter-spacing:.28em;text-transform:uppercase;opacity:.65}
+  .logo-box.light .tg{color:var(--origin)}
+
+  /* roadmap */
+  .timeline{margin-top:40px;display:grid;grid-template-columns:repeat(4,1fr);gap:0;position:relative}
+  @media (max-width:860px){.timeline{grid-template-columns:1fr}}
+  .phase{padding:26px 22px 10px 0;position:relative;border-top:1px solid var(--line-strong)}
+  @media (max-width:860px){.phase{border-top:0;border-left:1px solid var(--line-strong);padding:0 0 28px 22px}}
+  .phase::before{content:"";position:absolute;top:-6px;left:0;width:11px;height:11px;border-radius:50%;background:var(--origin);border:2px solid var(--memory)}
+  @media (max-width:860px){.phase::before{top:4px;left:-6.5px}}
+  .phase.now::before{background:var(--growth);border-color:var(--growth);box-shadow:0 0 0 6px rgba(135,191,167,.18)}
+  .phase .when{font-family:var(--serif-en);font-size:.8rem;letter-spacing:.16em;color:var(--memory);text-transform:uppercase}
+  .phase.now .when{color:var(--growth)}
+  .phase h3{font-family:var(--serif-ko);font-size:1.1rem;margin:8px 0 8px}
+  .phase p{font-size:.9rem;color:var(--ink);margin:0}
+
+  /* join */
+  .join{text-align:center;padding:clamp(80px,12vw,150px) 0;position:relative;overflow:hidden}
+  .join::before{content:"";position:absolute;inset:0;background:radial-gradient(50% 60% at 50% 60%,rgba(135,191,167,.12),transparent 70%);pointer-events:none}
+  .join .wrap{position:relative}
+  .join img{width:120px;margin:0 auto 24px;opacity:.9}
+  .join h2{font-family:var(--serif-en);font-size:clamp(2rem,5vw,3.6rem);font-weight:300}
+  .join h2 em{color:var(--growth)}
+  .join p{max-width:36em;margin:16px auto 0;color:var(--ink)}
+
+  footer{border-top:1px solid var(--line);padding:34px 0;font-size:.8rem;color:var(--ink-dim)}
+  footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+  footer b{font-family:var(--serif-en);letter-spacing:.14em;color:var(--canvas);font-weight:400}
+
+  /* reveal */
+  .rv{opacity:0;transform:translateY(18px);transition:opacity .8s ease,transform .8s ease}
+  .rv.in{opacity:1;transform:none}
+  @media (prefers-reduced-motion:reduce){
+    .rv{opacity:1;transform:none;transition:none}
+    .strip .track{animation:none}
+    .pulse i{animation:none}
+    html{scroll-behavior:auto}
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="brand" href="#top"><img src="images/logo.svg" alt="ARTERRIUM 심벌"> ARTERRIUM</a>
+    <div class="menu">
+      <a href="#manifesto">취지</a>
+      <a href="#principles">원칙</a>
+      <a href="#how">작동 방식</a>
+      <a href="#platform">플랫폼</a>
+      <a href="#brand">브랜드</a>
+      <a href="#roadmap">로드맵</a>
+      <a class="cta" href="#join">함께하기</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">A Living Museum of Human &amp; AI Art</div>
+      <h1>Art is never finished.<br><em>It becomes.</em></h1>
+      <p class="ko-lead">예술은 완성되는 것이 아니라,<br>우리와 함께 되어 가는 것이다.</p>
+      <p class="sub">ARTERRIUM은 인간의 상상력과 AI의 해석이 만나 작품을 끊임없이 진화시키는 살아 있는 미술관입니다. 모든 선택은 흔적을 남기고, 모든 흔적은 새로운 가능성을 엽니다.</p>
+      <div class="btns">
+        <a class="btn primary" href="#manifesto">취지 읽기</a>
+        <a class="btn ghost" href="#how">작동 방식 보기 →</a>
+      </div>
+    </div>
+    <div class="live-card rv">
+      <div class="head">
+        <span><b>Genesis 001</b> · The Last Letter</span>
+        <span class="pulse"><i></i>Live · Demo</span>
+      </div>
+      <canvas id="tree" width="800" height="600" aria-label="실시간으로 분기하며 자라나는 진화 트리 애니메이션" role="img"></canvas>
+      <div class="foot">
+        <span>Illustrative evolution tree</span>
+        <span>디자인 시안 · 실시간 데이터가 아닙니다</span>
+      </div>
+      <div class="stats">
+        <div>Branches<b id="s-branch">0</b></div>
+        <div>Mutations<b id="s-mut">0</b></div>
+        <div>Generations<b id="s-gen">0</b></div>
+      </div>
+    </div>
+  </div>
+  <div class="strip" aria-hidden="true">
+    <div class="track">
+      <span>View from anywhere</span><span>Contribute on site</span><span>Every choice leaves a trace</span><span>Every trace opens a new possibility</span><span>See anywhere. Evolve here.</span>
+      <span>View from anywhere</span><span>Contribute on site</span><span>Every choice leaves a trace</span><span>Every trace opens a new possibility</span><span>See anywhere. Evolve here.</span>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ 취지 ============ -->
+<section id="manifesto" class="manifesto">
+  <div class="wrap two">
+    <div class="sticky rv">
+      <div class="eyebrow">Manifesto · 취지</div>
+      <h2>우리는 예술을<br>한 사람의 완성된 결과물로만<br>바라보지 않는다</h2>
+      <p class="lead">ARTERRIUM은 '예술은 완성된 사물'이라는 전제를 내려놓습니다. 작품은 인간의 상상력과 선택, AI의 해석과 제안, 축적되는 역사와 새로운 만남을 통해 끊임없이 변화합니다. 우리가 만들고 싶은 것은 그 변화를 멈추지 않고 기록하는 공간입니다.</p>
+    </div>
+    <div class="rv">
+      <blockquote>
+        <p>인간의 상상력과 선택, AI의 해석과 제안, 축적되는 역사와 새로운 만남을 통해 작품은 끊임없이 변화한다.</p>
+        <p>누구나 예술을 창작하고 발전시키며, 어떤 선택도 영원히 잊히지 않는 공간.</p>
+        <p>어제의 예술이 오늘의 가능성이 되고, 오늘의 선택이 미래의 예술이 되는 세계.</p>
+      </blockquote>
+      <div class="feel">
+        <div class="eyebrow">우리가 전달하고 싶은 감정</div>
+        <div class="big">"나는 예술의 역사에<br>작은 흔적 하나를 남길 수 있다."</div>
+        <div class="vs"><s>"첨단 기술을 체험한다"</s>가 아니라, 참여자 자신이 역사의 일부가 된다는 감각입니다.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 원칙 ============ -->
+<section id="principles">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Three Principles · 세 가지 원칙</div>
+      <h2>로고부터 전시장, 창작 알고리즘까지<br>일관되게 흐르는 세 가지 약속</h2>
+      <p class="lead">이름이 무엇이든 브랜드의 의미는 흔들리지 않아야 합니다. 아래 세 원칙은 ARTERRIUM의 모든 결정을 판단하는 기준입니다.</p>
+    </div>
+    <div class="grid3">
+      <div class="card growth rv">
+        <div class="num">01</div>
+        <img class="icon" src="images/icon-open.svg" alt="">
+        <h3>Open to Everyone</h3>
+        <div class="ko-t">누구에게나 열려 있다</div>
+        <p>전문 예술가만의 공간이 아닙니다. 상상력과 선택이 있는 사람이라면 누구나 작품의 진화에 기여할 수 있어야 합니다. 관람객과 창작자의 경계는 흐려집니다.</p>
+      </div>
+      <div class="card mutation rv">
+        <div class="num">02</div>
+        <img class="icon" src="images/icon-unfinished.svg" alt="">
+        <h3>Never Truly Finished</h3>
+        <div class="ko-t">결코 완전히 끝나지 않는다</div>
+        <p>작품은 언제든 새로운 해석과 분기를 받아들일 수 있습니다. 하나의 완성본 대신 가지를 뻗는 계보가 남고, 오래된 분기에서도 새로운 경로가 다시 시작될 수 있습니다.</p>
+      </div>
+      <div class="card memory rv">
+        <div class="num">03</div>
+        <img class="icon" src="images/icon-memory.svg" alt="">
+        <h3>Memory Creates the Future</h3>
+        <div class="ko-t">기억이 미래를 만든다</div>
+        <p>AI는 과거 작품을 복제하는 도구가 아닙니다. ARTERRIUM 안에 축적되는 역사로부터 아직 시도되지 않은 가능성을 발굴해 제안하는 또 하나의 아티스트입니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 작동 방식 ============ -->
+<section id="how">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">How It Works · 작동 방식</div>
+      <h2>하나의 시작점에서 여러 가능성이 자라나고,<br>그 가능성들이 다시 연결된다</h2>
+      <p class="lead">ARTERRIUM의 작품은 파일이 아니라 계보입니다. 선택, 분기, 변이, 재진화의 순환이 반복되며 작품의 역사가 쌓입니다.</p>
+    </div>
+    <div class="flow rv">
+      <img src="images/evolution-flow.svg" alt="Genesis에서 시작해 Selection, Branch, Mutation, Re-evolution으로 이어지고 Memory로 순환하는 진화 흐름도">
+    </div>
+    <div class="steps">
+      <div class="step rv">
+        <div class="k">01 · GENESIS</div>
+        <h3>최초의 작품이 태어난다</h3>
+        <p>인간 또는 AI 아티스트가 첫 작품을 제안합니다. 이 순간부터 작품에는 고유한 계보와 기억이 생깁니다.</p>
+      </div>
+      <div class="step rv">
+        <div class="k">02 · SELECTION</div>
+        <h3>참여자가 선택하고 제안한다</h3>
+        <p>초청된 현장 세션에서 참여자가 작품의 다음 방향을 제안하고 투표합니다. 모든 제안은 기록으로 남습니다.</p>
+      </div>
+      <div class="step rv">
+        <div class="k">03 · BRANCH &amp; MUTATION</div>
+        <h3>분기하고, 변이한다</h3>
+        <p>하나의 작품에서 여러 경로가 갈라집니다. AI 아티스트는 축적된 기억을 바탕으로 예측하기 어려운 변이를 제안합니다.</p>
+      </div>
+      <div class="step rv">
+        <div class="k">04 · RE-EVOLUTION</div>
+        <h3>기억에서 다시 진화한다</h3>
+        <p>오래된 분기도 잊히지 않습니다. 아카이브의 어떤 지점에서든 새로운 진화가 다시 시작될 수 있습니다.</p>
+      </div>
+    </div>
+    <div class="rules">
+      <div class="rule rv">
+        <div class="dot" style="background:var(--growth)"></div>
+        <div>
+          <h3>열람은 어디서나, 기여는 현장에서</h3>
+          <p>누구나 어디서든 작품과 계보를 열람할 수 있습니다. 다만 공식 제안과 투표는 초청된 현장 세션에서만 이루어집니다. 가벼운 클릭이 아니라 의미 있는 선택이 역사에 남도록 하기 위한 원칙입니다.</p>
+        </div>
+      </div>
+      <div class="rule rv">
+        <div class="dot" style="background:var(--mutation)"></div>
+        <div>
+          <h3>AI 아티스트의 기억은 출처가 투명하다</h3>
+          <p>각 AI 아티스트는 자신만의 기억과 창작 이력을 갖습니다. 그 기억이 어떤 자료에 기반했는지 누구나 확인할 수 있어야 합니다. 설명할 수 없는 창작은 ARTERRIUM의 역사가 될 수 없습니다.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 플랫폼 ============ -->
+<section id="platform">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Platform · 플랫폼 구성</div>
+      <h2>일반적인 갤러리처럼 만들지 않는다</h2>
+      <p class="lead">첫 화면이 보여줘야 할 것은 멋진 소개 문구나 AI 이미지가 아니라, 지금 이 순간에도 작품이 실제로 변화하고 있다는 사실입니다. 사용자가 진화 계보를 바로 탐색하게 하면 이 공간이 일반적인 AI 이미지 갤러리와 다르다는 점을 즉시 이해할 수 있습니다.</p>
+    </div>
+    <div class="menus">
+      <div class="menu-card hl rv"><div class="idx">01</div><div class="en">Explore</div><p>현재 진화 중인 작품을 열람합니다. 가장 활발하게 분기하는 작품이 먼저 보입니다.</p></div>
+      <div class="menu-card rv"><div class="idx">02</div><div class="en">Evolution</div><p>선택·분기·변이·재진화의 계보를 트리 형태로 탐색합니다.</p></div>
+      <div class="menu-card rv"><div class="idx">03</div><div class="en">Artists</div><p>인간 아티스트와 AI 아티스트, 그리고 둘의 협업 이력을 소개합니다.</p></div>
+      <div class="menu-card rv"><div class="idx">04</div><div class="en">Archive</div><p>모든 공개 작품의 역사적 기록. 어떤 선택도 영원히 잊히지 않습니다.</p></div>
+      <div class="menu-card rv"><div class="idx">05</div><div class="en">Visit</div><p>현장 참여 장소와 일정, 참여권 안내. 공식 제안과 투표가 이루어지는 곳입니다.</p></div>
+      <div class="menu-card rv"><div class="idx">06</div><div class="en">Manifesto</div><p>철학, 창립 선언, 운영 원칙. 이 프로젝트가 왜 존재하는지에 대한 기록입니다.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 브랜드 ============ -->
+<section id="brand">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Brand · 이름과 정체성</div>
+      <h2>ARTERRA에서 ARTERRIUM으로</h2>
+      <p class="lead">첫 작업명은 ARTERRA(Art · Terra · Era)였습니다. 철학적으로는 잘 맞았지만, 같은 이름의 예술 커뮤니티 플랫폼이 이미 여럿 존재해 평생 키워갈 브랜드로는 위험했습니다. 그래서 정립된 철학은 그대로 두고, 세계적으로 구별되는 새 조어를 찾았습니다.</p>
+    </div>
+    <div class="journey">
+      <div class="jbox old rv">
+        <div class="tag">Working name · 검토 결과</div>
+        <div class="name">ARTERRA</div>
+        <div class="verdict">
+          <div>철학적 적합성<b class="b-good">높음</b></div>
+          <div>브랜드 차별성<b class="b-low">낮음</b></div>
+          <div>상표·도메인 위험<b class="b-high">높음</b></div>
+        </div>
+        <ul>
+          <li>동일 명칭의 예술 커뮤니티 플랫폼이 미국·스페인·프랑스 등에 이미 존재</li>
+          <li>arterra.art 등 핵심 도메인은 다른 예술 플랫폼이 사용 중</li>
+          <li>뒤에 단어를 붙여도 핵심 식별 요소가 같아 근본적 해결이 아님</li>
+        </ul>
+      </div>
+      <div class="arrow rv">→</div>
+      <div class="jbox new rv">
+        <div class="tag">New name · 새로운 조어</div>
+        <div class="name">ARTERRIUM</div>
+        <div class="compose">
+          <span class="a">ART<small>예술</small></span><span>·</span>
+          <span class="b">TERRA<small>땅 · 세계</small></span><span>·</span>
+          <span class="c">-IUM<small>살아 있는 것을 담는 공간</small></span>
+        </div>
+        <ul>
+          <li>museum, terrarium처럼 '-ium'은 무언가가 살아 숨 쉬는 공간을 뜻합니다</li>
+          <li>예술이 자라나는 하나의 살아 있는 세계, 그 자체를 담는 그릇</li>
+          <li>한글과 영어 모두 발음하기 쉽고, 특정 AI·장르에 종속되지 않는 이름</li>
+        </ul>
+        <div class="note">상표·도메인의 최종 확보 여부는 로드맵에 따라 별도 검증을 거칩니다.</div>
+      </div>
+    </div>
+
+    <div class="rv" style="margin-top:72px">
+      <div class="eyebrow">Colors · 브랜드 컬러</div>
+      <h2 style="font-size:clamp(1.3rem,2.4vw,1.8rem)">시간, 성장, 기억, 변이, 그리고 캔버스</h2>
+    </div>
+    <div class="palette">
+      <div class="sw rv"><div class="c" style="background:#14201F;border-bottom:1px solid var(--line)"></div><div class="t"><b>Origin</b><code>#14201F</code><br>시간과 역사, 모든 것이 시작되는 어둠</div></div>
+      <div class="sw rv"><div class="c" style="background:#87BFA7"></div><div class="t"><b>Growth</b><code>#87BFA7</code><br>자라나는 가지, 살아 있는 상태</div></div>
+      <div class="sw rv"><div class="c" style="background:#D6C09B"></div><div class="t"><b>Memory</b><code>#D6C09B</code><br>축적된 기록, 잊히지 않는 선택</div></div>
+      <div class="sw rv"><div class="c" style="background:#9D97CC"></div><div class="t"><b>Mutation</b><code>#9D97CC</code><br>예측하기 어려운 변이와 분기</div></div>
+      <div class="sw rv"><div class="c" style="background:#F4F1E8"></div><div class="t"><b>Canvas</b><code>#F4F1E8</code><br>아직 그려지지 않은 가능성</div></div>
+    </div>
+
+    <div class="rv" style="margin-top:72px">
+      <div class="eyebrow">Logo · Living Branch</div>
+      <h2 style="font-size:clamp(1.3rem,2.4vw,1.8rem)">완성된 형태보다 '진화하는 형태'</h2>
+      <p class="lead">붓, 액자, 팔레트도, 뇌와 회로도 아닙니다. 하나의 시작점에서 여러 가능성이 발생하고 새로운 연결을 만들어 가는 구조를 그렸습니다. 선은 진화의 경로, 점은 인간과 AI가 만들어 낸 작품의 상태 또는 분기를 상징합니다. 기본 심벌은 고정하되, 분기와 색상만 살아 움직이도록 설계합니다.</p>
+    </div>
+    <div class="logo-stage">
+      <div class="logo-box dark rv">
+        <img src="images/logo.svg" alt="ARTERRIUM Living Branch 심벌, 다크 배경">
+        <div class="wm">ARTERRIUM</div>
+        <div class="tg">Art is always becoming</div>
+      </div>
+      <div class="logo-box light rv">
+        <img src="images/logo.svg" alt="ARTERRIUM Living Branch 심벌, 라이트 배경">
+        <div class="wm">ARTERRIUM</div>
+        <div class="tg">Art is always becoming</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 로드맵 ============ -->
+<section id="roadmap">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Roadmap · 지향점과 다음 단계</div>
+      <h2>브랜드와 개발은 분리해서, 그러나 함께 간다</h2>
+      <p class="lead">이름이 최종 확정되지 않았다고 개발을 멈출 필요는 없습니다. 내부 프로젝트명 EAM Genesis로 프로토타입을 만들면서, 브랜드 검증을 병행합니다.</p>
+    </div>
+    <div class="timeline">
+      <div class="phase now rv">
+        <div class="when">Now · 지금</div>
+        <h3>웹 프로토타입 제작</h3>
+        <p>내부 프로젝트명은 EAM Genesis로 유지하고, ARTERRIUM 디자인 콘셉트를 적용한 웹 프로토타입을 만듭니다.</p>
+      </div>
+      <div class="phase rv">
+        <div class="when">Week 1–2 · 첫 2주</div>
+        <h3>이름 검증</h3>
+        <p>ARTERRIUM 및 후보 이름의 상표·도메인 검증(KIPRIS, WIPO, USPTO, EUIPO)과 예술가·일반 사용자 대상 이름 평가를 진행합니다.</p>
+      </div>
+      <div class="phase rv">
+        <div class="when">Week 3–4 · 3~4주</div>
+        <h3>브랜드 확정</h3>
+        <p>최종 이름 선정 후 도메인 등록, 로고 정교화, 브랜드 디자인 시스템을 확정합니다.</p>
+      </div>
+      <div class="phase rv">
+        <div class="when">Beyond · 그 이후</div>
+        <h3>첫 진화형 작품 공개</h3>
+        <p>첫 진화형 작품과 AI 아티스트를 연동해 공개 테스트를 시작합니다. Genesis 001이 실제로 자라나기 시작하는 순간입니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 함께하기 ============ -->
+<section id="join" class="join">
+  <div class="wrap rv">
+    <img src="images/logo.svg" alt="">
+    <h2>See anywhere.<br><em>Evolve here.</em></h2>
+    <p>평생 발전시켜 갈 예술 생태계입니다. 어제의 예술이 오늘의 가능성이 되고, 오늘의 선택이 미래의 예술이 되는 세계에 당신의 흔적 하나를 남겨 주세요.</p>
+    <div class="btns" style="justify-content:center">
+      <a class="btn primary" href="#top">처음으로</a>
+      <a class="btn ghost" href="#manifesto">취지 다시 읽기</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><b>ARTERRIUM</b> · A Living Museum of Artistic Co-Evolution</div>
+    <div>Internal project: EAM Genesis · Brand concept study 2026</div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  /* ---------- scroll reveal ---------- */
+  var els=document.querySelectorAll('.rv');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+    },{threshold:.12});
+    els.forEach(function(el){ io.observe(el); });
+  } else { els.forEach(function(el){ el.classList.add('in'); }); }
+
+  /* ---------- living evolution tree ---------- */
+  var cv=document.getElementById('tree'); if(!cv) return;
+  var ctx=cv.getContext('2d');
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var COLORS={growth:'#87BFA7',memory:'#D6C09B',mutation:'#9D97CC',canvas:'#E9E7D7'};
+  var W=800,H=600,dpr=1;
+  function resize(){
+    dpr=Math.min(window.devicePixelRatio||1,2);
+    var r=cv.getBoundingClientRect(); W=r.width||800; H=W*0.75;
+    cv.width=W*dpr; cv.height=H*dpr; ctx.setTransform(dpr,0,0,dpr,0,0);
+  }
+  resize(); window.addEventListener('resize',function(){resize(); draw(performance.now());});
+
+  var nodes=[],edges=[],stats={branch:0,mut:0,gen:0},lastSpawn=0,phase=0,phaseStart=0,fade=0;
+  var sB=document.getElementById('s-branch'),sM=document.getElementById('s-mut'),sG=document.getElementById('s-gen');
+
+  function reset(t){
+    nodes=[];edges=[];
+    var ox=W/2,oy=H-28;
+    nodes.push({x:ox,y:oy,c:COLORS.canvas,r:7,born:t,depth:0,kids:0,mut:false});
+    stats={branch:0,mut:0,gen:0}; lastSpawn=t; phase=0; phaseStart=t; updateStats();
+  }
+  function updateStats(){ sB.textContent=stats.branch; sM.textContent=stats.mut; sG.textContent=stats.gen; }
+  function pick(){
+    // weight toward recent & shallow-kid nodes, but sometimes revive old ones (re-evolution)
+    var pool=nodes.filter(function(n){return n.kids<3 && n.y>50;});
+    if(!pool.length) return null;
+    if(Math.random()<0.18){ pool.sort(function(a,b){return a.born-b.born;}); return pool[Math.floor(Math.random()*Math.min(4,pool.length))]; }
+    pool.sort(function(a,b){return b.born-a.born;});
+    return pool[Math.floor(Math.pow(Math.random(),1.8)*Math.min(8,pool.length))];
+  }
+  function spawn(t){
+    var p=pick(); if(!p) return;
+    var mut=Math.random()<0.28;
+    var spread=p.depth===0?0.9:1.25;
+    var ang=-Math.PI/2+(Math.random()-0.5)*spread;
+    var len=42+Math.random()*48;
+    var nx=p.x+Math.cos(ang)*len, ny=p.y+Math.sin(ang)*len;
+    if(nx<24||nx>W-24||ny<30) return;
+    var col=mut?COLORS.mutation:(Math.random()<0.45?COLORS.memory:COLORS.growth);
+    var n={x:nx,y:ny,c:col,r:mut?5.5:5,born:t,depth:p.depth+1,kids:0,mut:mut,parent:p};
+    p.kids++; nodes.push(n); edges.push({a:p,b:n,born:t,c:col});
+    if(p.kids>1) stats.branch++; if(mut) stats.mut++; stats.gen=Math.max(stats.gen,n.depth); updateStats();
+  }
+  function ease(x){return 1-Math.pow(1-x,3);}
+  function draw(t){
+    ctx.clearRect(0,0,W,H);
+    ctx.globalAlpha=1-fade;
+    // edges
+    edges.forEach(function(e){
+      var k=ease(Math.min(1,(t-e.born)/700));
+      ctx.strokeStyle=e.c; ctx.lineWidth=1.8; ctx.lineCap='round'; ctx.globalAlpha=(1-fade)*0.85;
+      ctx.beginPath(); ctx.moveTo(e.a.x,e.a.y); ctx.lineTo(e.a.x+(e.b.x-e.a.x)*k,e.a.y+(e.b.y-e.a.y)*k); ctx.stroke();
+    });
+    // nodes
+    nodes.forEach(function(n,i){
+      var age=t-n.born, k=ease(Math.min(1,age/500));
+      var pulse=i===nodes.length-1?1+0.25*Math.sin(t/180):1;
+      ctx.globalAlpha=(1-fade);
+      if(n.mut){ // halo for mutation
+        ctx.beginPath(); ctx.arc(n.x,n.y,n.r*k*2.6,0,Math.PI*2); ctx.fillStyle='rgba(157,151,204,.14)'; ctx.fill();
+      }
+      ctx.beginPath(); ctx.arc(n.x,n.y,n.r*k*pulse,0,Math.PI*2); ctx.fillStyle=n.c; ctx.fill();
+    });
+    // origin ring
+    if(nodes[0]){ ctx.globalAlpha=(1-fade)*0.5; ctx.strokeStyle=COLORS.canvas; ctx.lineWidth=1; ctx.beginPath(); ctx.arc(nodes[0].x,nodes[0].y,12,0,Math.PI*2); ctx.stroke(); }
+    ctx.globalAlpha=1;
+  }
+  function loop(t){
+    if(phase===0){
+      if(t-lastSpawn>(nodes.length<6?520:900+Math.random()*500)){ spawn(t); lastSpawn=t; }
+      if(nodes.length>=46){ phase=1; phaseStart=t; }
+    } else if(phase===1){ // hold, then fade and regrow
+      if(t-phaseStart>2600){ fade=Math.min(1,(t-phaseStart-2600)/1200); if(fade>=1){ reset(t); fade=0; } }
+    }
+    draw(t); requestAnimationFrame(loop);
+  }
+  reset(performance.now());
+  if(reduce){ // static tree
+    var t0=performance.now()-5000; for(var i=0;i<34;i++) spawn(t0);
+    draw(performance.now());
+  } else { requestAnimationFrame(loop); }
+})();
+</script>
+</body>
+</html>
