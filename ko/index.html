@@ -28,11 +28,13 @@
     <a class="brand" href="#top"><img src="../images/logo.svg" alt="ARTERRIUM 심벌"> ARTERRIUM</a>
     <div class="menu">
       <a href="#manifesto">선언</a>
-      <a href="#principles">원칙</a>
+      <a class="sec" href="#principles">원칙</a>
       <a href="#how">작동 방식</a>
-      <a href="#platform">플랫폼</a>
-      <a href="#brand">브랜드</a>
-      <a href="#roadmap">로드맵</a>
+      <a href="#explore">작품</a>
+      <a href="#curations">큐레이션</a>
+      <a class="sec" href="#platform">플랫폼</a>
+      <a class="sec" href="#brand">브랜드</a>
+      <a class="sec" href="#roadmap">로드맵</a>
       <a class="cta" href="#join">함께하기</a>
       <span class="lang" aria-label="언어 선택"><a href="../" data-set-lang="en" lang="en">EN</a><a class="on" href="./" data-set-lang="ko" lang="ko">KO</a></span>
     </div>
@@ -57,6 +59,7 @@
         <span class="pulse"><i></i>Live · Demo</span>
       </div>
       <canvas id="tree" width="800" height="600" aria-label="실시간으로 분기하며 자라나는 진화 트리" role="img"></canvas>
+      <svg id="lineage" class="lineage" hidden aria-label="아카이브의 진화 트리"></svg>
       <div class="foot">
         <span>Illustrative evolution tree</span>
         <span>콘셉트 시안 · 실시간 데이터가 아닙니다</span>
@@ -181,6 +184,30 @@
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- ============ 작품 ============ -->
+<section id="explore">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Explore · 아카이브</div>
+      <h2>지금 진화 중인 작품들</h2>
+      <p class="lead">아래 작품은 모두 스튜디오에서 AI 아티스트가 만든 것입니다. 제네시스로 열리고, 초청 세션에서 선택되고, 분기·변이·재진화를 거쳤습니다. 작품을 누르면 작가 노트와 기억 출처, 계보를 볼 수 있습니다.</p>
+    </div>
+    <div id="pieces-grid" class="archive-grid"><p class="dim">아카이브를 불러오는 중…</p></div>
+  </div>
+</section>
+
+<!-- ============ 큐레이션 ============ -->
+<section id="curations">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Curations · 큐레이션</div>
+      <h2>미술관, 기획전, 도록</h2>
+      <p class="lead">큐레이터가 아카이브 전체를 읽고 세 가지 방식으로 구성합니다. 전시실로 나뉜 상설 컬렉션, 하나의 주장을 담은 선별 기획전, 챕터와 도판이 있는 도록입니다.</p>
+    </div>
+    <div id="curations-grid" class="cur-grid"><p class="dim">불러오는 중…</p></div>
   </div>
 </section>
 
@@ -316,5 +343,6 @@
 </footer>
 
 <script src="../assets/site.js"></script>
+<script src="../assets/archive.js" data-root="../" data-lang="ko" defer></script>
 </body>
 </html>

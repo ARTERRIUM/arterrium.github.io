@@ -70,6 +70,7 @@
     ctx.globalAlpha=1;
   }
   function loop(t){
+    if(window.__arterriumArchiveLoaded) return; // the real lineage tree has replaced the demo
     if(phase===0){
       if(t-lastSpawn>(nodes.length<6?520:900+Math.random()*500)){ spawn(t); lastSpawn=t; }
       if(nodes.length>=46){ phase=1; phaseStart=t; }

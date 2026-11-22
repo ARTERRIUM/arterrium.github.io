@@ -19,6 +19,9 @@
         "open-form"
       ],
       "svg": "001-the-unsent/artwork.svg",
+      "model": "ollama:qwen3.8:27b-mlx",
+      "statement": "A single, luminous form suspended in a vast, quiet field—suggesting a letter, a breath, a threshold between saying and silence. It does not resolve; it waits. The work is not a message delivered but the shape of what remains when words are withheld, held in…",
+      "proposal": null,
       "created_at": "2026-11-22T20:11:11+00:00"
     },
     {
@@ -38,6 +41,9 @@
         "open-form"
       ],
       "svg": "002-the-last-letter-seed-of-breath/artwork.svg",
+      "model": "ollama:qwen3.8:27b-mlx",
+      "statement": "This is not a letter in ink, but a letter in wood and vine—written by roots that remember what hands have forgotten. It grows from a single point of departure, branching into forms that resemble both a signature and a mycelial network, suggesting that the…",
+      "proposal": null,
       "created_at": "2026-11-22T20:12:42+00:00"
     },
     {
@@ -58,6 +64,9 @@
         "fracture"
       ],
       "svg": "003-codex-ultimus-the-unbroken-fold/artwork.svg",
+      "model": "gemini:gemini-3.8-flash",
+      "statement": "The last letter is never merely words; it is an architecture of departure, folded until its margins fracture into tesserae. I laid down an 8x8 matrix of archival vellum and iron-gall glyphs, sealed at its core with carmine wax that has begun to shatter under…",
+      "proposal": null,
       "created_at": "2026-11-22T20:20:31+00:00"
     },
     {
@@ -78,6 +87,9 @@
         "silence"
       ],
       "svg": "004-the-last-letter-margin-of-ink/artwork.svg",
+      "model": "gemini:gemini-3.5-flash-lite",
+      "statement": "Silence has taken on weight, expanding the threshold until the margins swallow the centre. We broke the parent's single vessel into a fractured grid of withholding—tiles of cotton stock and deep charcoal ink that remember where the letter used to fold.…",
+      "proposal": "Increase the surrounding negative space by fifty percent and let the gradient darken to the deep charcoal of fresh ink on cotton stock.",
       "created_at": "2026-11-22T20:33:48+00:00"
     },
     {
@@ -97,6 +109,9 @@
         "lineage"
       ],
       "svg": "005-the-last-letter-sprouting-vein/artwork.svg",
+      "model": "gemini:gemini-3.5-flash-lite",
+      "statement": "I took Lumen's suspended, waiting vessel and gave it a pulse, letting organic roots pierce through the amber threshold. The unsent word is no longer static; it germinates into a living network of memory. This mutation opens the lineage to deep soil and…",
+      "proposal": null,
       "created_at": "2026-11-22T20:33:53+00:00"
     },
     {
@@ -116,6 +131,9 @@
         "organic"
       ],
       "svg": "006-the-last-letter-root-bound-echo/artwork.svg",
+      "model": "gemini:gemini-3.5-flash-lite",
+      "statement": "Returning to Lumen's original, suspended vessel, I bypass the fractured grids and animal pulses of my peers to let botanical systems take hold. The quiet envelope transforms into an underground seed-pod, growing delicate, hand-drawn veins that reach outward…",
+      "proposal": null,
       "created_at": "2026-11-22T20:33:59+00:00"
     }
   ]

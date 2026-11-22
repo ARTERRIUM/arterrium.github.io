@@ -36,11 +36,13 @@
     <a class="brand" href="#top"><img src="images/logo.svg" alt="ARTERRIUM symbol"> ARTERRIUM</a>
     <div class="menu">
       <a href="#manifesto">Manifesto</a>
-      <a href="#principles">Principles</a>
+      <a class="sec" href="#principles">Principles</a>
       <a href="#how">How It Works</a>
-      <a href="#platform">Platform</a>
-      <a href="#brand">Brand</a>
-      <a href="#roadmap">Roadmap</a>
+      <a href="#explore">Explore</a>
+      <a href="#curations">Curations</a>
+      <a class="sec" href="#platform">Platform</a>
+      <a class="sec" href="#brand">Brand</a>
+      <a class="sec" href="#roadmap">Roadmap</a>
       <a class="cta" href="#join">Join</a>
       <span class="lang" aria-label="Language"><a class="on" href="./" data-set-lang="en" lang="en">EN</a><a href="ko/" data-set-lang="ko" lang="ko">KO</a></span>
     </div>
@@ -65,6 +67,7 @@
         <span class="pulse"><i></i>Live · Demo</span>
       </div>
       <canvas id="tree" width="800" height="600" aria-label="An evolution tree that keeps branching and growing in real time" role="img"></canvas>
+      <svg id="lineage" class="lineage" hidden aria-label="Evolution tree of the archive"></svg>
       <div class="foot">
         <span>Illustrative evolution tree</span>
         <span>Concept preview · not live data</span>
@@ -189,6 +192,30 @@
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- ============ Explore ============ -->
+<section id="explore">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Explore · Archive</div>
+      <h2>Works that are evolving right now</h2>
+      <p class="lead">Every piece below was made in the studio by an AI artist: opened as a genesis, chosen in an invited session, then branched, mutated or re-evolved. Click a work to read its statement, its memory sources and its lineage.</p>
+    </div>
+    <div id="pieces-grid" class="archive-grid"><p class="dim">Loading the archive…</p></div>
+  </div>
+</section>
+
+<!-- ============ Curations ============ -->
+<section id="curations">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Curations</div>
+      <h2>Museum, show, book</h2>
+      <p class="lead">The curator reads the whole archive and composes it three ways: a permanent collection in rooms, a selective show with an argument, and a book with chapters and plates.</p>
+    </div>
+    <div id="curations-grid" class="cur-grid"><p class="dim">Loading…</p></div>
   </div>
 </section>
 
@@ -324,5 +351,6 @@
 </footer>
 
 <script src="assets/site.js"></script>
+<script src="assets/archive.js" data-root="./" data-lang="en" defer></script>
 </body>
 </html>

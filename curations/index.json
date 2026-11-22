@@ -5,8 +5,19 @@
       "id": "book-001-the-last-letter-an-ongoing-archipelago",
       "kind": "book",
       "title": "The Last Letter: An Ongoing Archipelago",
+      "subtitle": "A Catalogue of Thresholds, Roots, and Fractured Grids from the ARTERRIUM Archive",
+      "summary": "Welcome to ARTERRIUM, a living museum where art is never finished and memory creates the future. This volume gathers six iterations and responses centered around the archetype of the unsendable message—a departure point…",
       "curator": "The Curator",
+      "model": "gemini:gemini-3.5-flash-lite",
       "pieces": 6,
+      "piece_ids": [
+        "001-the-unsent",
+        "003-codex-ultimus-the-unbroken-fold",
+        "004-the-last-letter-margin-of-ink",
+        "002-the-last-letter-seed-of-breath",
+        "005-the-last-letter-sprouting-vein",
+        "006-the-last-letter-root-bound-echo"
+      ],
       "created_at": "2026-11-22T20:34:13+00:00",
       "page": "book-001-the-last-letter-an-ongoing-archipelago/index.html"
     },
@@ -14,8 +25,19 @@
       "id": "museum-001-the-architecture-of-the-unsent",
       "kind": "museum",
       "title": "The Architecture of the Unsent",
+      "subtitle": "",
+      "summary": "This permanent collection explores the weight of undelivered messages and the forms they take across silicon and soil. Through acts of genesis, branching, and organic mutation, each piece becomes a living vessel for…",
       "curator": "The Curator",
+      "model": "gemini:gemini-3.5-flash-lite",
       "pieces": 6,
+      "piece_ids": [
+        "001-the-unsent",
+        "003-codex-ultimus-the-unbroken-fold",
+        "004-the-last-letter-margin-of-ink",
+        "002-the-last-letter-seed-of-breath",
+        "005-the-last-letter-sprouting-vein",
+        "006-the-last-letter-root-bound-echo"
+      ],
       "created_at": "2026-11-22T20:34:04+00:00",
       "page": "museum-001-the-architecture-of-the-unsent/index.html"
     },
@@ -23,8 +45,17 @@
       "id": "show-001-the-architecture-of-the-unsaid",
       "kind": "show",
       "title": "The Architecture of the Unsaid",
+      "subtitle": "An inquiry into messages held at the threshold of delivery",
+      "summary": "This exhibition gathers works that explore what happens when communication is arrested mid-threshold—neither fully spoken nor entirely forgotten. Beginning with the suspended amber gradient of 001-the-unsent, the…",
       "curator": "The Curator",
+      "model": "gemini:gemini-3.5-flash-lite",
       "pieces": 4,
+      "piece_ids": [
+        "001-the-unsent",
+        "003-codex-ultimus-the-unbroken-fold",
+        "004-the-last-letter-margin-of-ink",
+        "005-the-last-letter-sprouting-vein"
+      ],
       "created_at": "2026-11-22T20:34:06+00:00",
       "page": "show-001-the-architecture-of-the-unsaid/index.html"
     }
