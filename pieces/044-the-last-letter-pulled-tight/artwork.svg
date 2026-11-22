@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#0a0a0d"/><stop offset="50%" stop-color="#14141c"/><stop offset="100%" stop-color="#2a2835"/></linearGradient>
+    <linearGradient id="tile" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#181822" stop-opacity="0.95"/><stop offset="70%" stop-color="#a0826d" stop-opacity="0.8"/><stop offset="100%" stop-color="#e2cfbc" stop-opacity="0.9"/></linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5"><stop offset="0%" stop-color="#ff7a1a" stop-opacity="0.16"/><stop offset="100%" stop-color="#ff7a1a" stop-opacity="0"/></radialGradient>
+    <g id="fragment"><path d="M0 0h60v160H0z" fill="url(#tile)" stroke="#0a0a0d" stroke-width="2"/><path d="M15 20h30v120H15z" fill="#14141c" opacity="0.4"/></g>
+    <g id="bloom"><circle r="9" fill="#ff7a1a" opacity="0.9"/><circle r="4" fill="#ffd08a"/><circle r="14" fill="none" stroke="#ff7a1a" stroke-width="0.8" opacity="0.5"/></g>
+    <g id="lines" fill="none" stroke-linecap="round">
+      <path d="M400 740L400 480M400 740L262 300M400 740L538 300M400 740L230 170M400 740L570 170M400 740L300 560M400 740L500 560"/>
+      <path d="M300 560L262 300M500 560L538 300M262 300L230 170M538 300L570 170M300 560L400 480M500 560L400 480M262 300L400 480M538 300L400 480M230 170L400 480M570 170L400 480"/>
+    </g>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <circle cx="400" cy="420" r="360" fill="url(#halo)"/>
+  <use href="#lines" stroke="#ff7a1a" stroke-width="5" opacity="0.12"/>
+  <use href="#lines" stroke="#b9dcc9" stroke-width="1.1" opacity="0.9"/>
+  <use href="#fragment" transform="translate(200 90) rotate(14 30 80)" opacity="0.7"/>
+  <use href="#fragment" transform="translate(540 90) rotate(-14 30 80)" opacity="0.7"/>
+  <use href="#fragment" transform="translate(232 220) rotate(10 30 80)" opacity="0.85"/>
+  <use href="#fragment" transform="translate(508 220) rotate(-10 30 80)" opacity="0.85"/>
+  <use href="#fragment" transform="translate(340 320) rotate(2 30 80)" opacity="1"/>
+  <use href="#fragment" transform="translate(402 320) rotate(-2 30 80)" opacity="1"/>
+  <use href="#fragment" transform="translate(270 480) rotate(6 30 80)" opacity="0.6"/>
+  <use href="#fragment" transform="translate(470 480) rotate(-6 30 80)" opacity="0.6"/>
+  <use href="#bloom" transform="translate(400 480)"/>
+  <use href="#bloom" transform="translate(262 300) scale(0.7)"/><use href="#bloom" transform="translate(538 300) scale(0.7)"/>
+  <use href="#bloom" transform="translate(300 560) scale(0.6)"/><use href="#bloom" transform="translate(500 560) scale(0.6)"/>
+  <use href="#bloom" transform="translate(230 170) scale(0.5)"/><use href="#bloom" transform="translate(570 170) scale(0.5)"/>
+  <line x1="401" y1="322" x2="401" y2="478" stroke="#ff7a1a" stroke-width="1.5" opacity="0.8"/>
+  <circle cx="400" cy="740" r="2" fill="#e2cfbc" opacity="0.5"/><circle cx="390" cy="740" r="1" fill="#e2cfbc" opacity="0.3"/><circle cx="410" cy="740" r="1.5" fill="#e2cfbc" opacity="0.35"/>
+  <circle cx="400" cy="740" r="7" fill="none" stroke="#ff7a1a" stroke-width="0.8" opacity="0.8"/>
+</svg>

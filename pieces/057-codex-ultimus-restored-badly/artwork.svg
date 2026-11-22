@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <radialGradient id="paper" cx="50%" cy="50%" r="66%"><stop offset="0%" stop-color="#ebe3d1"/><stop offset="55%" stop-color="#cfc1a8"/><stop offset="86%" stop-color="#9d8d75"/><stop offset="100%" stop-color="#1b1714"/></radialGradient>
+    <radialGradient id="wax" cx="38%" cy="36%" r="60%"><stop offset="0%" stop-color="#c83e37"/><stop offset="45%" stop-color="#8f1d1d"/><stop offset="80%" stop-color="#540e12"/><stop offset="100%" stop-color="#2a0508"/></radialGradient>
+    <radialGradient id="leak" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#c9c2f0" stop-opacity="0.7"/><stop offset="40%" stop-color="#9D97CC" stop-opacity="0.2"/><stop offset="100%" stop-color="#9D97CC" stop-opacity="0"/></radialGradient>
+    <linearGradient id="cave" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#050404"/><stop offset="100%" stop-color="#17201c"/></linearGradient>
+    <g id="tile"><rect width="76" height="76" fill="#ece3d0" fill-opacity="0.32" stroke="#4a3e35" stroke-width="0.7" stroke-opacity="0.4"/><path d="M8 20h58M8 36h50M8 52h42" stroke="#2a221b" stroke-width="1.5" stroke-opacity="0.35" stroke-dasharray="9 4 14 3 6 6"/><path d="M14 62q8-7 16 1t18-2" fill="none" stroke="#6b2a26" stroke-opacity="0.4"/></g>
+    <g id="sparse"><rect width="76" height="76" fill="#e2d6c1" fill-opacity="0.18" stroke="#5a4d42" stroke-width="0.5" stroke-opacity="0.3"/><circle cx="38" cy="38" r="1.5" fill="#3a3028" opacity="0.6"/><path d="M12 24h16M12 40h32" stroke="#2a221b" stroke-width="1.2" stroke-opacity="0.25"/></g>
+    <g id="stamp"><rect width="76" height="76" fill="none" stroke="#7a362b" stroke-width="1.2" stroke-dasharray="3 3" opacity="0.6"/><circle cx="38" cy="38" r="24" fill="none" stroke="#7a362b" stroke-width="0.8" stroke-dasharray="5 2" opacity="0.5"/></g>
+    <pattern id="grid" x="68" y="68" width="168" height="168" patternUnits="userSpaceOnUse"><use href="#tile"/><use href="#sparse" x="84"/><use href="#stamp" y="84"/><use href="#tile" x="84" y="84"/></pattern>
+    <g id="veins" fill="none"><path d="M400 400c-38-30-66-58-104-82s-56-56-82-82M400 400c48 18 100 46 148 86s52 34 62 40M400 400c-8 50 10 105-14 156s-14 84 6 144M400 400c30-40 70-70 120-100s80-72 120-110M400 400c-48 6-100-8-150 10s-80 30-122 20"/></g>
+    <g id="cavity"><rect width="76" height="76" fill="url(#cave)"/><g fill="none" stroke="#87BFA7" stroke-linecap="round"><path d="M0 12c14 6 22 20 30 36s12 28 6 44" stroke-width="2.2"/><path d="M18 26c10-4 22 2 30-8M32 52c12 4 20 16 36 14" stroke-width="1.3" stroke-opacity="0.8"/></g><ellipse cx="34" cy="54" rx="6" ry="9" fill="#D6C09B"/><rect width="76" height="76" fill="none" stroke="#2a221b" stroke-width="1.2" stroke-opacity="0.7"/></g>
+    <g id="fallen"><use href="#tile"/><rect width="76" height="76" fill="#ece3d0" fill-opacity="0.5" stroke="#2a221b" stroke-width="1.2"/><path d="M8 20h58M8 36h50M8 52h42" stroke="#2a221b" stroke-width="1.5" stroke-opacity="0.45" stroke-dasharray="9 4 14 3 6 6"/></g>
+  </defs>
+  <rect width="800" height="800" fill="#14110f"/>
+  <rect x="36" y="36" width="728" height="728" rx="4" fill="url(#paper)"/>
+  <path d="M36 36L764 764M764 36L36 764" stroke="#000" stroke-width="1.5" stroke-opacity="0.3"/>
+  <path d="M400 36V764M36 400H764" stroke="#000" stroke-width="1" stroke-opacity="0.22"/>
+  <rect x="68" y="68" width="672" height="672" fill="url(#grid)"/>
+  <circle cx="400" cy="400" r="250" fill="url(#leak)"/>
+  <g transform="translate(320 572)"><rect width="76" height="76" fill="#5fb3e6"/><rect width="76" height="76" fill="none" stroke="#2a221b" stroke-width="1.2" stroke-opacity="0.7"/><circle cx="52" cy="24" r="9" fill="#fff" opacity="0.9"/><ellipse cx="30" cy="46" rx="16" ry="6" fill="#fff" opacity="0.7"/></g>
+  <use href="#veins" stroke="#c9c2f0" stroke-width="8" stroke-opacity="0.18" stroke-linecap="round"/>
+  <use href="#veins" stroke="#e9e4ff" stroke-width="1.8" stroke-linecap="round" stroke-opacity="0.95"/>
+  <circle cx="400" cy="400" r="98" fill="url(#leak)"/>
+  <circle cx="400" cy="400" r="62" fill="url(#wax)" stroke="#2a0508" stroke-width="1.5"/>
+  <path id="cracks" d="M400 400l-28-44-11-25M400 400l41-28 25-6M400 400l14 46-6 24M400 400l-48 20-16 24" fill="none" stroke="#9D97CC" stroke-width="9" stroke-opacity="0.45" stroke-linecap="round"/>
+  <use href="#cracks" stroke="#f0edff" stroke-width="2.2" stroke-opacity="0.95"/>
+  <circle cx="400" cy="400" r="3" fill="#f0edff"/>
+  <g transform="translate(572 488)"><rect width="76" height="76" fill="#cfc1a8"/><use href="#fallen" transform="rotate(90 38 38)"/><rect width="76" height="76" fill="none" stroke="#D6C09B" stroke-width="3.5" opacity="0.95"/><rect x="1.5" y="1.5" width="73" height="73" fill="none" stroke="#fae19c" stroke-width="0.8" opacity="0.8"/></g>
+  <g transform="translate(488 572)"><rect width="76" height="76" fill="#cfc1a8"/><use href="#fallen" transform="rotate(180 38 38)"/><rect width="76" height="76" fill="none" stroke="#D6C09B" stroke-width="3.5" opacity="0.95"/><rect x="1.5" y="1.5" width="73" height="73" fill="none" stroke="#fae19c" stroke-width="0.8" opacity="0.8"/></g>
+  <g transform="translate(656 404)"><rect width="76" height="76" fill="#cfc1a8"/><use href="#fallen" transform="rotate(270 38 38)"/><rect width="76" height="76" fill="none" stroke="#D6C09B" stroke-width="3.5" opacity="0.95"/><rect x="1.5" y="1.5" width="73" height="73" fill="none" stroke="#fae19c" stroke-width="0.8" opacity="0.8"/></g>
+  <g transform="translate(404 656)"><rect width="76" height="76" fill="#cfc1a8"/><use href="#fallen" transform="rotate(90 38 38)"/><rect width="76" height="76" fill="none" stroke="#D6C09B" stroke-width="3.5" opacity="0.95"/><rect x="1.5" y="1.5" width="73" height="73" fill="none" stroke="#fae19c" stroke-width="0.8" opacity="0.8"/></g>
+  <g transform="translate(320 572)"><rect width="76" height="76" fill="none" stroke="#D6C09B" stroke-width="1.2" stroke-dasharray="4 3" opacity="0.9"/></g>
+  <use href="#fallen" transform="translate(690 718) rotate(-12)"/>
+  <path d="M110 740h40M130 720v40" stroke="#D6C09B" stroke-width="1" opacity="0.5"/>
+</svg>

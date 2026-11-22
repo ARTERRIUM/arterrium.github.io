@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#0d0b1a"/><stop offset="50%" stop-color="#1a1535"/><stop offset="100%" stop-color="#e8d5c4"/></linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5"><stop offset="0%" stop-color="#f5e6d3" stop-opacity="0.8"/><stop offset="40%" stop-color="#f5e6d3" stop-opacity="0.2"/><stop offset="100%" stop-color="#f5e6d3" stop-opacity="0"/></radialGradient>
+    <path id="vessel" d="M340 120c0 0-32 38-28 100l-4 360c0 62 34 98 92 102 58-4 92-40 88-102l4-360c4-62-32-100-92-100z"/>
+    <g id="node"><circle r="18" fill="url(#halo)"/><circle r="2.2" fill="#f5e6d3"/></g>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <use href="#vessel" fill="none" stroke="#c4956a" stroke-width="0.9" opacity="0.45"/>
+  <use href="#vessel" fill="#f5e6d3" opacity="0.04"/>
+  <g stroke="#f5e6d3" stroke-width="0.5" opacity="0.35">
+    <path d="M400 682L345 760M400 682L455 765M400 682L325 715M400 682L475 715M400 682L345 50M400 682L455 50"/>
+  </g>
+  <use href="#node" transform="translate(345 760)"/><use href="#node" transform="translate(455 765)"/>
+  <use href="#node" transform="translate(325 715) scale(0.85)"/><use href="#node" transform="translate(475 715) scale(0.85)"/>
+  <use href="#node" transform="translate(345 50) scale(0.85)"/><use href="#node" transform="translate(455 50) scale(0.85)"/>
+  <circle cx="400" cy="682" r="30" fill="url(#halo)"/>
+  <circle cx="400" cy="682" r="3.5" fill="#c4956a"/>
+  <circle cx="400" cy="682" r="7" fill="none" stroke="#f5e6d3" stroke-width="0.6" opacity="0.6"/>
+</svg>

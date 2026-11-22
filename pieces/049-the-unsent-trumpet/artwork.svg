@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#0d0b1a"/><stop offset="50%" stop-color="#1a1535"/><stop offset="100%" stop-color="#e8d5c4"/></linearGradient>
+    <linearGradient id="form" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#1a1535" stop-opacity="0.9"/><stop offset="70%" stop-color="#c4956a" stop-opacity="0.85"/><stop offset="100%" stop-color="#f5e6d3" stop-opacity="0.95"/></linearGradient>
+    <linearGradient id="fold" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0d0b1a" stop-opacity="0.6"/><stop offset="100%" stop-color="#0d0b1a" stop-opacity="0"/></linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.4" r="0.5"><stop offset="0%" stop-color="#f5e6d3" stop-opacity="0.15"/><stop offset="100%" stop-color="#f5e6d3" stop-opacity="0"/></radialGradient>
+    <path id="vessel" d="M340 120c0 0-30 40-30 100v360c0 60 30 100 90 100s90-40 90-100V220c0-60-30-100-90-100z"/>
+    <path id="leaf" d="M0 0c-12-6-22-18-18-32 10-2 20 6 24 16 4-10 14-18 24-16 4 14-6 26-18 32-2 8-4 12-6 16-2-4-4-8-6-16z"/>
+    <g id="leaves" fill="#3a5a40" stroke="#87BFA7" stroke-width="0.6">
+      <use href="#leaf" transform="translate(372 690) rotate(-30) scale(1.2)"/><use href="#leaf" transform="translate(432 668) rotate(40) scale(1.1)"/><use href="#leaf" transform="translate(334 628) rotate(-70) scale(1.2)"/>
+      <use href="#leaf" transform="translate(468 612) rotate(60) scale(1.0)"/><use href="#leaf" transform="translate(396 596) rotate(10) scale(1.3)"/><use href="#leaf" transform="translate(326 560) rotate(-80) scale(1.0)"/>
+      <use href="#leaf" transform="translate(452 540) rotate(70) scale(1.1)"/><use href="#leaf" transform="translate(386 512) rotate(-20) scale(1.2)"/><use href="#leaf" transform="translate(338 470) rotate(-60) scale(0.9)"/>
+      <use href="#leaf" transform="translate(474 452) rotate(50) scale(1.0)"/><use href="#leaf" transform="translate(406 428) rotate(20) scale(1.1)"/><use href="#leaf" transform="translate(348 384) rotate(-50) scale(0.9)"/>
+      <use href="#leaf" transform="translate(456 352) rotate(60) scale(0.9)"/><use href="#leaf" transform="translate(392 330) rotate(-10) scale(1.0)"/><use href="#leaf" transform="translate(336 290) rotate(-70) scale(0.8)"/>
+      <use href="#leaf" transform="translate(462 262) rotate(40) scale(0.8)"/><use href="#leaf" transform="translate(404 232) rotate(15) scale(0.8)"/><use href="#leaf" transform="translate(356 196) rotate(-40) scale(0.7)"/>
+      <use href="#leaf" transform="translate(440 170) rotate(50) scale(0.6)"/>
+    </g>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <ellipse cx="400" cy="380" rx="320" ry="300" fill="url(#glow)"/>
+  <use href="#vessel" opacity="0.15" transform="translate(8 12)" fill="#0d0b1a"/>
+  <use href="#vessel" fill="url(#form)"/>
+  <path d="M370 200v400c0 0 15 10 30 10s30-10 30-10V200z" fill="url(#fold)" opacity="0.7"/>
+  <path d="M310 220c0-40 30-80 90-80s90 40 90 80v40c0-30-30-60-90-60s-90 30-90 60z" fill="#0d0b1a" opacity="0.25"/>
+  <path d="M400 720c-30-30-70-50-66-100s70-50 90-100-60-60-56-110 70-50 80-100-66-60-60-110 60-40 54-80" fill="none" stroke="#2f4a35" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M400 720c-30-30-70-50-66-100s70-50 90-100-60-60-56-110 70-50 80-100-66-60-60-110 60-40 54-80" fill="none" stroke="#87BFA7" stroke-width="0.9" stroke-linecap="round" opacity="0.6"/>
+  <g fill="none" stroke="#2f4a35" stroke-width="1.2" stroke-linecap="round" opacity="0.8"><path d="M372 690c-6-6-8-14-6-22M452 540c8-4 14-10 16-18M338 470c-8 2-14-2-18-8M456 352c6-6 8-12 6-20M356 196c-6 0-10-4-14-8"/></g>
+  <use href="#leaves"/>
+  <g fill="#8a6a44" stroke="#c4956a" stroke-width="0.5"><use href="#leaf" transform="translate(300 730) rotate(110) scale(0.9)"/><use href="#leaf" transform="translate(520 742) rotate(-100) scale(0.8)"/><use href="#leaf" transform="translate(452 752) rotate(160) scale(0.7)"/></g>
+  <circle cx="400" cy="720" r="3" fill="#f5e6d3" opacity="0.9"/>
+
+  <g transform="translate(454 112) rotate(-28)">
+    <path d="M0 0c-4-30 2-60 12-86 20-6 44-4 62 6 10 30 6 60-6 86-20 10-46 10-68-6z" fill="#f7efe0" stroke="#5a4a5c" stroke-width="1"/>
+    <g fill="none" stroke="#5a4a5c" stroke-width="0.7" opacity="0.8">
+      <path d="M0 0c20-8 44-8 68-6M4-28c18-8 40-8 60-6M8-56c16-8 36-8 54-6M12-86c18-6 40-4 62 6"/>
+      <path d="M12-86c-2 28 2 58 6 86M30-84c0 28 2 56 4 84M50-82c0 28 0 56-2 82M74-80c-2 26-4 54-6 80"/>
+    </g>
+    <path d="M-10-4c22 12 54 14 84 4 4 12-6 22-18 26-24 8-48 6-64-6-6-6-8-14-2-24z" fill="#D6C09B" stroke="#5a4a5c" stroke-width="0.8" opacity="0.95"/>
+    <g fill="none" stroke="#5a4a5c" stroke-width="0.6" opacity="0.7"><path d="M-4 6c20 8 48 10 72 2M2 16c18 6 42 8 62 2"/></g>
+    <ellipse cx="34" cy="10" rx="14" ry="5" fill="#3b2e45" opacity="0.8"/>
+    <circle cx="30" cy="9" r="2.2" fill="#fff3c9"/><circle cx="40" cy="10" r="1.8" fill="#fff3c9"/>
+  </g>
+  <path d="M454 110c-6-6-10-14-10-22" fill="none" stroke="#2f4a35" stroke-width="2.4" stroke-linecap="round"/>
+</svg>

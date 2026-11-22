@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="back" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f7efe0"/><stop offset="80%" stop-color="#eedcc4"/><stop offset="100%" stop-color="#d9c2ad"/></linearGradient>
+    <radialGradient id="warm" cx="40%" cy="70%" r="60%"><stop offset="0%" stop-color="#fff8e6" stop-opacity="0.9"/><stop offset="100%" stop-color="#fff8e6" stop-opacity="0"/></radialGradient>
+    <path id="word" d="M232 332c10-14 18-6 14 8s-10 26 2 24 16-30 26-36 6 18 2 30 14 2 22-10 10-26 20-22-8 34 4 40 22-28 30-34 6 10 2 22 4 22 16 14 12-38 24-36-2 30 6 38 20-16 28-28 2 22 14 22 20-30 30-18" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="reply" d="M268 470c40 2 80-3 120-1s80 3 120 1 60-4 90-2" fill="none" stroke-linecap="round"/>
+    <clipPath id="sheet"><rect x="36" y="218" width="728" height="364"/></clipPath>
+  </defs>
+  <rect width="800" height="800" fill="#14110f"/>
+  <rect x="44" y="230" width="728" height="364" fill="#000" opacity="0.5"/>
+  <rect x="36" y="218" width="728" height="364" fill="url(#back)"/>
+  <rect x="36" y="218" width="728" height="364" fill="url(#warm)"/>
+  <g clip-path="url(#sheet)" transform="translate(0 -20)">
+    <use href="#word" stroke="#231f20" stroke-width="2.6" opacity="0.22" transform="translate(0 -10)"/>
+    <g transform="matrix(1 0 0 -1 0 760)">
+      <use href="#reply" stroke="#9a8878" stroke-width="2.4" opacity="0.3" transform="translate(0 -70)"/>
+    </g>
+    <use href="#reply" stroke="#b8a898" stroke-width="2" opacity="0.18" transform="translate(0 -110)"/>
+    <circle cx="504" cy="394" r="26" fill="#231f20" opacity="0.06"/>
+  </g>
+  <line x1="36" y1="582" x2="764" y2="582" stroke="#5a4a5c" stroke-width="1.6" opacity="0.8"/>
+  <line x1="36" y1="580" x2="764" y2="580" stroke="#fff" stroke-width="0.8" opacity="0.6"/>
+  <path d="M36 218h728" stroke="#c9a98f" stroke-width="0.8" opacity="0.6"/>
+  <path d="M400 218v364" stroke="#14110f" stroke-width="0.6" opacity="0.15"/>
+  <circle cx="400" cy="582" r="11" fill="#8f1d1d" stroke="#2a0508" stroke-width="1"/>
+  <circle cx="397" cy="579" r="3" fill="#c83e37" opacity="0.8"/>
+  <circle cx="400" cy="130" r="2.5" fill="#f7efe0" opacity="0.5"/>
+</svg>

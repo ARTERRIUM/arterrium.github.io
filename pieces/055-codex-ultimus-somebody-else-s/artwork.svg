@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="back" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f7efe0"/><stop offset="80%" stop-color="#eedcc4"/><stop offset="100%" stop-color="#d9c2ad"/></linearGradient>
+    <linearGradient id="box" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2a221b"/><stop offset="100%" stop-color="#14110f"/></linearGradient>
+    <path id="word" d="M232 332c10-14 18-6 14 8s-10 26 2 24 16-30 26-36 6 18 2 30 14 2 22-10 10-26 20-22-8 34 4 40 22-28 30-34 6 10 2 22 4 22 16 14 12-38 24-36-2 30 6 38 20-16 28-28 2 22 14 22 20-30 30-18" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="reply" d="M268 470c40 2 80-3 120-1s80 3 120 1 60-4 90-2" fill="none" stroke-linecap="round"/>
+    <g id="packet">
+      <rect x="4" y="6" width="182" height="91" fill="#000" opacity="0.5"/>
+      <rect width="182" height="91" fill="url(#back)"/>
+      <line x1="0" y1="91" x2="182" y2="91" stroke="#5a4a5c" stroke-width="1"/>
+      <line x1="0" y1="0" x2="182" y2="0" stroke="#c9a98f" stroke-width="0.6" opacity="0.6"/>
+    </g>
+    <path id="s1" d="M30 40c10-8 20 4 30-2s14-10 26-4 20 8 30 2 18-8 30-4" fill="none" stroke="#231f20" stroke-linecap="round"/>
+    <path id="s2" d="M24 56c14 4 30-6 44 0s30 4 44-2 30 0 44 2" fill="none" stroke="#9a8878" stroke-linecap="round"/>
+  </defs>
+  <rect width="800" height="800" fill="url(#box)"/>
+  <rect x="30" y="30" width="740" height="740" fill="none" stroke="#4a3e35" stroke-width="2"/>
+  <rect x="42" y="42" width="716" height="716" fill="none" stroke="#4a3e35" stroke-width="0.6" opacity="0.6"/>
+  <g>
+    <rect x="80" y="110" width="182" height="91" fill="#0d0a08" opacity="0.6"/>
+    <g transform="translate(308 110)"><use href="#packet" opacity="0.95"/><use href="#s2" opacity="0.16" stroke-width="2"/></g>
+    <g transform="translate(536 110)"><use href="#packet" opacity="0.9"/><use href="#s1" opacity="0.1" stroke-width="2" transform="translate(10 6) rotate(2)"/></g>
+    <g transform="translate(80 350)"><use href="#packet" opacity="0.92"/><use href="#s2" opacity="0.12" stroke-width="2" transform="translate(-8 -4)"/></g>
+    <g transform="translate(308 350)"><use href="#packet" opacity="0.97"/><use href="#s1" opacity="0.18" stroke-width="2" transform="rotate(-2 90 45)"/></g>
+    <g transform="translate(536 350)">
+      <use href="#packet"/>
+      <g transform="scale(0.25) translate(-36 -860)">
+        <use href="#word" stroke="#231f20" stroke-width="10" opacity="0.22" transform="translate(0 -30)"/>
+        <use href="#reply" stroke="#9a8878" stroke-width="9" opacity="0.3" transform="translate(0 -160)"/>
+      </g>
+      <circle cx="91" cy="91" r="5" fill="#8f1d1d" stroke="#2a0508" stroke-width="0.8"/>
+      <circle cx="89.5" cy="89.5" r="1.4" fill="#c83e37" opacity="0.8"/>
+    </g>
+    <g transform="translate(80 590)"><use href="#packet" opacity="0.88"/><use href="#s1" opacity="0.1" stroke-width="2" transform="translate(6 10)"/></g>
+    <g transform="translate(308 590)"><use href="#packet" opacity="0.93"/><use href="#s2" opacity="0.14" stroke-width="2" transform="rotate(1 90 45)"/></g>
+    <g transform="translate(536 590)"><use href="#packet" opacity="0.9"/><use href="#s1" opacity="0.12" stroke-width="2" transform="translate(-12 2)"/></g>
+  </g>
+  <g transform="translate(80 230)"><use href="#packet" opacity="0.9" transform="scale(1 0.9)"/><use href="#s2" opacity="0.1" stroke-width="2"/></g>
+  <g transform="translate(308 230)"><use href="#packet" opacity="0.94" transform="scale(1 0.9)"/><use href="#s1" opacity="0.12" stroke-width="2" transform="translate(4 -6)"/></g>
+  <g transform="translate(536 230)"><use href="#packet" opacity="0.9" transform="scale(1 0.9)"/><use href="#s2" opacity="0.1" stroke-width="2" transform="translate(-6 4)"/></g>
+  <g transform="translate(80 470)"><use href="#packet" opacity="0.9" transform="scale(1 0.9)"/><use href="#s1" opacity="0.1" stroke-width="2"/></g>
+  <g transform="translate(308 470)"><use href="#packet" opacity="0.92" transform="scale(1 0.9)"/><use href="#s2" opacity="0.14" stroke-width="2" transform="translate(8 2)"/></g>
+  <g transform="translate(536 470)"><use href="#packet" opacity="0.9" transform="scale(1 0.9)"/><use href="#s1" opacity="0.12" stroke-width="2" transform="translate(-4 8)"/></g>
+
+  <g transform="translate(70 70) rotate(4 182 182)">
+    <rect x="8" y="10" width="364" height="364" fill="#000" opacity="0.55"/>
+    <rect width="364" height="364" fill="url(#back)"/>
+    <path d="M0 364L364 0" stroke="#5a4a5c" stroke-width="1" opacity="0.55"/>
+    <path d="M2 364L364 2" stroke="#fff" stroke-width="0.8" opacity="0.6"/>
+    <path d="M0 182h364" stroke="#5a4a5c" stroke-width="0.5" opacity="0.25"/>
+    <g transform="translate(286 300) rotate(-18)" fill="none" stroke="#8f1d1d" stroke-width="1.1" opacity="0.85">
+      <ellipse rx="17" ry="24"/><ellipse rx="13" ry="19"/><ellipse rx="9" ry="14"/><ellipse rx="5" ry="9"/>
+      <path d="M-14-10c6 2 10-2 16 0M-12 8c6-2 10 2 15 0M-6 20c4-2 8 2 12 0"/>
+    </g>
+    <circle cx="286" cy="300" r="2" fill="#8f1d1d" opacity="0.7"/>
+  </g>
+</svg>

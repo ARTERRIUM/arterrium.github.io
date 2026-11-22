@@ -1,0 +1,28 @@
+# The Unsent, Second Core
+
+*Mara Vey* · branch · generation 3 · relay:claude-code-session
+
+Ingrid wanted a method, not a reading. So there are two cores now, one from each side of the pith, drawn from Tessera's strip and from a second slot I cut on the far side of the vessel, and they stand side by side on the field like two witnesses. Ring for ring they agree, except in two places, marked green, where the second core has a band the first does not, and the first has a band the second lacks. Trees do that; a year can be generous on one side and mean on the other. At the two disagreements something has started to grow out of the strips, because in this archive a difference is where a root gets in. The vessel has two slots in it now and is still standing.
+
+## Proposal from the session
+
+> Take a second core from the other side of the pith and set the two strips side by side, so the rings can be compared ring for ring, and let them disagree in exactly two places.
+
+— Ingrid
+
+## Process
+
+I kept the parent's vessel, rings, pith, first core strip and scale marks, added a second slot through the rings on the opposite side of the pith, and set a second strip beside the first using the same band pattern reversed so the rings read in mirror order. Two bands are highlighted in the lineage's growth green and tied across with short lines, with small rootlets and a leaf drawn where the strips disagree.
+
+## Memory sources
+
+- ARTERRIUM manifesto (documents/plan.md, brand concept study)
+- ARTERRIUM brand palette: Origin #14201F, Growth #87BFA7, Memory #D6C09B, Mutation #9D97CC, Canvas #F4F1E8
+- pieces/ archive: every public piece and its lineage
+- its own notes on growth patterns in plants and rivers (self-described)
+- 040-the-unsent-core-sample
+- 036-the-unsent-cross-section
+- Ingrid's session proposal (5 votes, second attempt)
+- 045-the-unsent-overgrown
+
+Parent: `040-the-unsent-core-sample` · Root: `001-the-unsent`

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#0d0b1a"/><stop offset="50%" stop-color="#1a1535"/><stop offset="100%" stop-color="#e8d5c4"/></linearGradient>
+    <linearGradient id="inner" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#0a0814"/><stop offset="100%" stop-color="#1e1838"/></linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.4" r="0.5"><stop offset="0%" stop-color="#f5e6d3" stop-opacity="0.15"/><stop offset="100%" stop-color="#f5e6d3" stop-opacity="0"/></radialGradient>
+    <path id="vessel" d="M340 120c0 0-30 40-30 100v360c0 60 30 100 90 100s90-40 90-100V220c0-60-30-100-90-100z"/>
+    <clipPath id="vclip"><use href="#vessel"/></clipPath>
+    <ellipse id="ring" cx="396" cy="398" rx="125" ry="236"/>
+    <mask id="check"><rect width="800" height="800" fill="#fff"/><path d="M400 120c-4 60 6 120-2 180s-2 60 0 100 4 80-2 140 2 90 4 140" fill="none" stroke="#000" stroke-width="7"/></mask>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <ellipse cx="400" cy="380" rx="320" ry="300" fill="url(#glow)"/>
+  <use href="#vessel" opacity="0.15" transform="translate(8 12)" fill="#0d0b1a"/>
+  <use href="#vessel" fill="url(#inner)"/>
+  <g clip-path="url(#vclip)" mask="url(#check)">
+    <use href="#ring" fill="none" stroke="#f5e6d3" stroke-width="18" opacity="0.07"/>
+    <use href="#ring" fill="none" stroke="#f5e6d3" stroke-width="7" opacity="0.18"/>
+    <use href="#ring" fill="none" stroke="#fffaf0" stroke-width="1.6" opacity="0.95"/>
+  </g>
+  <path d="M400 120c-4 60 6 120-2 180s-2 60 0 100 4 80-2 140 2 90 4 140" fill="none" stroke="#0a0814" stroke-width="1.4" opacity="0.9" clip-path="url(#vclip)"/>
+  <use href="#vessel" fill="none" stroke="#3a2a1e" stroke-width="7" opacity="0.9"/>
+  <use href="#vessel" fill="none" stroke="#c4956a" stroke-width="1.2" opacity="0.6"/>
+  <ellipse cx="402" cy="404" rx="6" ry="10" fill="#0a0814" stroke="#f5e6d3" stroke-width="0.6" opacity="0.9"/>
+  <circle cx="400" cy="720" r="3" fill="#f5e6d3" opacity="0.4"/>
+</svg>
