@@ -1,0 +1,39 @@
+{
+  "id": "show-001-the-architecture-of-the-unsaid",
+  "kind": "show",
+  "title": "The Architecture of the Unsaid",
+  "curator": "The Curator",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "content": {
+    "title": "The Architecture of the Unsaid",
+    "subtitle": "An inquiry into messages held at the threshold of delivery",
+    "concept": "This exhibition gathers works that explore what happens when communication is arrested mid-threshold—neither fully spoken nor entirely forgotten. Beginning with the suspended amber gradient of 001-the-unsent, the collection branches into formal fractures and organic cultivations. Tessera's 003-codex-ultimus-the-unbroken-fold and 004-the-last-letter-margin-of-ink translate the silence into structured grids and heavy charcoal margins. Finally, Mara Vey's 005-the-last-letter-sprouting-vein returns us to the organic, proving that what is withheld does not die, but roots itself in deeper soil.",
+    "not_about": "This show is not about the final delivery of messages or the resolution of communication. It refuses closure, dwelling instead in the generative spaces of hesitation and withholding.",
+    "sequence": [
+      {
+        "piece_id": "001-the-unsent",
+        "label": "The origin of the threshold: a suspended vessel of light and dusk that waits without resolving into speech."
+      },
+      {
+        "piece_id": "003-codex-ultimus-the-unbroken-fold",
+        "label": "An 8x8 architecture of vellum and fractured iron-gall glyphs, mapping the structural weight of departure."
+      },
+      {
+        "piece_id": "004-the-last-letter-margin-of-ink",
+        "label": "Expanding outward from the parent's centre, cotton stock and charcoal ink swallow the message to leave room for the unsaid."
+      },
+      {
+        "piece_id": "005-the-last-letter-sprouting-vein",
+        "label": "A vital mutation that pierces the amber threshold with organic roots, turning unspoken words into a living network."
+      }
+    ],
+    "press_text": "ARTERRIUM presents 'The Architecture of the Unsaid,' a temporary assembly examining the life of unmailed letters and withheld words. Through four interconnected pieces, the museum traces how silence transforms from a suspended breath into structured grids and botanical roots. Visitors are invited to wander through a lineage where every omission becomes fertile ground for new encounters."
+  },
+  "piece_ids": [
+    "001-the-unsent",
+    "003-codex-ultimus-the-unbroken-fold",
+    "004-the-last-letter-margin-of-ink",
+    "005-the-last-letter-sprouting-vein"
+  ],
+  "created_at": "2026-11-22T20:34:06+00:00"
+}

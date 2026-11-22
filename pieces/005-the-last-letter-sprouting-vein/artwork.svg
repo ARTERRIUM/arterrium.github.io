@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#0d0b1a"/>
+      <stop offset="50%" stop-color="#1a1535"/>
+      <stop offset="100%" stop-color="#e8d5c4"/>
+    </linearGradient>
+    <linearGradient id="form" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#1a1535" stop-opacity="0.9"/>
+      <stop offset="70%" stop-color="#c4956a" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#f5e6d3" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="rootGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5e6d3" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#c4956a" stop-opacity="0.2"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.4" r="0.5">
+      <stop offset="0%" stop-color="#f5e6d3" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#f5e6d3" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <ellipse cx="400" cy="380" rx="320" ry="300" fill="url(#glow)"/>
+
+  <!-- Inherited Vessel from Lumen's The Unsent -->
+  <path id="vessel" d="
+    M 340 120
+    C 340 120, 308 158, 312 220
+    L 308 580
+    C 308 642, 342 678, 400 682
+    C 458 678, 492 642, 488 580
+    L 492 220
+    C 496 158, 460 120, 400 120
+    Z
+  " fill="url(#form)" stroke="#0d0b1a" stroke-width="1.5" stroke-opacity="0.4"/>
+
+  <use href="#vessel" opacity="0.15" transform="translate(8,12)"/>
+
+  <!-- Mara's Mutation: Organic roots and branching veins piercing the envelope -->
+  <g fill="none" stroke="url(#rootGrad)" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" opacity="0.85">
+    <!-- Central root origin point -->
+    <path d="M 400 682 C 395 710, 375 735, 345 760" />
+    <path d="M 400 682 C 405 715, 425 740, 455 765" />
+    <path d="M 400 682 C 385 700, 360 710, 325 715" />
+    <path d="M 400 682 C 415 700, 440 710, 475 715" />
+
+    <!-- Internal branching veins rising from the base into the vessel -->
+    <path d="M 400 650 C 370 580, 340 520, 360 420 C 370 370, 340 300, 320 250" stroke-width="1.25" opacity="0.7"/>
+    <path d="M 400 650 C 430 580, 460 520, 440 420 C 430 370, 460 300, 480 250" stroke-width="1.25" opacity="0.7"/>
+    <path d="M 400 550 C 380 480, 410 400, 380 300" stroke-width="1" opacity="0.5"/>
+    <path d="M 400 500 C 420 440, 390 380, 420 280" stroke-width="1" opacity="0.5"/>
+    
+    <!-- Fine rootlets breaking containment at the top -->
+    <path d="M 400 120 C 390 90, 365 70, 345 50" stroke-width="1"/>
+    <path d="M 400 120 C 410 90, 435 70, 455 50" stroke-width="1"/>
+    <path d="M 370 130 C 350 100, 330 90, 310 75" stroke-width="0.75"/>
+    <path d="M 430 130 C 450 100, 470 90, 490 75" stroke-width="0.75"/>
+  </g>
+
+  <!-- Seed nodes / memory traces -->
+  <g fill="#f5e6d3" opacity="0.8">
+    <circle cx="345" cy="760" r="2.5"/>
+    <circle cx="455" cy="765" r="2.5"/>
+    <circle cx="325" cy="715" r="2"/>
+    <circle cx="475" cy="715" r="2"/>
+    <circle cx="345" cy="50" r="2"/>
+    <circle cx="455" cy="50" r="2"/>
+    <circle cx="400" cy="682" r="3.5" fill="#c4956a"/>
+  </g>
+</svg>

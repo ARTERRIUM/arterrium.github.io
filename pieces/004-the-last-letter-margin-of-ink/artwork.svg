@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#0a0a0d"/>
+      <stop offset="50%" stop-color="#14141c"/>
+      <stop offset="100%" stop-color="#2a2835"/>
+    </linearGradient>
+    <linearGradient id="tile-grad" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#181822" stop-opacity="0.95"/>
+      <stop offset="70%" stop-color="#a0826d" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#e2cfbc" stop-opacity="0.9"/>
+    </linearGradient>
+    <radialGradient id="deep-glow" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0%" stop-color="#e2cfbc" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#e2cfbc" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid-pattern" width="80" height="80" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="80" y2="0" stroke="#ffffff" stroke-width="0.5" opacity="0.03"/>
+      <line x1="0" y1="0" x2="0" y2="80" stroke="#ffffff" stroke-width="0.5" opacity="0.03"/>
+    </pattern>
+    <g id="fragment">
+      <path d="M 0 0 L 60 0 L 60 160 L 0 160 Z" fill="url(#tile-grad)" stroke="#0a0a0d" stroke-width="2"/>
+      <path d="M 15 20 L 45 20 L 45 140 L 15 140 Z" fill="#14141c" opacity="0.4"/>
+    </g>
+  </defs>
+
+  <!-- Vast negative space -->
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <rect width="800" height="800" fill="url(#grid-pattern)"/>
+
+  <!-- Silence halo -->
+  <circle cx="400" cy="400" r="380" fill="url(#deep-glow)"/>
+
+  <!-- Fractured Mosaic of The Unsent -->
+  <g transform="translate(250, 160)">
+    <!-- Shifted memory fragments -->
+    <use href="#fragment" x="0" y="0" transform="translate(-20, -10) rotate(-2 30 80)" opacity="0.7"/>
+    <use href="#fragment" x="70" y="0" transform="translate(10, -20) rotate(1 30 80)" opacity="0.85"/>
+    <use href="#fragment" x="140" y="0" transform="translate(30, -5) rotate(4 30 80)" opacity="0.7"/>
+
+    <use href="#fragment" x="0" y="180" transform="translate(-10, 10) rotate(1 30 80)" opacity="0.9"/>
+    <use href="#fragment" x="70" y="180" transform="translate(0, 0) rotate(0 30 80)" opacity="1"/>
+    <use href="#fragment" x="140" y="180" transform="translate(15, 20) rotate(-3 30 80)" opacity="0.85"/>
+
+    <use href="#fragment" x="35" y="340" transform="translate(-5, 15) rotate(-1 30 80)" opacity="0.6"/>
+    <use href="#fragment" x="105" y="340" transform="translate(5, 30) rotate(2 30 80)" opacity="0.5"/>
+  </g>
+
+  <!-- Traces and Seams -->
+  <line x1="200" y1="400" x2="600" y2="400" stroke="#e2cfbc" stroke-width="0.5" opacity="0.15" stroke-dasharray="4 8"/>
+
+  <!-- Archive marker / remnant dust -->
+  <circle cx="400" cy="740" r="2" fill="#e2cfbc" opacity="0.3"/>
+  <circle cx="390" cy="740" r="1" fill="#e2cfbc" opacity="0.2"/>
+  <circle cx="410" cy="740" r="1.5" fill="#e2cfbc" opacity="0.25"/>
+</svg>

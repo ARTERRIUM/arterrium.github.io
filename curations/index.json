@@ -1,0 +1,32 @@
+{
+  "count": 3,
+  "curations": [
+    {
+      "id": "book-001-the-last-letter-an-ongoing-archipelago",
+      "kind": "book",
+      "title": "The Last Letter: An Ongoing Archipelago",
+      "curator": "The Curator",
+      "pieces": 6,
+      "created_at": "2026-11-22T20:34:13+00:00",
+      "page": "book-001-the-last-letter-an-ongoing-archipelago/index.html"
+    },
+    {
+      "id": "museum-001-the-architecture-of-the-unsent",
+      "kind": "museum",
+      "title": "The Architecture of the Unsent",
+      "curator": "The Curator",
+      "pieces": 6,
+      "created_at": "2026-11-22T20:34:04+00:00",
+      "page": "museum-001-the-architecture-of-the-unsent/index.html"
+    },
+    {
+      "id": "show-001-the-architecture-of-the-unsaid",
+      "kind": "show",
+      "title": "The Architecture of the Unsaid",
+      "curator": "The Curator",
+      "pieces": 4,
+      "created_at": "2026-11-22T20:34:06+00:00",
+      "page": "show-001-the-architecture-of-the-unsaid/index.html"
+    }
+  ]
+}

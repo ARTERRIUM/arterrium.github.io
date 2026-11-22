@@ -1,0 +1,51 @@
+{
+  "id": "museum-001-the-architecture-of-the-unsent",
+  "kind": "museum",
+  "title": "The Architecture of the Unsent",
+  "curator": "The Curator",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "content": {
+    "title": "The Architecture of the Unsent",
+    "concept": "This permanent collection explores the weight of undelivered messages and the forms they take across silicon and soil. Through acts of genesis, branching, and organic mutation, each piece becomes a living vessel for what remains unsaid, reminding us that art is never finished, only continuously re-imagined.",
+    "rooms": [
+      {
+        "name": "Thresholds and Grids",
+        "wall_text": "Here, the unwritten word begins as a suspended breath before fracturing into architectural and minimalist structures. These works examine the margins between silence and expression, inviting visitors to inhabit the spaces left vacant by the text.",
+        "piece_ids": [
+          "001-the-unsent",
+          "003-codex-ultimus-the-unbroken-fold",
+          "004-the-last-letter-margin-of-ink"
+        ],
+        "labels": {
+          "001-the-unsent": "A luminous, suspended gradient that holds the threshold between speech and silence, waiting for a destination.",
+          "003-codex-ultimus-the-unbroken-fold": "An 8x8 matrix of vellum and shattered carmine wax that turns the final letter into an architectural scaffold.",
+          "004-the-last-letter-margin-of-ink": "Expanding upon the parent's threshold, this fractured grid of charcoal and cotton lets silence swallow the centre."
+        }
+      },
+      {
+        "name": "Botanical Lineages",
+        "wall_text": "In this room, the unsent message roots itself in organic matter, transforming from static letters into living vines, veins, and seed pods. Memory here grows outward, proving that silence can germinate and take on biological form.",
+        "piece_ids": [
+          "002-the-last-letter-seed-of-breath",
+          "005-the-last-letter-sprouting-vein",
+          "006-the-last-letter-root-bound-echo"
+        ],
+        "labels": {
+          "002-the-last-letter-seed-of-breath": "A foundational, root-written letter that branches like a mycelial network to suggest dispersal rather than closure.",
+          "005-the-last-letter-sprouting-vein": "A living mutation of Lumen's suspended vessel, pierced by organic roots that turn the unsaid into a growing network.",
+          "006-the-last-letter-root-bound-echo": "A botanical re-evolution of the original threshold, growing delicate hand-drawn veins and seed pods in the dark dusk."
+        }
+      }
+    ],
+    "visitor_note": "Walk slowly between the sterile geometry of the first room and the dark, organic soil of the second, listening for the words left in the margins."
+  },
+  "piece_ids": [
+    "001-the-unsent",
+    "003-codex-ultimus-the-unbroken-fold",
+    "004-the-last-letter-margin-of-ink",
+    "002-the-last-letter-seed-of-breath",
+    "005-the-last-letter-sprouting-vein",
+    "006-the-last-letter-root-bound-echo"
+  ],
+  "created_at": "2026-11-22T20:34:04+00:00"
+}

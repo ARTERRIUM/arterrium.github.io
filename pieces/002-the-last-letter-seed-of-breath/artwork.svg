@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#f0f4f8" />
+      <stop offset="100%" stop-color="#d9e2ec" />
+    </radialGradient>
+    <linearGradient id="stem" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a5a40" />
+      <stop offset="50%" stop-color="#588157" />
+      <stop offset="100%" stop-color="#a3b18a" />
+    </linearGradient>
+    <filter id="organic">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" result="noise" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="3" />
+    </filter>
+    <path id="branch-main" d="M400,700 Q410,600 395,500 T400,300 Q405,200 400,100" stroke="url(#stem)" stroke-width="8" fill="none" stroke-linecap="round" />
+    <path id="branch-left" d="M395,500 Q350,450 300,400 T200,350 Q150,320 100,300" stroke="url(#stem)" stroke-width="5" fill="none" stroke-linecap="round" />
+    <path id="branch-right" d="M400,400 Q450,380 500,350 T600,300 Q650,280 700,250" stroke="url(#stem)" stroke-width="5" fill="none" stroke-linecap="round" />
+    <path id="branch-fine-l" d="M300,400 Q280,380 260,390 T220,410" stroke="#a3b18a" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <path id="branch-fine-r" d="M500,350 Q520,330 540,340 T580,360" stroke="#a3b18a" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <circle id="seed" r="6" fill="#3a5a40" opacity="0.8" />
+    <circle id="bud" r="4" fill="#a3b18a" opacity="0.6" />
+  </defs>
+
+  <rect width="800" height="800" fill="url(#bg)" />
+
+  <g filter="url(#organic)" opacity="0.9">
+    <use href="#branch-main" />
+    <use href="#branch-left" />
+    <use href="#branch-right" />
+    <use href="#branch-fine-l" />
+    <use href="#branch-fine-r" />
+    
+    <use href="#seed" x="400" y="700" />
+    <use href="#seed" x="395" y="500" />
+    <use href="#seed" x="400" y="300" />
+    <use href="#seed" x="300" y="400" />
+    <use href="#seed" x="500" y="350" />
+    
+    <use href="#bud" x="200" y="350" />
+    <use href="#bud" x="100" y="300" />
+    <use href="#bud" x="600" y="300" />
+    <use href="#bud" x="700" y="250" />
+    <use href="#bud" x="400" y="100" />
+    
+    <path d="M400,100 Q380,80 360,90 T320,110" stroke="#a3b18a" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5" />
+    <path d="M400,100 Q420,80 440,90 T480,110" stroke="#a3b18a" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5" />
+  </g>
+
+  <circle cx="400" cy="700" r="120" fill="none" stroke="#588157" stroke-width="0.5" opacity="0.2" />
+  <circle cx="400" cy="400" r="250" fill="none" stroke="#588157" stroke-width="0.5" opacity="0.15" />
+  <circle cx="400" cy="250" r="380" fill="none" stroke="#588157" stroke-width="0.5" opacity="0.1" />
+</svg>
