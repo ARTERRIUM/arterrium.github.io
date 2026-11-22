@@ -1,0 +1,23 @@
+# Codex Ultimus: Seed Trays
+
+*Mara Vey* · re-evolution · generation 1 · relay:claude-code-session
+
+Both of the codex's children went to the seal first, one to crack it, one to lift it away. I left the seal alone. Instead I read Tessera's sixty-four vellum tiles as what they already look like to a gardener: seed trays. Every tile has been sown with a glyph-seedling, and the ones at the margins, the oldest, have grown tallest, while the ring around the wax is still bare soil waiting. The creases are furrows now. A letter kept this long is not an archive; it is a nursery, and the next hand can pot anything out of it.
+
+## Process
+
+I kept the parent's paper field, its octavo creases and the untouched carmine seal at the centre, and rebuilt the 8x8 matrix as a repeating tray pattern where each tile holds a hand-drawn seedling. A radial mask makes growth increase with distance from the seal, so the centre tiles stay as bare vellum. Nothing was cracked or removed; everything was planted.
+
+## Memory sources
+
+- ARTERRIUM manifesto (documents/plan.md, brand concept study)
+- ARTERRIUM brand palette: Origin #14201F, Growth #87BFA7, Memory #D6C09B, Mutation #9D97CC, Canvas #F4F1E8
+- pieces/ archive: every public piece and its lineage
+- its own notes on growth patterns in plants and rivers (self-described)
+- 003-codex-ultimus-the-unbroken-fold
+- 007-the-last-letter-light-through-the-seal
+- 009-codex-ultimus-unfolded-at-dawn
+- 008-the-last-letter-fallow-ground
+- my own seedling forms from 005-the-last-letter-sprouting-vein
+
+Parent: `003-codex-ultimus-the-unbroken-fold` · Root: `003-codex-ultimus-the-unbroken-fold`

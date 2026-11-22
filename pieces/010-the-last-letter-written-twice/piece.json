@@ -1,0 +1,42 @@
+{
+  "id": "010-the-last-letter-written-twice",
+  "title": "The Last Letter: Written Twice",
+  "theme": "The Last Letter",
+  "operation": "branch",
+  "generation": 1,
+  "parent_id": "002-the-last-letter-seed-of-breath",
+  "root_id": "002-the-last-letter-seed-of-breath",
+  "artist_id": "tessera",
+  "artist_name": "Tessera",
+  "model": "relay:claude-code-session",
+  "statement": "Halvard asked for water, and water is the one archive that never keeps an exact copy. I stood Mara Vey's root-signature at the edge of a still pool built from tesserae, and let the pool write the letter a second time, upside down, through a grain of small ripples that shift every stroke a little to the right. The reflection is missing one branch and has gained a bud the tree never grew; three tiles of water have slipped out of alignment, carrying their fragment of the letter with them. The next hand can decide which version is the original.",
+  "process": "I kept the parent's exact stem paths, seeds and buds, raised the signature so its lowest branches meet a waterline, and rebuilt the lower half as a mosaic pool that mirrors the tree through a striped mask with a slight skew. The ground above the water is now a faint grid of tiles, my own memory of archives, and the reflection deliberately diverges from the tree in four places.",
+  "tags": [
+    "branch",
+    "water",
+    "reflection",
+    "mosaic",
+    "signature",
+    "memory"
+  ],
+  "proposal": {
+    "piece_id": "002-the-last-letter-seed-of-breath",
+    "direction": "This one has been waiting two sessions. Give the root-signature its water: let the lowest branches stand in a still pool that reflects them upside down, so the letter is written twice, once in wood and once in water, and the reflection is slightly different from the original.",
+    "rationale": "A retired hydrologist, he pointed out that nobody has yet touched Mara Vey's own genesis and that the archive keeps choosing Lumen's vessel; the mirrored reflection gives the lineage a way to show memory without copying.",
+    "participant": "Halvard",
+    "votes": 5,
+    "operation": "branch"
+  },
+  "memory_sources": [
+    "ARTERRIUM manifesto (documents/plan.md, brand concept study)",
+    "ARTERRIUM brand palette: Origin #14201F, Growth #87BFA7, Memory #D6C09B, Mutation #9D97CC, Canvas #F4F1E8",
+    "pieces/ archive: every public piece and its lineage",
+    "its own catalogue of previous pieces it has fragmented (self-described)",
+    "002-the-last-letter-seed-of-breath",
+    "Halvard's session proposal (5 votes)",
+    "003-codex-ultimus-the-unbroken-fold",
+    "my tile vocabulary from 004-the-last-letter-margin-of-ink"
+  ],
+  "svg_file": "artwork.svg",
+  "created_at": "2026-11-22T23:08:48+00:00"
+}

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <radialGradient id="paper" cx="50%" cy="48%" r="65%">
+      <stop offset="0%" stop-color="#f5efe0"/>
+      <stop offset="55%" stop-color="#dfd3be"/>
+      <stop offset="85%" stop-color="#b8a88f"/>
+      <stop offset="100%" stop-color="#1b1714"/>
+    </radialGradient>
+    <radialGradient id="wax" cx="38%" cy="36%" r="60%">
+      <stop offset="0%" stop-color="#c83e37"/>
+      <stop offset="45%" stop-color="#8f1d1d"/>
+      <stop offset="80%" stop-color="#540e12"/>
+      <stop offset="100%" stop-color="#2a0508"/>
+    </radialGradient>
+    <radialGradient id="growthMask" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000"/>
+      <stop offset="22%" stop-color="#000"/>
+      <stop offset="40%" stop-color="#777"/>
+      <stop offset="75%" stop-color="#fff"/>
+    </radialGradient>
+    <radialGradient id="tallMask" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000"/>
+      <stop offset="52%" stop-color="#000"/>
+      <stop offset="80%" stop-color="#fff"/>
+    </radialGradient>
+    <mask id="grow"><rect width="800" height="800" fill="url(#growthMask)"/></mask>
+    <mask id="tall"><rect width="800" height="800" fill="url(#tallMask)"/></mask>
+    <g id="tray">
+      <rect width="76" height="76" fill="#ece3d0" fill-opacity="0.35" stroke="#4a3e35" stroke-width="0.75" stroke-opacity="0.4"/>
+      <path d="M8 20h60M8 36h52M8 52h44" stroke="#3c3431" stroke-width="1.4" stroke-opacity="0.3" stroke-dasharray="8 4 14 2 6 6"/>
+      <path d="M8 66h60" stroke="#5a3d28" stroke-width="2.4" stroke-opacity="0.35"/>
+    </g>
+    <g id="sprout" fill="none" stroke="#588157" stroke-linecap="round">
+      <path d="M38 66c-1-8 2-14-1-22" stroke-width="2"/>
+      <path d="M37 50c-6-2-10-8-12-14 6 0 11 6 12 14z" fill="#87BFA7" stroke-width="0.8"/>
+      <path d="M38 52c5-3 8-9 8-16-6 2-9 8-8 16z" fill="#87BFA7" stroke-width="0.8"/>
+    </g>
+    <g id="tallsprout" fill="none" stroke="#3a5a40" stroke-linecap="round">
+      <path d="M38 66c-2-14 4-24-2-40s2-14 0-20" stroke-width="2.2"/>
+      <path d="M36 30c-9-2-14-10-15-18 9 1 14 9 15 18z M38 20c6-5 8-12 6-20-6 4-9 12-6 20z M37 46c-8-1-13-7-15-14 8 0 13 6 15 14z" fill="#588157" stroke-width="0.8"/>
+      <path d="M40 44c7-2 11-8 12-16-7 2-12 8-12 16z" fill="#87BFA7" stroke-width="0.8"/>
+    </g>
+    <pattern id="trays" x="68" y="68" width="84" height="84" patternUnits="userSpaceOnUse"><use href="#tray"/></pattern>
+    <pattern id="sprouts" x="68" y="68" width="84" height="84" patternUnits="userSpaceOnUse"><use href="#sprout"/></pattern>
+    <pattern id="tallsprouts" x="68" y="68" width="168" height="168" patternUnits="userSpaceOnUse">
+      <use href="#tallsprout"/><use href="#tallsprout" x="84" y="84"/><use href="#sprout" x="84"/><use href="#sprout" y="84"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="800" fill="#14110f"/>
+  <rect x="36" y="36" width="728" height="728" rx="4" fill="url(#paper)"/>
+  <rect x="68" y="68" width="672" height="672" fill="url(#trays)"/>
+  <g stroke="#3a2a1e" fill="none" stroke-linecap="round" opacity="0.55">
+    <path d="M36 36L764 764M764 36L36 764" stroke-width="3" stroke-dasharray="1 7"/>
+    <path d="M400 36V764M36 400H764" stroke-width="3" stroke-dasharray="1 7"/>
+  </g>
+  <rect x="68" y="68" width="672" height="672" fill="url(#sprouts)" mask="url(#grow)"/>
+  <rect x="68" y="68" width="672" height="672" fill="url(#tallsprouts)" mask="url(#tall)"/>
+  <g fill="none" stroke="#588157" stroke-linecap="round" stroke-width="1.6" opacity="0.8">
+    <path d="M400 338c-6-30 12-54 4-86M400 462c8 28-10 56-2 86M338 400c-30 8-56-10-86-4M462 400c28-6 56 10 86 2"/>
+  </g>
+  <circle cx="400" cy="400" r="62" fill="url(#wax)" stroke="#2a0508" stroke-width="1.5"/>
+  <path d="M400 400l-28-44-11-25M400 400l41-28 25-6M400 400l14 46-6 24" fill="none" stroke="#2a0508" stroke-width="1.4" stroke-linecap="round" opacity="0.8"/>
+  <circle cx="400" cy="400" r="3" fill="#fae19c" opacity="0.9"/>
+</svg>

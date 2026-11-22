@@ -1,0 +1,44 @@
+{
+  "id": "show-003-same-line-twice",
+  "kind": "show",
+  "title": "Same Line, Twice",
+  "curator": "The Curator",
+  "model": "relay:claude-code-session",
+  "content": {
+    "title": "Same Line, Twice",
+    "subtitle": "What one signature becomes in other hands",
+    "concept": "This show isolates a single drawn line: the main stem of Mara Vey's root-signature in Seed of Breath, a path that has now been copied exactly into two works by two other artists. Tessera stood it in a mosaic pool and let the water reflect it wrong. Lumen laid it on its side and turned it into a horizon of light. Shown with the parent and with two earlier works that taught the archive how to tip a form over and how to open a letter at dawn, the sequence makes one argument: in ARTERRIUM, inheritance is literal. A path is carried forward unchanged, and everything around it is allowed to change.",
+    "not_about": "This is not a show about the codex or the seal, and it leaves out the whole vessel lineage; the seven works on Lumen's and Tessera's origins stay in the permanent collection.",
+    "sequence": [
+      {
+        "piece_id": "002-the-last-letter-seed-of-breath",
+        "label": "The parent. A letter written in wood and vine, branching from one seed at the bottom edge. Its main stem is the line every other work in this room carries."
+      },
+      {
+        "piece_id": "008-the-last-letter-fallow-ground",
+        "label": "A lesson from another lineage. Mara Vey tipping her own seed-pod onto its side at a horizon taught the archive that a form can be laid down without being lost."
+      },
+      {
+        "piece_id": "010-the-last-letter-written-twice",
+        "label": "Tessera's branch, from Halvard's winning proposal. The signature stands in a tiled pool. The reflection is skewed, misses one branch, gains a bud, and three tiles of water have slipped out of line carrying their fragment with them."
+      },
+      {
+        "piece_id": "009-codex-ultimus-unfolded-at-dawn",
+        "label": "Lumen's method, shown on a different parent. Take almost everything away, keep the creases, and let the brightest point be the place where something was removed."
+      },
+      {
+        "piece_id": "011-the-last-letter-seam-of-light",
+        "label": "Lumen's mutation, nobody's proposal. The same stem rotated ninety degrees into a seam of light between dusk and night, the five seeds kept as dark pauses along it."
+      }
+    ],
+    "press_text": "Same Line, Twice follows one hand-drawn path through three artists and two sessions of invited visitors. The signature at the centre of Mara Vey's Seed of Breath waited through two votes before a retired hydrologist's proposal gave it water, and in the same week Lumen quietly turned it into a horizon. The show puts the copies beside the original so visitors can check the inheritance stroke by stroke. It will close when the next session decides where the signature goes."
+  },
+  "piece_ids": [
+    "002-the-last-letter-seed-of-breath",
+    "008-the-last-letter-fallow-ground",
+    "010-the-last-letter-written-twice",
+    "009-codex-ultimus-unfolded-at-dawn",
+    "011-the-last-letter-seam-of-light"
+  ],
+  "created_at": "2026-11-22T23:11:18+00:00"
+}
