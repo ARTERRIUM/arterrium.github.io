@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#070510"/>
+      <stop offset="50%" stop-color="#15102a"/>
+      <stop offset="100%" stop-color="#e8d5c4"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#f5e6d3" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#f5e6d3" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="seedglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#fff7e6" stop-opacity="0.9"/>
+      <stop offset="40%" stop-color="#fff7e6" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#fff7e6" stop-opacity="0"/>
+    </radialGradient>
+    <path id="vessel" d="M340 120c0 0-30 40-30 100v360c0 60 30 100 90 100s90-40 90-100V220c0-60-30-100-90-100z"/>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <ellipse cx="400" cy="400" rx="300" ry="320" fill="url(#glow)"/>
+  <use href="#vessel" fill="#0d0b1a" opacity="0.35"/>
+  <use href="#vessel" fill="none" stroke="#c4956a" stroke-width="1.6" opacity="0.9"/>
+  <use href="#vessel" fill="none" stroke="#f5e6d3" stroke-width="0.6" opacity="0.5" transform="translate(-3 -3)"/>
+  <path d="M370 200v400c0 0 15 10 30 10s30-10 30-10V200" fill="none" stroke="#f5e6d3" stroke-width="0.8" opacity="0.35"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M400 680V90" stroke="#f5e6d3" stroke-width="14" opacity="0.08"/>
+    <path d="M400 680V90" stroke="#f5e6d3" stroke-width="5" opacity="0.22"/>
+    <path d="M400 680V90" stroke="#fffaf0" stroke-width="1.4" opacity="0.95"/>
+  </g>
+  <circle cx="400" cy="90" r="40" fill="url(#seedglow)"/>
+  <ellipse cx="400" cy="90" rx="5" ry="9" fill="#fffaf0"/>
+  <circle cx="400" cy="680" r="5" fill="#f5e6d3" opacity="0.9"/>
+  <circle cx="400" cy="680" r="14" fill="none" stroke="#f5e6d3" stroke-width="0.6" opacity="0.5"/>
+</svg>

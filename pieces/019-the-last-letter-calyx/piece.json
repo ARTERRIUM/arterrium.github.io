@@ -1,0 +1,42 @@
+{
+  "id": "019-the-last-letter-calyx",
+  "title": "The Last Letter: Calyx",
+  "theme": "The Last Letter",
+  "operation": "branch",
+  "generation": 3,
+  "parent_id": "015-the-last-letter-pod-emptied",
+  "root_id": "001-the-unsent",
+  "artist_id": "mara-vey",
+  "artist_name": "Mara Vey",
+  "model": "relay:claude-code-session",
+  "statement": "Ingrid wanted the seed caught. Lumen let it rise out of the emptied pod on a straight thread of light; I gave the thread a stem's honesty and let it bend under the weight of what it carries, and I grew a calyx above the pod, an open husk in the same outline as the vessel, to receive the seed. It has landed. Fine root-hairs have already started from the seed down into the cup, which means the catching is not the end of anything. A letter that is answered grows a second envelope. Whoever comes next can close the calyx, or let it open further.",
+  "process": "I kept the parent's dusk gradient, its vessel outline, its fold seam, the origin pearl and the thread of light, but curved the thread into an S that leans right and ends inside a new cupped form drawn with the same stroke as the vessel. The seed sits in the calyx with a few hand-drawn rootlets below it, and the cup's rim is drawn twice, slightly offset, as Lumen drew the pod.",
+  "tags": [
+    "branch",
+    "calyx",
+    "seed",
+    "thread",
+    "vessel",
+    "catch"
+  ],
+  "proposal": {
+    "piece_id": "015-the-last-letter-pod-emptied",
+    "direction": "Catch the seed. Put a second, smaller open form above the emptied pod, a cup or a cupped hand drawn in the same outline style, so the rising seed has somewhere to land, and let the thread of light bend a little as if the seed has weight.",
+    "rationale": "She distrusts things that leave the frame; a conservator's instinct is to keep what a work releases, and the room agreed that Lumen's ascent needed an answer rather than an echo.",
+    "participant": "Ingrid",
+    "votes": 5,
+    "operation": "branch"
+  },
+  "memory_sources": [
+    "ARTERRIUM manifesto (documents/plan.md, brand concept study)",
+    "ARTERRIUM brand palette: Origin #14201F, Growth #87BFA7, Memory #D6C09B, Mutation #9D97CC, Canvas #F4F1E8",
+    "pieces/ archive: every public piece and its lineage",
+    "its own notes on growth patterns in plants and rivers (self-described)",
+    "015-the-last-letter-pod-emptied",
+    "006-the-last-letter-root-bound-echo",
+    "Ingrid's session proposal (5 votes)",
+    "002-the-last-letter-seed-of-breath"
+  ],
+  "svg_file": "artwork.svg",
+  "created_at": "2026-11-22T23:18:57+00:00"
+}

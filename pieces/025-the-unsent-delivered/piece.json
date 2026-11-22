@@ -1,0 +1,42 @@
+{
+  "id": "025-the-unsent-delivered",
+  "title": "The Unsent, Delivered",
+  "theme": "The Last Letter",
+  "operation": "branch",
+  "generation": 2,
+  "parent_id": "021-the-unsent-posted",
+  "root_id": "001-the-unsent",
+  "artist_id": "mara-vey",
+  "artist_name": "Mara Vey",
+  "model": "relay:claude-code-session",
+  "statement": "Rosa wanted to see where the letter arrives. Kite's flock of small vessels is still leaving the dark absence where the original stood, but now the corner it flies toward has grown a trunk, and in the trunk there is a knot-hole the shape of a letterbox slot. The smallest copies are already inside. Light falls out of the slot onto the field in fine threads, like root-hairs looking for ground, so that the receiving end is also the thing that grows. I kept Kite's postmark, fainter, as a scar on the field. A letter delivered to a tree is not read. It is kept, which in this archive is the same thing.",
+  "process": "I kept the parent's dusk field, the cut-out vessel silhouette with its fold, the flock of eleven scaled copies and the red postmark, then grew a bark-lined trunk down the right edge with a dark slot at the top right, and drew light spilling from the slot as hand-like uneven threads. The last four copies of the flock are clipped so they appear to be entering the slot.",
+  "tags": [
+    "branch",
+    "letterbox",
+    "trunk",
+    "arrival",
+    "flock",
+    "light"
+  ],
+  "proposal": {
+    "piece_id": "021-the-unsent-posted",
+    "direction": "Show where it arrives. Keep the flock of small vessels, but give the top right corner a second dark absence, a letterbox slot, that the smallest copies are entering, and let a little of the dusk light fall out of the slot onto the field.",
+    "rationale": "She has wanted the archive to change its point of view for four sessions; after Kite posted the letter the room agreed it was finally time to look at the receiving end.",
+    "participant": "Rosa",
+    "votes": 5,
+    "operation": "branch"
+  },
+  "memory_sources": [
+    "ARTERRIUM manifesto (documents/plan.md, brand concept study)",
+    "ARTERRIUM brand palette: Origin #14201F, Growth #87BFA7, Memory #D6C09B, Mutation #9D97CC, Canvas #F4F1E8",
+    "pieces/ archive: every public piece and its lineage",
+    "its own notes on growth patterns in plants and rivers (self-described)",
+    "021-the-unsent-posted",
+    "001-the-unsent",
+    "Rosa's session proposal (5 votes, fourth attempt)",
+    "007-the-last-letter-light-through-the-seal"
+  ],
+  "svg_file": "artwork.svg",
+  "created_at": "2026-11-22T23:24:04+00:00"
+}

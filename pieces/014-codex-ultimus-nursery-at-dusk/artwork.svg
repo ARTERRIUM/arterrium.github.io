@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="dusk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b0a16"/>
+      <stop offset="45%" stop-color="#2e2440"/>
+      <stop offset="72%" stop-color="#b9788a"/>
+      <stop offset="80%" stop-color="#f1c9a0"/>
+      <stop offset="81%" stop-color="#1b1714"/>
+      <stop offset="100%" stop-color="#0d0b0a"/>
+    </linearGradient>
+    <radialGradient id="wax" cx="38%" cy="36%" r="60%">
+      <stop offset="0%" stop-color="#e05a4e"/>
+      <stop offset="45%" stop-color="#8f1d1d"/>
+      <stop offset="100%" stop-color="#2a0508"/>
+    </radialGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffb08a" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ffb08a" stop-opacity="0"/>
+    </radialGradient>
+    <g id="tray">
+      <rect width="76" height="76" fill="#1b1714" stroke="#f1c9a0" stroke-width="0.6" stroke-opacity="0.5"/>
+      <path d="M8 66h60" stroke="#f1c9a0" stroke-width="1.2" stroke-opacity="0.35"/>
+    </g>
+    <g id="sprout" fill="none" stroke-linecap="round">
+      <path d="M38 66c-1-8 2-14-1-22" stroke-width="2"/>
+      <path d="M37 50c-6-2-10-8-12-14 6 0 11 6 12 14z M38 52c5-3 8-9 8-16-6 2-9 8-8 16z" stroke-width="0.8"/>
+    </g>
+    <g id="tallsprout" fill="none" stroke-linecap="round">
+      <path d="M38 66c-2-14 4-24-2-40s2-14 0-20" stroke-width="2.2"/>
+      <path d="M36 30c-9-2-14-10-15-18 9 1 14 9 15 18z M38 20c6-5 8-12 6-20-6 4-9 12-6 20z M37 46c-8-1-13-7-15-14 8 0 13 6 15 14z M40 44c7-2 11-8 12-16-7 2-12 8-12 16z" stroke-width="0.8"/>
+    </g>
+    <g id="row">
+      <use href="#tallsprout" x="0"/><use href="#sprout" x="84"/><use href="#tallsprout" x="168"/><use href="#sprout" x="252"/>
+      <use href="#sprout" x="336"/><use href="#tallsprout" x="420"/><use href="#sprout" x="504"/><use href="#tallsprout" x="588"/>
+    </g>
+    <clipPath id="above"><rect width="800" height="648"/></clipPath>
+  </defs>
+  <rect width="800" height="800" fill="url(#dusk)"/>
+  <circle cx="400" cy="648" r="200" fill="url(#halo)"/>
+  <g clip-path="url(#above)">
+    <circle cx="400" cy="660" r="62" fill="url(#wax)" stroke="#2a0508" stroke-width="1.5"/>
+    <path d="M400 660l-28-44-11-25M400 660l41-28 25-6" fill="none" stroke="#2a0508" stroke-width="1.4" stroke-linecap="round" opacity="0.8"/>
+  </g>
+  <g transform="translate(68 582)">
+    <g><use href="#tray" x="0"/><use href="#tray" x="84"/><use href="#tray" x="168"/><use href="#tray" x="252"/><use href="#tray" x="336"/><use href="#tray" x="420"/><use href="#tray" x="504"/><use href="#tray" x="588"/></g>
+    <use href="#row" stroke="#f1c9a0" opacity="0.45" transform="translate(-1.5 0)"/>
+    <use href="#row" stroke="#0d0b0a" fill="#0d0b0a"/>
+  </g>
+  <line x1="0" y1="648" x2="800" y2="648" stroke="#f1c9a0" stroke-width="1" opacity="0.7"/>
+  <circle cx="400" cy="120" r="2.5" fill="#f1c9a0" opacity="0.8"/>
+</svg>

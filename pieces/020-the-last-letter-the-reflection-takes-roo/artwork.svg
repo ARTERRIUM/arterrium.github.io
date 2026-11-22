@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="30%" r="75%"><stop offset="0%" stop-color="#f3f6f9"/><stop offset="100%" stop-color="#d6dfe8"/></radialGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#9fb6c8"/><stop offset="60%" stop-color="#4f6d84"/><stop offset="100%" stop-color="#1e2d3c"/></linearGradient>
+    <linearGradient id="stem" x1="0" y1="1" x2="1" y2="0"><stop offset="0%" stop-color="#3a5a40"/><stop offset="50%" stop-color="#588157"/><stop offset="100%" stop-color="#a3b18a"/></linearGradient>
+    <linearGradient id="wet" x1="0" y1="1" x2="1" y2="0"><stop offset="0%" stop-color="#1f3a2a"/><stop offset="60%" stop-color="#2f5a3c"/><stop offset="100%" stop-color="#5c7a55"/></linearGradient>
+    <pattern id="tess" width="26" height="26" patternUnits="userSpaceOnUse"><rect x="1" y="1" width="24" height="24" fill="none" stroke="#7b8ea0" stroke-width="0.5"/></pattern>
+    <g id="sig" fill="none" stroke-linecap="round">
+      <path d="M400 700Q410 600 395 500T400 300Q405 200 400 100" stroke-width="8"/>
+      <path d="M395 500Q350 450 300 400T200 350Q150 320 100 300M400 400Q450 380 500 350T600 300Q650 280 700 250" stroke-width="5"/>
+      <path d="M300 400Q280 380 260 390T220 410M500 350Q520 330 540 340T580 360" stroke-width="2.5"/>
+      <path d="M400 100Q380 80 360 90T320 110M400 100Q420 80 440 90T480 110" stroke-width="2" opacity="0.5"/>
+    </g>
+    <g id="seeds"><g fill="#3a5a40" opacity="0.8"><circle cx="395" cy="500" r="6"/><circle cx="400" cy="300" r="6"/><circle cx="300" cy="400" r="6"/><circle cx="500" cy="350" r="6"/></g>
+      <g fill="#a3b18a" opacity="0.6"><circle cx="200" cy="350" r="4"/><circle cx="100" cy="300" r="4"/><circle cx="600" cy="300" r="4"/><circle cx="700" cy="250" r="4"/><circle cx="400" cy="100" r="4"/></g></g>
+  </defs>
+  <rect width="800" height="800" fill="url(#sky)"/>
+  <rect width="800" height="520" fill="url(#tess)" opacity="0.5"/>
+  <rect y="520" width="800" height="280" fill="url(#water)"/>
+  <rect y="520" width="800" height="280" fill="url(#tess)" opacity="0.3"/>
+  <g transform="matrix(1 0 0.04 -1 -20 1220)" opacity="0.9">
+    <use href="#sig" stroke="url(#wet)"/>
+    <use href="#seeds"/>
+    <circle cx="330" cy="150" r="4" fill="#a3b18a" opacity="0.7"/>
+  </g>
+  <g fill="none" stroke="#1f3a2a" stroke-linecap="round" opacity="0.85">
+    <path d="M86 700c-4 20 10 40 2 60s4 30 0 40M90 712c-14 10-20 26-30 36M106 730c10 10 8 24 14 36" stroke-width="1.6"/>
+    <path d="M680 720c6 16-6 30 2 46s-6 20 0 34M686 740c-12 6-18 20-26 24M700 746c8 4 12 16 20 20" stroke-width="1.6"/>
+    <path d="M380 680c-8 30 10 50 0 80s6 30 2 40M374 700c-14 8-20 20-34 28M400 720c10 10 12 24 20 34" stroke-width="1.8"/>
+    <path d="M190 660c-6 24 6 44-2 66s4 30 0 40M184 684c-12 4-16 16-28 22M560 650c6 24-6 44 2 66s-4 34 0 46M570 676c10 4 14 16 24 24" stroke-width="1.3"/>
+    <path d="M130 668c-4 10-12 14-16 24M644 660c4 10 12 14 14 26M260 690c-6 10-14 10-18 22" stroke-width="0.9"/>
+  </g>
+  <g transform="translate(0 -180)"><use href="#sig" stroke="url(#stem)"/><use href="#seeds"/><circle cx="400" cy="700" r="6" fill="#3a5a40" opacity="0.8"/></g>
+  <path d="M0 520h800" stroke="#f3f6f9" stroke-width="1.5" opacity="0.8"/>
+  <g fill="none" stroke="#2d3f52" stroke-width="0.8" opacity="0.45"><ellipse cx="400" cy="526" rx="26" ry="3"/><ellipse cx="400" cy="532" rx="54" ry="5"/><ellipse cx="400" cy="540" rx="90" ry="7"/></g>
+  <g fill="#588157" stroke="#2f5a3c" stroke-width="1">
+    <path d="M352 524a22 8 0 1 0 44 0a22 8 0 1 0-44 0zM374 524l12-6" opacity="0.95"/>
+    <path d="M430 530a18 7 0 1 0 36 0a18 7 0 1 0-36 0z" opacity="0.9"/>
+    <path d="M318 534a14 5 0 1 0 28 0a14 5 0 1 0-28 0z" opacity="0.85"/>
+  </g>
+  <circle cx="448" cy="527" r="3" fill="#f3f6f9"/>
+  <circle cx="400" cy="520" r="6" fill="#3a5a40"/>
+</svg>

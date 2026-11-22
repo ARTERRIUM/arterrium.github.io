@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="dawn" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#1c1a2e"/>
+      <stop offset="38%" stop-color="#5a4a5c"/>
+      <stop offset="62%" stop-color="#c9a98f"/>
+      <stop offset="82%" stop-color="#eedcc4"/>
+      <stop offset="100%" stop-color="#f7efe0"/>
+    </linearGradient>
+    <radialGradient id="threshold" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8e6"/>
+      <stop offset="55%" stop-color="#fff2d6" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#fff2d6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="wax" cx="38%" cy="36%" r="60%">
+      <stop offset="0%" stop-color="#c83e37"/>
+      <stop offset="50%" stop-color="#8f1d1d"/>
+      <stop offset="100%" stop-color="#2a0508"/>
+    </radialGradient>
+    <path id="word" d="M232 332c10-14 18-6 14 8s-10 26 2 24 16-30 26-36 6 18 2 30 14 2 22-10 10-26 20-22-8 34 4 40 22-28 30-34 6 10 2 22 4 22 16 14 12-38 24-36-2 30 6 38 20-16 28-28 2 22 14 22 20-30 30-18" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="practice" d="M0 0c4-6 7-2 5 3s-4 10 1 9 6-12 10-14 2 7 1 12 5 1 8-4 4-10 8-8-3 13 2 15 8-11 11-13" fill="none" stroke-linecap="round"/>
+  </defs>
+  <rect width="800" height="800" fill="#14110f"/>
+  <rect x="36" y="36" width="728" height="728" rx="3" fill="url(#dawn)"/>
+  <g stroke="#2a221b" stroke-width="1" opacity="0.3" fill="none">
+    <use href="#practice" transform="translate(90 470)"/><use href="#practice" transform="translate(180 472)"/><use href="#practice" transform="translate(270 469)"/><use href="#practice" transform="translate(360 471)"/><use href="#practice" transform="translate(450 470)"/><use href="#practice" transform="translate(540 473)"/><use href="#practice" transform="translate(630 470)"/>
+  </g>
+  <line x1="36" y1="496" x2="764" y2="496" stroke="#f7efe0" stroke-width="0.8" opacity="0.45"/>
+  <path d="M36 36L764 764M764 36L36 764" stroke="#14110f" stroke-width="1.2" stroke-opacity="0.28"/>
+  <path d="M400 36V764" stroke="#f7efe0" stroke-width="1" stroke-opacity="0.35"/>
+  <path d="M36 400H764" stroke="#14110f" stroke-width="1" stroke-opacity="0.3"/>
+  <circle cx="330" cy="330" r="170" fill="url(#threshold)"/>
+  <circle cx="330" cy="330" r="80" fill="#fff8e6" opacity="0.35"/>
+  <circle cx="330" cy="330" r="80" fill="none" stroke="#fff8e6" stroke-width="1.4" opacity="0.9"/>
+  <use href="#word" stroke="#2a221b" stroke-width="2.4" opacity="0.35" transform="translate(3 2)"/>
+  <use href="#word" stroke="#2a221b" stroke-width="2.4" opacity="0.4" transform="translate(-2 -3) rotate(0.6 330 330)"/>
+  <use href="#word" stroke="#231f20" stroke-width="2.6" opacity="0.95"/>
+  <g fill="none" stroke="#231f20" stroke-linecap="round" stroke-width="0.8" opacity="0.6">
+    <path d="M246 340c-6 6-10 14-18 16M246 340c-2 8-8 12-8 20M330 356c-4 8-12 10-14 20M330 356c4 8 10 10 16 14M410 352c-6 6-6 14-14 18M454 348c2 8-4 14-2 22M454 348c6 6 12 8 14 16"/>
+  </g>
+  <g fill="#231f20" opacity="0.7"><circle cx="246" cy="340" r="2.4"/><circle cx="330" cy="356" r="2.8"/><circle cx="454" cy="348" r="2.2"/><circle cx="520" cy="330" r="1.8"/></g>
+  <path d="M520 330c-8 60-60 110-90 180s-14 120-30 160" fill="none" stroke="#231f20" stroke-width="1" stroke-opacity="0.55" stroke-dasharray="1 5"/>
+  <ellipse cx="402" cy="714" rx="70" ry="9" fill="#000" opacity="0.3"/>
+  <circle cx="400" cy="696" r="46" fill="url(#wax)" stroke="#2a0508" stroke-width="1.5"/>
+  <path d="M400 696l-20-30-8-18M400 696l28-20M400 696l10 32" fill="none" stroke="#2a0508" stroke-width="1.4" stroke-linecap="round" opacity="0.8"/>
+</svg>

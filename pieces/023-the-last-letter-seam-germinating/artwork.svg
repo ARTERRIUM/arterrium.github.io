@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="field" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f1e4cf"/><stop offset="44%" stop-color="#b9958a"/><stop offset="54%" stop-color="#3b2e45"/><stop offset="100%" stop-color="#0b0a16"/>
+    </linearGradient>
+    <linearGradient id="seamGlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff3c9" stop-opacity="0"/><stop offset="50%" stop-color="#fff3c9" stop-opacity="0.55"/><stop offset="100%" stop-color="#fff3c9" stop-opacity="0"/>
+    </linearGradient>
+    <path id="stem" d="M400 700Q410 600 395 500T400 300Q405 200 400 100" fill="none" stroke-linecap="round"/>
+    <g id="shoot" fill="none" stroke="#0b0a16" stroke-linecap="round">
+      <path d="M0 0c-2-20 6-34-2-56s4-30 0-44" stroke-width="2.2"/>
+      <path d="M-2-40c-9-2-14-10-15-18 9 1 14 9 15 18zM0-60c6-5 8-12 6-20-6 4-9 12-6 20z" fill="#0b0a16" stroke-width="0.6"/>
+    </g>
+    <g id="root" fill="none" stroke="#f1e4cf" stroke-linecap="round">
+      <path d="M0 0c4 20-8 36 2 58s-6 26 0 40" stroke-width="1.8"/>
+      <path d="M1 24c-10 4-16 14-20 24M1 44c10 4 14 14 20 22M-1 70c-8 4-10 12-14 20" stroke-width="1"/>
+    </g>
+  </defs>
+  <rect width="800" height="800" fill="url(#field)"/>
+  <rect y="360" width="800" height="140" fill="url(#seamGlow)"/>
+  <g transform="translate(400 430) rotate(90) translate(-400 -400)">
+    <use href="#stem" stroke="#fff3c9" stroke-width="22" stroke-opacity="0.14"/>
+    <use href="#stem" stroke="#fff3c9" stroke-width="9" stroke-opacity="0.35"/>
+    <use href="#stem" stroke="#fffaf0" stroke-width="2.4"/>
+  </g>
+  <g fill="none" stroke="#f1e4cf" stroke-width="0.6">
+    <circle cx="400" cy="700" r="120" opacity="0.22"/><circle cx="400" cy="400" r="250" opacity="0.18"/><circle cx="400" cy="250" r="380" opacity="0.12"/>
+  </g>
+  <use href="#shoot" transform="translate(100 430) scale(0.8)"/>
+  <use href="#shoot" transform="translate(200 428) scale(0.6)"/>
+  <use href="#shoot" transform="translate(300 425) scale(1.6)"/>
+  <use href="#shoot" transform="translate(500 430) scale(1.1) rotate(-6)"/>
+  <use href="#shoot" transform="translate(600 432) scale(0.7) rotate(5)"/>
+  <use href="#root" transform="translate(100 430) scale(0.8)"/>
+  <use href="#root" transform="translate(200 428) scale(0.6) rotate(8)"/>
+  <use href="#root" transform="translate(300 425) scale(1.5)"/>
+  <use href="#root" transform="translate(500 430) scale(1.1) rotate(-5)"/>
+  <use href="#root" transform="translate(600 432) scale(0.7)"/>
+  <g fill="#0b0a16" opacity="0.85"><circle cx="100" cy="430" r="6"/><circle cx="300" cy="425" r="6"/><circle cx="500" cy="430" r="6"/></g>
+  <g fill="#0b0a16" opacity="0.5"><circle cx="200" cy="428" r="3.5"/><circle cx="600" cy="432" r="3.5"/></g>
+  <circle cx="400" cy="130" r="5" fill="#fff3c9" opacity="0.9"/>
+  <circle cx="400" cy="130" r="26" fill="none" stroke="#fff3c9" stroke-width="0.8" opacity="0.4"/>
+</svg>
