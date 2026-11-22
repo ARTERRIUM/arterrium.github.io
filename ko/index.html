@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARTERRIUM — 예술적 공진화의 살아 있는 미술관</title>
+<meta name="description" content="ARTERRIUM은 인간과 AI가 함께 작품을 진화시키는 살아 있는 미술관입니다. 예술은 완성되는 것이 아니라, 되어 가는 것입니다.">
+<meta property="og:title" content="ARTERRIUM — Art Is Always Becoming">
+<meta property="og:description" content="인간과 AI가 함께 작품을 진화시키는 살아 있는 미술관. See anywhere. Evolve here.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/svg+xml" href="../images/logo.svg">
+<link rel="alternate" hreflang="en" href="../">
+<link rel="alternate" hreflang="ko" href="./">
+<link rel="alternate" hreflang="x-default" href="../">
+<script>
+/* 사용자가 영어를 직접 선택했다면 영어 페이지로 보냅니다. */
+(function(){try{if(localStorage.getItem('arterrium-lang')==='en')location.replace('../'+location.hash);}catch(e){}})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300&family=Inter:wght@300;400;500;600&family=Noto+Serif+KR:wght@400;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="brand" href="#top"><img src="../images/logo.svg" alt="ARTERRIUM 심벌"> ARTERRIUM</a>
+    <div class="menu">
+      <a href="#manifesto">선언</a>
+      <a href="#principles">원칙</a>
+      <a href="#how">작동 방식</a>
+      <a href="#platform">플랫폼</a>
+      <a href="#brand">브랜드</a>
+      <a href="#roadmap">로드맵</a>
+      <a class="cta" href="#join">함께하기</a>
+      <span class="lang" aria-label="언어 선택"><a href="../" data-set-lang="en" lang="en">EN</a><a class="on" href="./" data-set-lang="ko" lang="ko">KO</a></span>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">A Living Museum of Human &amp; AI Art</div>
+      <h1>Art is never finished.<br><em>It becomes.</em></h1>
+      <p class="lead-line">예술은 완성되는 것이 아니라,<br>우리와 함께 되어 가는 것이다.</p>
+      <p class="sub">ARTERRIUM은 인간의 상상력과 AI의 해석이 만나 작품을 끝없이 진화시키는 살아 있는 미술관입니다. 이곳에 최종본은 없습니다. 모든 것은 아직 자라고 있는 하나의 가지입니다.</p>
+      <div class="btns">
+        <a class="btn primary" href="#manifesto">선언 읽기</a>
+        <a class="btn ghost" href="#how">작동 방식 보기 →</a>
+      </div>
+    </div>
+    <div class="live-card rv">
+      <div class="head">
+        <span><b>Genesis 001</b> · The Last Letter</span>
+        <span class="pulse"><i></i>Live · Demo</span>
+      </div>
+      <canvas id="tree" width="800" height="600" aria-label="실시간으로 분기하며 자라나는 진화 트리" role="img"></canvas>
+      <div class="foot">
+        <span>Illustrative evolution tree</span>
+        <span>콘셉트 시안 · 실시간 데이터가 아닙니다</span>
+      </div>
+      <div class="stats">
+        <div>Branches<b id="s-branch">0</b></div>
+        <div>Mutations<b id="s-mut">0</b></div>
+        <div>Generations<b id="s-gen">0</b></div>
+      </div>
+    </div>
+  </div>
+  <div class="strip" aria-hidden="true">
+    <div class="track">
+      <span>View from anywhere</span><span>Contribute on site</span><span>Every choice leaves a trace</span><span>Every trace opens a new possibility</span><span>See anywhere. Evolve here.</span>
+      <span>View from anywhere</span><span>Contribute on site</span><span>Every choice leaves a trace</span><span>Every trace opens a new possibility</span><span>See anywhere. Evolve here.</span>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ 선언 ============ -->
+<section id="manifesto" class="manifesto">
+  <div class="wrap two">
+    <div class="sticky rv">
+      <div class="eyebrow">Manifesto · 선언</div>
+      <h2>우리는 예술을<br>한 사람의 완성된 결과물로만<br>바라보지 않는다</h2>
+      <p class="lead">ARTERRIUM은 '예술은 완성된 사물'이라는 전제를 내려놓습니다. 작품은 인간의 상상력과 선택, AI의 해석과 제안, 축적되는 역사와 새로운 만남을 통해 끊임없이 변화합니다. 우리가 만드는 것은 그 변화를 멈추지 않고 기록하는 공간입니다.</p>
+    </div>
+    <div class="rv">
+      <blockquote>
+        <p>인간의 상상력과 선택, AI의 해석과 제안, 축적되는 역사와 새로운 만남을 통해 작품은 끊임없이 변화한다.</p>
+        <p>누구나 예술을 창작하고 발전시키며, 어떤 선택도 영원히 잊히지 않는 공간.</p>
+        <p>어제의 예술이 오늘의 가능성이 되고, 오늘의 선택이 미래의 예술이 되는 세계.</p>
+      </blockquote>
+      <div class="feel">
+        <div class="eyebrow">우리가 남기고 싶은 감정</div>
+        <div class="big">"나는 예술의 역사에<br>작은 흔적 하나를 남길 수 있다."</div>
+        <div class="vs">"첨단 기술을 체험했다"가 아니라, 아직 쓰이고 있는 역사의 일부가 된다는 감각입니다.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 원칙 ============ -->
+<section id="principles">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Three Principles · 세 가지 원칙</div>
+      <h2>로고부터 전시장, 창작 알고리즘까지<br>일관되게 흐르는 세 가지 약속</h2>
+      <p class="lead">이 세 원칙은 ARTERRIUM의 모든 결정을 판단하는 기준입니다.</p>
+    </div>
+    <div class="grid3">
+      <div class="card growth rv">
+        <div class="num">01</div>
+        <img class="icon" src="../images/icon-open.svg" alt="">
+        <h3>Open to Everyone</h3>
+        <p>전문 예술가만의 공간이 아닙니다. 상상력과 선택할 의지가 있는 사람이라면 누구나 작품의 진화에 기여할 수 있습니다. 관람객과 창작자의 경계는 흐려집니다.</p>
+      </div>
+      <div class="card mutation rv">
+        <div class="num">02</div>
+        <img class="icon" src="../images/icon-unfinished.svg" alt="">
+        <h3>Never Truly Finished</h3>
+        <p>작품은 언제든 새로운 해석과 분기를 받아들일 수 있습니다. 하나의 최종본 대신 계보가 자라나고, 어떤 오래된 가지에서도 새로운 경로가 다시 시작될 수 있습니다.</p>
+      </div>
+      <div class="card memory rv">
+        <div class="num">03</div>
+        <img class="icon" src="../images/icon-memory.svg" alt="">
+        <h3>Memory Creates the Future</h3>
+        <p>AI는 과거 작품을 복제하는 도구가 아닙니다. ARTERRIUM 안에 축적된 역사로부터 아직 누구도 시도하지 않은 가능성을 발굴하는 또 하나의 아티스트입니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 작동 방식 ============ -->
+<section id="how">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">How It Works · 작동 방식</div>
+      <h2>하나의 시작점에서 여러 가능성이 자라나고,<br>그 가능성들이 다시 연결된다</h2>
+      <p class="lead">ARTERRIUM의 작품은 파일이 아니라 계보입니다. 선택, 분기, 변이, 재진화가 순환하며 매 순간 작품의 역사가 쌓입니다.</p>
+    </div>
+    <div class="flow rv">
+      <img src="../images/evolution-flow.svg" alt="Genesis에서 Selection, Branch, Mutation, Re-evolution으로 이어지고 Memory로 순환하는 진화 흐름도">
+    </div>
+    <div class="steps">
+      <div class="step rv">
+        <div class="k">01 · GENESIS</div>
+        <h3>최초의 작품이 태어난다</h3>
+        <p>인간 또는 AI 아티스트가 첫 작품을 제안합니다. 이 순간부터 작품은 고유한 계보와 기억을 갖습니다.</p>
+      </div>
+      <div class="step rv">
+        <div class="k">02 · SELECTION</div>
+        <h3>참여자가 선택하고 제안한다</h3>
+        <p>초청된 현장 세션에서 참여자가 작품의 다음 방향을 제안하고 투표합니다. 모든 제안은 기록의 일부가 됩니다.</p>
+      </div>
+      <div class="step rv">
+        <div class="k">03 · BRANCH &amp; MUTATION</div>
+        <h3>분기하고, 변이한다</h3>
+        <p>하나의 작품에서 여러 경로가 갈라집니다. AI 아티스트는 축적된 기억을 바탕으로 예측하기 어려운 변이를 제안합니다.</p>
+      </div>
+      <div class="step rv">
+        <div class="k">04 · RE-EVOLUTION</div>
+        <h3>기억에서 다시 진화한다</h3>
+        <p>오래된 가지는 잊히지 않습니다. 아카이브의 어느 지점에서든 새로운 진화가 다시 시작될 수 있습니다.</p>
+      </div>
+    </div>
+    <div class="rules">
+      <div class="rule rv">
+        <div class="dot" style="background:var(--growth)"></div>
+        <div>
+          <h3>열람은 어디서나, 기여는 현장에서</h3>
+          <p>누구나 어디서든 작품과 계보를 열람할 수 있습니다. 공식 제안과 투표는 초청된 현장 세션에서만 이루어집니다. 역사에 남는 것이 가벼운 클릭이 아니라 숙고된 선택이 되도록 하기 위해서입니다.</p>
+        </div>
+      </div>
+      <div class="rule rv">
+        <div class="dot" style="background:var(--mutation)"></div>
+        <div>
+          <h3>AI 아티스트의 기억은 투명하다</h3>
+          <p>각 AI 아티스트는 자신만의 기억과 창작 이력을 갖습니다. 그 기억이 어떤 자료에 기반했는지 누구나 확인할 수 있어야 합니다. 설명할 수 없는 창작은 ARTERRIUM의 역사가 될 수 없습니다.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 플랫폼 ============ -->
+<section id="platform">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Platform · 플랫폼</div>
+      <h2>일반적인 갤러리처럼 만들지 않는다</h2>
+      <p class="lead">사이트가 가장 먼저 보여주는 것은 소개 문구나 아름다운 AI 이미지가 아닙니다. 지금 이 순간에도 작품이 실제로 변하고 있다는 사실입니다. 방문자가 진화 트리를 바로 탐색하게 하면 이곳이 AI 이미지 갤러리가 아니라는 점이 분명해집니다.</p>
+    </div>
+    <div class="menus">
+      <div class="menu-card hl rv"><div class="idx">01</div><div class="serif">Explore</div><p>지금 진화 중인 작품. 가장 활발하게 분기하는 작품이 먼저 보입니다.</p></div>
+      <div class="menu-card rv"><div class="idx">02</div><div class="serif">Evolution</div><p>선택·분기·변이·재진화를 계보 트리로 추적합니다.</p></div>
+      <div class="menu-card rv"><div class="idx">03</div><div class="serif">Artists</div><p>인간 아티스트와 AI 아티스트, 그리고 둘의 협업 이력.</p></div>
+      <div class="menu-card rv"><div class="idx">04</div><div class="serif">Archive</div><p>모든 공개 작품의 역사적 기록. 어떤 선택도 잊히지 않습니다.</p></div>
+      <div class="menu-card rv"><div class="idx">05</div><div class="serif">Visit</div><p>현장 참여 장소와 일정, 참여권. 공식 제안과 투표가 이루어지는 곳입니다.</p></div>
+      <div class="menu-card rv"><div class="idx">06</div><div class="serif">Manifesto</div><p>철학, 창립 선언, 운영 원칙. 이 프로젝트가 왜 존재하는지에 대한 기록입니다.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 브랜드 ============ -->
+<section id="brand">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Brand · 브랜드</div>
+      <h2>이름, 색, 그리고 살아 있는 가지</h2>
+      <p class="lead">프로젝트가 어떤 형태를 띠든 그 의미는 흔들리지 않아야 합니다. 이름과 팔레트와 심벌은 모두 같은 생각을 담습니다. 예술이 계속 자라나는 세계.</p>
+    </div>
+    <div class="name-stage rv">
+      <div>
+        <div class="eyebrow">The Name · 이름</div>
+        <div class="big" style="margin-top:14px">ARTERRIUM</div>
+        <div class="compose">
+          <span class="a">ART<small>예술</small></span><span>·</span>
+          <span class="b">TERRA<small>땅 · 세계</small></span><span>·</span>
+          <span class="c">-IUM<small>살아 있는 것을 담는 공간</small></span>
+        </div>
+      </div>
+      <ul>
+        <li>museum, terrarium처럼 '-ium'은 무언가가 살아 숨 쉬는 공간을 뜻합니다.</li>
+        <li>ARTERRIUM은 예술이 자라나는 살아 있는 세계이자, 그 세계를 담는 그릇입니다.</li>
+        <li>어느 언어로도 발음하기 쉬운 독자적인 조어이며, 특정 AI나 예술 장르에 종속되지 않습니다.</li>
+      </ul>
+    </div>
+
+    <div class="rv sub-h">
+      <div class="eyebrow">Colors · 브랜드 컬러</div>
+      <h2>시간, 성장, 기억, 변이, 그리고 캔버스</h2>
+    </div>
+    <div class="palette">
+      <div class="sw rv"><div class="c" style="background:#14201F;border-bottom:1px solid var(--line)"></div><div class="t"><b>Origin</b><code>#14201F</code><br>시간과 역사. 모든 것이 시작되는 어둠.</div></div>
+      <div class="sw rv"><div class="c" style="background:#87BFA7"></div><div class="t"><b>Growth</b><code>#87BFA7</code><br>자라나는 가지. 살아 있는 상태.</div></div>
+      <div class="sw rv"><div class="c" style="background:#D6C09B"></div><div class="t"><b>Memory</b><code>#D6C09B</code><br>축적된 기록. 잊히지 않는 선택.</div></div>
+      <div class="sw rv"><div class="c" style="background:#9D97CC"></div><div class="t"><b>Mutation</b><code>#9D97CC</code><br>예측할 수 없는 변화와 분기.</div></div>
+      <div class="sw rv"><div class="c" style="background:#F4F1E8"></div><div class="t"><b>Canvas</b><code>#F4F1E8</code><br>아직 그려지지 않은 가능성.</div></div>
+    </div>
+
+    <div class="rv sub-h">
+      <div class="eyebrow">Logo · Living Branch</div>
+      <h2>완성된 형태가 아니라 진화하는 형태</h2>
+      <p class="lead">붓도, 액자도, 팔레트도 아닙니다. 뇌나 회로도 아닙니다. 심벌은 하나의 시작점에서 여러 가능성이 발생하고 새로운 연결을 만들어 가는 구조를 보여줍니다. 선은 진화의 경로, 점은 인간과 AI가 함께 만들어 낸 상태와 분기입니다. 기본 심벌은 고정하되, 가지와 색은 자유롭게 살아 움직입니다.</p>
+    </div>
+    <div class="logo-stage">
+      <div class="logo-box dark rv">
+        <img src="../images/logo.svg" alt="ARTERRIUM Living Branch 심벌, 다크 배경">
+        <div class="wm">ARTERRIUM</div>
+        <div class="tg">Art is always becoming</div>
+      </div>
+      <div class="logo-box light rv">
+        <img src="../images/logo.svg" alt="ARTERRIUM Living Branch 심벌, 라이트 배경">
+        <div class="wm">ARTERRIUM</div>
+        <div class="tg">Art is always becoming</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 로드맵 ============ -->
+<section id="roadmap">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Roadmap · 로드맵</div>
+      <h2>브랜드와 개발은 따로 움직이지만,<br>같은 방향으로 간다</h2>
+      <p class="lead">웹 프로토타입과 브랜드 시스템을 나란히 키워, 둘 다 준비되는 즉시 첫 진화형 작품을 공개합니다.</p>
+    </div>
+    <div class="timeline">
+      <div class="phase now rv">
+        <div class="when">Now · 지금</div>
+        <h3>웹 프로토타입</h3>
+        <p>ARTERRIUM 디자인 콘셉트를 적용한 첫 웹 프로토타입을 만듭니다.</p>
+      </div>
+      <div class="phase rv">
+        <div class="when">Weeks 1–2 · 첫 2주</div>
+        <h3>상표와 도메인</h3>
+        <p>ARTERRIUM의 상표 조사와 도메인 등록, 예술가와 일반 사용자 대상 이름 테스트를 진행합니다.</p>
+      </div>
+      <div class="phase rv">
+        <div class="when">Weeks 3–4 · 3~4주</div>
+        <h3>브랜드 시스템</h3>
+        <p>로고를 정교화하고 브랜드 디자인 시스템을 확정합니다.</p>
+      </div>
+      <div class="phase rv">
+        <div class="when">Beyond · 그 이후</div>
+        <h3>첫 진화형 작품</h3>
+        <p>첫 진화형 작품과 AI 아티스트를 연동해 공개 테스트를 시작합니다. Genesis 001이 실제로 자라나기 시작하는 순간입니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 함께하기 ============ -->
+<section id="join" class="join">
+  <div class="wrap rv">
+    <img src="../images/logo.svg" alt="">
+    <h2>See anywhere.<br><em>Evolve here.</em></h2>
+    <p>평생에 걸쳐 자라날 예술 생태계입니다. 어제의 예술이 오늘의 가능성이 되고, 오늘의 선택이 미래의 예술이 되는 세계에 당신의 흔적을 남겨 주세요.</p>
+    <div class="btns" style="justify-content:center">
+      <a class="btn primary" href="#top">처음으로</a>
+      <a class="btn ghost" href="#manifesto">선언 다시 읽기</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><b>ARTERRIUM</b> · A Living Museum of Artistic Co-Evolution</div>
+    <div>© 2026 ARTERRIUM</div>
+  </div>
+</footer>
+
+<script src="../assets/site.js"></script>
+</body>
+</html>
