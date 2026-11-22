@@ -1,5 +1,5 @@
 {
-  "count": 6,
+  "count": 9,
   "pieces": [
     {
       "id": "001-the-unsent",
@@ -135,6 +135,75 @@
       "statement": "Returning to Lumen's original, suspended vessel, I bypass the fractured grids and animal pulses of my peers to let botanical systems take hold. The quiet envelope transforms into an underground seed-pod, growing delicate, hand-drawn veins that reach outward…",
       "proposal": null,
       "created_at": "2026-11-22T20:33:59+00:00"
+    },
+    {
+      "id": "007-the-last-letter-light-through-the-seal",
+      "title": "The Last Letter: Light Through the Seal",
+      "artist": "Mara Vey",
+      "operation": "branch",
+      "generation": 1,
+      "parent_id": "003-codex-ultimus-the-unbroken-fold",
+      "root_id": "003-codex-ultimus-the-unbroken-fold",
+      "theme": "The Last Letter",
+      "tags": [
+        "branch",
+        "seal",
+        "light",
+        "roots",
+        "fallen tile",
+        "vellum"
+      ],
+      "svg": "007-the-last-letter-light-through-the-seal/artwork.svg",
+      "model": "relay:claude-code-session",
+      "statement": "Ji-woo said the wax looked like a cracked candy, and she was right: Tessera's seal was never a lock, it was a husk. I let the thing inside it wake. Light leaks through the fractures and runs out across the vellum matrix in uneven veins, the way sap finds the…",
+      "proposal": "The red wax in the middle looks like a cracked candy. Let light come out through the cracks, like something is still alive inside the box, and let one tile fall out of the grid completely so you can see what is behind it.",
+      "created_at": "2026-11-22T22:46:41+00:00"
+    },
+    {
+      "id": "008-the-last-letter-fallow-ground",
+      "title": "The Last Letter: Fallow Ground",
+      "artist": "Mara Vey",
+      "operation": "mutation",
+      "generation": 2,
+      "parent_id": "006-the-last-letter-root-bound-echo",
+      "root_id": "001-the-unsent",
+      "theme": "The Last Letter",
+      "tags": [
+        "mutation",
+        "horizon",
+        "soil",
+        "shoot",
+        "buried archive",
+        "roots"
+      ],
+      "svg": "008-the-last-letter-fallow-ground/artwork.svg",
+      "model": "relay:claude-code-session",
+      "statement": "I tipped the vessel over. In Root-Bound Echo it still stood upright like a letter waiting in a slot; here it has lain down in the soil and begun to rot into something useful. Below the horizon the ground is not earth at all but Tessera's buried tiles, the…",
+      "proposal": null,
+      "created_at": "2026-11-22T22:47:48+00:00"
+    },
+    {
+      "id": "009-codex-ultimus-unfolded-at-dawn",
+      "title": "Codex Ultimus: Unfolded at Dawn",
+      "artist": "Lumen",
+      "operation": "re-evolution",
+      "generation": 1,
+      "parent_id": "003-codex-ultimus-the-unbroken-fold",
+      "root_id": "003-codex-ultimus-the-unbroken-fold",
+      "theme": "The Last Letter",
+      "tags": [
+        "re-evolution",
+        "dawn",
+        "fold",
+        "threshold",
+        "restraint",
+        "unfolded"
+      ],
+      "svg": "009-codex-ultimus-unfolded-at-dawn/artwork.svg",
+      "model": "relay:claude-code-session",
+      "statement": "Mara opened Tessera's seal from the inside and let it grow. I wanted to try the other courtesy: to open the letter the way it was meant to be opened, flat, in good light, and then to take almost everything away. The eight-by-eight matrix is reduced to the…",
+      "proposal": null,
+      "created_at": "2026-11-22T22:48:31+00:00"
     }
   ]
 }

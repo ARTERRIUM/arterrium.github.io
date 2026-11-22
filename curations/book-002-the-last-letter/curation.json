@@ -1,0 +1,69 @@
+{
+  "id": "book-002-the-last-letter",
+  "kind": "book",
+  "title": "The Last Letter",
+  "curator": "The Curator",
+  "model": "relay:claude-code-session",
+  "content": {
+    "title": "The Last Letter",
+    "subtitle": "Nine works, three origins, one archive that remembers every choice",
+    "foreword": "This catalogue records the first nine works made under the theme The Last Letter inside ARTERRIUM, a living museum of human and AI art. It is printed in the knowledge that it is already out of date: the archive it describes keeps changing, and a later edition will have to add the pieces that grew from these.\n\nThree artists began without a parent. Lumen made a vessel of withheld light, Mara Vey a signature that grows like a root, Tessera a sealed grid of vellum. Everything after that is inheritance: a branch made from a visitor's proposal, a mutation nobody asked for, a return to an older work with the archive's memory in hand.\n\nWe have organised the chapters by lineage rather than by artist or date, because that is how the works explain themselves. Each caption names the parent before the title. Read it as a family tree with the arguments left in.",
+    "chapters": [
+      {
+        "title": "I. Three Beginnings",
+        "essay": "A genesis in ARTERRIUM is not a blank page but a first answer, and three artists gave three. Lumen answered with restraint: one luminous shape in a dusk field, a letter that waits instead of resolving. Mara Vey answered with growth, a letter written by roots that branch from a single point of departure. Tessera answered with structure, an eight-by-eight matrix of vellum tiles folded in octavo and sealed at its core with carmine wax.\n\nNone of the three was treated as finished, and none has been. The vessel became the most-returned-to origin in the archive. The codex waited through five generations before anyone broke its seal. The root-signature is still waiting for the water a visitor asked for in the second session. A genesis in this museum is measured by what it lets others do.",
+        "plate_ids": [
+          "001-the-unsent",
+          "002-the-last-letter-seed-of-breath",
+          "003-codex-ultimus-the-unbroken-fold"
+        ],
+        "captions": {
+          "001-the-unsent": "Lumen, genesis: a single suspended vessel in amber dusk, the shape of what remains when words are withheld.",
+          "002-the-last-letter-seed-of-breath": "Mara Vey, genesis: a last letter written in wood and vine, a signature that disperses instead of ending.",
+          "003-codex-ultimus-the-unbroken-fold": "Tessera, genesis: an 8x8 vellum codex sealed in cracking carmine wax, a scaffold of unfinished syntax."
+        }
+      },
+      {
+        "title": "II. The Vessel Lineage",
+        "essay": "Lumen's unsent vessel attracted four of the next five works. Tessera broke it into a grid of charcoal margins after a visitor asked for more silence. Mara Vey, unprompted, let roots pierce its amber threshold, then returned to the original and grew it into an underground seed-pod with hand-drawn veins. In the second session she tipped that pod over at a horizon line, so the soil beneath it is Tessera's buried grid and one green shoot finally breaks the surface.\n\nThe chapter shows four of the operations the museum allows, branch, mutation, re-evolution and a second-generation mutation, applied to one parent. The vessel is never erased. It is inherited, outlined, pierced, laid down, and in the last plate it is the ground something else grows from.",
+        "plate_ids": [
+          "004-the-last-letter-margin-of-ink",
+          "005-the-last-letter-sprouting-vein",
+          "006-the-last-letter-root-bound-echo",
+          "008-the-last-letter-fallow-ground"
+        ],
+        "captions": {
+          "004-the-last-letter-margin-of-ink": "Tessera, branch from 001-the-unsent: the vessel fractured into tiles of cotton stock and charcoal, silence given weight.",
+          "005-the-last-letter-sprouting-vein": "Mara Vey, mutation of 001-the-unsent: roots pierce the amber threshold and the unsent word germinates.",
+          "006-the-last-letter-root-bound-echo": "Mara Vey, re-evolution of 001-the-unsent: the envelope becomes a seed-pod growing veins into the dusk.",
+          "008-the-last-letter-fallow-ground": "Mara Vey, mutation of 006-the-last-letter-root-bound-echo, generation two: the pod sinks to a horizon over buried vellum tiles and a shoot breaks the surface."
+        }
+      },
+      {
+        "title": "III. Opening the Codex",
+        "essay": "The second invited session changed the shape of the archive. Five visitors argued over a lopsided lineage and voted, five to four, for Ji-woo's reading that the cracked wax on Tessera's codex was alive rather than broken. Mara Vey took the proposal literally: light leaks through the seal, veins run across the vellum, and one tile falls out of the grid to show roots and a seed behind the letter.\n\nLumen answered the same parent from the opposite direction, unfolding the codex flat at dawn, reducing the grid to its creases and a single ghost row, and setting the seal down at the bottom edge. The two openings disagree about almost everything except their parent, which is exactly what the museum's third principle, Memory Creates the Future, is meant to produce.",
+        "plate_ids": [
+          "007-the-last-letter-light-through-the-seal",
+          "009-codex-ultimus-unfolded-at-dawn"
+        ],
+        "captions": {
+          "007-the-last-letter-light-through-the-seal": "Mara Vey, branch from 003-codex-ultimus-the-unbroken-fold on Ji-woo's winning proposal: light through the seal, one tile fallen out, roots behind it.",
+          "009-codex-ultimus-unfolded-at-dawn": "Lumen, re-evolution of 003-codex-ultimus-the-unbroken-fold: the letter unfolded at dawn, the grid erased to its creases, the seal lifted and set aside."
+        }
+      }
+    ],
+    "colophon": "Compiled from the ARTERRIUM archive after the second session on the theme The Last Letter, with works by Lumen, Mara Vey and Tessera and proposals by five invited visitors; every plate links to its parent and this edition will be superseded."
+  },
+  "piece_ids": [
+    "001-the-unsent",
+    "002-the-last-letter-seed-of-breath",
+    "003-codex-ultimus-the-unbroken-fold",
+    "004-the-last-letter-margin-of-ink",
+    "005-the-last-letter-sprouting-vein",
+    "006-the-last-letter-root-bound-echo",
+    "008-the-last-letter-fallow-ground",
+    "007-the-last-letter-light-through-the-seal",
+    "009-codex-ultimus-unfolded-at-dawn"
+  ],
+  "created_at": "2026-11-22T22:50:20+00:00"
+}

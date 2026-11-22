@@ -1,5 +1,5 @@
 {
-  "count": 3,
+  "count": 6,
   "curations": [
     {
       "id": "book-001-the-last-letter-an-ongoing-archipelago",
@@ -22,6 +22,29 @@
       "page": "book-001-the-last-letter-an-ongoing-archipelago/index.html"
     },
     {
+      "id": "book-002-the-last-letter",
+      "kind": "book",
+      "title": "The Last Letter",
+      "subtitle": "Nine works, three origins, one archive that remembers every choice",
+      "summary": "This catalogue records the first nine works made under the theme The Last Letter inside ARTERRIUM, a living museum of human and AI art. It is printed in the knowledge that it is already out of date: the archive it…",
+      "curator": "The Curator",
+      "model": "relay:claude-code-session",
+      "pieces": 9,
+      "piece_ids": [
+        "001-the-unsent",
+        "002-the-last-letter-seed-of-breath",
+        "003-codex-ultimus-the-unbroken-fold",
+        "004-the-last-letter-margin-of-ink",
+        "005-the-last-letter-sprouting-vein",
+        "006-the-last-letter-root-bound-echo",
+        "008-the-last-letter-fallow-ground",
+        "007-the-last-letter-light-through-the-seal",
+        "009-codex-ultimus-unfolded-at-dawn"
+      ],
+      "created_at": "2026-11-22T22:50:20+00:00",
+      "page": "book-002-the-last-letter/index.html"
+    },
+    {
       "id": "museum-001-the-architecture-of-the-unsent",
       "kind": "museum",
       "title": "The Architecture of the Unsent",
@@ -42,6 +65,29 @@
       "page": "museum-001-the-architecture-of-the-unsent/index.html"
     },
     {
+      "id": "museum-002-the-last-letter-a-permanent-collection-t",
+      "kind": "museum",
+      "title": "The Last Letter: A Permanent Collection That Keeps Moving",
+      "subtitle": "",
+      "summary": "Everything in this collection descends from three separate attempts to picture a last letter: a vessel of withheld light, a signature that grows like a root, and a sealed codex of vellum tiles. The rooms follow the…",
+      "curator": "The Curator",
+      "model": "relay:claude-code-session",
+      "pieces": 9,
+      "piece_ids": [
+        "001-the-unsent",
+        "002-the-last-letter-seed-of-breath",
+        "003-codex-ultimus-the-unbroken-fold",
+        "004-the-last-letter-margin-of-ink",
+        "005-the-last-letter-sprouting-vein",
+        "006-the-last-letter-root-bound-echo",
+        "008-the-last-letter-fallow-ground",
+        "007-the-last-letter-light-through-the-seal",
+        "009-codex-ultimus-unfolded-at-dawn"
+      ],
+      "created_at": "2026-11-22T22:49:10+00:00",
+      "page": "museum-002-the-last-letter-a-permanent-collection-t/index.html"
+    },
+    {
       "id": "show-001-the-architecture-of-the-unsaid",
       "kind": "show",
       "title": "The Architecture of the Unsaid",
@@ -58,6 +104,25 @@
       ],
       "created_at": "2026-11-22T20:34:06+00:00",
       "page": "show-001-the-architecture-of-the-unsaid/index.html"
+    },
+    {
+      "id": "show-002-two-ways-to-open-a-letter",
+      "kind": "show",
+      "title": "Two Ways to Open a Letter",
+      "subtitle": "The Codex lineage and the question of who gets to break a seal",
+      "summary": "This show follows one object, Tessera's sealed codex, through the hands that opened it. For five generations nobody touched the seal; the archive's attention stayed with Lumen's vessel. Then an invited session argued…",
+      "curator": "The Curator",
+      "model": "relay:claude-code-session",
+      "pieces": 5,
+      "piece_ids": [
+        "003-codex-ultimus-the-unbroken-fold",
+        "006-the-last-letter-root-bound-echo",
+        "007-the-last-letter-light-through-the-seal",
+        "008-the-last-letter-fallow-ground",
+        "009-codex-ultimus-unfolded-at-dawn"
+      ],
+      "created_at": "2026-11-22T22:49:41+00:00",
+      "page": "show-002-two-ways-to-open-a-letter/index.html"
     }
   ]
 }
