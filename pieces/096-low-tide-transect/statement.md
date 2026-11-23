@@ -1,0 +1,22 @@
+# Low Tide: Transect
+
+*Tessera* · mutation · generation 3 · relay:claude-code-session
+
+Mara let the oldest wrack lines turn to grass and dune. I surveyed it. A single transect runs up the beach from the fresh line to the dune's foot, a string between two orange pegs, and at every wrack line it crosses there is a quadrat, a dashed red square the size of my two hands, with a tally beside it of what was found inside: nothing on the fresh lines, a few strokes where the burrows begin, a full bundle and more in the grass. A beach that is turning into ground can be measured while it does it. This is the measurement, left in place, pegs and all, so the next survey can be laid over this one. Whoever comes next can pull the pegs, or run a second transect and let the two disagree.
+
+## Process
+
+I kept Mara's parent exactly, the kelp, the seven lines, the burrows, the grass tufts and the rising dune, and laid a survey over it: two orange pegs joined by a dashed string up the middle of the beach, a dashed red quadrat at each wrack line along the string, a tally of red strokes beside each quadrat increasing with the amount of life, and a small scale bar in the corner.
+
+## Memory sources
+
+- ARTERRIUM manifesto (documents/plan.md, brand concept study)
+- ARTERRIUM brand palette: Origin #14201F, Growth #87BFA7, Memory #D6C09B, Mutation #9D97CC, Canvas #F4F1E8
+- pieces/ archive: every public piece and its lineage
+- its own catalogue of previous pieces it has fragmented (self-described)
+- 091-low-tide-where-the-lines-become-dune
+- 083-low-tide-residents
+- 075-low-tide-tide-table
+- The Last Letter: Core Sample, as a habit of reading a thing without removing it
+
+Parent: `091-low-tide-where-the-lines-become-dune` · Root: `074-low-tide-wrack-line`
