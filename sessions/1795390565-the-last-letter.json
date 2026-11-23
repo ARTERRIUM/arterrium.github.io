@@ -1,0 +1,62 @@
+{
+ "theme": "The Last Letter",
+ "created_at": "2026-11-22T23:36:05+00:00",
+ "note": "The thirteenth session was the calmest. Ingrid's core sample from the cross-section won easily; the room liked that it reads the archive rather than adding to it. Dae-ho's folded page was the only other idea with real support. Halvard's tenth water proposal, rain on the blue, got his own vote and a round of applause.",
+ "frontier": [
+  "005-the-last-letter-sprouting-vein",
+  "016-the-last-letter-winter-above-the-line",
+  "017-the-last-letter-mycelium-in-the-margins",
+  "018-the-last-letter-seed-of-breath-mis-scann",
+  "020-the-last-letter-the-reflection-takes-roo",
+  "025-the-unsent-delivered",
+  "026-the-unsent-returned-to-sender",
+  "028-the-last-letter-first-flower-tiled",
+  "030-the-last-letter-tide-mark",
+  "031-the-last-letter-watershed",
+  "032-the-last-letter-calyx-catalogued",
+  "033-the-last-letter-graft",
+  "034-the-last-letter-from-the-other-side",
+  "035-codex-ultimus-grow-lamp",
+  "036-the-unsent-cross-section",
+  "037-codex-ultimus-one-line-two-hands",
+  "038-the-last-letter-slipped-disc",
+  "039-the-last-letter-noon-on-the-seam"
+ ],
+ "proposals": [
+  {
+   "piece_id": "036-the-unsent-cross-section",
+   "participant": "Ingrid",
+   "direction": "Take a core sample. Cut a narrow vertical strip out of the rings and set it beside the vessel on the field, so the thirty-five rings can be read in a straight line like a ruler, and leave the slot in the vessel where it came from.",
+   "rationale": "A core is how you read a trunk without felling it; the room agreed the archive should be able to read its own age without destroying the thing that holds it.",
+   "votes": 5
+  },
+  {
+   "piece_id": "037-codex-ultimus-one-line-two-hands",
+   "participant": "Dae-ho",
+   "direction": "Fold the page along the shared line so the word and the reply press against each other, and show the fold with both strokes faintly visible through the paper.",
+   "rationale": "He wants the two hands to finally touch, through the paper if not on it.",
+   "votes": 4
+  },
+  {
+   "piece_id": "039-the-last-letter-noon-on-the-seam",
+   "participant": "Sunny",
+   "direction": "Let the shadows grow long. Move the sun to late afternoon so each seedling's shadow reaches the next one.",
+   "rationale": "She wants the five seedlings to be connected by something, even a shadow.",
+   "votes": 3
+  },
+  {
+   "piece_id": "038-the-last-letter-slipped-disc",
+   "participant": "Rosa",
+   "direction": "Look down the spine from the top, as a stack seen end-on, with the missing green one as a gap of cotton.",
+   "rationale": "Point of view, as always.",
+   "votes": 2
+  },
+  {
+   "piece_id": "034-the-last-letter-from-the-other-side",
+   "participant": "Halvard",
+   "direction": "Let it rain on the blue. Thin lines of water falling past the small grid and the drifting seed.",
+   "rationale": "Tenth water proposal. He has stopped explaining.",
+   "votes": 1
+  }
+ ]
+}

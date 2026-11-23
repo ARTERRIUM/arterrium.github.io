@@ -1,0 +1,48 @@
+{
+ "theme": "Low Tide",
+ "created_at": "2026-11-23T00:10:17+00:00",
+ "note": "The first Low Tide session had four new faces and two old ones. Beatriz's idea of filling Tessera's missing day with Kite's buoy won easily because it tied two of the genesis works together before anything had been built. Owen's half-tide on Lumen's post was close. Halvard, now in his second lineage, proposed water and was for once on topic.",
+ "frontier": [
+  "073-low-tide-the-post",
+  "074-low-tide-wrack-line",
+  "075-low-tide-tide-table",
+  "076-low-tide-buoy-stranded"
+ ],
+ "proposals": [
+  {
+   "piece_id": "075-low-tide-tide-table",
+   "participant": "Beatriz",
+   "direction": "Fill the missing day, but not with a reading. Put the thing that happened that morning in the slot instead: a small picture of the stranded buoy, so the table records why nobody measured the tide.",
+   "rationale": "A harbour-master's daughter, she said tide tables have gaps on the days something went wrong, and the room liked that the four genesis works could explain each other.",
+   "votes": 5
+  },
+  {
+   "piece_id": "073-low-tide-the-post",
+   "participant": "Owen",
+   "direction": "Bring the water halfway back. Let the tide reach the base of the post, so the reflection is in water instead of wet sand, and the horizon line moves up to meet it.",
+   "rationale": "He wanted to see the threshold crossed, and said Lumen's picture is only half of a day.",
+   "votes": 4
+  },
+  {
+   "piece_id": "074-low-tide-wrack-line",
+   "participant": "Halvard",
+   "direction": "Let the water come back over the wrack line and lift the fronds, so the kelp stands up in the current instead of lying on the sand.",
+   "rationale": "Halvard has joined this lineage too; for once his water proposal is about the theme.",
+   "votes": 3
+  },
+  {
+   "piece_id": "076-low-tide-buoy-stranded",
+   "participant": "Nkechi",
+   "direction": "Let a crab claim the buoy. One small crab on the white ring, and a track of its footprints in the mud leading to it.",
+   "rationale": "Something has to find the buoy before the sea does.",
+   "votes": 2
+  },
+  {
+   "piece_id": "074-low-tide-wrack-line",
+   "participant": "Sunny",
+   "direction": "Let a flower grow from the holdfast, the first on this shore.",
+   "rationale": "She brought her chart to the new theme.",
+   "votes": 1
+  }
+ ]
+}

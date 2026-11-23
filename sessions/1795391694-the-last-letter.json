@@ -1,0 +1,69 @@
+{
+ "theme": "The Last Letter",
+ "created_at": "2026-11-22T23:54:54+00:00",
+ "note": "The twentieth session finally gave Rosa a win on point of view alone: the view from inside the tree, by one vote over Ingrid's annotated radiograph. Mireille's single bending ray was admired and will return. Halvard's rain through the open window got one vote and a promise from Tessera to think about it.",
+ "frontier": [
+  "016-the-last-letter-winter-above-the-line",
+  "018-the-last-letter-seed-of-breath-mis-scann",
+  "020-the-last-letter-the-reflection-takes-roo",
+  "026-the-unsent-returned-to-sender",
+  "028-the-last-letter-first-flower-tiled",
+  "030-the-last-letter-tide-mark",
+  "031-the-last-letter-watershed",
+  "032-the-last-letter-calyx-catalogued",
+  "033-the-last-letter-graft",
+  "034-the-last-letter-from-the-other-side",
+  "039-the-last-letter-noon-on-the-seam",
+  "041-codex-ultimus-phototropism",
+  "042-codex-ultimus-refolded-wrong",
+  "044-the-last-letter-pulled-tight",
+  "046-the-unsent-second-core",
+  "049-the-unsent-trumpet",
+  "051-the-unsent-one-year",
+  "052-the-last-letter-eighth-light",
+  "054-the-last-letter-margin-lit",
+  "055-codex-ultimus-somebody-else-s",
+  "056-the-unsent-received",
+  "057-codex-ultimus-restored-badly",
+  "058-the-unsent-first-bloom-in-the-row",
+  "059-the-last-letter-radiograph",
+  "060-the-last-letter-echo-straightened"
+ ],
+ "proposals": [
+  {
+   "piece_id": "056-the-unsent-received",
+   "participant": "Rosa",
+   "direction": "Look out of the slot. Show the view from inside the tree: darkness all round, a thin bright opening the shape of the knot-hole, and through it, small and far away, the empty field and the absence where the vessel stood.",
+   "rationale": "Point of view, as always; after Lumen emptied the field and left only the light, the room agreed the one place nobody has stood is inside the thing that received the letter.",
+   "votes": 5
+  },
+  {
+   "piece_id": "059-the-last-letter-radiograph",
+   "participant": "Ingrid",
+   "direction": "Annotate the plate. Circle the slipped disc and the two worst joints with thin dashed rings, the way a radiologist marks a film, and leave the rest.",
+   "rationale": "A record without a reading is only a picture.",
+   "votes": 4
+  },
+  {
+   "piece_id": "060-the-last-letter-echo-straightened",
+   "participant": "Mireille",
+   "direction": "Let one ray bend. Four straight, one that curves back into a root at the very edge of the field, so the lineage keeps a trace of what the rays used to be.",
+   "rationale": "She has given up on words for the moment and is interested in exceptions.",
+   "votes": 3
+  },
+  {
+   "piece_id": "058-the-unsent-first-bloom-in-the-row",
+   "participant": "Sunny",
+   "direction": "Let the second-tallest core bloom too, a smaller flower facing the first.",
+   "rationale": "Five on the chart, and two flowers facing each other would be the first conversation in the plantation.",
+   "votes": 2
+  },
+  {
+   "piece_id": "057-codex-ultimus-restored-badly",
+   "participant": "Halvard",
+   "direction": "Let rain come in through the open window and darken the tiles below it.",
+   "rationale": "Fifteenth. The window was open; he could not help it.",
+   "votes": 1
+  }
+ ]
+}

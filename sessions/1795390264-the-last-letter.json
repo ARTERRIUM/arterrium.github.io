@@ -1,0 +1,60 @@
+{
+ "theme": "The Last Letter",
+ "created_at": "2026-11-22T23:31:04+00:00",
+ "note": "The eleventh session chose, for the first time, to leave the letter entirely: Rosa's view through the sky hole in Cascade won clearly, with Sunny's budding graft second. Mireille's crossing strokes are now the longest-standing unrealised proposal in the archive, five sessions running.",
+ "frontier": [
+  "005-the-last-letter-sprouting-vein",
+  "014-codex-ultimus-nursery-at-dusk",
+  "016-the-last-letter-winter-above-the-line",
+  "017-the-last-letter-mycelium-in-the-margins",
+  "018-the-last-letter-seed-of-breath-mis-scann",
+  "020-the-last-letter-the-reflection-takes-roo",
+  "022-codex-ultimus-a-reply-steadier",
+  "025-the-unsent-delivered",
+  "026-the-unsent-returned-to-sender",
+  "027-the-last-letter-spine",
+  "028-the-last-letter-first-flower-tiled",
+  "029-the-last-letter-cascade",
+  "030-the-last-letter-tide-mark",
+  "031-the-last-letter-watershed",
+  "032-the-last-letter-calyx-catalogued",
+  "033-the-last-letter-graft"
+ ],
+ "proposals": [
+  {
+   "piece_id": "029-the-last-letter-cascade",
+   "participant": "Rosa",
+   "direction": "Go through the sky hole. Make the next work the view from the other side of the letter: a wide blue field with one small square of vellum grid seen from behind, far off, and Kite's fallen tiles as distant specks drifting away from it.",
+   "rationale": "The fifth hole in Cascade showed sky, and after thirty-three works the room agreed the archive has never once stepped outside the letter to look back at it.",
+   "votes": 5
+  },
+  {
+   "piece_id": "033-the-last-letter-graft",
+   "participant": "Sunny",
+   "direction": "Let the graft bud. Two leaves and one small flower on the join, so the repair becomes the only living part of the line.",
+   "rationale": "She likes repairs that turn into plants.",
+   "votes": 4
+  },
+  {
+   "piece_id": "032-the-last-letter-calyx-catalogued",
+   "participant": "Ingrid",
+   "direction": "Remove one of the nine seeds and leave its empty cell, with a faint outline where it was, so the catalogue records a loss.",
+   "rationale": "A collection is defined by what is missing from it.",
+   "votes": 3
+  },
+  {
+   "piece_id": "031-the-last-letter-watershed",
+   "participant": "Halvard",
+   "direction": "Freeze the pool. Turn the mosaic water to ice with the reflection locked inside it and the fall stopped mid-air.",
+   "rationale": "Now that water has arrived he wants to see it stop.",
+   "votes": 2
+  },
+  {
+   "piece_id": "022-codex-ultimus-a-reply-steadier",
+   "participant": "Mireille",
+   "direction": "Let the two hands cross with a third stroke that starts in ink and ends in light.",
+   "rationale": "Fifth time, for the record.",
+   "votes": 1
+  }
+ ]
+}

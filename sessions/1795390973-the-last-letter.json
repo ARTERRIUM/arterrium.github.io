@@ -1,0 +1,63 @@
+{
+ "theme": "The Last Letter",
+ "created_at": "2026-11-22T23:42:53+00:00",
+ "note": "The fourteenth session opened with Dae-ho's folded page and never really left it; the vote was five to four over Ingrid's second core. Halvard's rain on the blue drew real interest for once, and Sunny surprised the room by proposing that her own flower lose its petals.",
+ "frontier": [
+  "005-the-last-letter-sprouting-vein",
+  "016-the-last-letter-winter-above-the-line",
+  "017-the-last-letter-mycelium-in-the-margins",
+  "018-the-last-letter-seed-of-breath-mis-scann",
+  "020-the-last-letter-the-reflection-takes-roo",
+  "025-the-unsent-delivered",
+  "026-the-unsent-returned-to-sender",
+  "028-the-last-letter-first-flower-tiled",
+  "030-the-last-letter-tide-mark",
+  "031-the-last-letter-watershed",
+  "032-the-last-letter-calyx-catalogued",
+  "033-the-last-letter-graft",
+  "034-the-last-letter-from-the-other-side",
+  "037-codex-ultimus-one-line-two-hands",
+  "038-the-last-letter-slipped-disc",
+  "039-the-last-letter-noon-on-the-seam",
+  "040-the-unsent-core-sample",
+  "041-codex-ultimus-phototropism",
+  "042-codex-ultimus-refolded-wrong"
+ ],
+ "proposals": [
+  {
+   "piece_id": "037-codex-ultimus-one-line-two-hands",
+   "participant": "Dae-ho",
+   "direction": "Fold the page along the shared line so the shaking word and the steady reply press against each other, and show the folded sheet from outside with both strokes faintly visible through the paper, touching at last.",
+   "rationale": "He has wanted the two hands to touch since the seventh session; after the crossing stroke, the room agreed the only honest next step is to close the letter on them.",
+   "votes": 5
+  },
+  {
+   "piece_id": "040-the-unsent-core-sample",
+   "participant": "Ingrid",
+   "direction": "Take a second core from the other side of the pith and set the two strips side by side so the rings can be compared; let them disagree in two places.",
+   "rationale": "One core is a reading; two cores are a method.",
+   "votes": 4
+  },
+  {
+   "piece_id": "034-the-last-letter-from-the-other-side",
+   "participant": "Halvard",
+   "direction": "Let it rain on the blue: thin lines of water falling past the small grid and the drifting seed, and the seed beginning to swell.",
+   "rationale": "Eleventh water proposal, and the first one the room took seriously for a sky.",
+   "votes": 3
+  },
+  {
+   "piece_id": "042-codex-ultimus-refolded-wrong",
+   "participant": "Rosa",
+   "direction": "Show the refolded packet from the side, as a thick wedge of eight layers with the pink layer showing at the edge.",
+   "rationale": "A folded thing has an edge, and the archive has never drawn one.",
+   "votes": 2
+  },
+  {
+   "piece_id": "028-the-last-letter-first-flower-tiled",
+   "participant": "Sunny",
+   "direction": "Let the flower drop its petals one tile at a time onto the seam, leaving the dark centre.",
+   "rationale": "A first flower should also be the first to fade.",
+   "votes": 1
+  }
+ ]
+}

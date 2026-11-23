@@ -1,0 +1,59 @@
+{
+ "theme": "Low Tide",
+ "created_at": "2026-11-23T01:03:45+00:00",
+ "note": "The eleventh Low Tide session let Nkechi's gull return to float over the drowned post, by one vote over Beatriz's collapsing section. Owen's proposal for the first human figure in the archive was the evening's real argument and lost narrowly; it will be back. Halvard's pools in the footprints were called the kindest thing he has proposed.",
+ "frontier": [
+  "077-low-tide-the-day-nobody-measured",
+  "084-low-tide-the-specimen-wakes",
+  "087-low-tide-colonised",
+  "092-low-tide-joined-by-their-shadows",
+  "095-low-tide-one-tile-lifted",
+  "096-low-tide-transect",
+  "097-low-tide-stake-net",
+  "098-low-tide-one-dry-place",
+  "099-low-tide-clear-cut",
+  "101-low-tide-corrected-three-times",
+  "102-low-tide-something-else-lives-here",
+  "103-low-tide-over-the-top",
+  "104-low-tide-the-morning-after",
+  "105-low-tide-buoy-at-a-distance",
+  "106-low-tide-section-through-seven-tides"
+ ],
+ "proposals": [
+  {
+   "piece_id": "103-low-tide-over-the-top",
+   "participant": "Nkechi",
+   "direction": "Let the gull come back and settle on the water exactly above the ripples, where the post is, as if it could feel it underneath, with the orange rope drifting just out of reach of its beak.",
+   "rationale": "Residents remember where things were; second attempt, and after Mara cut the beach open the room wanted something to float.",
+   "votes": 5
+  },
+  {
+   "piece_id": "106-low-tide-section-through-seven-tides",
+   "participant": "Beatriz",
+   "direction": "Show the sea cutting the face: the right edge of the section collapsed into the water, the seven layers exposed as a small cliff with the lowest layer already washing out.",
+   "rationale": "A section is only ever a temporary thing on a beach.",
+   "votes": 4
+  },
+  {
+   "piece_id": "105-low-tide-buoy-at-a-distance",
+   "participant": "Owen",
+   "direction": "Put a figure on the flat halfway to the buoy, small, walking out to it.",
+   "rationale": "The first person in either lineage; he said it was time.",
+   "votes": 3
+  },
+  {
+   "piece_id": "104-low-tide-the-morning-after",
+   "participant": "Halvard",
+   "direction": "Let the next tide come up to the footprints and fill each one with water so the walk shows as a line of small pools.",
+   "rationale": "Water, on theme, and about someone's walk.",
+   "votes": 2
+  },
+  {
+   "piece_id": "104-low-tide-the-morning-after",
+   "participant": "Sunny",
+   "direction": "Let the seedling beside the heap be a sea-pink.",
+   "rationale": "Eleventh session. It is already a seedling; she argues it only needs a name.",
+   "votes": 1
+  }
+ ]
+}

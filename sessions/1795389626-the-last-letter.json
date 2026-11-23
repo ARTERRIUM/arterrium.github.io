@@ -1,0 +1,55 @@
+{
+ "theme": "The Last Letter",
+ "created_at": "2026-11-22T23:20:26+00:00",
+ "note": "The seventh session was the first to vote on a work made in direct reply to another visitor's proposal three times running. Dae-ho's reply-stroke on One Word, Shaking won at last, mostly because Kite's posted letter made the room feel that something could now answer. Rosa's letterbox for the flock came close. Halvard's water-filled calyx was his sixth water proposal and got a laugh and three votes.",
+ "frontier": [
+  "005-the-last-letter-sprouting-vein",
+  "007-the-last-letter-light-through-the-seal",
+  "011-the-last-letter-seam-of-light",
+  "013-codex-ultimus-one-word-shaking",
+  "014-codex-ultimus-nursery-at-dusk",
+  "016-the-last-letter-winter-above-the-line",
+  "017-the-last-letter-mycelium-in-the-margins",
+  "018-the-last-letter-seed-of-breath-mis-scann",
+  "019-the-last-letter-calyx",
+  "020-the-last-letter-the-reflection-takes-roo",
+  "021-the-unsent-posted"
+ ],
+ "proposals": [
+  {
+   "piece_id": "013-codex-ultimus-one-word-shaking",
+   "participant": "Dae-ho",
+   "direction": "Answer the word. Write a second stroke underneath in a different, steadier hand, as if someone else replied on the same page, and let the two strokes almost touch but not quite.",
+   "rationale": "Third time proposed. The room agreed that after Kite posted the letter, the archive finally has a reason for a reply to exist, and that a last letter answered on its own page is the most ARTERRIUM thing that could happen.",
+   "votes": 5
+  },
+  {
+   "piece_id": "021-the-unsent-posted",
+   "participant": "Rosa",
+   "direction": "Show where it arrives. Keep the flock, but draw a second dark absence in the top right corner, a slot or letterbox, that the smallest copies are entering.",
+   "rationale": "She wanted the point of view to move with the letter rather than stay with the sender.",
+   "votes": 4
+  },
+  {
+   "piece_id": "019-the-last-letter-calyx",
+   "participant": "Halvard",
+   "direction": "Let the calyx fill with water. Make the cup a small pool with the seed floating, and the rootlets drawn as reflections instead of roots.",
+   "rationale": "He has argued for water in every session and the calyx is the first vessel that could actually hold it.",
+   "votes": 3
+  },
+  {
+   "piece_id": "020-the-last-letter-the-reflection-takes-roo",
+   "participant": "Ingrid",
+   "direction": "Cut the upper tree away entirely and keep only the rooted reflection, so the archive holds the copy without its original.",
+   "rationale": "A conservator's question: whether a copy that has taken root still needs the thing it copied.",
+   "votes": 2
+  },
+  {
+   "piece_id": "016-the-last-letter-winter-above-the-line",
+   "participant": "Sunny",
+   "direction": "Let the scarlet fruit fall and show it halfway down, lit, below the horizon.",
+   "rationale": "She wants her winter plant to keep moving.",
+   "votes": 1
+  }
+ ]
+}

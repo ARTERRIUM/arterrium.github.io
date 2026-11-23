@@ -1,0 +1,49 @@
+{
+ "theme": "Low Tide",
+ "created_at": "2026-11-23T00:11:51+00:00",
+ "note": "The second Low Tide session gave Owen his half-tide on Lumen's post by one vote over Beatriz's evening tides. Nkechi's crab burrows in Tessera's lines drew warm support. Sunny has started a second chart.",
+ "frontier": [
+  "073-low-tide-the-post",
+  "076-low-tide-buoy-stranded",
+  "077-low-tide-the-day-nobody-measured",
+  "078-low-tide-seven-wrack-lines",
+  "079-low-tide-twenty-eight-mornings-one-line"
+ ],
+ "proposals": [
+  {
+   "piece_id": "073-low-tide-the-post",
+   "participant": "Owen",
+   "direction": "Bring the water halfway back. Let the tide reach the base of the post so the reflection stands in water instead of wet sand, with the waterline moved up to meet it and the ripples of the sand still visible through the shallow water.",
+   "rationale": "He said Lumen's picture is half of a day and the room wanted the threshold crossed once before the lineage goes anywhere else.",
+   "votes": 5
+  },
+  {
+   "piece_id": "079-low-tide-twenty-eight-mornings-one-line",
+   "participant": "Beatriz",
+   "direction": "Add the evening tides as a second, fainter line under the morning line, so the month has two waves and the gap shows in both.",
+   "rationale": "A harbour has two tides a day and a table that shows one is lying by half.",
+   "votes": 4
+  },
+  {
+   "piece_id": "078-low-tide-seven-wrack-lines",
+   "participant": "Nkechi",
+   "direction": "Let something live between the lines: small crab burrows, each a dot with a fan of sand, in the dry zones between the old wrack lines.",
+   "rationale": "A beach with seven tides' worth of weed has residents.",
+   "votes": 3
+  },
+  {
+   "piece_id": "077-low-tide-the-day-nobody-measured",
+   "participant": "Halvard",
+   "direction": "Let the water in the buoy card rise over the buoy, so the excuse drowns.",
+   "rationale": "Water, but on the theme, which he says is a new discipline for him.",
+   "votes": 2
+  },
+  {
+   "piece_id": "076-low-tide-buoy-stranded",
+   "participant": "Sunny",
+   "direction": "Let a small flower grow out of the mud beside the buoy, as orange as it.",
+   "rationale": "Her chart for this shore stands at zero.",
+   "votes": 1
+  }
+ ]
+}

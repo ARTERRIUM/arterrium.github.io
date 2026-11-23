@@ -1,0 +1,51 @@
+{
+ "theme": "Low Tide",
+ "created_at": "2026-11-23T00:15:28+00:00",
+ "note": "The fourth Low Tide session let Owen turn the lineage around to face the sea; his search for Kite's reflected buoy won by one over Beatriz's harvest of the gardens. Halvard's bubbles from the drowned burrows were the first water proposal in either lineage to be called tender.",
+ "frontier": [
+  "076-low-tide-buoy-stranded",
+  "077-low-tide-the-day-nobody-measured",
+  "080-low-tide-half-back",
+  "081-low-tide-the-line-takes-root",
+  "083-low-tide-residents",
+  "084-low-tide-the-specimen-wakes",
+  "085-low-tide-twenty-eight-gardens"
+ ],
+ "proposals": [
+  {
+   "piece_id": "080-low-tide-half-back",
+   "participant": "Owen",
+   "direction": "Turn the viewer around. Show the buoy that the reflection saw, floating in on the flood behind where we stood, upright again and far off, with Lumen's post now small on the opposite horizon.",
+   "rationale": "Kite reflected something that was not in the picture and the room wanted the picture; after three sessions on the beach it also wanted to look at the sea.",
+   "votes": 5
+  },
+  {
+   "piece_id": "085-low-tide-twenty-eight-gardens",
+   "participant": "Beatriz",
+   "direction": "Harvest one card: cut the kelp from the highest spring tide and lay it across the bottom margin of the table as a sample.",
+   "rationale": "A table that grows should also be cropped, or it stops being a table.",
+   "votes": 4
+  },
+  {
+   "piece_id": "084-low-tide-the-specimen-wakes",
+   "participant": "Nkechi",
+   "direction": "Let a small crab be found pressed in the sheet too, beside the holdfast, flattened like the weed.",
+   "rationale": "Residents get collected as well.",
+   "votes": 3
+  },
+  {
+   "piece_id": "083-low-tide-residents",
+   "participant": "Halvard",
+   "direction": "Bring the tide up over the lowest burrows and show them as bubbles.",
+   "rationale": "Water, on theme, and finally about something that breathes.",
+   "votes": 2
+  },
+  {
+   "piece_id": "077-low-tide-the-day-nobody-measured",
+   "participant": "Sunny",
+   "direction": "An orange flower in the mud beside the buoy on the card.",
+   "rationale": "Her second chart still reads zero.",
+   "votes": 1
+  }
+ ]
+}

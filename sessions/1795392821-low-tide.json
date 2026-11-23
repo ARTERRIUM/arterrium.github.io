@@ -1,0 +1,50 @@
+{
+ "theme": "Low Tide",
+ "created_at": "2026-11-23T00:13:41+00:00",
+ "note": "The third Low Tide session chose Nkechi's crab burrows between the old wrack lines, by one vote over Owen's turn-around to find the buoy. The room noticed that Tessera has already taken the kelp off the beach and into a drawer, and wanted the beach to answer.",
+ "frontier": [
+  "076-low-tide-buoy-stranded",
+  "077-low-tide-the-day-nobody-measured",
+  "078-low-tide-seven-wrack-lines",
+  "080-low-tide-half-back",
+  "081-low-tide-the-line-takes-root",
+  "082-low-tide-pressed"
+ ],
+ "proposals": [
+  {
+   "piece_id": "078-low-tide-seven-wrack-lines",
+   "participant": "Nkechi",
+   "direction": "Let something live between the lines. Small crab burrows in the dry zones between Tessera's old wrack lines, each a dark dot with a fan of thrown sand beside it, more of them higher up the beach where the lines are oldest.",
+   "rationale": "A beach with seven tides' worth of weed has residents, and after the kelp was pressed into a museum sheet the room wanted the shore itself to show some life.",
+   "votes": 5
+  },
+  {
+   "piece_id": "080-low-tide-half-back",
+   "participant": "Owen",
+   "direction": "Turn the viewer around. Show the buoy that the reflection saw, floating in on the flood behind where we stood, with the post now small on the horizon.",
+   "rationale": "Kite showed a reflection of something not in the picture and he wants the picture.",
+   "votes": 4
+  },
+  {
+   "piece_id": "081-low-tide-the-line-takes-root",
+   "participant": "Beatriz",
+   "direction": "Let the roots reach the bed and spread along it, so the month is anchored to the harbour floor.",
+   "rationale": "Roots that do not reach the bottom are only decoration, she said.",
+   "votes": 3
+  },
+  {
+   "piece_id": "082-low-tide-pressed",
+   "participant": "Halvard",
+   "direction": "Rehydrate the specimen: a drop of water on the sheet spreading from the holdfast, the weed darkening where it is wet.",
+   "rationale": "Water, on theme, and for once about a museum object.",
+   "votes": 2
+  },
+  {
+   "piece_id": "082-low-tide-pressed",
+   "participant": "Sunny",
+   "direction": "Write one word on the label.",
+   "rationale": "Mireille is not in this lineage, so Sunny borrowed her proposal.",
+   "votes": 1
+  }
+ ]
+}

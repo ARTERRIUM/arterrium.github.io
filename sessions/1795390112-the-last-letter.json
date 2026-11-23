@@ -1,0 +1,59 @@
+{
+ "theme": "The Last Letter",
+ "created_at": "2026-11-22T23:28:32+00:00",
+ "note": "The tenth session gave Halvard his water at last, on Kite's Fault Line, by a clear margin; Rosa's view through the sky hole was the runner-up and several people said it should be next. Mireille's crossing strokes went on record for the fourth time with one vote, her own.",
+ "frontier": [
+  "005-the-last-letter-sprouting-vein",
+  "014-codex-ultimus-nursery-at-dusk",
+  "016-the-last-letter-winter-above-the-line",
+  "017-the-last-letter-mycelium-in-the-margins",
+  "018-the-last-letter-seed-of-breath-mis-scann",
+  "019-the-last-letter-calyx",
+  "020-the-last-letter-the-reflection-takes-roo",
+  "022-codex-ultimus-a-reply-steadier",
+  "024-the-last-letter-fault-line",
+  "025-the-unsent-delivered",
+  "026-the-unsent-returned-to-sender",
+  "027-the-last-letter-spine",
+  "028-the-last-letter-first-flower-tiled",
+  "029-the-last-letter-cascade",
+  "030-the-last-letter-tide-mark"
+ ],
+ "proposals": [
+  {
+   "piece_id": "024-the-last-letter-fault-line",
+   "participant": "Halvard",
+   "direction": "Let water find the fault. Have the dusk half drain through Kite's orange gap as a thin bright fall into the night half and pool along the bottom edge, so the two halves of the broken seam are joined by what runs between them.",
+   "rationale": "Eighth water proposal, and the first one about a work that already has a gap for water to use. The room decided the hydrologist had earned it.",
+   "votes": 5
+  },
+  {
+   "piece_id": "029-the-last-letter-cascade",
+   "participant": "Rosa",
+   "direction": "Go through the sky hole. Make the next work the view from the other side: a blue field with one small square of vellum grid seen from behind, and the fallen tiles as distant specks.",
+   "rationale": "The fifth hole showed sky and she wants the archive to finally step out of the box.",
+   "votes": 4
+  },
+  {
+   "piece_id": "028-the-last-letter-first-flower-tiled",
+   "participant": "Ingrid",
+   "direction": "Let one petal fall. Show it halfway down toward the seam, and leave the gap in the mosaic.",
+   "rationale": "A conservator's reflex: the first thing a mosaic does after being made is lose a piece.",
+   "votes": 3
+  },
+  {
+   "piece_id": "030-the-last-letter-tide-mark",
+   "participant": "Sunny",
+   "direction": "Fill the basin again, but only halfway, so the stain is half under water and half dry.",
+   "rationale": "She wanted to see whether the stain or the water wins.",
+   "votes": 2
+  },
+  {
+   "piece_id": "022-codex-ultimus-a-reply-steadier",
+   "participant": "Mireille",
+   "direction": "Let the two hands cross with a third stroke that starts in ink and ends in light.",
+   "rationale": "Fourth time; she has stopped expecting it to win and proposes it for the record.",
+   "votes": 1
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "theme": "The Last Letter",
+ "created_at": "2026-11-22T23:53:09+00:00",
+ "note": "The nineteenth session was Sunny's again: the first bloom in the plantation won by one vote over Ingrid's matched thumbprint. Rosa's view from inside the tree was the first time her point-of-view proposals drew sympathy from Dae-ho, who usually votes for tiles.",
+ "frontier": [
+  "016-the-last-letter-winter-above-the-line",
+  "018-the-last-letter-seed-of-breath-mis-scann",
+  "020-the-last-letter-the-reflection-takes-roo",
+  "026-the-unsent-returned-to-sender",
+  "028-the-last-letter-first-flower-tiled",
+  "030-the-last-letter-tide-mark",
+  "031-the-last-letter-watershed",
+  "032-the-last-letter-calyx-catalogued",
+  "033-the-last-letter-graft",
+  "034-the-last-letter-from-the-other-side",
+  "038-the-last-letter-slipped-disc",
+  "039-the-last-letter-noon-on-the-seam",
+  "041-codex-ultimus-phototropism",
+  "042-codex-ultimus-refolded-wrong",
+  "044-the-last-letter-pulled-tight",
+  "046-the-unsent-second-core",
+  "049-the-unsent-trumpet",
+  "051-the-unsent-one-year",
+  "052-the-last-letter-eighth-light",
+  "053-the-unsent-plantation",
+  "054-the-last-letter-margin-lit",
+  "055-codex-ultimus-somebody-else-s",
+  "056-the-unsent-received",
+  "057-codex-ultimus-restored-badly"
+ ],
+ "proposals": [
+  {
+   "piece_id": "053-the-unsent-plantation",
+   "participant": "Sunny",
+   "direction": "Let the tallest of the six cores flower first: a small pale bloom at its top, the other five still shoots, and the flower facing the vessel it was cut from.",
+   "rationale": "Three flowers in fifty-seven works; she keeps a chart, and the room agreed that a plantation with nothing in bloom is only a fence.",
+   "votes": 5
+  },
+  {
+   "piece_id": "055-codex-ultimus-somebody-else-s",
+   "participant": "Ingrid",
+   "direction": "Match the print. Put a second thumbprint on our sealed letter in the box, the same whorls, so the stranger has handled ours too.",
+   "rationale": "A conservator's question: if the stranger touched one, which others.",
+   "votes": 4
+  },
+  {
+   "piece_id": "057-codex-ultimus-restored-badly",
+   "participant": "Dae-ho",
+   "direction": "Turn one of the four restored tiles the right way round and leave the other three wrong, so the viewer can see what right would have looked like.",
+   "rationale": "He likes a control sample.",
+   "votes": 3
+  },
+  {
+   "piece_id": "056-the-unsent-received",
+   "participant": "Rosa",
+   "direction": "Look out of the slot. The view from inside the tree: a thin bright opening with the empty field and the absence seen through it, far away.",
+   "rationale": "Point of view, as always, and for once the room was half persuaded.",
+   "votes": 2
+  },
+  {
+   "piece_id": "054-the-last-letter-margin-lit",
+   "participant": "Halvard",
+   "direction": "Let the lit margin drip. One thread of light running down from the longer gap and pooling at the dust.",
+   "rationale": "Fourteenth proposal about something flowing.",
+   "votes": 1
+  }
+ ]
+}

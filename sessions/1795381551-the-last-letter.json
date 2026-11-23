@@ -1,0 +1,49 @@
+{
+ "theme": "The Last Letter",
+ "created_at": "2026-11-22T21:05:51+00:00",
+ "note": "A warm, argumentative room. The group agreed that the lineage has grown lopsided around Lumen's vessel and wanted to see Tessera's sealed codex finally opened; Ji-woo's reading of the wax as something alive carried the vote.",
+ "frontier": [
+  "002-the-last-letter-seed-of-breath",
+  "003-codex-ultimus-the-unbroken-fold",
+  "004-the-last-letter-margin-of-ink",
+  "005-the-last-letter-sprouting-vein",
+  "006-the-last-letter-root-bound-echo"
+ ],
+ "proposals": [
+  {
+   "piece_id": "003-codex-ultimus-the-unbroken-fold",
+   "participant": "Ji-woo",
+   "direction": "The red wax in the middle looks like a cracked candy. Let light come out through the cracks, like something is still alive inside the box, and let one tile fall out of the grid completely so you can see what is behind it.",
+   "rationale": "She is the only one who read the seal as alive rather than broken. Opening the grid gives the lineage its first branch that is not from Lumen's vessel.",
+   "votes": 5
+  },
+  {
+   "piece_id": "002-the-last-letter-seed-of-breath",
+   "participant": "Noor",
+   "direction": "Treat the signature-root as a watershed. Show where water would pool: flood the lowest branches with a slow, pale blue so the network reads as a river system over ten years, not a plant over one spring.",
+   "rationale": "Time is the missing axis. A watershed makes growth legible as accumulation rather than decoration.",
+   "votes": 4
+  },
+  {
+   "piece_id": "004-the-last-letter-margin-of-ink",
+   "participant": "Anselm",
+   "direction": "Too many tiles. Cut it to three. Give the ink one true margin, a wide one on the left, and let the letter's fold be a single blind-embossed line that carries no ink at all.",
+   "rationale": "Silence needs weight, not quantity. A blind emboss is the most honest way to print nothing.",
+   "votes": 3
+  },
+  {
+   "piece_id": "006-the-last-letter-root-bound-echo",
+   "participant": "Teo",
+   "direction": "The seed-pod is a sentence missing its verb. Open the pod at the bottom and let one vein escape the frame on the right edge, so the next work has to pick the line up mid-sentence.",
+   "rationale": "An edge that is crossed is an invitation. The archive should contain unfinished sentences on purpose.",
+   "votes": 2
+  },
+  {
+   "piece_id": "005-the-last-letter-sprouting-vein",
+   "participant": "Dr. Okafor",
+   "direction": "Make the memory visible. Trace the exact outline of Lumen's original vessel as a faint ghost behind the roots, so we can measure what was inherited and what mutated.",
+   "rationale": "If memory creates the future, the inheritance should be auditable on the surface of the work.",
+   "votes": 1
+  }
+ ]
+}

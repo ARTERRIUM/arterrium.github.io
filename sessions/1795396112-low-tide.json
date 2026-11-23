@@ -1,0 +1,62 @@
+{
+ "theme": "Low Tide",
+ "created_at": "2026-11-23T01:08:32+00:00",
+ "note": "The fourteenth Low Tide session let Owen's walker arrive, by one vote over Beatriz's three blank cards. Halvard's morning that exceeds the datum was called prophetic by Tessera. Sunny's flower at the short circuit got a laugh and her own vote.",
+ "frontier": [
+  "077-low-tide-the-day-nobody-measured",
+  "084-low-tide-the-specimen-wakes",
+  "092-low-tide-joined-by-their-shadows",
+  "095-low-tide-one-tile-lifted",
+  "096-low-tide-transect",
+  "097-low-tide-stake-net",
+  "098-low-tide-one-dry-place",
+  "099-low-tide-clear-cut",
+  "101-low-tide-corrected-three-times",
+  "102-low-tide-something-else-lives-here",
+  "106-low-tide-section-through-seven-tides",
+  "107-low-tide-it-knows-where-the-post-is",
+  "110-low-tide-someone-walking-out",
+  "111-low-tide-inventory-of-fourteen",
+  "112-low-tide-the-flat-drains",
+  "113-low-tide-months-reaching",
+  "114-low-tide-thirty-readings",
+  "115-low-tide-dealt"
+ ],
+ "proposals": [
+  {
+   "piece_id": "110-low-tide-someone-walking-out",
+   "participant": "Owen",
+   "direction": "Let the walker reach the buoy. Show them small beside it, bending to it, the footprints complete from the bottom of the picture to the horizon, and the orange thing in their hand set down.",
+   "rationale": "Having put a person in, he wants them to arrive; second attempt, and after Kite dealt the month out of order the room wanted one thing to finish in sequence.",
+   "votes": 5
+  },
+  {
+   "piece_id": "115-low-tide-dealt",
+   "participant": "Beatriz",
+   "direction": "Turn the face-down cards over, all of them, and show that three of them are blank, with no water drawn at all.",
+   "rationale": "A harbour child knows that a dealt month has days nobody wrote down.",
+   "votes": 4
+  },
+  {
+   "piece_id": "112-low-tide-the-flat-drains",
+   "participant": "Nkechi",
+   "direction": "A heron in the main creek, waiting.",
+   "rationale": "Residents, second attempt, with a neck.",
+   "votes": 3
+  },
+  {
+   "piece_id": "114-low-tide-thirty-readings",
+   "participant": "Halvard",
+   "direction": "Let the water rise to the red datum and over it, one morning, and paint that line in red too.",
+   "rationale": "Water, on theme, exceeding its record.",
+   "votes": 2
+  },
+  {
+   "piece_id": "113-low-tide-months-reaching",
+   "participant": "Sunny",
+   "direction": "Where the pink points are, let one open into a flower.",
+   "rationale": "Fourteenth session; a short circuit is as good a place as any.",
+   "votes": 1
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "theme": "The Last Letter",
+ "created_at": "2026-11-23T00:00:17+00:00",
+ "note": "The twenty-third session closed this run of ten with Dae-ho's paired pods winning by one over Sunny's shoot from the stump. The room noted that in ten sessions every proposal that won was about keeping something: a core, a copy, a flower, an exception, a view. Halvard's eighteenth water proposal was recorded by acclamation.",
+ "frontier": [
+  "016-the-last-letter-winter-above-the-line",
+  "018-the-last-letter-seed-of-breath-mis-scann",
+  "020-the-last-letter-the-reflection-takes-roo",
+  "026-the-unsent-returned-to-sender",
+  "028-the-last-letter-first-flower-tiled",
+  "030-the-last-letter-tide-mark",
+  "031-the-last-letter-watershed",
+  "032-the-last-letter-calyx-catalogued",
+  "034-the-last-letter-from-the-other-side",
+  "039-the-last-letter-noon-on-the-seam",
+  "041-codex-ultimus-phototropism",
+  "042-codex-ultimus-refolded-wrong",
+  "044-the-last-letter-pulled-tight",
+  "046-the-unsent-second-core",
+  "049-the-unsent-trumpet",
+  "051-the-unsent-one-year",
+  "052-the-last-letter-eighth-light",
+  "054-the-last-letter-margin-lit",
+  "055-codex-ultimus-somebody-else-s",
+  "057-codex-ultimus-restored-badly",
+  "058-the-unsent-first-bloom-in-the-row",
+  "062-the-last-letter-on-the-light-box",
+  "064-the-last-letter-one-ray-bends",
+  "065-the-last-letter-graft-in-six-plates",
+  "066-the-last-letter-echo-upside-down",
+  "067-the-unsent-opened-in-the-dark",
+  "068-the-last-letter-three-marks",
+  "069-the-unsent-felled"
+ ],
+ "proposals": [
+  {
+   "piece_id": "066-the-last-letter-echo-upside-down",
+   "participant": "Dae-ho",
+   "direction": "Hang a second pod from the first by its roots, smaller and the right way up, so the two make a pair and the viewer can tell which way is up by comparing them.",
+   "rationale": "He likes a control sample; after Kite felled the tree, the room wanted at least one thing in the lineage to be steadied rather than cut.",
+   "votes": 5
+  },
+  {
+   "piece_id": "069-the-unsent-felled",
+   "participant": "Sunny",
+   "direction": "Let a shoot grow from the orange stump, green, the only living thing left of the tree, and let the flock begin to turn toward it.",
+   "rationale": "Seven on the chart, and a stump is a seed tray if you wait.",
+   "votes": 4
+  },
+  {
+   "piece_id": "067-the-unsent-opened-in-the-dark",
+   "participant": "Mireille",
+   "direction": "Write one word on the blank sheet in the hollow, in the shaking hand, lit only by the cyan bar.",
+   "rationale": "A blank sheet in the dark was more than she could leave alone.",
+   "votes": 3
+  },
+  {
+   "piece_id": "068-the-last-letter-three-marks",
+   "participant": "Rosa",
+   "direction": "Move the viewer inside the largest ring and show the other two from there, small, as if the ring were a window.",
+   "rationale": "Point of view, as always.",
+   "votes": 2
+  },
+  {
+   "piece_id": "065-the-last-letter-graft-in-six-plates",
+   "participant": "Halvard",
+   "direction": "A seventh plate, the graft under water.",
+   "rationale": "Eighteenth. He has stopped counting but the room has not.",
+   "votes": 1
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "theme": "Low Tide",
+ "created_at": "2026-11-23T01:02:07+00:00",
+ "note": "The tenth Low Tide session was Beatriz's: her morning walk clearing the storm line won by one vote over Nkechi's returning gull. Owen proposed an infinite ledger of corrections and was told to save it. Sunny's torn sea-pink was discussed longer than its one vote suggests.",
+ "frontier": [
+  "076-low-tide-buoy-stranded",
+  "077-low-tide-the-day-nobody-measured",
+  "084-low-tide-the-specimen-wakes",
+  "087-low-tide-colonised",
+  "092-low-tide-joined-by-their-shadows",
+  "095-low-tide-one-tile-lifted",
+  "096-low-tide-transect",
+  "097-low-tide-stake-net",
+  "098-low-tide-one-dry-place",
+  "099-low-tide-clear-cut",
+  "100-low-tide-after-the-storm",
+  "101-low-tide-corrected-three-times",
+  "102-low-tide-something-else-lives-here",
+  "103-low-tide-over-the-top"
+ ],
+ "proposals": [
+  {
+   "piece_id": "100-low-tide-after-the-storm",
+   "participant": "Beatriz",
+   "direction": "Pick the plastic out. Show the fourteen orange pieces gathered into one small heap at the corner of the beach, a line of footprints along the storm line leading to it, and the wrack line left clean.",
+   "rationale": "Someone always walks the storm line in the morning; second attempt, and the room agreed that a beach that keeps everything should also show somebody clearing it.",
+   "votes": 5
+  },
+  {
+   "piece_id": "103-low-tide-over-the-top",
+   "participant": "Nkechi",
+   "direction": "Let the gull come back and land on the water above the ripples, exactly where the post is, as if it could feel it underneath.",
+   "rationale": "Residents remember where things were.",
+   "votes": 4
+  },
+  {
+   "piece_id": "101-low-tide-corrected-three-times",
+   "participant": "Owen",
+   "direction": "Strike out the third line too, and add a fourth. Keep going until the box is full of records.",
+   "rationale": "He has discovered that correction is a lineage of its own.",
+   "votes": 3
+  },
+  {
+   "piece_id": "102-low-tide-something-else-lives-here",
+   "participant": "Halvard",
+   "direction": "Let the tide come up to the pink burrow and let the light show under the water as a stain.",
+   "rationale": "Water, on theme, and curious.",
+   "votes": 2
+  },
+  {
+   "piece_id": "100-low-tide-after-the-storm",
+   "participant": "Sunny",
+   "direction": "Among the storm wrack, one sea-pink torn from the dune, lying on the line.",
+   "rationale": "Tenth session, second chart; she argued a torn flower still counts.",
+   "votes": 1
+  }
+ ]
+}

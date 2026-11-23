@@ -1,0 +1,54 @@
+{
+ "theme": "The Last Letter",
+ "created_at": "2026-11-22T23:17:55+00:00",
+ "note": "The sixth session circled back to Pod, Emptied. Ingrid's cupped form to catch the rising seed had been the strongest idea last time and won outright; Dae-ho's reply-stroke on One Word, Shaking came second again and the room asked that it stay on record. Halvard's half-repaired scan was the only proposal about Kite's new works and the group found it generous.",
+ "frontier": [
+  "005-the-last-letter-sprouting-vein",
+  "007-the-last-letter-light-through-the-seal",
+  "010-the-last-letter-written-twice",
+  "011-the-last-letter-seam-of-light",
+  "013-codex-ultimus-one-word-shaking",
+  "014-codex-ultimus-nursery-at-dusk",
+  "015-the-last-letter-pod-emptied",
+  "016-the-last-letter-winter-above-the-line",
+  "017-the-last-letter-mycelium-in-the-margins",
+  "018-the-last-letter-seed-of-breath-mis-scann"
+ ],
+ "proposals": [
+  {
+   "piece_id": "015-the-last-letter-pod-emptied",
+   "participant": "Ingrid",
+   "direction": "Catch the seed. Put a second, smaller open form above the emptied pod, a cup or a cupped hand drawn in the same outline style, so the rising seed has somewhere to land, and let the thread of light bend a little as if the seed has weight.",
+   "rationale": "She distrusts things that leave the frame; a conservator's instinct is to keep what a work releases, and the room agreed that Lumen's ascent needed an answer rather than an echo.",
+   "votes": 5
+  },
+  {
+   "piece_id": "013-codex-ultimus-one-word-shaking",
+   "participant": "Dae-ho",
+   "direction": "Answer the word. Write a second stroke underneath in a different, steadier hand, as if someone else replied on the same page, and let the two strokes almost touch.",
+   "rationale": "He read the shaking word as a question and thinks a last letter deserves one reply.",
+   "votes": 4
+  },
+  {
+   "piece_id": "018-the-last-letter-seed-of-breath-mis-scann",
+   "participant": "Halvard",
+   "direction": "Scan it again. Keep Kite's strips but let them drift back toward alignment, with only the negative band still out of place, so the picture is halfway to repairing itself.",
+   "rationale": "He liked the glitch but wanted the archive to show that errors can also be partly undone.",
+   "votes": 3
+  },
+  {
+   "piece_id": "016-the-last-letter-winter-above-the-line",
+   "participant": "Sunny",
+   "direction": "Let the scarlet fruit fall. Show it halfway down, below the horizon, lit, with the tree now bare.",
+   "rationale": "She wanted her winter plant to keep moving rather than become a monument.",
+   "votes": 2
+  },
+  {
+   "piece_id": "017-the-last-letter-mycelium-in-the-margins",
+   "participant": "Mireille",
+   "direction": "Pull the threads tight until two of the fragments touch again, and let the lichen bloom orange where they meet.",
+   "rationale": "She wanted to see what the network does with its strength.",
+   "votes": 1
+  }
+ ]
+}

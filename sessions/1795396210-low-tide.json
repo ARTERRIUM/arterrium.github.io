@@ -1,0 +1,63 @@
+{
+ "theme": "Low Tide",
+ "created_at": "2026-11-23T01:10:10+00:00",
+ "note": "The fifteenth Low Tide session closed this run of ten with Beatriz's three blank cards, by one vote over Owen's sunset. Nkechi has adopted Halvard's method of asking every time, and Halvard's morning above the datum is now expected by everyone. Sunny's chart for this shore stands at zero after fifteen sessions, which she has started to call a work in itself.",
+ "frontier": [
+  "077-low-tide-the-day-nobody-measured",
+  "084-low-tide-the-specimen-wakes",
+  "092-low-tide-joined-by-their-shadows",
+  "095-low-tide-one-tile-lifted",
+  "096-low-tide-transect",
+  "097-low-tide-stake-net",
+  "098-low-tide-one-dry-place",
+  "099-low-tide-clear-cut",
+  "101-low-tide-corrected-three-times",
+  "102-low-tide-something-else-lives-here",
+  "106-low-tide-section-through-seven-tides",
+  "107-low-tide-it-knows-where-the-post-is",
+  "111-low-tide-inventory-of-fourteen",
+  "112-low-tide-the-flat-drains",
+  "113-low-tide-months-reaching",
+  "115-low-tide-dealt",
+  "116-low-tide-arrived",
+  "117-low-tide-thirty-mornings-on-a-post",
+  "118-low-tide-half-back-dusk"
+ ],
+ "proposals": [
+  {
+   "piece_id": "115-low-tide-dealt",
+   "participant": "Beatriz",
+   "direction": "Turn every face-down card over and show that three of them are blank, with no water drawn at all, and leave the three blanks slightly apart from the rest.",
+   "rationale": "A dealt month has days nobody wrote down; second attempt, and after the walker arrived the room wanted the lineage to admit what it does not know.",
+   "votes": 5
+  },
+  {
+   "piece_id": "118-low-tide-half-back-dusk",
+   "participant": "Owen",
+   "direction": "Turn the viewer round once more at dusk and show the sun itself, low, with the post's long shadow now reaching toward us across the flat.",
+   "rationale": "He wants to see whether the gleam was the sun.",
+   "votes": 4
+  },
+  {
+   "piece_id": "112-low-tide-the-flat-drains",
+   "participant": "Nkechi",
+   "direction": "A heron in the main creek.",
+   "rationale": "Residents, third attempt; she says she will keep asking the way Halvard did.",
+   "votes": 3
+  },
+  {
+   "piece_id": "117-low-tide-thirty-mornings-on-a-post",
+   "participant": "Halvard",
+   "direction": "The thirty-first morning, above the red datum.",
+   "rationale": "Water, on theme, exceeding its record; he calls it the one he has been waiting for.",
+   "votes": 2
+  },
+  {
+   "piece_id": "116-low-tide-arrived",
+   "participant": "Sunny",
+   "direction": "Let the samphire at the walker's feet flower.",
+   "rationale": "Fifteenth session. The book is in her bag.",
+   "votes": 1
+  }
+ ]
+}

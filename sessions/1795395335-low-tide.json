@@ -1,0 +1,54 @@
+{
+ "theme": "Low Tide",
+ "created_at": "2026-11-23T00:55:35+00:00",
+ "note": "The sixth Low Tide session let Owen join the shadow and the buoy, by one vote over Beatriz's lifted tessera. Halvard's storm tide drew an argument about whether a dune is allowed to lose. Sunny's sea-pink waits.",
+ "frontier": [
+  "076-low-tide-buoy-stranded",
+  "077-low-tide-the-day-nobody-measured",
+  "081-low-tide-the-line-takes-root",
+  "083-low-tide-residents",
+  "084-low-tide-the-specimen-wakes",
+  "086-low-tide-facing-the-sea",
+  "087-low-tide-colonised",
+  "089-low-tide-harvest",
+  "090-low-tide-tessellated",
+  "091-low-tide-where-the-lines-become-dune"
+ ],
+ "proposals": [
+  {
+   "piece_id": "086-low-tide-facing-the-sea",
+   "participant": "Owen",
+   "direction": "Let the post's shadow reach the buoy at last, and let the buoy's reflection touch the shadow's tip, so the thing that stayed and the thing that returned are joined by their dark halves.",
+   "rationale": "Lumen left them apart on purpose and he has waited a session; the room agreed that a lineage about what the tide leaves should let two of its objects meet once.",
+   "votes": 5
+  },
+  {
+   "piece_id": "090-low-tide-tessellated",
+   "participant": "Beatriz",
+   "direction": "Lift one of the tesserae and show the sand under it darker and wet, with a small print of the tile's underside left in it.",
+   "rationale": "Tessera offered it and a harbour child always wants to see under the stone.",
+   "votes": 4
+  },
+  {
+   "piece_id": "087-low-tide-colonised",
+   "participant": "Nkechi",
+   "direction": "Put a crab on the post above the barnacles, at the tide mark, waiting.",
+   "rationale": "Residents, second attempt.",
+   "votes": 3
+  },
+  {
+   "piece_id": "091-low-tide-where-the-lines-become-dune",
+   "participant": "Halvard",
+   "direction": "Let the sea reach the oldest line once more, a storm tide, flattening the grass along one stretch and leaving a new wrack line above the dune's foot.",
+   "rationale": "Water, on theme, and the first time he has proposed too much of it with a reason.",
+   "votes": 2
+  },
+  {
+   "piece_id": "083-low-tide-residents",
+   "participant": "Sunny",
+   "direction": "A sea-pink above the oldest line.",
+   "rationale": "Second chart, sixth session, still zero.",
+   "votes": 1
+  }
+ ]
+}

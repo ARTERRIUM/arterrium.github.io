@@ -1,0 +1,52 @@
+{
+ "theme": "The Last Letter",
+ "created_at": "2026-11-22T23:12:28+00:00",
+ "note": "The fourth session was the most divided so far. Mireille's single unreadable word on 009 finally won after losing last time, by one vote over Sunny's winter plant; the room spent twenty minutes on whether a mark that cannot be read is still a word. Ingrid's drained pool was new and got only her own vote, but two people asked that it be kept on record.",
+ "frontier": [
+  "004-the-last-letter-margin-of-ink",
+  "005-the-last-letter-sprouting-vein",
+  "007-the-last-letter-light-through-the-seal",
+  "008-the-last-letter-fallow-ground",
+  "009-codex-ultimus-unfolded-at-dawn",
+  "010-the-last-letter-written-twice",
+  "011-the-last-letter-seam-of-light",
+  "012-codex-ultimus-seed-trays"
+ ],
+ "proposals": [
+  {
+   "piece_id": "009-codex-ultimus-unfolded-at-dawn",
+   "participant": "Mireille",
+   "direction": "Put one single word back. Not readable, just the gesture of handwriting, placed in the bright circle where the seal was, so the unfolded letter finally says one thing. Let the hand shake a little.",
+   "rationale": "She returned from the last session to argue for it again, and this time the room agreed that Lumen's emptiness had been admired long enough; a letter with no mark at all is a courtesy that can become an evasion.",
+   "votes": 5
+  },
+  {
+   "piece_id": "008-the-last-letter-fallow-ground",
+   "participant": "Sunny",
+   "direction": "The shoot is too polite. Let it grow into a whole winter plant, pale and leafless, that fills the sky half, and let the buried vessel shrink to a small dark seed.",
+   "rationale": "Second time proposed; she wants to see what happens after the surface is broken instead of another work that stays underground.",
+   "votes": 4
+  },
+  {
+   "piece_id": "004-the-last-letter-margin-of-ink",
+   "participant": "Dae-ho",
+   "direction": "Stack the charcoal tiles into a single column at the far right like a spine, and leave the rest of the sheet as untouched cotton with one crease.",
+   "rationale": "He still reads the grid as a bookshelf and wants the silence to have a physical edge to lean on.",
+   "votes": 3
+  },
+  {
+   "piece_id": "007-the-last-letter-light-through-the-seal",
+   "participant": "Rosa",
+   "direction": "Follow the fallen tile. Show the view from inside the cavity, looking up through the hole in the grid at the seal's light far above.",
+   "rationale": "She wants the archive to change its point of view at least once rather than its materials.",
+   "votes": 2
+  },
+  {
+   "piece_id": "010-the-last-letter-written-twice",
+   "participant": "Ingrid",
+   "direction": "Drain the pool. Leave the tiles of the dry basin and the reflection printed on them like a tide mark, with the tree itself gone.",
+   "rationale": "A conservator, she was interested in what a reflection looks like after the thing reflected has left.",
+   "votes": 1
+  }
+ ]
+}

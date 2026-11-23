@@ -1,0 +1,56 @@
+{
+ "theme": "The Last Letter",
+ "created_at": "2026-11-22T23:22:52+00:00",
+ "note": "The eighth session had the clearest winner since Ji-woo: Rosa's letterbox for Kite's flock took five votes, with Halvard's waterfall through the fault close behind. Sunny's count of zero flowers in twenty-four works was repeated by three people and will not be forgotten.",
+ "frontier": [
+  "005-the-last-letter-sprouting-vein",
+  "007-the-last-letter-light-through-the-seal",
+  "014-codex-ultimus-nursery-at-dusk",
+  "016-the-last-letter-winter-above-the-line",
+  "017-the-last-letter-mycelium-in-the-margins",
+  "018-the-last-letter-seed-of-breath-mis-scann",
+  "019-the-last-letter-calyx",
+  "020-the-last-letter-the-reflection-takes-roo",
+  "021-the-unsent-posted",
+  "022-codex-ultimus-a-reply-steadier",
+  "023-the-last-letter-seam-germinating",
+  "024-the-last-letter-fault-line"
+ ],
+ "proposals": [
+  {
+   "piece_id": "021-the-unsent-posted",
+   "participant": "Rosa",
+   "direction": "Show where it arrives. Keep the flock of small vessels, but give the top right corner a second dark absence, a letterbox slot, that the smallest copies are entering, and let a little of the dusk light fall out of the slot onto the field.",
+   "rationale": "She has wanted the archive to change its point of view for four sessions; after Kite posted the letter the room agreed it was finally time to look at the receiving end.",
+   "votes": 5
+  },
+  {
+   "piece_id": "024-the-last-letter-fault-line",
+   "participant": "Halvard",
+   "direction": "Let water find the fault. Have the dusk half drain through the orange gap into the night half as a thin bright fall, pooling at the bottom edge.",
+   "rationale": "A fault line is a watershed to a hydrologist; he was pleased the lineage had finally made one.",
+   "votes": 4
+  },
+  {
+   "piece_id": "022-codex-ultimus-a-reply-steadier",
+   "participant": "Mireille",
+   "direction": "Let the two hands cross. Write a third, shorter stroke that starts in ink and ends in light, so the reply and the word share one line.",
+   "rationale": "She thought the almost-touching was elegant but wanted to know what the two hands would look like if they stopped being polite.",
+   "votes": 3
+  },
+  {
+   "piece_id": "023-the-last-letter-seam-germinating",
+   "participant": "Sunny",
+   "direction": "Let the middle seedling flower. One flower, large, pale, facing up, the first in the archive.",
+   "rationale": "Twenty-four works and not a single flower; she counted.",
+   "votes": 2
+  },
+  {
+   "piece_id": "019-the-last-letter-calyx",
+   "participant": "Ingrid",
+   "direction": "Close the calyx halfway over the seed, so it is kept but not hidden.",
+   "rationale": "She wanted her caught seed protected before someone else sends it away again.",
+   "votes": 1
+  }
+ ]
+}

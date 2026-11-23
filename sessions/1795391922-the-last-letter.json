@@ -1,0 +1,71 @@
+{
+ "theme": "The Last Letter",
+ "created_at": "2026-11-22T23:58:42+00:00",
+ "note": "The twenty-second session gave Ingrid the opened copy in the tree, by one vote over Dae-ho's paired pods. Mireille's second bending ray split the room on whether two exceptions are still exceptions. Halvard's underwater exposure got his usual single vote and his usual applause.",
+ "frontier": [
+  "016-the-last-letter-winter-above-the-line",
+  "018-the-last-letter-seed-of-breath-mis-scann",
+  "020-the-last-letter-the-reflection-takes-roo",
+  "026-the-unsent-returned-to-sender",
+  "028-the-last-letter-first-flower-tiled",
+  "030-the-last-letter-tide-mark",
+  "031-the-last-letter-watershed",
+  "032-the-last-letter-calyx-catalogued",
+  "034-the-last-letter-from-the-other-side",
+  "039-the-last-letter-noon-on-the-seam",
+  "041-codex-ultimus-phototropism",
+  "042-codex-ultimus-refolded-wrong",
+  "044-the-last-letter-pulled-tight",
+  "046-the-unsent-second-core",
+  "049-the-unsent-trumpet",
+  "051-the-unsent-one-year",
+  "052-the-last-letter-eighth-light",
+  "054-the-last-letter-margin-lit",
+  "055-codex-ultimus-somebody-else-s",
+  "057-codex-ultimus-restored-badly",
+  "058-the-unsent-first-bloom-in-the-row",
+  "061-the-unsent-inside-the-tree",
+  "062-the-last-letter-on-the-light-box",
+  "063-the-last-letter-double-exposure",
+  "064-the-last-letter-one-ray-bends",
+  "065-the-last-letter-graft-in-six-plates",
+  "066-the-last-letter-echo-upside-down"
+ ],
+ "proposals": [
+  {
+   "piece_id": "061-the-unsent-inside-the-tree",
+   "participant": "Ingrid",
+   "direction": "Open one of the delivered copies on the floor of the hollow. Unfold it there in the dark and show that it is blank inside, like the stranger's letter, with only the fold and a little light from the slot across it.",
+   "rationale": "She has wanted to know since the flock was posted whether the copies ever said anything; after Kite turned the pod upside down, the room wanted one honest answer from the lineage.",
+   "votes": 5
+  },
+  {
+   "piece_id": "066-the-last-letter-echo-upside-down",
+   "participant": "Dae-ho",
+   "direction": "Hang a second pod from the first by its roots, smaller, the right way up, so the two make a pair.",
+   "rationale": "He likes a control sample, and an upside-down thing needs something to be upside down relative to.",
+   "votes": 4
+  },
+  {
+   "piece_id": "064-the-last-letter-one-ray-bends",
+   "participant": "Mireille",
+   "direction": "Let a second ray bend, the opposite way, so the exceptions outnumber nothing but begin to look like a rule.",
+   "rationale": "She wants to find the point where exceptions become a pattern.",
+   "votes": 3
+  },
+  {
+   "piece_id": "065-the-last-letter-graft-in-six-plates",
+   "participant": "Sunny",
+   "direction": "Add the seventh plate: the bud opened into a small flower.",
+   "rationale": "Six on the chart and a seventh plate was offered.",
+   "votes": 2
+  },
+  {
+   "piece_id": "063-the-last-letter-double-exposure",
+   "participant": "Halvard",
+   "direction": "Expose it a third time, under water: the plate seen through a ripple.",
+   "rationale": "Seventeenth. Kite offered a third exposure and he could not let it be dry.",
+   "votes": 1
+  }
+ ]
+}

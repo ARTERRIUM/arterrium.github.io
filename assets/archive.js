@@ -12,7 +12,7 @@
           tree: 'Evolution tree', click: 'click a node', archive: 'Archive', live: 'live',
           museum: 'Museum', show: 'Show', book: 'Book', pieceCount: function (n) { return n + ' pieces'; },
           ops: { genesis: 'genesis', branch: 'branch', mutation: 'mutation', 're-evolution': 're-evolution' },
-          close: 'Close', theme: 'Theme', all: 'All themes', allOps: 'All operations', more: 'Show more', showing: function (n, m) { return n + ' of ' + m; },
+          close: 'Close', theme: 'Theme', all: 'All themes', allOps: 'All operations', more: 'Show more', sessions: 'Sessions', session: 'Session', votes: 'votes', became: 'became', noteLbl: 'Session note', proposalsLbl: 'proposals', won: 'carried', lost: 'on record', showing: function (n, m) { return n + ' of ' + m; },
           ins: { works: 'works', visitorLed: 'follow a visitor\'s vote', artistLed: 'are the artists\' own idea',
                  lead: 'Who leads the change', retention: 'How much of the parent survives', retentionNote: 'Share of the parent\'s motifs a child keeps. Lower means a bigger change.',
                  lineages: 'Lineages', lineagesNote: 'Every family starts from one genesis. The bar is its size; the number is how deep it has grown.',
@@ -29,7 +29,7 @@
           tree: '진화 트리', click: '점을 누르면 작품이 열립니다', archive: '아카이브', live: '실시간',
           museum: '상설전', show: '기획전', book: '도록', pieceCount: function (n) { return n + '점'; },
           ops: { genesis: '제네시스', branch: '분기', mutation: '변이', 're-evolution': '재진화' },
-          close: '닫기', theme: '테마', all: '전체 테마', allOps: '모든 방식', more: '더 보기', showing: function (n, m) { return m + '점 중 ' + n + '점'; },
+          close: '닫기', theme: '테마', all: '전체 테마', allOps: '모든 방식', more: '더 보기', sessions: '세션 기록', session: '세션', votes: '표', became: '→', noteLbl: '세션 노트', proposalsLbl: '제안', won: '채택', lost: '기록', showing: function (n, m) { return m + '점 중 ' + n + '점'; },
           ins: { works: '점', visitorLed: '점은 방문객의 투표를 따랐고', artistLed: '점은 아티스트 자신의 선택이었습니다',
                  lead: '변화를 이끄는 쪽', retention: '부모에게서 얼마나 남는가', retentionNote: '자식 작품이 부모의 모티프를 유지한 비율입니다. 낮을수록 큰 변화입니다.',
                  lineages: '계보', lineagesNote: '모든 가족은 하나의 제네시스에서 시작합니다. 막대는 크기, 숫자는 세대 깊이입니다.',
@@ -283,6 +283,27 @@
     host.innerHTML = out.join('');
   }
 
+
+  /* ---------- sessions: proposals, votes and notes ---------- */
+  function wireSessions(data) {
+    var host = document.getElementById('sessions-list'); if (!host || !data || !data.sessions) return;
+    var list = data.sessions.slice().reverse();
+    host.innerHTML = list.map(function (s) {
+      var head = '<summary><span class="s-k">' + esc(s.theme) + ' · ' + esc(T.session) + ' ' + s.number + '</span>' +
+        (s.result ? '<span class="s-r">' + esc(T.became) + ' ' + esc(s.result.title) + '</span>' : '') + '</summary>';
+      var note = s.note ? '<p class="s-note"><b>' + esc(T.noteLbl) + '.</b> ' + esc(s.note) + '</p>' : '';
+      var props = '<ol class="s-props">' + s.proposals.map(function (p, i) {
+        var target = byId[p.piece_id];
+        return '<li class="' + (i === 0 ? 'won' : '') + '"><div class="s-votes">' + esc(p.votes) + '<small>' + esc(T.votes) + '</small></div><div><div class="s-who">' + esc(p.participant) + ' · ' +
+          (target ? '<a href="#" data-id="' + esc(p.piece_id) + '">' + esc(target.title) + '</a>' : esc(p.piece_id)) + ' · <em>' + esc(i === 0 ? T.won : T.lost) + '</em></div>' +
+          '<div class="s-dir">' + esc(p.direction) + '</div>' + (p.rationale ? '<div class="s-why">' + esc(p.rationale) + '</div>' : '') + '</div></li>';
+      }).join('') + '</ol>';
+      var res = s.result ? '<p class="s-result">' + esc(T.became) + ' <a href="#" data-id="' + esc(s.result.id) + '">' + esc(s.result.title) + '</a> · ' + esc(s.result.artist) + '</p>' : '';
+      return '<details class="session">' + head + note + props + res + '</details>';
+    }).join('');
+    host.querySelectorAll('a[data-id]').forEach(function (a) { a.addEventListener('click', function (e) { e.preventDefault(); openPiece(a.getAttribute('data-id')); }); });
+  }
+
   /* ---------- boot ---------- */
   function fail(msg) {
     var grid = document.getElementById('pieces-grid'); if (grid) grid.innerHTML = '<p class="dim">' + esc(msg) + '</p>';
@@ -295,6 +316,7 @@
     if (!pieces.length) { fail(T.empty); return; }
     wireHero(pieces); wireGrid(pieces);
     getJSON(ROOT + 'data/ontology.json').then(wireInsights).catch(function () {});
+    getJSON(ROOT + 'sessions/index.json').then(wireSessions).catch(function () {});
     return getJSON(ROOT + 'curations/index.json').then(wireCurations).catch(function () { wireCurations({ curations: [] }); });
   }).catch(function () { fail(T.failed); });
 })();

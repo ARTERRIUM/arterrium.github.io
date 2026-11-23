@@ -1,0 +1,61 @@
+{
+ "theme": "The Last Letter",
+ "created_at": "2026-11-22T23:33:39+00:00",
+ "note": "The twelfth session finally gave Mireille her crossing strokes on A Reply, Steadier, after five losing sessions, and the vote was not close. Ingrid's core sample from the cross-section was the most practical idea the room has heard and will likely be taken up. Halvard reframed water as sap and got one vote, his own, cheerfully.",
+ "frontier": [
+  "005-the-last-letter-sprouting-vein",
+  "016-the-last-letter-winter-above-the-line",
+  "017-the-last-letter-mycelium-in-the-margins",
+  "018-the-last-letter-seed-of-breath-mis-scann",
+  "020-the-last-letter-the-reflection-takes-roo",
+  "022-codex-ultimus-a-reply-steadier",
+  "025-the-unsent-delivered",
+  "026-the-unsent-returned-to-sender",
+  "027-the-last-letter-spine",
+  "028-the-last-letter-first-flower-tiled",
+  "030-the-last-letter-tide-mark",
+  "031-the-last-letter-watershed",
+  "032-the-last-letter-calyx-catalogued",
+  "033-the-last-letter-graft",
+  "034-the-last-letter-from-the-other-side",
+  "035-codex-ultimus-grow-lamp",
+  "036-the-unsent-cross-section"
+ ],
+ "proposals": [
+  {
+   "piece_id": "022-codex-ultimus-a-reply-steadier",
+   "participant": "Mireille",
+   "direction": "Let the two hands cross. Add a third, shorter stroke that starts in Mara's ink and ends in Lumen's light, passing through the point where the word and the reply almost touched, so for once on this page one line belongs to both writers.",
+   "rationale": "Sixth time proposed. The room decided that an archive which has just cut open its own vessel to count the rings can afford to let two hands share a line.",
+   "votes": 5
+  },
+  {
+   "piece_id": "036-the-unsent-cross-section",
+   "participant": "Ingrid",
+   "direction": "Take a core sample. Cut a narrow vertical strip out of the rings and set it beside the vessel, labelled by position only, so the archive can be read without destroying the rest.",
+   "rationale": "She is a conservator; a core is how you read a trunk without felling it.",
+   "votes": 4
+  },
+  {
+   "piece_id": "034-the-last-letter-from-the-other-side",
+   "participant": "Rosa",
+   "direction": "Turn around once more. Show the small grid from even farther, as a dot on the blue, and the drifting seed now large in the foreground.",
+   "rationale": "She wants the point of view to keep travelling.",
+   "votes": 3
+  },
+  {
+   "piece_id": "035-codex-ultimus-grow-lamp",
+   "participant": "Sunny",
+   "direction": "Switch the lamp off and let the sideways seedling in the fallen tray be the only thing still lit, by its own faint glow.",
+   "rationale": "She thinks the archive's light should come from what grows.",
+   "votes": 2
+  },
+  {
+   "piece_id": "033-the-last-letter-graft",
+   "participant": "Halvard",
+   "direction": "Let sap run from the graft, a thin bright drip down into the night half.",
+   "rationale": "Ninth water proposal, now in the form of sap.",
+   "votes": 1
+  }
+ ]
+}

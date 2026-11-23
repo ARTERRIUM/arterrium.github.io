@@ -1,0 +1,53 @@
+{
+ "theme": "The Last Letter",
+ "created_at": "2026-11-22T23:15:05+00:00",
+ "note": "The fifth session was short and nearly unanimous on one point: after Fallow Ground, Seam of Light, Nursery at Dusk and Pod, Emptied, the lineage has learned horizons and departures but never weather. Sunny's winter plant won on her third attempt. Ingrid's cupped hand for the rising seed was the strongest new idea and will probably return.",
+ "frontier": [
+  "004-the-last-letter-margin-of-ink",
+  "005-the-last-letter-sprouting-vein",
+  "007-the-last-letter-light-through-the-seal",
+  "008-the-last-letter-fallow-ground",
+  "010-the-last-letter-written-twice",
+  "011-the-last-letter-seam-of-light",
+  "013-codex-ultimus-one-word-shaking",
+  "014-codex-ultimus-nursery-at-dusk",
+  "015-the-last-letter-pod-emptied"
+ ],
+ "proposals": [
+  {
+   "piece_id": "008-the-last-letter-fallow-ground",
+   "participant": "Sunny",
+   "direction": "Third time. Let the shoot grow into a whole winter plant, pale and leafless, that fills the sky half of the picture, and let the buried vessel shrink to a small dark seed underground. The archive always stays below the line; I want to see it above.",
+   "rationale": "She has proposed this in three sessions and the room finally agreed that the lineage keeps going underground or into the light but never into weather.",
+   "votes": 5
+  },
+  {
+   "piece_id": "015-the-last-letter-pod-emptied",
+   "participant": "Ingrid",
+   "direction": "Catch the seed. Put a second, smaller outline above the pod, an open hand or a cup, so the rising seed has somewhere to land, and draw the thread of light bending slightly as if the seed has weight.",
+   "rationale": "As a conservator she distrusts things that leave the frame; she wants the lineage to keep what it releases.",
+   "votes": 4
+  },
+  {
+   "piece_id": "013-codex-ultimus-one-word-shaking",
+   "participant": "Dae-ho",
+   "direction": "Answer the word. Write a second stroke underneath in a different, steadier hand, as if someone else replied on the same page.",
+   "rationale": "He read the shaking word as a question and thinks a last letter deserves one reply.",
+   "votes": 3
+  },
+  {
+   "piece_id": "014-codex-ultimus-nursery-at-dusk",
+   "participant": "Mireille",
+   "direction": "Let it get fully dark. Keep only the rim-light on the seedlings and the last red sliver of the seal; everything else black.",
+   "rationale": "She wanted to see how little of the nursery is needed before it stops being one.",
+   "votes": 2
+  },
+  {
+   "piece_id": "010-the-last-letter-written-twice",
+   "participant": "Rosa",
+   "direction": "Drain the pool and leave the reflection printed on the dry tiles like a tide mark, with the tree gone.",
+   "rationale": "Ingrid's idea from last time, which Rosa took up because she thought the room dismissed it too quickly.",
+   "votes": 1
+  }
+ ]
+}

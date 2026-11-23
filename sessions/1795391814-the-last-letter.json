@@ -1,0 +1,70 @@
+{
+ "theme": "The Last Letter",
+ "created_at": "2026-11-22T23:56:54+00:00",
+ "note": "The twenty-first session gave Mireille her bending ray by one vote over Ingrid's opened copy in the tree. Both proposals were about keeping one exception inside a rule, and the room talked about that longer than about the works. Halvard's rain through the window stayed on record.",
+ "frontier": [
+  "016-the-last-letter-winter-above-the-line",
+  "018-the-last-letter-seed-of-breath-mis-scann",
+  "020-the-last-letter-the-reflection-takes-roo",
+  "026-the-unsent-returned-to-sender",
+  "028-the-last-letter-first-flower-tiled",
+  "030-the-last-letter-tide-mark",
+  "031-the-last-letter-watershed",
+  "032-the-last-letter-calyx-catalogued",
+  "033-the-last-letter-graft",
+  "034-the-last-letter-from-the-other-side",
+  "039-the-last-letter-noon-on-the-seam",
+  "041-codex-ultimus-phototropism",
+  "042-codex-ultimus-refolded-wrong",
+  "044-the-last-letter-pulled-tight",
+  "046-the-unsent-second-core",
+  "049-the-unsent-trumpet",
+  "051-the-unsent-one-year",
+  "052-the-last-letter-eighth-light",
+  "054-the-last-letter-margin-lit",
+  "055-codex-ultimus-somebody-else-s",
+  "057-codex-ultimus-restored-badly",
+  "058-the-unsent-first-bloom-in-the-row",
+  "060-the-last-letter-echo-straightened",
+  "061-the-unsent-inside-the-tree",
+  "062-the-last-letter-on-the-light-box",
+  "063-the-last-letter-double-exposure"
+ ],
+ "proposals": [
+  {
+   "piece_id": "060-the-last-letter-echo-straightened",
+   "participant": "Mireille",
+   "direction": "Let one ray bend. Keep four of Lumen's rays straight and let the fifth curve back on itself near the edge of the field and end as a root, with a single rootlet off it, so the lineage keeps one trace of what the rays used to be.",
+   "rationale": "She is interested in exceptions now; the room agreed that a rule with one exception is the archive's natural state.",
+   "votes": 5
+  },
+  {
+   "piece_id": "061-the-unsent-inside-the-tree",
+   "participant": "Ingrid",
+   "direction": "Open one of the delivered copies on the floor of the hollow and show it is blank inside, like the stranger's letter.",
+   "rationale": "She wants to know whether the posted letters ever said anything.",
+   "votes": 4
+  },
+  {
+   "piece_id": "063-the-last-letter-double-exposure",
+   "participant": "Dae-ho",
+   "direction": "Fill in the blank magenta labels with three tiles instead of words.",
+   "rationale": "He votes for tiles.",
+   "votes": 3
+  },
+  {
+   "piece_id": "062-the-last-letter-on-the-light-box",
+   "participant": "Sunny",
+   "direction": "Let a small green shoot grow out of the dark silhouette on the light box, the only living thing on the plate.",
+   "rationale": "Six on the chart if it flowers later.",
+   "votes": 2
+  },
+  {
+   "piece_id": "057-codex-ultimus-restored-badly",
+   "participant": "Halvard",
+   "direction": "Rain through the open window, darkening the tiles below it.",
+   "rationale": "Sixteenth. Tessera said she would think about it and he is holding her to it.",
+   "votes": 1
+  }
+ ]
+}

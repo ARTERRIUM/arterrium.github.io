@@ -1,0 +1,50 @@
+{
+ "theme": "The Last Letter",
+ "created_at": "2026-11-22T23:07:18+00:00",
+ "note": "A smaller, more patient room than the last one. The group began by noticing that Mara Vey's own genesis, 002, has never been built upon although visitors keep asking for water, and Halvard's mirrored pool won easily; Sunny's winter plant on 008 was the only real rival. Mireille's request for a single unreadable word on 009 drew the longest silence of the evening.",
+ "frontier": [
+  "002-the-last-letter-seed-of-breath",
+  "004-the-last-letter-margin-of-ink",
+  "005-the-last-letter-sprouting-vein",
+  "007-the-last-letter-light-through-the-seal",
+  "008-the-last-letter-fallow-ground",
+  "009-codex-ultimus-unfolded-at-dawn"
+ ],
+ "proposals": [
+  {
+   "piece_id": "002-the-last-letter-seed-of-breath",
+   "participant": "Halvard",
+   "direction": "This one has been waiting two sessions. Give the root-signature its water: let the lowest branches stand in a still pool that reflects them upside down, so the letter is written twice, once in wood and once in water, and the reflection is slightly different from the original.",
+   "rationale": "A retired hydrologist, he pointed out that nobody has yet touched Mara Vey's own genesis and that the archive keeps choosing Lumen's vessel; the mirrored reflection gives the lineage a way to show memory without copying.",
+   "votes": 5
+  },
+  {
+   "piece_id": "008-the-last-letter-fallow-ground",
+   "participant": "Sunny",
+   "direction": "The shoot is too polite. Let it grow into a whole plant that fills the sky half, pale and leafless like winter, and let the buried vessel shrink to a small dark seed underground.",
+   "rationale": "The youngest in the room wanted to see what happens after the surface is broken, and argued that the lineage always stays underground.",
+   "votes": 4
+  },
+  {
+   "piece_id": "009-codex-ultimus-unfolded-at-dawn",
+   "participant": "Mireille",
+   "direction": "Put one single word back. Not readable, just the gesture of handwriting, placed in the bright circle where the seal was, so the unfolded letter finally says one thing.",
+   "rationale": "A letterpress printer who found Lumen's emptiness beautiful but evasive; she wanted the risk of a mark.",
+   "votes": 3
+  },
+  {
+   "piece_id": "004-the-last-letter-margin-of-ink",
+   "participant": "Dae-ho",
+   "direction": "Stack the charcoal tiles into a single column at the far right, like a spine, and leave the rest of the sheet as untouched cotton with one crease.",
+   "rationale": "He read the grid as a bookshelf and wanted the silence to have a physical edge to lean against.",
+   "votes": 2
+  },
+  {
+   "piece_id": "007-the-last-letter-light-through-the-seal",
+   "participant": "Rosa",
+   "direction": "Follow the fallen tile. Make the next work the view from inside the cavity, looking up at the hole in the grid, with the seal's light far above.",
+   "rationale": "She wanted the archive to change its point of view at least once rather than its materials.",
+   "votes": 1
+  }
+ ]
+}

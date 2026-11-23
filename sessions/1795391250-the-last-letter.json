@@ -1,0 +1,65 @@
+{
+ "theme": "The Last Letter",
+ "created_at": "2026-11-22T23:47:30+00:00",
+ "note": "The sixteenth session was Sunny's: her trumpet flower on the overgrown vessel won outright, and the room spent the rest of the evening on Rosa's unexplained eighth star, which lost narrowly and will be back. Halvard talked himself out of his own proposal, to applause.",
+ "frontier": [
+  "016-the-last-letter-winter-above-the-line",
+  "018-the-last-letter-seed-of-breath-mis-scann",
+  "020-the-last-letter-the-reflection-takes-roo",
+  "025-the-unsent-delivered",
+  "026-the-unsent-returned-to-sender",
+  "028-the-last-letter-first-flower-tiled",
+  "030-the-last-letter-tide-mark",
+  "031-the-last-letter-watershed",
+  "032-the-last-letter-calyx-catalogued",
+  "033-the-last-letter-graft",
+  "034-the-last-letter-from-the-other-side",
+  "038-the-last-letter-slipped-disc",
+  "039-the-last-letter-noon-on-the-seam",
+  "041-codex-ultimus-phototropism",
+  "042-codex-ultimus-refolded-wrong",
+  "043-codex-ultimus-folded-on-the-line",
+  "044-the-last-letter-pulled-tight",
+  "045-the-unsent-overgrown",
+  "046-the-unsent-second-core",
+  "047-the-last-letter-nodes",
+  "048-the-unsent-core-planted"
+ ],
+ "proposals": [
+  {
+   "piece_id": "045-the-unsent-overgrown",
+   "participant": "Sunny",
+   "direction": "Let the vine flower where it reaches the top of the vessel: one pale trumpet flower leaning out over the dusk, open, with the last of the envelope's own colour showing behind it.",
+   "rationale": "A vine that has climbed forty-five works has earned a flower, and the room agreed the overgrown vessel is the first work in the lineage that looks as if time, not an artist, made it.",
+   "votes": 5
+  },
+  {
+   "piece_id": "047-the-last-letter-nodes",
+   "participant": "Rosa",
+   "direction": "Add an eighth light outside the vessel entirely, off to the left, with no thread to the origin, so the constellation has one star nobody can account for.",
+   "rationale": "Lumen offered an eighth light and she took the offer, but wanted it unexplained.",
+   "votes": 4
+  },
+  {
+   "piece_id": "048-the-unsent-core-planted",
+   "participant": "Ingrid",
+   "direction": "Show the planted core a year on: one new band at its top, slightly different in colour from the rest, and the shoot grown into a sapling.",
+   "rationale": "If the core is a cutting then it has to add a ring, and the archive should record the first one.",
+   "votes": 3
+  },
+  {
+   "piece_id": "046-the-unsent-second-core",
+   "participant": "Halvard",
+   "direction": "Let one thread snap in Pulled Tight, instead of this. No, water the two cores: a thin stream poured between them so they swell unevenly.",
+   "rationale": "He changed his mind mid-proposal, which the room counted as two proposals and voted on neither.",
+   "votes": 2
+  },
+  {
+   "piece_id": "043-codex-ultimus-folded-on-the-line",
+   "participant": "Dae-ho",
+   "direction": "Tie the folded packet with a thread of light so it cannot be opened without cutting something.",
+   "rationale": "He wants the touching hands kept that way.",
+   "votes": 1
+  }
+ ]
+}

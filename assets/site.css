@@ -346,3 +346,34 @@ section.first{border-top:0}
 .name-stage.arterrian{grid-template-columns:1fr;gap:28px}
 .arterrian-body{grid-template-columns:170px 1fr;gap:32px;align-items:center}
 .arterrian-body img{width:170px}
+
+/* ---------- six layers ---------- */
+.layers{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:34px}
+.layer{border:1px solid var(--line);border-radius:14px;padding:18px 18px 16px;background:rgba(244,241,232,.025)}
+.layer .v{font-family:var(--serif);font-size:1.35rem;color:var(--canvas);margin:0 0 4px}
+.layer .w{font-size:.78rem;letter-spacing:.06em;color:var(--memory);margin-bottom:10px}
+.layer p{margin:0;font-size:.86rem;color:var(--ink)}
+.layers-note{margin-top:22px;font-size:.92rem;color:var(--ink);max-width:46em}
+
+/* ---------- sessions ---------- */
+.sessions{display:grid;gap:10px;margin-top:30px}
+details.session{border:1px solid var(--line);border-radius:14px;background:rgba(244,241,232,.025);padding:0 18px}
+details.session summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:12px;align-items:baseline;padding:14px 0;font-size:.9rem}
+details.session summary::-webkit-details-marker{display:none}
+details.session summary .s-k{font-family:var(--serif);font-size:1.05rem;color:var(--canvas)}
+details.session summary .s-r{font-size:.78rem;color:var(--ink-dim);text-align:right}
+details.session[open] summary{border-bottom:1px solid var(--line)}
+.s-note{font-size:.9rem;color:var(--ink);margin:14px 0 10px}
+.s-note b{color:var(--canvas);font-weight:500}
+.s-props{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.s-props li{display:grid;grid-template-columns:52px 1fr;gap:12px;padding:10px 0;border-top:1px dashed var(--line)}
+.s-props li.won .s-votes{color:var(--growth)}
+.s-votes{font-family:var(--serif);font-size:1.4rem;color:var(--canvas);line-height:1}
+.s-votes small{display:block;font-family:var(--sans);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-dim);margin-top:2px}
+.s-who{font-size:.78rem;color:var(--ink-dim);margin-bottom:4px}
+.s-who a{color:var(--memory)}
+.s-who em{font-style:normal;color:var(--growth)}
+.s-dir{font-size:.92rem;color:var(--canvas)}
+.s-why{font-size:.82rem;color:var(--ink);margin-top:4px}
+.s-result{font-size:.86rem;color:var(--ink);padding:12px 0 16px;margin:0}
+.s-result a{color:var(--canvas);border-bottom:1px solid var(--growth)}

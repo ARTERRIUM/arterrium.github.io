@@ -1,0 +1,64 @@
+{
+ "theme": "The Last Letter",
+ "created_at": "2026-11-22T23:45:20+00:00",
+ "note": "The fifteenth session gave Ingrid her second core by one vote over Sunny's trumpet flower on the overgrown vessel. Halvard proposed something that was not water for the first time, a snapping thread, and the room noticed. Mireille's word on the sky went on record with her own vote.",
+ "frontier": [
+  "005-the-last-letter-sprouting-vein",
+  "016-the-last-letter-winter-above-the-line",
+  "018-the-last-letter-seed-of-breath-mis-scann",
+  "020-the-last-letter-the-reflection-takes-roo",
+  "025-the-unsent-delivered",
+  "026-the-unsent-returned-to-sender",
+  "028-the-last-letter-first-flower-tiled",
+  "030-the-last-letter-tide-mark",
+  "031-the-last-letter-watershed",
+  "032-the-last-letter-calyx-catalogued",
+  "033-the-last-letter-graft",
+  "034-the-last-letter-from-the-other-side",
+  "038-the-last-letter-slipped-disc",
+  "039-the-last-letter-noon-on-the-seam",
+  "040-the-unsent-core-sample",
+  "041-codex-ultimus-phototropism",
+  "042-codex-ultimus-refolded-wrong",
+  "043-codex-ultimus-folded-on-the-line",
+  "044-the-last-letter-pulled-tight",
+  "045-the-unsent-overgrown"
+ ],
+ "proposals": [
+  {
+   "piece_id": "040-the-unsent-core-sample",
+   "participant": "Ingrid",
+   "direction": "Take a second core from the other side of the pith and set the two strips side by side, so the rings can be compared ring for ring, and let them disagree in exactly two places.",
+   "rationale": "One core is a reading, two cores are a method; after Mara let the vessel be overgrown, the room wanted the archive to keep at least one instrument for reading it.",
+   "votes": 5
+  },
+  {
+   "piece_id": "045-the-unsent-overgrown",
+   "participant": "Sunny",
+   "direction": "Let the vine flower where it reaches the top of the vessel: one pale trumpet flower leaning out over the dusk.",
+   "rationale": "A vine that has climbed this far has earned it, and she still counts flowers.",
+   "votes": 4
+  },
+  {
+   "piece_id": "044-the-last-letter-pulled-tight",
+   "participant": "Halvard",
+   "direction": "Let one thread snap. Show it recoiling, with the two touching fragments beginning to drift apart again.",
+   "rationale": "Tension is a form of pressure, and pressure finds a release; he said it as a hydrologist.",
+   "votes": 3
+  },
+  {
+   "piece_id": "043-codex-ultimus-folded-on-the-line",
+   "participant": "Rosa",
+   "direction": "Turn the folded packet over and show the other outside face, where only the seal and the dawn edge are visible.",
+   "rationale": "A folded thing has two outsides.",
+   "votes": 2
+  },
+  {
+   "piece_id": "034-the-last-letter-from-the-other-side",
+   "participant": "Mireille",
+   "direction": "Write one word on the sky, in the same shaking hand as the codex, large and faint, as if the letter had leaked.",
+   "rationale": "She wants her word to travel as far as the archive's point of view has.",
+   "votes": 1
+  }
+ ]
+}

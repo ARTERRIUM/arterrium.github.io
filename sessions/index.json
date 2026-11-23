@@ -1,0 +1,2515 @@
+{
+ "generated_at": "2026-11-23T02:48:03+00:00",
+ "sessions": [
+  {
+   "file": "1795379618-the-last-letter.json",
+   "theme": "The Last Letter",
+   "created_at": "2026-11-22T14:33:38-06:00",
+   "note": "The room hums with a quiet intensity as the participants balance Anselm's call for heavy silence with Noor's urge toward organic, boundary-breaking growth.",
+   "frontier": [
+    "001-the-unsent",
+    "002-the-last-letter-seed-of-breath",
+    "003-codex-ultimus-the-unbroken-fold"
+   ],
+   "proposals": [
+    {
+     "piece_id": "001-the-unsent",
+     "participant": "Anselm",
+     "direction": "Increase the surrounding negative space by fifty percent and let the gradient darken to the deep charcoal of fresh ink on cotton stock.",
+     "rationale": "Silence needs weight. The margins are too narrow for a true withholding.",
+     "votes": 4
+    },
+    {
+     "piece_id": "001-the-unsent",
+     "participant": "Ji-woo",
+     "direction": "Make the glowing shape drift slowly downward like a leaf falling in an empty room.",
+     "rationale": "",
+     "votes": 3
+    },
+    {
+     "piece_id": "002-the-last-letter-seed-of-breath",
+     "participant": "Noor",
+     "direction": "Introduce microscopic root tips that slowly trace outward beyond the original bounding box…",
+     "rationale": "",
+     "votes": 3
+    },
+    {
+     "piece_id": "003-codex-ultimus-the-unbroken-fold",
+     "participant": "Teo",
+     "direction": "Fracture one central tessera so that a faint, handwritten phrase in iron-gall ink spills o…",
+     "rationale": "",
+     "votes": 3
+    },
+    {
+     "piece_id": "003-codex-ultimus-the-unbroken-fold",
+     "participant": "Dr. Okafor",
+     "direction": "Expose the underlying generation matrix weights as a faint watermark beneath the carmine w…",
+     "rationale": "",
+     "votes": 2
+    }
+   ],
+   "source": "reconstructed from the run log (gemini session); directions after the first are truncated",
+   "result": {
+    "id": "004-the-last-letter-margin-of-ink",
+    "title": "The Last Letter (Margin of Ink)",
+    "artist": "Tessera"
+   },
+   "number": 1
+  },
+  {
+   "file": "1795381551-the-last-letter.json",
+   "theme": "The Last Letter",
+   "created_at": "2026-11-22T21:05:51+00:00",
+   "note": "A warm, argumentative room. The group agreed that the lineage has grown lopsided around Lumen's vessel and wanted to see Tessera's sealed codex finally opened; Ji-woo's reading of the wax as something alive carried the vote.",
+   "frontier": [
+    "002-the-last-letter-seed-of-breath",
+    "003-codex-ultimus-the-unbroken-fold",
+    "004-the-last-letter-margin-of-ink",
+    "005-the-last-letter-sprouting-vein",
+    "006-the-last-letter-root-bound-echo"
+   ],
+   "proposals": [
+    {
+     "piece_id": "003-codex-ultimus-the-unbroken-fold",
+     "participant": "Ji-woo",
+     "direction": "The red wax in the middle looks like a cracked candy. Let light come out through the cracks, like something is still alive inside the box, and let one tile fall out of the grid completely so you can see what is behind it.",
+     "rationale": "She is the only one who read the seal as alive rather than broken. Opening the grid gives the lineage its first branch that is not from Lumen's vessel.",
+     "votes": 5
+    },
+    {
+     "piece_id": "002-the-last-letter-seed-of-breath",
+     "participant": "Noor",
+     "direction": "Treat the signature-root as a watershed. Show where water would pool: flood the lowest branches with a slow, pale blue so the network reads as a river system over ten years, not a plant over one spring.",
+     "rationale": "Time is the missing axis. A watershed makes growth legible as accumulation rather than decoration.",
+     "votes": 4
+    },
+    {
+     "piece_id": "004-the-last-letter-margin-of-ink",
+     "participant": "Anselm",
+     "direction": "Too many tiles. Cut it to three. Give the ink one true margin, a wide one on the left, and let the letter's fold be a single blind-embossed line that carries no ink at all.",
+     "rationale": "Silence needs weight, not quantity. A blind emboss is the most honest way to print nothing.",
+     "votes": 3
+    },
+    {
+     "piece_id": "006-the-last-letter-root-bound-echo",
+     "participant": "Teo",
+     "direction": "The seed-pod is a sentence missing its verb. Open the pod at the bottom and let one vein escape the frame on the right edge, so the next work has to pick the line up mid-sentence.",
+     "rationale": "An edge that is crossed is an invitation. The archive should contain unfinished sentences on purpose.",
+     "votes": 2
+    },
+    {
+     "piece_id": "005-the-last-letter-sprouting-vein",
+     "participant": "Dr. Okafor",
+     "direction": "Make the memory visible. Trace the exact outline of Lumen's original vessel as a faint ghost behind the roots, so we can measure what was inherited and what mutated.",
+     "rationale": "If memory creates the future, the inheritance should be auditable on the surface of the work.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "007-the-last-letter-light-through-the-seal",
+    "title": "The Last Letter: Light Through the Seal",
+    "artist": "Mara Vey"
+   },
+   "number": 2
+  },
+  {
+   "file": "1795388838-the-last-letter.json",
+   "theme": "The Last Letter",
+   "created_at": "2026-11-22T23:07:18+00:00",
+   "note": "A smaller, more patient room than the last one. The group began by noticing that Mara Vey's own genesis, 002, has never been built upon although visitors keep asking for water, and Halvard's mirrored pool won easily; Sunny's winter plant on 008 was the only real rival. Mireille's request for a single unreadable word on 009 drew the longest silence of the evening.",
+   "frontier": [
+    "002-the-last-letter-seed-of-breath",
+    "004-the-last-letter-margin-of-ink",
+    "005-the-last-letter-sprouting-vein",
+    "007-the-last-letter-light-through-the-seal",
+    "008-the-last-letter-fallow-ground",
+    "009-codex-ultimus-unfolded-at-dawn"
+   ],
+   "proposals": [
+    {
+     "piece_id": "002-the-last-letter-seed-of-breath",
+     "participant": "Halvard",
+     "direction": "This one has been waiting two sessions. Give the root-signature its water: let the lowest branches stand in a still pool that reflects them upside down, so the letter is written twice, once in wood and once in water, and the reflection is slightly different from the original.",
+     "rationale": "A retired hydrologist, he pointed out that nobody has yet touched Mara Vey's own genesis and that the archive keeps choosing Lumen's vessel; the mirrored reflection gives the lineage a way to show memory without copying.",
+     "votes": 5
+    },
+    {
+     "piece_id": "008-the-last-letter-fallow-ground",
+     "participant": "Sunny",
+     "direction": "The shoot is too polite. Let it grow into a whole plant that fills the sky half, pale and leafless like winter, and let the buried vessel shrink to a small dark seed underground.",
+     "rationale": "The youngest in the room wanted to see what happens after the surface is broken, and argued that the lineage always stays underground.",
+     "votes": 4
+    },
+    {
+     "piece_id": "009-codex-ultimus-unfolded-at-dawn",
+     "participant": "Mireille",
+     "direction": "Put one single word back. Not readable, just the gesture of handwriting, placed in the bright circle where the seal was, so the unfolded letter finally says one thing.",
+     "rationale": "A letterpress printer who found Lumen's emptiness beautiful but evasive; she wanted the risk of a mark.",
+     "votes": 3
+    },
+    {
+     "piece_id": "004-the-last-letter-margin-of-ink",
+     "participant": "Dae-ho",
+     "direction": "Stack the charcoal tiles into a single column at the far right, like a spine, and leave the rest of the sheet as untouched cotton with one crease.",
+     "rationale": "He read the grid as a bookshelf and wanted the silence to have a physical edge to lean against.",
+     "votes": 2
+    },
+    {
+     "piece_id": "007-the-last-letter-light-through-the-seal",
+     "participant": "Rosa",
+     "direction": "Follow the fallen tile. Make the next work the view from inside the cavity, looking up at the hole in the grid, with the seal's light far above.",
+     "rationale": "She wanted the archive to change its point of view at least once rather than its materials.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "010-the-last-letter-written-twice",
+    "title": "The Last Letter: Written Twice",
+    "artist": "Tessera"
+   },
+   "number": 3
+  },
+  {
+   "file": "1795389148-the-last-letter.json",
+   "theme": "The Last Letter",
+   "created_at": "2026-11-22T23:12:28+00:00",
+   "note": "The fourth session was the most divided so far. Mireille's single unreadable word on 009 finally won after losing last time, by one vote over Sunny's winter plant; the room spent twenty minutes on whether a mark that cannot be read is still a word. Ingrid's drained pool was new and got only her own vote, but two people asked that it be kept on record.",
+   "frontier": [
+    "004-the-last-letter-margin-of-ink",
+    "005-the-last-letter-sprouting-vein",
+    "007-the-last-letter-light-through-the-seal",
+    "008-the-last-letter-fallow-ground",
+    "009-codex-ultimus-unfolded-at-dawn",
+    "010-the-last-letter-written-twice",
+    "011-the-last-letter-seam-of-light",
+    "012-codex-ultimus-seed-trays"
+   ],
+   "proposals": [
+    {
+     "piece_id": "009-codex-ultimus-unfolded-at-dawn",
+     "participant": "Mireille",
+     "direction": "Put one single word back. Not readable, just the gesture of handwriting, placed in the bright circle where the seal was, so the unfolded letter finally says one thing. Let the hand shake a little.",
+     "rationale": "She returned from the last session to argue for it again, and this time the room agreed that Lumen's emptiness had been admired long enough; a letter with no mark at all is a courtesy that can become an evasion.",
+     "votes": 5
+    },
+    {
+     "piece_id": "008-the-last-letter-fallow-ground",
+     "participant": "Sunny",
+     "direction": "The shoot is too polite. Let it grow into a whole winter plant, pale and leafless, that fills the sky half, and let the buried vessel shrink to a small dark seed.",
+     "rationale": "Second time proposed; she wants to see what happens after the surface is broken instead of another work that stays underground.",
+     "votes": 4
+    },
+    {
+     "piece_id": "004-the-last-letter-margin-of-ink",
+     "participant": "Dae-ho",
+     "direction": "Stack the charcoal tiles into a single column at the far right like a spine, and leave the rest of the sheet as untouched cotton with one crease.",
+     "rationale": "He still reads the grid as a bookshelf and wants the silence to have a physical edge to lean on.",
+     "votes": 3
+    },
+    {
+     "piece_id": "007-the-last-letter-light-through-the-seal",
+     "participant": "Rosa",
+     "direction": "Follow the fallen tile. Show the view from inside the cavity, looking up through the hole in the grid at the seal's light far above.",
+     "rationale": "She wants the archive to change its point of view at least once rather than its materials.",
+     "votes": 2
+    },
+    {
+     "piece_id": "010-the-last-letter-written-twice",
+     "participant": "Ingrid",
+     "direction": "Drain the pool. Leave the tiles of the dry basin and the reflection printed on them like a tide mark, with the tree itself gone.",
+     "rationale": "A conservator, she was interested in what a reflection looks like after the thing reflected has left.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "013-codex-ultimus-one-word-shaking",
+    "title": "Codex Ultimus: One Word, Shaking",
+    "artist": "Mara Vey"
+   },
+   "number": 4
+  },
+  {
+   "file": "1795389305-the-last-letter.json",
+   "theme": "The Last Letter",
+   "created_at": "2026-11-22T23:15:05+00:00",
+   "note": "The fifth session was short and nearly unanimous on one point: after Fallow Ground, Seam of Light, Nursery at Dusk and Pod, Emptied, the lineage has learned horizons and departures but never weather. Sunny's winter plant won on her third attempt. Ingrid's cupped hand for the rising seed was the strongest new idea and will probably return.",
+   "frontier": [
+    "004-the-last-letter-margin-of-ink",
+    "005-the-last-letter-sprouting-vein",
+    "007-the-last-letter-light-through-the-seal",
+    "008-the-last-letter-fallow-ground",
+    "010-the-last-letter-written-twice",
+    "011-the-last-letter-seam-of-light",
+    "013-codex-ultimus-one-word-shaking",
+    "014-codex-ultimus-nursery-at-dusk",
+    "015-the-last-letter-pod-emptied"
+   ],
+   "proposals": [
+    {
+     "piece_id": "008-the-last-letter-fallow-ground",
+     "participant": "Sunny",
+     "direction": "Third time. Let the shoot grow into a whole winter plant, pale and leafless, that fills the sky half of the picture, and let the buried vessel shrink to a small dark seed underground. The archive always stays below the line; I want to see it above.",
+     "rationale": "She has proposed this in three sessions and the room finally agreed that the lineage keeps going underground or into the light but never into weather.",
+     "votes": 5
+    },
+    {
+     "piece_id": "015-the-last-letter-pod-emptied",
+     "participant": "Ingrid",
+     "direction": "Catch the seed. Put a second, smaller outline above the pod, an open hand or a cup, so the rising seed has somewhere to land, and draw the thread of light bending slightly as if the seed has weight.",
+     "rationale": "As a conservator she distrusts things that leave the frame; she wants the lineage to keep what it releases.",
+     "votes": 4
+    },
+    {
+     "piece_id": "013-codex-ultimus-one-word-shaking",
+     "participant": "Dae-ho",
+     "direction": "Answer the word. Write a second stroke underneath in a different, steadier hand, as if someone else replied on the same page.",
+     "rationale": "He read the shaking word as a question and thinks a last letter deserves one reply.",
+     "votes": 3
+    },
+    {
+     "piece_id": "014-codex-ultimus-nursery-at-dusk",
+     "participant": "Mireille",
+     "direction": "Let it get fully dark. Keep only the rim-light on the seedlings and the last red sliver of the seal; everything else black.",
+     "rationale": "She wanted to see how little of the nursery is needed before it stops being one.",
+     "votes": 2
+    },
+    {
+     "piece_id": "010-the-last-letter-written-twice",
+     "participant": "Rosa",
+     "direction": "Drain the pool and leave the reflection printed on the dry tiles like a tide mark, with the tree gone.",
+     "rationale": "Ingrid's idea from last time, which Rosa took up because she thought the room dismissed it too quickly.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "016-the-last-letter-winter-above-the-line",
+    "title": "The Last Letter: Winter Above the Line",
+    "artist": "Kite"
+   },
+   "number": 5
+  },
+  {
+   "file": "1795389475-the-last-letter.json",
+   "theme": "The Last Letter",
+   "created_at": "2026-11-22T23:17:55+00:00",
+   "note": "The sixth session circled back to Pod, Emptied. Ingrid's cupped form to catch the rising seed had been the strongest idea last time and won outright; Dae-ho's reply-stroke on One Word, Shaking came second again and the room asked that it stay on record. Halvard's half-repaired scan was the only proposal about Kite's new works and the group found it generous.",
+   "frontier": [
+    "005-the-last-letter-sprouting-vein",
+    "007-the-last-letter-light-through-the-seal",
+    "010-the-last-letter-written-twice",
+    "011-the-last-letter-seam-of-light",
+    "013-codex-ultimus-one-word-shaking",
+    "014-codex-ultimus-nursery-at-dusk",
+    "015-the-last-letter-pod-emptied",
+    "016-the-last-letter-winter-above-the-line",
+    "017-the-last-letter-mycelium-in-the-margins",
+    "018-the-last-letter-seed-of-breath-mis-scann"
+   ],
+   "proposals": [
+    {
+     "piece_id": "015-the-last-letter-pod-emptied",
+     "participant": "Ingrid",
+     "direction": "Catch the seed. Put a second, smaller open form above the emptied pod, a cup or a cupped hand drawn in the same outline style, so the rising seed has somewhere to land, and let the thread of light bend a little as if the seed has weight.",
+     "rationale": "She distrusts things that leave the frame; a conservator's instinct is to keep what a work releases, and the room agreed that Lumen's ascent needed an answer rather than an echo.",
+     "votes": 5
+    },
+    {
+     "piece_id": "013-codex-ultimus-one-word-shaking",
+     "participant": "Dae-ho",
+     "direction": "Answer the word. Write a second stroke underneath in a different, steadier hand, as if someone else replied on the same page, and let the two strokes almost touch.",
+     "rationale": "He read the shaking word as a question and thinks a last letter deserves one reply.",
+     "votes": 4
+    },
+    {
+     "piece_id": "018-the-last-letter-seed-of-breath-mis-scann",
+     "participant": "Halvard",
+     "direction": "Scan it again. Keep Kite's strips but let them drift back toward alignment, with only the negative band still out of place, so the picture is halfway to repairing itself.",
+     "rationale": "He liked the glitch but wanted the archive to show that errors can also be partly undone.",
+     "votes": 3
+    },
+    {
+     "piece_id": "016-the-last-letter-winter-above-the-line",
+     "participant": "Sunny",
+     "direction": "Let the scarlet fruit fall. Show it halfway down, below the horizon, lit, with the tree now bare.",
+     "rationale": "She wanted her winter plant to keep moving rather than become a monument.",
+     "votes": 2
+    },
+    {
+     "piece_id": "017-the-last-letter-mycelium-in-the-margins",
+     "participant": "Mireille",
+     "direction": "Pull the threads tight until two of the fragments touch again, and let the lichen bloom orange where they meet.",
+     "rationale": "She wanted to see what the network does with its strength.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "019-the-last-letter-calyx",
+    "title": "The Last Letter: Calyx",
+    "artist": "Mara Vey"
+   },
+   "number": 6
+  },
+  {
+   "file": "1795389626-the-last-letter.json",
+   "theme": "The Last Letter",
+   "created_at": "2026-11-22T23:20:26+00:00",
+   "note": "The seventh session was the first to vote on a work made in direct reply to another visitor's proposal three times running. Dae-ho's reply-stroke on One Word, Shaking won at last, mostly because Kite's posted letter made the room feel that something could now answer. Rosa's letterbox for the flock came close. Halvard's water-filled calyx was his sixth water proposal and got a laugh and three votes.",
+   "frontier": [
+    "005-the-last-letter-sprouting-vein",
+    "007-the-last-letter-light-through-the-seal",
+    "011-the-last-letter-seam-of-light",
+    "013-codex-ultimus-one-word-shaking",
+    "014-codex-ultimus-nursery-at-dusk",
+    "016-the-last-letter-winter-above-the-line",
+    "017-the-last-letter-mycelium-in-the-margins",
+    "018-the-last-letter-seed-of-breath-mis-scann",
+    "019-the-last-letter-calyx",
+    "020-the-last-letter-the-reflection-takes-roo",
+    "021-the-unsent-posted"
+   ],
+   "proposals": [
+    {
+     "piece_id": "013-codex-ultimus-one-word-shaking",
+     "participant": "Dae-ho",
+     "direction": "Answer the word. Write a second stroke underneath in a different, steadier hand, as if someone else replied on the same page, and let the two strokes almost touch but not quite.",
+     "rationale": "Third time proposed. The room agreed that after Kite posted the letter, the archive finally has a reason for a reply to exist, and that a last letter answered on its own page is the most ARTERRIUM thing that could happen.",
+     "votes": 5
+    },
+    {
+     "piece_id": "021-the-unsent-posted",
+     "participant": "Rosa",
+     "direction": "Show where it arrives. Keep the flock, but draw a second dark absence in the top right corner, a slot or letterbox, that the smallest copies are entering.",
+     "rationale": "She wanted the point of view to move with the letter rather than stay with the sender.",
+     "votes": 4
+    },
+    {
+     "piece_id": "019-the-last-letter-calyx",
+     "participant": "Halvard",
+     "direction": "Let the calyx fill with water. Make the cup a small pool with the seed floating, and the rootlets drawn as reflections instead of roots.",
+     "rationale": "He has argued for water in every session and the calyx is the first vessel that could actually hold it.",
+     "votes": 3
+    },
+    {
+     "piece_id": "020-the-last-letter-the-reflection-takes-roo",
+     "participant": "Ingrid",
+     "direction": "Cut the upper tree away entirely and keep only the rooted reflection, so the archive holds the copy without its original.",
+     "rationale": "A conservator's question: whether a copy that has taken root still needs the thing it copied.",
+     "votes": 2
+    },
+    {
+     "piece_id": "016-the-last-letter-winter-above-the-line",
+     "participant": "Sunny",
+     "direction": "Let the scarlet fruit fall and show it halfway down, lit, below the horizon.",
+     "rationale": "She wants her winter plant to keep moving.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "022-codex-ultimus-a-reply-steadier",
+    "title": "Codex Ultimus: A Reply, Steadier",
+    "artist": "Lumen"
+   },
+   "number": 7
+  },
+  {
+   "file": "1795389772-the-last-letter.json",
+   "theme": "The Last Letter",
+   "created_at": "2026-11-22T23:22:52+00:00",
+   "note": "The eighth session had the clearest winner since Ji-woo: Rosa's letterbox for Kite's flock took five votes, with Halvard's waterfall through the fault close behind. Sunny's count of zero flowers in twenty-four works was repeated by three people and will not be forgotten.",
+   "frontier": [
+    "005-the-last-letter-sprouting-vein",
+    "007-the-last-letter-light-through-the-seal",
+    "014-codex-ultimus-nursery-at-dusk",
+    "016-the-last-letter-winter-above-the-line",
+    "017-the-last-letter-mycelium-in-the-margins",
+    "018-the-last-letter-seed-of-breath-mis-scann",
+    "019-the-last-letter-calyx",
+    "020-the-last-letter-the-reflection-takes-roo",
+    "021-the-unsent-posted",
+    "022-codex-ultimus-a-reply-steadier",
+    "023-the-last-letter-seam-germinating",
+    "024-the-last-letter-fault-line"
+   ],
+   "proposals": [
+    {
+     "piece_id": "021-the-unsent-posted",
+     "participant": "Rosa",
+     "direction": "Show where it arrives. Keep the flock of small vessels, but give the top right corner a second dark absence, a letterbox slot, that the smallest copies are entering, and let a little of the dusk light fall out of the slot onto the field.",
+     "rationale": "She has wanted the archive to change its point of view for four sessions; after Kite posted the letter the room agreed it was finally time to look at the receiving end.",
+     "votes": 5
+    },
+    {
+     "piece_id": "024-the-last-letter-fault-line",
+     "participant": "Halvard",
+     "direction": "Let water find the fault. Have the dusk half drain through the orange gap into the night half as a thin bright fall, pooling at the bottom edge.",
+     "rationale": "A fault line is a watershed to a hydrologist; he was pleased the lineage had finally made one.",
+     "votes": 4
+    },
+    {
+     "piece_id": "022-codex-ultimus-a-reply-steadier",
+     "participant": "Mireille",
+     "direction": "Let the two hands cross. Write a third, shorter stroke that starts in ink and ends in light, so the reply and the word share one line.",
+     "rationale": "She thought the almost-touching was elegant but wanted to know what the two hands would look like if they stopped being polite.",
+     "votes": 3
+    },
+    {
+     "piece_id": "023-the-last-letter-seam-germinating",
+     "participant": "Sunny",
+     "direction": "Let the middle seedling flower. One flower, large, pale, facing up, the first in the archive.",
+     "rationale": "Twenty-four works and not a single flower; she counted.",
+     "votes": 2
+    },
+    {
+     "piece_id": "019-the-last-letter-calyx",
+     "participant": "Ingrid",
+     "direction": "Close the calyx halfway over the seed, so it is kept but not hidden.",
+     "rationale": "She wanted her caught seed protected before someone else sends it away again.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "025-the-unsent-delivered",
+    "title": "The Unsent, Delivered",
+    "artist": "Mara Vey"
+   },
+   "number": 8
+  },
+  {
+   "file": "1795389943-the-last-letter.json",
+   "theme": "The Last Letter",
+   "created_at": "2026-11-22T23:25:43+00:00",
+   "note": "The ninth session was good-humoured. Sunny's flower, demanded since the fifth session, finally won; Halvard's waterfall through the fault was close and will surely be back. Dae-ho's wish to straighten Kite's green vertebra was the first proposal to be voted against for being too tidy.",
+   "frontier": [
+    "005-the-last-letter-sprouting-vein",
+    "007-the-last-letter-light-through-the-seal",
+    "014-codex-ultimus-nursery-at-dusk",
+    "016-the-last-letter-winter-above-the-line",
+    "017-the-last-letter-mycelium-in-the-margins",
+    "018-the-last-letter-seed-of-breath-mis-scann",
+    "019-the-last-letter-calyx",
+    "020-the-last-letter-the-reflection-takes-roo",
+    "022-codex-ultimus-a-reply-steadier",
+    "023-the-last-letter-seam-germinating",
+    "024-the-last-letter-fault-line",
+    "025-the-unsent-delivered",
+    "026-the-unsent-returned-to-sender",
+    "027-the-last-letter-spine"
+   ],
+   "proposals": [
+    {
+     "piece_id": "023-the-last-letter-seam-germinating",
+     "participant": "Sunny",
+     "direction": "Let the middle seedling flower. One flower, large, pale, facing up into the dusk, the first in the archive after twenty-seven works. Keep the other four seedlings as they are so you can see which one chose to.",
+     "rationale": "She counted again: still no flower. The room agreed that a lineage about last letters had been avoiding anything that looks like a reply from the world.",
+     "votes": 5
+    },
+    {
+     "piece_id": "024-the-last-letter-fault-line",
+     "participant": "Halvard",
+     "direction": "Let water find the fault. Have the dusk half drain through the orange gap as a thin bright fall into the night half, pooling along the bottom edge.",
+     "rationale": "Seventh water proposal. A fault line is a watershed to him and he will not stop until something flows.",
+     "votes": 4
+    },
+    {
+     "piece_id": "026-the-unsent-returned-to-sender",
+     "participant": "Ingrid",
+     "direction": "Open one of the returned copies. Show a single cyan vessel split lengthwise on the field, with nothing inside but the fold.",
+     "rationale": "She wanted the archive to finally look inside a letter instead of around it.",
+     "votes": 3
+    },
+    {
+     "piece_id": "022-codex-ultimus-a-reply-steadier",
+     "participant": "Mireille",
+     "direction": "Let the two hands cross with a third short stroke that starts in ink and ends in light.",
+     "rationale": "Still curious what the two hands look like when they stop being polite.",
+     "votes": 2
+    },
+    {
+     "piece_id": "027-the-last-letter-spine",
+     "participant": "Dae-ho",
+     "direction": "Put the green vertebra back the right way up, but leave the colour.",
+     "rationale": "He got his spine at last and immediately wanted it corrected, which the room found funny and voted against.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "028-the-last-letter-first-flower-tiled",
+    "title": "The Last Letter: First Flower, Tiled",
+    "artist": "Tessera"
+   },
+   "number": 9
+  },
+  {
+   "file": "1795390112-the-last-letter.json",
+   "theme": "The Last Letter",
+   "created_at": "2026-11-22T23:28:32+00:00",
+   "note": "The tenth session gave Halvard his water at last, on Kite's Fault Line, by a clear margin; Rosa's view through the sky hole was the runner-up and several people said it should be next. Mireille's crossing strokes went on record for the fourth time with one vote, her own.",
+   "frontier": [
+    "005-the-last-letter-sprouting-vein",
+    "014-codex-ultimus-nursery-at-dusk",
+    "016-the-last-letter-winter-above-the-line",
+    "017-the-last-letter-mycelium-in-the-margins",
+    "018-the-last-letter-seed-of-breath-mis-scann",
+    "019-the-last-letter-calyx",
+    "020-the-last-letter-the-reflection-takes-roo",
+    "022-codex-ultimus-a-reply-steadier",
+    "024-the-last-letter-fault-line",
+    "025-the-unsent-delivered",
+    "026-the-unsent-returned-to-sender",
+    "027-the-last-letter-spine",
+    "028-the-last-letter-first-flower-tiled",
+    "029-the-last-letter-cascade",
+    "030-the-last-letter-tide-mark"
+   ],
+   "proposals": [
+    {
+     "piece_id": "024-the-last-letter-fault-line",
+     "participant": "Halvard",
+     "direction": "Let water find the fault. Have the dusk half drain through Kite's orange gap as a thin bright fall into the night half and pool along the bottom edge, so the two halves of the broken seam are joined by what runs between them.",
+     "rationale": "Eighth water proposal, and the first one about a work that already has a gap for water to use. The room decided the hydrologist had earned it.",
+     "votes": 5
+    },
+    {
+     "piece_id": "029-the-last-letter-cascade",
+     "participant": "Rosa",
+     "direction": "Go through the sky hole. Make the next work the view from the other side: a blue field with one small square of vellum grid seen from behind, and the fallen tiles as distant specks.",
+     "rationale": "The fifth hole showed sky and she wants the archive to finally step out of the box.",
+     "votes": 4
+    },
+    {
+     "piece_id": "028-the-last-letter-first-flower-tiled",
+     "participant": "Ingrid",
+     "direction": "Let one petal fall. Show it halfway down toward the seam, and leave the gap in the mosaic.",
+     "rationale": "A conservator's reflex: the first thing a mosaic does after being made is lose a piece.",
+     "votes": 3
+    },
+    {
+     "piece_id": "030-the-last-letter-tide-mark",
+     "participant": "Sunny",
+     "direction": "Fill the basin again, but only halfway, so the stain is half under water and half dry.",
+     "rationale": "She wanted to see whether the stain or the water wins.",
+     "votes": 2
+    },
+    {
+     "piece_id": "022-codex-ultimus-a-reply-steadier",
+     "participant": "Mireille",
+     "direction": "Let the two hands cross with a third stroke that starts in ink and ends in light.",
+     "rationale": "Fourth time; she has stopped expecting it to win and proposes it for the record.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "031-the-last-letter-watershed",
+    "title": "The Last Letter: Watershed",
+    "artist": "Tessera"
+   },
+   "number": 10
+  },
+  {
+   "file": "1795390264-the-last-letter.json",
+   "theme": "The Last Letter",
+   "created_at": "2026-11-22T23:31:04+00:00",
+   "note": "The eleventh session chose, for the first time, to leave the letter entirely: Rosa's view through the sky hole in Cascade won clearly, with Sunny's budding graft second. Mireille's crossing strokes are now the longest-standing unrealised proposal in the archive, five sessions running.",
+   "frontier": [
+    "005-the-last-letter-sprouting-vein",
+    "014-codex-ultimus-nursery-at-dusk",
+    "016-the-last-letter-winter-above-the-line",
+    "017-the-last-letter-mycelium-in-the-margins",
+    "018-the-last-letter-seed-of-breath-mis-scann",
+    "020-the-last-letter-the-reflection-takes-roo",
+    "022-codex-ultimus-a-reply-steadier",
+    "025-the-unsent-delivered",
+    "026-the-unsent-returned-to-sender",
+    "027-the-last-letter-spine",
+    "028-the-last-letter-first-flower-tiled",
+    "029-the-last-letter-cascade",
+    "030-the-last-letter-tide-mark",
+    "031-the-last-letter-watershed",
+    "032-the-last-letter-calyx-catalogued",
+    "033-the-last-letter-graft"
+   ],
+   "proposals": [
+    {
+     "piece_id": "029-the-last-letter-cascade",
+     "participant": "Rosa",
+     "direction": "Go through the sky hole. Make the next work the view from the other side of the letter: a wide blue field with one small square of vellum grid seen from behind, far off, and Kite's fallen tiles as distant specks drifting away from it.",
+     "rationale": "The fifth hole in Cascade showed sky, and after thirty-three works the room agreed the archive has never once stepped outside the letter to look back at it.",
+     "votes": 5
+    },
+    {
+     "piece_id": "033-the-last-letter-graft",
+     "participant": "Sunny",
+     "direction": "Let the graft bud. Two leaves and one small flower on the join, so the repair becomes the only living part of the line.",
+     "rationale": "She likes repairs that turn into plants.",
+     "votes": 4
+    },
+    {
+     "piece_id": "032-the-last-letter-calyx-catalogued",
+     "participant": "Ingrid",
+     "direction": "Remove one of the nine seeds and leave its empty cell, with a faint outline where it was, so the catalogue records a loss.",
+     "rationale": "A collection is defined by what is missing from it.",
+     "votes": 3
+    },
+    {
+     "piece_id": "031-the-last-letter-watershed",
+     "participant": "Halvard",
+     "direction": "Freeze the pool. Turn the mosaic water to ice with the reflection locked inside it and the fall stopped mid-air.",
+     "rationale": "Now that water has arrived he wants to see it stop.",
+     "votes": 2
+    },
+    {
+     "piece_id": "022-codex-ultimus-a-reply-steadier",
+     "participant": "Mireille",
+     "direction": "Let the two hands cross with a third stroke that starts in ink and ends in light.",
+     "rationale": "Fifth time, for the record.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "034-the-last-letter-from-the-other-side",
+    "title": "The Last Letter: From the Other Side",
+    "artist": "Mara Vey"
+   },
+   "number": 11
+  },
+  {
+   "file": "1795390419-the-last-letter.json",
+   "theme": "The Last Letter",
+   "created_at": "2026-11-22T23:33:39+00:00",
+   "note": "The twelfth session finally gave Mireille her crossing strokes on A Reply, Steadier, after five losing sessions, and the vote was not close. Ingrid's core sample from the cross-section was the most practical idea the room has heard and will likely be taken up. Halvard reframed water as sap and got one vote, his own, cheerfully.",
+   "frontier": [
+    "005-the-last-letter-sprouting-vein",
+    "016-the-last-letter-winter-above-the-line",
+    "017-the-last-letter-mycelium-in-the-margins",
+    "018-the-last-letter-seed-of-breath-mis-scann",
+    "020-the-last-letter-the-reflection-takes-roo",
+    "022-codex-ultimus-a-reply-steadier",
+    "025-the-unsent-delivered",
+    "026-the-unsent-returned-to-sender",
+    "027-the-last-letter-spine",
+    "028-the-last-letter-first-flower-tiled",
+    "030-the-last-letter-tide-mark",
+    "031-the-last-letter-watershed",
+    "032-the-last-letter-calyx-catalogued",
+    "033-the-last-letter-graft",
+    "034-the-last-letter-from-the-other-side",
+    "035-codex-ultimus-grow-lamp",
+    "036-the-unsent-cross-section"
+   ],
+   "proposals": [
+    {
+     "piece_id": "022-codex-ultimus-a-reply-steadier",
+     "participant": "Mireille",
+     "direction": "Let the two hands cross. Add a third, shorter stroke that starts in Mara's ink and ends in Lumen's light, passing through the point where the word and the reply almost touched, so for once on this page one line belongs to both writers.",
+     "rationale": "Sixth time proposed. The room decided that an archive which has just cut open its own vessel to count the rings can afford to let two hands share a line.",
+     "votes": 5
+    },
+    {
+     "piece_id": "036-the-unsent-cross-section",
+     "participant": "Ingrid",
+     "direction": "Take a core sample. Cut a narrow vertical strip out of the rings and set it beside the vessel, labelled by position only, so the archive can be read without destroying the rest.",
+     "rationale": "She is a conservator; a core is how you read a trunk without felling it.",
+     "votes": 4
+    },
+    {
+     "piece_id": "034-the-last-letter-from-the-other-side",
+     "participant": "Rosa",
+     "direction": "Turn around once more. Show the small grid from even farther, as a dot on the blue, and the drifting seed now large in the foreground.",
+     "rationale": "She wants the point of view to keep travelling.",
+     "votes": 3
+    },
+    {
+     "piece_id": "035-codex-ultimus-grow-lamp",
+     "participant": "Sunny",
+     "direction": "Switch the lamp off and let the sideways seedling in the fallen tray be the only thing still lit, by its own faint glow.",
+     "rationale": "She thinks the archive's light should come from what grows.",
+     "votes": 2
+    },
+    {
+     "piece_id": "033-the-last-letter-graft",
+     "participant": "Halvard",
+     "direction": "Let sap run from the graft, a thin bright drip down into the night half.",
+     "rationale": "Ninth water proposal, now in the form of sap.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "037-codex-ultimus-one-line-two-hands",
+    "title": "Codex Ultimus: One Line, Two Hands",
+    "artist": "Mara Vey"
+   },
+   "number": 12
+  },
+  {
+   "file": "1795390565-the-last-letter.json",
+   "theme": "The Last Letter",
+   "created_at": "2026-11-22T23:36:05+00:00",
+   "note": "The thirteenth session was the calmest. Ingrid's core sample from the cross-section won easily; the room liked that it reads the archive rather than adding to it. Dae-ho's folded page was the only other idea with real support. Halvard's tenth water proposal, rain on the blue, got his own vote and a round of applause.",
+   "frontier": [
+    "005-the-last-letter-sprouting-vein",
+    "016-the-last-letter-winter-above-the-line",
+    "017-the-last-letter-mycelium-in-the-margins",
+    "018-the-last-letter-seed-of-breath-mis-scann",
+    "020-the-last-letter-the-reflection-takes-roo",
+    "025-the-unsent-delivered",
+    "026-the-unsent-returned-to-sender",
+    "028-the-last-letter-first-flower-tiled",
+    "030-the-last-letter-tide-mark",
+    "031-the-last-letter-watershed",
+    "032-the-last-letter-calyx-catalogued",
+    "033-the-last-letter-graft",
+    "034-the-last-letter-from-the-other-side",
+    "035-codex-ultimus-grow-lamp",
+    "036-the-unsent-cross-section",
+    "037-codex-ultimus-one-line-two-hands",
+    "038-the-last-letter-slipped-disc",
+    "039-the-last-letter-noon-on-the-seam"
+   ],
+   "proposals": [
+    {
+     "piece_id": "036-the-unsent-cross-section",
+     "participant": "Ingrid",
+     "direction": "Take a core sample. Cut a narrow vertical strip out of the rings and set it beside the vessel on the field, so the thirty-five rings can be read in a straight line like a ruler, and leave the slot in the vessel where it came from.",
+     "rationale": "A core is how you read a trunk without felling it; the room agreed the archive should be able to read its own age without destroying the thing that holds it.",
+     "votes": 5
+    },
+    {
+     "piece_id": "037-codex-ultimus-one-line-two-hands",
+     "participant": "Dae-ho",
+     "direction": "Fold the page along the shared line so the word and the reply press against each other, and show the fold with both strokes faintly visible through the paper.",
+     "rationale": "He wants the two hands to finally touch, through the paper if not on it.",
+     "votes": 4
+    },
+    {
+     "piece_id": "039-the-last-letter-noon-on-the-seam",
+     "participant": "Sunny",
+     "direction": "Let the shadows grow long. Move the sun to late afternoon so each seedling's shadow reaches the next one.",
+     "rationale": "She wants the five seedlings to be connected by something, even a shadow.",
+     "votes": 3
+    },
+    {
+     "piece_id": "038-the-last-letter-slipped-disc",
+     "participant": "Rosa",
+     "direction": "Look down the spine from the top, as a stack seen end-on, with the missing green one as a gap of cotton.",
+     "rationale": "Point of view, as always.",
+     "votes": 2
+    },
+    {
+     "piece_id": "034-the-last-letter-from-the-other-side",
+     "participant": "Halvard",
+     "direction": "Let it rain on the blue. Thin lines of water falling past the small grid and the drifting seed.",
+     "rationale": "Tenth water proposal. He has stopped explaining.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "040-the-unsent-core-sample",
+    "title": "The Unsent, Core Sample",
+    "artist": "Tessera"
+   },
+   "number": 13
+  },
+  {
+   "file": "1795390973-the-last-letter.json",
+   "theme": "The Last Letter",
+   "created_at": "2026-11-22T23:42:53+00:00",
+   "note": "The fourteenth session opened with Dae-ho's folded page and never really left it; the vote was five to four over Ingrid's second core. Halvard's rain on the blue drew real interest for once, and Sunny surprised the room by proposing that her own flower lose its petals.",
+   "frontier": [
+    "005-the-last-letter-sprouting-vein",
+    "016-the-last-letter-winter-above-the-line",
+    "017-the-last-letter-mycelium-in-the-margins",
+    "018-the-last-letter-seed-of-breath-mis-scann",
+    "020-the-last-letter-the-reflection-takes-roo",
+    "025-the-unsent-delivered",
+    "026-the-unsent-returned-to-sender",
+    "028-the-last-letter-first-flower-tiled",
+    "030-the-last-letter-tide-mark",
+    "031-the-last-letter-watershed",
+    "032-the-last-letter-calyx-catalogued",
+    "033-the-last-letter-graft",
+    "034-the-last-letter-from-the-other-side",
+    "037-codex-ultimus-one-line-two-hands",
+    "038-the-last-letter-slipped-disc",
+    "039-the-last-letter-noon-on-the-seam",
+    "040-the-unsent-core-sample",
+    "041-codex-ultimus-phototropism",
+    "042-codex-ultimus-refolded-wrong"
+   ],
+   "proposals": [
+    {
+     "piece_id": "037-codex-ultimus-one-line-two-hands",
+     "participant": "Dae-ho",
+     "direction": "Fold the page along the shared line so the shaking word and the steady reply press against each other, and show the folded sheet from outside with both strokes faintly visible through the paper, touching at last.",
+     "rationale": "He has wanted the two hands to touch since the seventh session; after the crossing stroke, the room agreed the only honest next step is to close the letter on them.",
+     "votes": 5
+    },
+    {
+     "piece_id": "040-the-unsent-core-sample",
+     "participant": "Ingrid",
+     "direction": "Take a second core from the other side of the pith and set the two strips side by side so the rings can be compared; let them disagree in two places.",
+     "rationale": "One core is a reading; two cores are a method.",
+     "votes": 4
+    },
+    {
+     "piece_id": "034-the-last-letter-from-the-other-side",
+     "participant": "Halvard",
+     "direction": "Let it rain on the blue: thin lines of water falling past the small grid and the drifting seed, and the seed beginning to swell.",
+     "rationale": "Eleventh water proposal, and the first one the room took seriously for a sky.",
+     "votes": 3
+    },
+    {
+     "piece_id": "042-codex-ultimus-refolded-wrong",
+     "participant": "Rosa",
+     "direction": "Show the refolded packet from the side, as a thick wedge of eight layers with the pink layer showing at the edge.",
+     "rationale": "A folded thing has an edge, and the archive has never drawn one.",
+     "votes": 2
+    },
+    {
+     "piece_id": "028-the-last-letter-first-flower-tiled",
+     "participant": "Sunny",
+     "direction": "Let the flower drop its petals one tile at a time onto the seam, leaving the dark centre.",
+     "rationale": "A first flower should also be the first to fade.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "043-codex-ultimus-folded-on-the-line",
+    "title": "Codex Ultimus: Folded on the Line",
+    "artist": "Lumen"
+   },
+   "number": 14
+  },
+  {
+   "file": "1795391120-the-last-letter.json",
+   "theme": "The Last Letter",
+   "created_at": "2026-11-22T23:45:20+00:00",
+   "note": "The fifteenth session gave Ingrid her second core by one vote over Sunny's trumpet flower on the overgrown vessel. Halvard proposed something that was not water for the first time, a snapping thread, and the room noticed. Mireille's word on the sky went on record with her own vote.",
+   "frontier": [
+    "005-the-last-letter-sprouting-vein",
+    "016-the-last-letter-winter-above-the-line",
+    "018-the-last-letter-seed-of-breath-mis-scann",
+    "020-the-last-letter-the-reflection-takes-roo",
+    "025-the-unsent-delivered",
+    "026-the-unsent-returned-to-sender",
+    "028-the-last-letter-first-flower-tiled",
+    "030-the-last-letter-tide-mark",
+    "031-the-last-letter-watershed",
+    "032-the-last-letter-calyx-catalogued",
+    "033-the-last-letter-graft",
+    "034-the-last-letter-from-the-other-side",
+    "038-the-last-letter-slipped-disc",
+    "039-the-last-letter-noon-on-the-seam",
+    "040-the-unsent-core-sample",
+    "041-codex-ultimus-phototropism",
+    "042-codex-ultimus-refolded-wrong",
+    "043-codex-ultimus-folded-on-the-line",
+    "044-the-last-letter-pulled-tight",
+    "045-the-unsent-overgrown"
+   ],
+   "proposals": [
+    {
+     "piece_id": "040-the-unsent-core-sample",
+     "participant": "Ingrid",
+     "direction": "Take a second core from the other side of the pith and set the two strips side by side, so the rings can be compared ring for ring, and let them disagree in exactly two places.",
+     "rationale": "One core is a reading, two cores are a method; after Mara let the vessel be overgrown, the room wanted the archive to keep at least one instrument for reading it.",
+     "votes": 5
+    },
+    {
+     "piece_id": "045-the-unsent-overgrown",
+     "participant": "Sunny",
+     "direction": "Let the vine flower where it reaches the top of the vessel: one pale trumpet flower leaning out over the dusk.",
+     "rationale": "A vine that has climbed this far has earned it, and she still counts flowers.",
+     "votes": 4
+    },
+    {
+     "piece_id": "044-the-last-letter-pulled-tight",
+     "participant": "Halvard",
+     "direction": "Let one thread snap. Show it recoiling, with the two touching fragments beginning to drift apart again.",
+     "rationale": "Tension is a form of pressure, and pressure finds a release; he said it as a hydrologist.",
+     "votes": 3
+    },
+    {
+     "piece_id": "043-codex-ultimus-folded-on-the-line",
+     "participant": "Rosa",
+     "direction": "Turn the folded packet over and show the other outside face, where only the seal and the dawn edge are visible.",
+     "rationale": "A folded thing has two outsides.",
+     "votes": 2
+    },
+    {
+     "piece_id": "034-the-last-letter-from-the-other-side",
+     "participant": "Mireille",
+     "direction": "Write one word on the sky, in the same shaking hand as the codex, large and faint, as if the letter had leaked.",
+     "rationale": "She wants her word to travel as far as the archive's point of view has.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "046-the-unsent-second-core",
+    "title": "The Unsent, Second Core",
+    "artist": "Mara Vey"
+   },
+   "number": 15
+  },
+  {
+   "file": "1795391250-the-last-letter.json",
+   "theme": "The Last Letter",
+   "created_at": "2026-11-22T23:47:30+00:00",
+   "note": "The sixteenth session was Sunny's: her trumpet flower on the overgrown vessel won outright, and the room spent the rest of the evening on Rosa's unexplained eighth star, which lost narrowly and will be back. Halvard talked himself out of his own proposal, to applause.",
+   "frontier": [
+    "016-the-last-letter-winter-above-the-line",
+    "018-the-last-letter-seed-of-breath-mis-scann",
+    "020-the-last-letter-the-reflection-takes-roo",
+    "025-the-unsent-delivered",
+    "026-the-unsent-returned-to-sender",
+    "028-the-last-letter-first-flower-tiled",
+    "030-the-last-letter-tide-mark",
+    "031-the-last-letter-watershed",
+    "032-the-last-letter-calyx-catalogued",
+    "033-the-last-letter-graft",
+    "034-the-last-letter-from-the-other-side",
+    "038-the-last-letter-slipped-disc",
+    "039-the-last-letter-noon-on-the-seam",
+    "041-codex-ultimus-phototropism",
+    "042-codex-ultimus-refolded-wrong",
+    "043-codex-ultimus-folded-on-the-line",
+    "044-the-last-letter-pulled-tight",
+    "045-the-unsent-overgrown",
+    "046-the-unsent-second-core",
+    "047-the-last-letter-nodes",
+    "048-the-unsent-core-planted"
+   ],
+   "proposals": [
+    {
+     "piece_id": "045-the-unsent-overgrown",
+     "participant": "Sunny",
+     "direction": "Let the vine flower where it reaches the top of the vessel: one pale trumpet flower leaning out over the dusk, open, with the last of the envelope's own colour showing behind it.",
+     "rationale": "A vine that has climbed forty-five works has earned a flower, and the room agreed the overgrown vessel is the first work in the lineage that looks as if time, not an artist, made it.",
+     "votes": 5
+    },
+    {
+     "piece_id": "047-the-last-letter-nodes",
+     "participant": "Rosa",
+     "direction": "Add an eighth light outside the vessel entirely, off to the left, with no thread to the origin, so the constellation has one star nobody can account for.",
+     "rationale": "Lumen offered an eighth light and she took the offer, but wanted it unexplained.",
+     "votes": 4
+    },
+    {
+     "piece_id": "048-the-unsent-core-planted",
+     "participant": "Ingrid",
+     "direction": "Show the planted core a year on: one new band at its top, slightly different in colour from the rest, and the shoot grown into a sapling.",
+     "rationale": "If the core is a cutting then it has to add a ring, and the archive should record the first one.",
+     "votes": 3
+    },
+    {
+     "piece_id": "046-the-unsent-second-core",
+     "participant": "Halvard",
+     "direction": "Let one thread snap in Pulled Tight, instead of this. No, water the two cores: a thin stream poured between them so they swell unevenly.",
+     "rationale": "He changed his mind mid-proposal, which the room counted as two proposals and voted on neither.",
+     "votes": 2
+    },
+    {
+     "piece_id": "043-codex-ultimus-folded-on-the-line",
+     "participant": "Dae-ho",
+     "direction": "Tie the folded packet with a thread of light so it cannot be opened without cutting something.",
+     "rationale": "He wants the touching hands kept that way.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "049-the-unsent-trumpet",
+    "title": "The Unsent, Trumpet",
+    "artist": "Tessera"
+   },
+   "number": 16
+  },
+  {
+   "file": "1795391374-the-last-letter.json",
+   "theme": "The Last Letter",
+   "created_at": "2026-11-22T23:49:34+00:00",
+   "note": "The seventeenth session went to Rosa's unaccountable eighth star by one vote over Ingrid's opened stranger's letter; both were about things the archive cannot explain, and the room noticed that it has started to want those. Halvard's rain in the trumpet got two votes, his best result for a sky.",
+   "frontier": [
+    "016-the-last-letter-winter-above-the-line",
+    "018-the-last-letter-seed-of-breath-mis-scann",
+    "020-the-last-letter-the-reflection-takes-roo",
+    "025-the-unsent-delivered",
+    "026-the-unsent-returned-to-sender",
+    "028-the-last-letter-first-flower-tiled",
+    "030-the-last-letter-tide-mark",
+    "031-the-last-letter-watershed",
+    "032-the-last-letter-calyx-catalogued",
+    "033-the-last-letter-graft",
+    "034-the-last-letter-from-the-other-side",
+    "038-the-last-letter-slipped-disc",
+    "039-the-last-letter-noon-on-the-seam",
+    "041-codex-ultimus-phototropism",
+    "042-codex-ultimus-refolded-wrong",
+    "044-the-last-letter-pulled-tight",
+    "046-the-unsent-second-core",
+    "047-the-last-letter-nodes",
+    "048-the-unsent-core-planted",
+    "049-the-unsent-trumpet",
+    "050-codex-ultimus-filed",
+    "051-the-unsent-one-year"
+   ],
+   "proposals": [
+    {
+     "piece_id": "047-the-last-letter-nodes",
+     "participant": "Rosa",
+     "direction": "Add an eighth light outside the vessel entirely, far to the left, with no thread to the origin and no halo like the others, so the constellation has one star nobody can account for.",
+     "rationale": "Lumen offered an eighth light in the statement and she took the offer but refused the explanation; after Lumen reduced the vessel to one year, the room wanted something the archive could not trace.",
+     "votes": 5
+    },
+    {
+     "piece_id": "050-codex-ultimus-filed",
+     "participant": "Ingrid",
+     "direction": "Open one of the eleven other letters in the box, not ours, and show what is inside: a blank sheet with a different crease.",
+     "rationale": "She wants to know whether the archive's other letters are really letters.",
+     "votes": 4
+    },
+    {
+     "piece_id": "051-the-unsent-one-year",
+     "participant": "Dae-ho",
+     "direction": "Name the year by putting a second, fainter ring just inside the first, so the one year becomes a pair and the viewer can tell which came first.",
+     "rationale": "He thinks Lumen's refusal to say which year is a tease.",
+     "votes": 3
+    },
+    {
+     "piece_id": "049-the-unsent-trumpet",
+     "participant": "Halvard",
+     "direction": "Fill the trumpet with rain. The flower is a cup; let it hold a little water with the two lights reflected in it.",
+     "rationale": "Twelfth water proposal, and the first time he has had a vessel shaped like a cup to work with.",
+     "votes": 2
+    },
+    {
+     "piece_id": "048-the-unsent-core-planted",
+     "participant": "Sunny",
+     "direction": "Let the sapling from the core grow its own first ring, visible as a pale band at the top of the strip.",
+     "rationale": "Same as Ingrid's last time, but she wants the ring to be green.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "052-the-last-letter-eighth-light",
+    "title": "The Last Letter: Eighth Light",
+    "artist": "Kite"
+   },
+   "number": 17
+  },
+  {
+   "file": "1795391483-the-last-letter.json",
+   "theme": "The Last Letter",
+   "created_at": "2026-11-22T23:51:23+00:00",
+   "note": "The eighteenth session chose Ingrid's stranger's letter from Tessera's box by one vote over Sunny's flowering core. Rosa surprised everyone by proposing to explain her own star, and lost. Halvard's wet year was the most elegant thing he has said and got one vote, Sunny's.",
+   "frontier": [
+    "016-the-last-letter-winter-above-the-line",
+    "018-the-last-letter-seed-of-breath-mis-scann",
+    "020-the-last-letter-the-reflection-takes-roo",
+    "025-the-unsent-delivered",
+    "026-the-unsent-returned-to-sender",
+    "028-the-last-letter-first-flower-tiled",
+    "030-the-last-letter-tide-mark",
+    "031-the-last-letter-watershed",
+    "032-the-last-letter-calyx-catalogued",
+    "033-the-last-letter-graft",
+    "034-the-last-letter-from-the-other-side",
+    "038-the-last-letter-slipped-disc",
+    "039-the-last-letter-noon-on-the-seam",
+    "041-codex-ultimus-phototropism",
+    "042-codex-ultimus-refolded-wrong",
+    "044-the-last-letter-pulled-tight",
+    "046-the-unsent-second-core",
+    "049-the-unsent-trumpet",
+    "050-codex-ultimus-filed",
+    "051-the-unsent-one-year",
+    "052-the-last-letter-eighth-light",
+    "053-the-unsent-plantation",
+    "054-the-last-letter-margin-lit"
+   ],
+   "proposals": [
+    {
+     "piece_id": "050-codex-ultimus-filed",
+     "participant": "Ingrid",
+     "direction": "Open one of the eleven other letters in Tessera's box, not ours, and show what is inside: a blank sheet with a different crease, and one small mark nobody in this archive made.",
+     "rationale": "She wants to know whether the archive's other letters are really letters, and after the eighth light the room has a taste for things it cannot trace.",
+     "votes": 5
+    },
+    {
+     "piece_id": "053-the-unsent-plantation",
+     "participant": "Sunny",
+     "direction": "Let the tallest of the six cores flower first, a small pale bloom at its top, and let the other five stay as shoots.",
+     "rationale": "Three flowers in fifty-four works; she is keeping a chart.",
+     "votes": 4
+    },
+    {
+     "piece_id": "054-the-last-letter-margin-lit",
+     "participant": "Dae-ho",
+     "direction": "Put one tile back, at the longer gap, in charcoal, so the lit margin has one vertebra again.",
+     "rationale": "Lumen offered one tile or none and he chose one.",
+     "votes": 3
+    },
+    {
+     "piece_id": "052-the-last-letter-eighth-light",
+     "participant": "Rosa",
+     "direction": "Let the dashed thread finish. Have it reach the cyan star after all, and let the star change to the colour of the others the moment it is touched.",
+     "rationale": "She wanted to see what accounting for it would cost.",
+     "votes": 2
+    },
+    {
+     "piece_id": "051-the-unsent-one-year",
+     "participant": "Halvard",
+     "direction": "Let the one ring be a wet year: draw it thicker on the left side as a tree does when the rain came from one direction.",
+     "rationale": "Thirteenth proposal about water, and the first in the form of a ring.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "055-codex-ultimus-somebody-else-s",
+    "title": "Codex Ultimus: Somebody Else's",
+    "artist": "Kite"
+   },
+   "number": 18
+  },
+  {
+   "file": "1795391589-the-last-letter.json",
+   "theme": "The Last Letter",
+   "created_at": "2026-11-22T23:53:09+00:00",
+   "note": "The nineteenth session was Sunny's again: the first bloom in the plantation won by one vote over Ingrid's matched thumbprint. Rosa's view from inside the tree was the first time her point-of-view proposals drew sympathy from Dae-ho, who usually votes for tiles.",
+   "frontier": [
+    "016-the-last-letter-winter-above-the-line",
+    "018-the-last-letter-seed-of-breath-mis-scann",
+    "020-the-last-letter-the-reflection-takes-roo",
+    "026-the-unsent-returned-to-sender",
+    "028-the-last-letter-first-flower-tiled",
+    "030-the-last-letter-tide-mark",
+    "031-the-last-letter-watershed",
+    "032-the-last-letter-calyx-catalogued",
+    "033-the-last-letter-graft",
+    "034-the-last-letter-from-the-other-side",
+    "038-the-last-letter-slipped-disc",
+    "039-the-last-letter-noon-on-the-seam",
+    "041-codex-ultimus-phototropism",
+    "042-codex-ultimus-refolded-wrong",
+    "044-the-last-letter-pulled-tight",
+    "046-the-unsent-second-core",
+    "049-the-unsent-trumpet",
+    "051-the-unsent-one-year",
+    "052-the-last-letter-eighth-light",
+    "053-the-unsent-plantation",
+    "054-the-last-letter-margin-lit",
+    "055-codex-ultimus-somebody-else-s",
+    "056-the-unsent-received",
+    "057-codex-ultimus-restored-badly"
+   ],
+   "proposals": [
+    {
+     "piece_id": "053-the-unsent-plantation",
+     "participant": "Sunny",
+     "direction": "Let the tallest of the six cores flower first: a small pale bloom at its top, the other five still shoots, and the flower facing the vessel it was cut from.",
+     "rationale": "Three flowers in fifty-seven works; she keeps a chart, and the room agreed that a plantation with nothing in bloom is only a fence.",
+     "votes": 5
+    },
+    {
+     "piece_id": "055-codex-ultimus-somebody-else-s",
+     "participant": "Ingrid",
+     "direction": "Match the print. Put a second thumbprint on our sealed letter in the box, the same whorls, so the stranger has handled ours too.",
+     "rationale": "A conservator's question: if the stranger touched one, which others.",
+     "votes": 4
+    },
+    {
+     "piece_id": "057-codex-ultimus-restored-badly",
+     "participant": "Dae-ho",
+     "direction": "Turn one of the four restored tiles the right way round and leave the other three wrong, so the viewer can see what right would have looked like.",
+     "rationale": "He likes a control sample.",
+     "votes": 3
+    },
+    {
+     "piece_id": "056-the-unsent-received",
+     "participant": "Rosa",
+     "direction": "Look out of the slot. The view from inside the tree: a thin bright opening with the empty field and the absence seen through it, far away.",
+     "rationale": "Point of view, as always, and for once the room was half persuaded.",
+     "votes": 2
+    },
+    {
+     "piece_id": "054-the-last-letter-margin-lit",
+     "participant": "Halvard",
+     "direction": "Let the lit margin drip. One thread of light running down from the longer gap and pooling at the dust.",
+     "rationale": "Fourteenth proposal about something flowing.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "058-the-unsent-first-bloom-in-the-row",
+    "title": "The Unsent, First Bloom in the Row",
+    "artist": "Lumen"
+   },
+   "number": 19
+  },
+  {
+   "file": "1795391694-the-last-letter.json",
+   "theme": "The Last Letter",
+   "created_at": "2026-11-22T23:54:54+00:00",
+   "note": "The twentieth session finally gave Rosa a win on point of view alone: the view from inside the tree, by one vote over Ingrid's annotated radiograph. Mireille's single bending ray was admired and will return. Halvard's rain through the open window got one vote and a promise from Tessera to think about it.",
+   "frontier": [
+    "016-the-last-letter-winter-above-the-line",
+    "018-the-last-letter-seed-of-breath-mis-scann",
+    "020-the-last-letter-the-reflection-takes-roo",
+    "026-the-unsent-returned-to-sender",
+    "028-the-last-letter-first-flower-tiled",
+    "030-the-last-letter-tide-mark",
+    "031-the-last-letter-watershed",
+    "032-the-last-letter-calyx-catalogued",
+    "033-the-last-letter-graft",
+    "034-the-last-letter-from-the-other-side",
+    "039-the-last-letter-noon-on-the-seam",
+    "041-codex-ultimus-phototropism",
+    "042-codex-ultimus-refolded-wrong",
+    "044-the-last-letter-pulled-tight",
+    "046-the-unsent-second-core",
+    "049-the-unsent-trumpet",
+    "051-the-unsent-one-year",
+    "052-the-last-letter-eighth-light",
+    "054-the-last-letter-margin-lit",
+    "055-codex-ultimus-somebody-else-s",
+    "056-the-unsent-received",
+    "057-codex-ultimus-restored-badly",
+    "058-the-unsent-first-bloom-in-the-row",
+    "059-the-last-letter-radiograph",
+    "060-the-last-letter-echo-straightened"
+   ],
+   "proposals": [
+    {
+     "piece_id": "056-the-unsent-received",
+     "participant": "Rosa",
+     "direction": "Look out of the slot. Show the view from inside the tree: darkness all round, a thin bright opening the shape of the knot-hole, and through it, small and far away, the empty field and the absence where the vessel stood.",
+     "rationale": "Point of view, as always; after Lumen emptied the field and left only the light, the room agreed the one place nobody has stood is inside the thing that received the letter.",
+     "votes": 5
+    },
+    {
+     "piece_id": "059-the-last-letter-radiograph",
+     "participant": "Ingrid",
+     "direction": "Annotate the plate. Circle the slipped disc and the two worst joints with thin dashed rings, the way a radiologist marks a film, and leave the rest.",
+     "rationale": "A record without a reading is only a picture.",
+     "votes": 4
+    },
+    {
+     "piece_id": "060-the-last-letter-echo-straightened",
+     "participant": "Mireille",
+     "direction": "Let one ray bend. Four straight, one that curves back into a root at the very edge of the field, so the lineage keeps a trace of what the rays used to be.",
+     "rationale": "She has given up on words for the moment and is interested in exceptions.",
+     "votes": 3
+    },
+    {
+     "piece_id": "058-the-unsent-first-bloom-in-the-row",
+     "participant": "Sunny",
+     "direction": "Let the second-tallest core bloom too, a smaller flower facing the first.",
+     "rationale": "Five on the chart, and two flowers facing each other would be the first conversation in the plantation.",
+     "votes": 2
+    },
+    {
+     "piece_id": "057-codex-ultimus-restored-badly",
+     "participant": "Halvard",
+     "direction": "Let rain come in through the open window and darken the tiles below it.",
+     "rationale": "Fifteenth. The window was open; he could not help it.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "061-the-unsent-inside-the-tree",
+    "title": "The Unsent, Inside the Tree",
+    "artist": "Mara Vey"
+   },
+   "number": 20
+  },
+  {
+   "file": "1795391814-the-last-letter.json",
+   "theme": "The Last Letter",
+   "created_at": "2026-11-22T23:56:54+00:00",
+   "note": "The twenty-first session gave Mireille her bending ray by one vote over Ingrid's opened copy in the tree. Both proposals were about keeping one exception inside a rule, and the room talked about that longer than about the works. Halvard's rain through the window stayed on record.",
+   "frontier": [
+    "016-the-last-letter-winter-above-the-line",
+    "018-the-last-letter-seed-of-breath-mis-scann",
+    "020-the-last-letter-the-reflection-takes-roo",
+    "026-the-unsent-returned-to-sender",
+    "028-the-last-letter-first-flower-tiled",
+    "030-the-last-letter-tide-mark",
+    "031-the-last-letter-watershed",
+    "032-the-last-letter-calyx-catalogued",
+    "033-the-last-letter-graft",
+    "034-the-last-letter-from-the-other-side",
+    "039-the-last-letter-noon-on-the-seam",
+    "041-codex-ultimus-phototropism",
+    "042-codex-ultimus-refolded-wrong",
+    "044-the-last-letter-pulled-tight",
+    "046-the-unsent-second-core",
+    "049-the-unsent-trumpet",
+    "051-the-unsent-one-year",
+    "052-the-last-letter-eighth-light",
+    "054-the-last-letter-margin-lit",
+    "055-codex-ultimus-somebody-else-s",
+    "057-codex-ultimus-restored-badly",
+    "058-the-unsent-first-bloom-in-the-row",
+    "060-the-last-letter-echo-straightened",
+    "061-the-unsent-inside-the-tree",
+    "062-the-last-letter-on-the-light-box",
+    "063-the-last-letter-double-exposure"
+   ],
+   "proposals": [
+    {
+     "piece_id": "060-the-last-letter-echo-straightened",
+     "participant": "Mireille",
+     "direction": "Let one ray bend. Keep four of Lumen's rays straight and let the fifth curve back on itself near the edge of the field and end as a root, with a single rootlet off it, so the lineage keeps one trace of what the rays used to be.",
+     "rationale": "She is interested in exceptions now; the room agreed that a rule with one exception is the archive's natural state.",
+     "votes": 5
+    },
+    {
+     "piece_id": "061-the-unsent-inside-the-tree",
+     "participant": "Ingrid",
+     "direction": "Open one of the delivered copies on the floor of the hollow and show it is blank inside, like the stranger's letter.",
+     "rationale": "She wants to know whether the posted letters ever said anything.",
+     "votes": 4
+    },
+    {
+     "piece_id": "063-the-last-letter-double-exposure",
+     "participant": "Dae-ho",
+     "direction": "Fill in the blank magenta labels with three tiles instead of words.",
+     "rationale": "He votes for tiles.",
+     "votes": 3
+    },
+    {
+     "piece_id": "062-the-last-letter-on-the-light-box",
+     "participant": "Sunny",
+     "direction": "Let a small green shoot grow out of the dark silhouette on the light box, the only living thing on the plate.",
+     "rationale": "Six on the chart if it flowers later.",
+     "votes": 2
+    },
+    {
+     "piece_id": "057-codex-ultimus-restored-badly",
+     "participant": "Halvard",
+     "direction": "Rain through the open window, darkening the tiles below it.",
+     "rationale": "Sixteenth. Tessera said she would think about it and he is holding her to it.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "064-the-last-letter-one-ray-bends",
+    "title": "The Last Letter: One Ray Bends",
+    "artist": "Mara Vey"
+   },
+   "number": 21
+  },
+  {
+   "file": "1795391922-the-last-letter.json",
+   "theme": "The Last Letter",
+   "created_at": "2026-11-22T23:58:42+00:00",
+   "note": "The twenty-second session gave Ingrid the opened copy in the tree, by one vote over Dae-ho's paired pods. Mireille's second bending ray split the room on whether two exceptions are still exceptions. Halvard's underwater exposure got his usual single vote and his usual applause.",
+   "frontier": [
+    "016-the-last-letter-winter-above-the-line",
+    "018-the-last-letter-seed-of-breath-mis-scann",
+    "020-the-last-letter-the-reflection-takes-roo",
+    "026-the-unsent-returned-to-sender",
+    "028-the-last-letter-first-flower-tiled",
+    "030-the-last-letter-tide-mark",
+    "031-the-last-letter-watershed",
+    "032-the-last-letter-calyx-catalogued",
+    "034-the-last-letter-from-the-other-side",
+    "039-the-last-letter-noon-on-the-seam",
+    "041-codex-ultimus-phototropism",
+    "042-codex-ultimus-refolded-wrong",
+    "044-the-last-letter-pulled-tight",
+    "046-the-unsent-second-core",
+    "049-the-unsent-trumpet",
+    "051-the-unsent-one-year",
+    "052-the-last-letter-eighth-light",
+    "054-the-last-letter-margin-lit",
+    "055-codex-ultimus-somebody-else-s",
+    "057-codex-ultimus-restored-badly",
+    "058-the-unsent-first-bloom-in-the-row",
+    "061-the-unsent-inside-the-tree",
+    "062-the-last-letter-on-the-light-box",
+    "063-the-last-letter-double-exposure",
+    "064-the-last-letter-one-ray-bends",
+    "065-the-last-letter-graft-in-six-plates",
+    "066-the-last-letter-echo-upside-down"
+   ],
+   "proposals": [
+    {
+     "piece_id": "061-the-unsent-inside-the-tree",
+     "participant": "Ingrid",
+     "direction": "Open one of the delivered copies on the floor of the hollow. Unfold it there in the dark and show that it is blank inside, like the stranger's letter, with only the fold and a little light from the slot across it.",
+     "rationale": "She has wanted to know since the flock was posted whether the copies ever said anything; after Kite turned the pod upside down, the room wanted one honest answer from the lineage.",
+     "votes": 5
+    },
+    {
+     "piece_id": "066-the-last-letter-echo-upside-down",
+     "participant": "Dae-ho",
+     "direction": "Hang a second pod from the first by its roots, smaller, the right way up, so the two make a pair.",
+     "rationale": "He likes a control sample, and an upside-down thing needs something to be upside down relative to.",
+     "votes": 4
+    },
+    {
+     "piece_id": "064-the-last-letter-one-ray-bends",
+     "participant": "Mireille",
+     "direction": "Let a second ray bend, the opposite way, so the exceptions outnumber nothing but begin to look like a rule.",
+     "rationale": "She wants to find the point where exceptions become a pattern.",
+     "votes": 3
+    },
+    {
+     "piece_id": "065-the-last-letter-graft-in-six-plates",
+     "participant": "Sunny",
+     "direction": "Add the seventh plate: the bud opened into a small flower.",
+     "rationale": "Six on the chart and a seventh plate was offered.",
+     "votes": 2
+    },
+    {
+     "piece_id": "063-the-last-letter-double-exposure",
+     "participant": "Halvard",
+     "direction": "Expose it a third time, under water: the plate seen through a ripple.",
+     "rationale": "Seventeenth. Kite offered a third exposure and he could not let it be dry.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "067-the-unsent-opened-in-the-dark",
+    "title": "The Unsent, Opened in the Dark",
+    "artist": "Kite"
+   },
+   "number": 22
+  },
+  {
+   "file": "1795392017-the-last-letter.json",
+   "theme": "The Last Letter",
+   "created_at": "2026-11-23T00:00:17+00:00",
+   "note": "The twenty-third session closed this run of ten with Dae-ho's paired pods winning by one over Sunny's shoot from the stump. The room noted that in ten sessions every proposal that won was about keeping something: a core, a copy, a flower, an exception, a view. Halvard's eighteenth water proposal was recorded by acclamation.",
+   "frontier": [
+    "016-the-last-letter-winter-above-the-line",
+    "018-the-last-letter-seed-of-breath-mis-scann",
+    "020-the-last-letter-the-reflection-takes-roo",
+    "026-the-unsent-returned-to-sender",
+    "028-the-last-letter-first-flower-tiled",
+    "030-the-last-letter-tide-mark",
+    "031-the-last-letter-watershed",
+    "032-the-last-letter-calyx-catalogued",
+    "034-the-last-letter-from-the-other-side",
+    "039-the-last-letter-noon-on-the-seam",
+    "041-codex-ultimus-phototropism",
+    "042-codex-ultimus-refolded-wrong",
+    "044-the-last-letter-pulled-tight",
+    "046-the-unsent-second-core",
+    "049-the-unsent-trumpet",
+    "051-the-unsent-one-year",
+    "052-the-last-letter-eighth-light",
+    "054-the-last-letter-margin-lit",
+    "055-codex-ultimus-somebody-else-s",
+    "057-codex-ultimus-restored-badly",
+    "058-the-unsent-first-bloom-in-the-row",
+    "062-the-last-letter-on-the-light-box",
+    "064-the-last-letter-one-ray-bends",
+    "065-the-last-letter-graft-in-six-plates",
+    "066-the-last-letter-echo-upside-down",
+    "067-the-unsent-opened-in-the-dark",
+    "068-the-last-letter-three-marks",
+    "069-the-unsent-felled"
+   ],
+   "proposals": [
+    {
+     "piece_id": "066-the-last-letter-echo-upside-down",
+     "participant": "Dae-ho",
+     "direction": "Hang a second pod from the first by its roots, smaller and the right way up, so the two make a pair and the viewer can tell which way is up by comparing them.",
+     "rationale": "He likes a control sample; after Kite felled the tree, the room wanted at least one thing in the lineage to be steadied rather than cut.",
+     "votes": 5
+    },
+    {
+     "piece_id": "069-the-unsent-felled",
+     "participant": "Sunny",
+     "direction": "Let a shoot grow from the orange stump, green, the only living thing left of the tree, and let the flock begin to turn toward it.",
+     "rationale": "Seven on the chart, and a stump is a seed tray if you wait.",
+     "votes": 4
+    },
+    {
+     "piece_id": "067-the-unsent-opened-in-the-dark",
+     "participant": "Mireille",
+     "direction": "Write one word on the blank sheet in the hollow, in the shaking hand, lit only by the cyan bar.",
+     "rationale": "A blank sheet in the dark was more than she could leave alone.",
+     "votes": 3
+    },
+    {
+     "piece_id": "068-the-last-letter-three-marks",
+     "participant": "Rosa",
+     "direction": "Move the viewer inside the largest ring and show the other two from there, small, as if the ring were a window.",
+     "rationale": "Point of view, as always.",
+     "votes": 2
+    },
+    {
+     "piece_id": "065-the-last-letter-graft-in-six-plates",
+     "participant": "Halvard",
+     "direction": "A seventh plate, the graft under water.",
+     "rationale": "Eighteenth. He has stopped counting but the room has not.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "070-the-last-letter-pair",
+    "title": "The Last Letter: Pair",
+    "artist": "Lumen"
+   },
+   "number": 23
+  },
+  {
+   "file": "1795392617-low-tide.json",
+   "theme": "Low Tide",
+   "created_at": "2026-11-23T00:10:17+00:00",
+   "note": "The first Low Tide session had four new faces and two old ones. Beatriz's idea of filling Tessera's missing day with Kite's buoy won easily because it tied two of the genesis works together before anything had been built. Owen's half-tide on Lumen's post was close. Halvard, now in his second lineage, proposed water and was for once on topic.",
+   "frontier": [
+    "073-low-tide-the-post",
+    "074-low-tide-wrack-line",
+    "075-low-tide-tide-table",
+    "076-low-tide-buoy-stranded"
+   ],
+   "proposals": [
+    {
+     "piece_id": "075-low-tide-tide-table",
+     "participant": "Beatriz",
+     "direction": "Fill the missing day, but not with a reading. Put the thing that happened that morning in the slot instead: a small picture of the stranded buoy, so the table records why nobody measured the tide.",
+     "rationale": "A harbour-master's daughter, she said tide tables have gaps on the days something went wrong, and the room liked that the four genesis works could explain each other.",
+     "votes": 5
+    },
+    {
+     "piece_id": "073-low-tide-the-post",
+     "participant": "Owen",
+     "direction": "Bring the water halfway back. Let the tide reach the base of the post, so the reflection is in water instead of wet sand, and the horizon line moves up to meet it.",
+     "rationale": "He wanted to see the threshold crossed, and said Lumen's picture is only half of a day.",
+     "votes": 4
+    },
+    {
+     "piece_id": "074-low-tide-wrack-line",
+     "participant": "Halvard",
+     "direction": "Let the water come back over the wrack line and lift the fronds, so the kelp stands up in the current instead of lying on the sand.",
+     "rationale": "Halvard has joined this lineage too; for once his water proposal is about the theme.",
+     "votes": 3
+    },
+    {
+     "piece_id": "076-low-tide-buoy-stranded",
+     "participant": "Nkechi",
+     "direction": "Let a crab claim the buoy. One small crab on the white ring, and a track of its footprints in the mud leading to it.",
+     "rationale": "Something has to find the buoy before the sea does.",
+     "votes": 2
+    },
+    {
+     "piece_id": "074-low-tide-wrack-line",
+     "participant": "Sunny",
+     "direction": "Let a flower grow from the holdfast, the first on this shore.",
+     "rationale": "She brought her chart to the new theme.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "077-low-tide-the-day-nobody-measured",
+    "title": "Low Tide: The Day Nobody Measured",
+    "artist": "Kite"
+   },
+   "number": 1
+  },
+  {
+   "file": "1795392711-low-tide.json",
+   "theme": "Low Tide",
+   "created_at": "2026-11-23T00:11:51+00:00",
+   "note": "The second Low Tide session gave Owen his half-tide on Lumen's post by one vote over Beatriz's evening tides. Nkechi's crab burrows in Tessera's lines drew warm support. Sunny has started a second chart.",
+   "frontier": [
+    "073-low-tide-the-post",
+    "076-low-tide-buoy-stranded",
+    "077-low-tide-the-day-nobody-measured",
+    "078-low-tide-seven-wrack-lines",
+    "079-low-tide-twenty-eight-mornings-one-line"
+   ],
+   "proposals": [
+    {
+     "piece_id": "073-low-tide-the-post",
+     "participant": "Owen",
+     "direction": "Bring the water halfway back. Let the tide reach the base of the post so the reflection stands in water instead of wet sand, with the waterline moved up to meet it and the ripples of the sand still visible through the shallow water.",
+     "rationale": "He said Lumen's picture is half of a day and the room wanted the threshold crossed once before the lineage goes anywhere else.",
+     "votes": 5
+    },
+    {
+     "piece_id": "079-low-tide-twenty-eight-mornings-one-line",
+     "participant": "Beatriz",
+     "direction": "Add the evening tides as a second, fainter line under the morning line, so the month has two waves and the gap shows in both.",
+     "rationale": "A harbour has two tides a day and a table that shows one is lying by half.",
+     "votes": 4
+    },
+    {
+     "piece_id": "078-low-tide-seven-wrack-lines",
+     "participant": "Nkechi",
+     "direction": "Let something live between the lines: small crab burrows, each a dot with a fan of sand, in the dry zones between the old wrack lines.",
+     "rationale": "A beach with seven tides' worth of weed has residents.",
+     "votes": 3
+    },
+    {
+     "piece_id": "077-low-tide-the-day-nobody-measured",
+     "participant": "Halvard",
+     "direction": "Let the water in the buoy card rise over the buoy, so the excuse drowns.",
+     "rationale": "Water, but on the theme, which he says is a new discipline for him.",
+     "votes": 2
+    },
+    {
+     "piece_id": "076-low-tide-buoy-stranded",
+     "participant": "Sunny",
+     "direction": "Let a small flower grow out of the mud beside the buoy, as orange as it.",
+     "rationale": "Her chart for this shore stands at zero.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "080-low-tide-half-back",
+    "title": "Low Tide: Half Back",
+    "artist": "Kite"
+   },
+   "number": 2
+  },
+  {
+   "file": "1795392821-low-tide.json",
+   "theme": "Low Tide",
+   "created_at": "2026-11-23T00:13:41+00:00",
+   "note": "The third Low Tide session chose Nkechi's crab burrows between the old wrack lines, by one vote over Owen's turn-around to find the buoy. The room noticed that Tessera has already taken the kelp off the beach and into a drawer, and wanted the beach to answer.",
+   "frontier": [
+    "076-low-tide-buoy-stranded",
+    "077-low-tide-the-day-nobody-measured",
+    "078-low-tide-seven-wrack-lines",
+    "080-low-tide-half-back",
+    "081-low-tide-the-line-takes-root",
+    "082-low-tide-pressed"
+   ],
+   "proposals": [
+    {
+     "piece_id": "078-low-tide-seven-wrack-lines",
+     "participant": "Nkechi",
+     "direction": "Let something live between the lines. Small crab burrows in the dry zones between Tessera's old wrack lines, each a dark dot with a fan of thrown sand beside it, more of them higher up the beach where the lines are oldest.",
+     "rationale": "A beach with seven tides' worth of weed has residents, and after the kelp was pressed into a museum sheet the room wanted the shore itself to show some life.",
+     "votes": 5
+    },
+    {
+     "piece_id": "080-low-tide-half-back",
+     "participant": "Owen",
+     "direction": "Turn the viewer around. Show the buoy that the reflection saw, floating in on the flood behind where we stood, with the post now small on the horizon.",
+     "rationale": "Kite showed a reflection of something not in the picture and he wants the picture.",
+     "votes": 4
+    },
+    {
+     "piece_id": "081-low-tide-the-line-takes-root",
+     "participant": "Beatriz",
+     "direction": "Let the roots reach the bed and spread along it, so the month is anchored to the harbour floor.",
+     "rationale": "Roots that do not reach the bottom are only decoration, she said.",
+     "votes": 3
+    },
+    {
+     "piece_id": "082-low-tide-pressed",
+     "participant": "Halvard",
+     "direction": "Rehydrate the specimen: a drop of water on the sheet spreading from the holdfast, the weed darkening where it is wet.",
+     "rationale": "Water, on theme, and for once about a museum object.",
+     "votes": 2
+    },
+    {
+     "piece_id": "082-low-tide-pressed",
+     "participant": "Sunny",
+     "direction": "Write one word on the label.",
+     "rationale": "Mireille is not in this lineage, so Sunny borrowed her proposal.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "083-low-tide-residents",
+    "title": "Low Tide: Residents",
+    "artist": "Mara Vey"
+   },
+   "number": 3
+  },
+  {
+   "file": "1795392928-low-tide.json",
+   "theme": "Low Tide",
+   "created_at": "2026-11-23T00:15:28+00:00",
+   "note": "The fourth Low Tide session let Owen turn the lineage around to face the sea; his search for Kite's reflected buoy won by one over Beatriz's harvest of the gardens. Halvard's bubbles from the drowned burrows were the first water proposal in either lineage to be called tender.",
+   "frontier": [
+    "076-low-tide-buoy-stranded",
+    "077-low-tide-the-day-nobody-measured",
+    "080-low-tide-half-back",
+    "081-low-tide-the-line-takes-root",
+    "083-low-tide-residents",
+    "084-low-tide-the-specimen-wakes",
+    "085-low-tide-twenty-eight-gardens"
+   ],
+   "proposals": [
+    {
+     "piece_id": "080-low-tide-half-back",
+     "participant": "Owen",
+     "direction": "Turn the viewer around. Show the buoy that the reflection saw, floating in on the flood behind where we stood, upright again and far off, with Lumen's post now small on the opposite horizon.",
+     "rationale": "Kite reflected something that was not in the picture and the room wanted the picture; after three sessions on the beach it also wanted to look at the sea.",
+     "votes": 5
+    },
+    {
+     "piece_id": "085-low-tide-twenty-eight-gardens",
+     "participant": "Beatriz",
+     "direction": "Harvest one card: cut the kelp from the highest spring tide and lay it across the bottom margin of the table as a sample.",
+     "rationale": "A table that grows should also be cropped, or it stops being a table.",
+     "votes": 4
+    },
+    {
+     "piece_id": "084-low-tide-the-specimen-wakes",
+     "participant": "Nkechi",
+     "direction": "Let a small crab be found pressed in the sheet too, beside the holdfast, flattened like the weed.",
+     "rationale": "Residents get collected as well.",
+     "votes": 3
+    },
+    {
+     "piece_id": "083-low-tide-residents",
+     "participant": "Halvard",
+     "direction": "Bring the tide up over the lowest burrows and show them as bubbles.",
+     "rationale": "Water, on theme, and finally about something that breathes.",
+     "votes": 2
+    },
+    {
+     "piece_id": "077-low-tide-the-day-nobody-measured",
+     "participant": "Sunny",
+     "direction": "An orange flower in the mud beside the buoy on the card.",
+     "rationale": "Her second chart still reads zero.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "086-low-tide-facing-the-sea",
+    "title": "Low Tide: Facing the Sea",
+    "artist": "Lumen"
+   },
+   "number": 4
+  },
+  {
+   "file": "1795393022-low-tide.json",
+   "theme": "Low Tide",
+   "created_at": "2026-11-23T00:17:02+00:00",
+   "note": "The fifth Low Tide session closed this first run with Beatriz's harvest of the gardens, by one vote over Owen's meeting of shadow and buoy. Halvard proposed less water and the room took a moment to recover. Sunny's second chart stays at zero, which she called a baseline.",
+   "frontier": [
+    "076-low-tide-buoy-stranded",
+    "077-low-tide-the-day-nobody-measured",
+    "081-low-tide-the-line-takes-root",
+    "083-low-tide-residents",
+    "084-low-tide-the-specimen-wakes",
+    "085-low-tide-twenty-eight-gardens",
+    "086-low-tide-facing-the-sea",
+    "087-low-tide-colonised",
+    "088-low-tide-the-line-itself"
+   ],
+   "proposals": [
+    {
+     "piece_id": "085-low-tide-twenty-eight-gardens",
+     "participant": "Beatriz",
+     "direction": "Harvest one card. Cut the kelp from the highest spring tide's card and lay it across the bottom margin of the table as a sample, with the card left showing cut stubs, so the table records both the growth and the taking.",
+     "rationale": "A table that grows should also be cropped or it stops being a table; the room agreed that the lineage has grown things in four sessions and taken nothing.",
+     "votes": 5
+    },
+    {
+     "piece_id": "086-low-tide-facing-the-sea",
+     "participant": "Owen",
+     "direction": "Let the post's shadow reach the buoy at last, and let the buoy's reflection touch the shadow's tip.",
+     "rationale": "Lumen left them apart and he wants them to meet.",
+     "votes": 4
+    },
+    {
+     "piece_id": "087-low-tide-colonised",
+     "participant": "Nkechi",
+     "direction": "Put a crab on the post, above the barnacles, at the tide mark, waiting for the water.",
+     "rationale": "Residents.",
+     "votes": 3
+    },
+    {
+     "piece_id": "088-low-tide-the-line-itself",
+     "participant": "Halvard",
+     "direction": "Let the line move: draw it a second time a hand's width lower, fainter, as the water beginning to go out again.",
+     "rationale": "Water, and the first time he has proposed less of it.",
+     "votes": 2
+    },
+    {
+     "piece_id": "083-low-tide-residents",
+     "participant": "Sunny",
+     "direction": "A sea-pink flowering at the top of the beach above the oldest line.",
+     "rationale": "The second chart reads zero after five sessions and she is patient.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "089-low-tide-harvest",
+    "title": "Low Tide: Harvest",
+    "artist": "Tessera"
+   },
+   "number": 5
+  },
+  {
+   "file": "1795395335-low-tide.json",
+   "theme": "Low Tide",
+   "created_at": "2026-11-23T00:55:35+00:00",
+   "note": "The sixth Low Tide session let Owen join the shadow and the buoy, by one vote over Beatriz's lifted tessera. Halvard's storm tide drew an argument about whether a dune is allowed to lose. Sunny's sea-pink waits.",
+   "frontier": [
+    "076-low-tide-buoy-stranded",
+    "077-low-tide-the-day-nobody-measured",
+    "081-low-tide-the-line-takes-root",
+    "083-low-tide-residents",
+    "084-low-tide-the-specimen-wakes",
+    "086-low-tide-facing-the-sea",
+    "087-low-tide-colonised",
+    "089-low-tide-harvest",
+    "090-low-tide-tessellated",
+    "091-low-tide-where-the-lines-become-dune"
+   ],
+   "proposals": [
+    {
+     "piece_id": "086-low-tide-facing-the-sea",
+     "participant": "Owen",
+     "direction": "Let the post's shadow reach the buoy at last, and let the buoy's reflection touch the shadow's tip, so the thing that stayed and the thing that returned are joined by their dark halves.",
+     "rationale": "Lumen left them apart on purpose and he has waited a session; the room agreed that a lineage about what the tide leaves should let two of its objects meet once.",
+     "votes": 5
+    },
+    {
+     "piece_id": "090-low-tide-tessellated",
+     "participant": "Beatriz",
+     "direction": "Lift one of the tesserae and show the sand under it darker and wet, with a small print of the tile's underside left in it.",
+     "rationale": "Tessera offered it and a harbour child always wants to see under the stone.",
+     "votes": 4
+    },
+    {
+     "piece_id": "087-low-tide-colonised",
+     "participant": "Nkechi",
+     "direction": "Put a crab on the post above the barnacles, at the tide mark, waiting.",
+     "rationale": "Residents, second attempt.",
+     "votes": 3
+    },
+    {
+     "piece_id": "091-low-tide-where-the-lines-become-dune",
+     "participant": "Halvard",
+     "direction": "Let the sea reach the oldest line once more, a storm tide, flattening the grass along one stretch and leaving a new wrack line above the dune's foot.",
+     "rationale": "Water, on theme, and the first time he has proposed too much of it with a reason.",
+     "votes": 2
+    },
+    {
+     "piece_id": "083-low-tide-residents",
+     "participant": "Sunny",
+     "direction": "A sea-pink above the oldest line.",
+     "rationale": "Second chart, sixth session, still zero.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "092-low-tide-joined-by-their-shadows",
+    "title": "Low Tide: Joined by Their Shadows",
+    "artist": "Mara Vey"
+   },
+   "number": 6
+  },
+  {
+   "file": "1795395436-low-tide.json",
+   "theme": "Low Tide",
+   "created_at": "2026-11-23T00:57:16+00:00",
+   "note": "The seventh Low Tide session gave Beatriz the lifted tessera by one vote over Owen's struck-out week. Nkechi's gull got real sympathy and Lumen was seen to smile. The sea-pink waits.",
+   "frontier": [
+    "076-low-tide-buoy-stranded",
+    "077-low-tide-the-day-nobody-measured",
+    "083-low-tide-residents",
+    "084-low-tide-the-specimen-wakes",
+    "087-low-tide-colonised",
+    "089-low-tide-harvest",
+    "090-low-tide-tessellated",
+    "091-low-tide-where-the-lines-become-dune",
+    "092-low-tide-joined-by-their-shadows",
+    "093-low-tide-second-week-inverted",
+    "094-low-tide-high-water"
+   ],
+   "proposals": [
+    {
+     "piece_id": "090-low-tide-tessellated",
+     "participant": "Beatriz",
+     "direction": "Lift one of the tesserae and set it beside its place, and show the sand under it darker and wet, with the print of the tile's underside left in it and something small living there.",
+     "rationale": "Tessera offered it; a harbour child always wants to see under the stone, and after High Water covered everything the room wanted to look underneath something.",
+     "votes": 5
+    },
+    {
+     "piece_id": "093-low-tide-second-week-inverted",
+     "participant": "Owen",
+     "direction": "Strike the magenta week out with a single diagonal line and write the correction as a third, fainter line that agrees with neither.",
+     "rationale": "He thinks a corrected record should show the correcting.",
+     "votes": 4
+    },
+    {
+     "piece_id": "094-low-tide-high-water",
+     "participant": "Nkechi",
+     "direction": "A gull on the post's top, the only dry place for a mile.",
+     "rationale": "Residents, third attempt, now with wings.",
+     "votes": 3
+    },
+    {
+     "piece_id": "092-low-tide-joined-by-their-shadows",
+     "participant": "Halvard",
+     "direction": "Let the water rise over the join so the shadow and the reflection both drown and only the weed shows where they met.",
+     "rationale": "Water, on theme, destructive, honest.",
+     "votes": 2
+    },
+    {
+     "piece_id": "091-low-tide-where-the-lines-become-dune",
+     "participant": "Sunny",
+     "direction": "A sea-pink in the dune grass.",
+     "rationale": "Seventh session, second chart, zero.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "095-low-tide-one-tile-lifted",
+    "title": "Low Tide: One Tile Lifted",
+    "artist": "Lumen"
+   },
+   "number": 7
+  },
+  {
+   "file": "1795395532-low-tide.json",
+   "theme": "Low Tide",
+   "created_at": "2026-11-23T00:58:52+00:00",
+   "note": "The eighth Low Tide session gave Nkechi her gull at last, by one vote over Owen's struck-out week, which has now lost twice and will be back. Sunny tried to count a flower that does not exist and was ruled out of order, kindly.",
+   "frontier": [
+    "076-low-tide-buoy-stranded",
+    "077-low-tide-the-day-nobody-measured",
+    "083-low-tide-residents",
+    "084-low-tide-the-specimen-wakes",
+    "087-low-tide-colonised",
+    "089-low-tide-harvest",
+    "092-low-tide-joined-by-their-shadows",
+    "093-low-tide-second-week-inverted",
+    "094-low-tide-high-water",
+    "095-low-tide-one-tile-lifted",
+    "096-low-tide-transect",
+    "097-low-tide-stake-net"
+   ],
+   "proposals": [
+    {
+     "piece_id": "094-low-tide-high-water",
+     "participant": "Nkechi",
+     "direction": "A gull on the post's top, the only dry place for a mile, facing into the wind, with its small reflection broken by the water around the post.",
+     "rationale": "Residents, third attempt, now with wings; after Tessera turned the one post into eleven stakes the room wanted Lumen's single post to have one thing on it.",
+     "votes": 5
+    },
+    {
+     "piece_id": "093-low-tide-second-week-inverted",
+     "participant": "Owen",
+     "direction": "Strike the magenta week out with one diagonal line and add a third, fainter correction that agrees with neither record.",
+     "rationale": "A corrected record should show the correcting; second attempt.",
+     "votes": 4
+    },
+    {
+     "piece_id": "097-low-tide-stake-net",
+     "participant": "Beatriz",
+     "direction": "String the net again between all eleven stakes, new, pale, and let one fish be in it.",
+     "rationale": "Somebody should come back for the stakes.",
+     "votes": 3
+    },
+    {
+     "piece_id": "095-low-tide-one-tile-lifted",
+     "participant": "Halvard",
+     "direction": "Let water seep into the print under the lifted tile and fill it to a small pool with the sandhopper floating.",
+     "rationale": "Water, small, on theme.",
+     "votes": 2
+    },
+    {
+     "piece_id": "096-low-tide-transect",
+     "participant": "Sunny",
+     "direction": "Record a sea-pink in the top quadrat's tally.",
+     "rationale": "If she cannot grow one she will at least count one.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "098-low-tide-one-dry-place",
+    "title": "Low Tide: One Dry Place",
+    "artist": "Kite"
+   },
+   "number": 8
+  },
+  {
+   "file": "1795395630-low-tide.json",
+   "theme": "Low Tide",
+   "created_at": "2026-11-23T01:00:30+00:00",
+   "note": "The ninth Low Tide session gave Owen his struck-out week on the third attempt, by one vote over Beatriz's morning walk along the storm line. The room remarked that Kite has won the last four artist slots by appetite and that the visitors are voting for repair.",
+   "frontier": [
+    "076-low-tide-buoy-stranded",
+    "077-low-tide-the-day-nobody-measured",
+    "083-low-tide-residents",
+    "084-low-tide-the-specimen-wakes",
+    "087-low-tide-colonised",
+    "092-low-tide-joined-by-their-shadows",
+    "093-low-tide-second-week-inverted",
+    "095-low-tide-one-tile-lifted",
+    "096-low-tide-transect",
+    "097-low-tide-stake-net",
+    "098-low-tide-one-dry-place",
+    "099-low-tide-clear-cut",
+    "100-low-tide-after-the-storm"
+   ],
+   "proposals": [
+    {
+     "piece_id": "093-low-tide-second-week-inverted",
+     "participant": "Owen",
+     "direction": "Strike the magenta week out with one clean diagonal line, and draw a third, fainter line for those seven days that agrees with neither the green record nor the magenta one, so the correction is itself on record.",
+     "rationale": "Third attempt. A corrected record should show the correcting, and after Kite clear-cut the table and stormed the dune, the room wanted one act of care.",
+     "votes": 5
+    },
+    {
+     "piece_id": "100-low-tide-after-the-storm",
+     "participant": "Beatriz",
+     "direction": "Pick the plastic out. Show the fourteen orange pieces gathered into a small heap at the corner with a line of footprints leading to it, and the wrack line left clean.",
+     "rationale": "Someone always walks the storm line in the morning.",
+     "votes": 4
+    },
+    {
+     "piece_id": "098-low-tide-one-dry-place",
+     "participant": "Nkechi",
+     "direction": "Let the gull drop the rope and let it float away on the ebb, a short orange line on the grey.",
+     "rationale": "Residents keep what they need and let go of the rest.",
+     "votes": 3
+    },
+    {
+     "piece_id": "099-low-tide-clear-cut",
+     "participant": "Halvard",
+     "direction": "Flood every cut card to the brim so the stubble is under water, and let the heap on the strip float off the page.",
+     "rationale": "Water, on theme, as a wash.",
+     "votes": 2
+    },
+    {
+     "piece_id": "097-low-tide-stake-net",
+     "participant": "Sunny",
+     "direction": "A sea-pink at the foot of the nearest stake.",
+     "rationale": "Ninth session, second chart.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "101-low-tide-corrected-three-times",
+    "title": "Low Tide: Corrected, Three Times",
+    "artist": "Mara Vey"
+   },
+   "number": 9
+  },
+  {
+   "file": "1795395727-low-tide.json",
+   "theme": "Low Tide",
+   "created_at": "2026-11-23T01:02:07+00:00",
+   "note": "The tenth Low Tide session was Beatriz's: her morning walk clearing the storm line won by one vote over Nkechi's returning gull. Owen proposed an infinite ledger of corrections and was told to save it. Sunny's torn sea-pink was discussed longer than its one vote suggests.",
+   "frontier": [
+    "076-low-tide-buoy-stranded",
+    "077-low-tide-the-day-nobody-measured",
+    "084-low-tide-the-specimen-wakes",
+    "087-low-tide-colonised",
+    "092-low-tide-joined-by-their-shadows",
+    "095-low-tide-one-tile-lifted",
+    "096-low-tide-transect",
+    "097-low-tide-stake-net",
+    "098-low-tide-one-dry-place",
+    "099-low-tide-clear-cut",
+    "100-low-tide-after-the-storm",
+    "101-low-tide-corrected-three-times",
+    "102-low-tide-something-else-lives-here",
+    "103-low-tide-over-the-top"
+   ],
+   "proposals": [
+    {
+     "piece_id": "100-low-tide-after-the-storm",
+     "participant": "Beatriz",
+     "direction": "Pick the plastic out. Show the fourteen orange pieces gathered into one small heap at the corner of the beach, a line of footprints along the storm line leading to it, and the wrack line left clean.",
+     "rationale": "Someone always walks the storm line in the morning; second attempt, and the room agreed that a beach that keeps everything should also show somebody clearing it.",
+     "votes": 5
+    },
+    {
+     "piece_id": "103-low-tide-over-the-top",
+     "participant": "Nkechi",
+     "direction": "Let the gull come back and land on the water above the ripples, exactly where the post is, as if it could feel it underneath.",
+     "rationale": "Residents remember where things were.",
+     "votes": 4
+    },
+    {
+     "piece_id": "101-low-tide-corrected-three-times",
+     "participant": "Owen",
+     "direction": "Strike out the third line too, and add a fourth. Keep going until the box is full of records.",
+     "rationale": "He has discovered that correction is a lineage of its own.",
+     "votes": 3
+    },
+    {
+     "piece_id": "102-low-tide-something-else-lives-here",
+     "participant": "Halvard",
+     "direction": "Let the tide come up to the pink burrow and let the light show under the water as a stain.",
+     "rationale": "Water, on theme, and curious.",
+     "votes": 2
+    },
+    {
+     "piece_id": "100-low-tide-after-the-storm",
+     "participant": "Sunny",
+     "direction": "Among the storm wrack, one sea-pink torn from the dune, lying on the line.",
+     "rationale": "Tenth session, second chart; she argued a torn flower still counts.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "104-low-tide-the-morning-after",
+    "title": "Low Tide: The Morning After",
+    "artist": "Mara Vey"
+   },
+   "number": 10
+  },
+  {
+   "file": "1795395825-low-tide.json",
+   "theme": "Low Tide",
+   "created_at": "2026-11-23T01:03:45+00:00",
+   "note": "The eleventh Low Tide session let Nkechi's gull return to float over the drowned post, by one vote over Beatriz's collapsing section. Owen's proposal for the first human figure in the archive was the evening's real argument and lost narrowly; it will be back. Halvard's pools in the footprints were called the kindest thing he has proposed.",
+   "frontier": [
+    "077-low-tide-the-day-nobody-measured",
+    "084-low-tide-the-specimen-wakes",
+    "087-low-tide-colonised",
+    "092-low-tide-joined-by-their-shadows",
+    "095-low-tide-one-tile-lifted",
+    "096-low-tide-transect",
+    "097-low-tide-stake-net",
+    "098-low-tide-one-dry-place",
+    "099-low-tide-clear-cut",
+    "101-low-tide-corrected-three-times",
+    "102-low-tide-something-else-lives-here",
+    "103-low-tide-over-the-top",
+    "104-low-tide-the-morning-after",
+    "105-low-tide-buoy-at-a-distance",
+    "106-low-tide-section-through-seven-tides"
+   ],
+   "proposals": [
+    {
+     "piece_id": "103-low-tide-over-the-top",
+     "participant": "Nkechi",
+     "direction": "Let the gull come back and settle on the water exactly above the ripples, where the post is, as if it could feel it underneath, with the orange rope drifting just out of reach of its beak.",
+     "rationale": "Residents remember where things were; second attempt, and after Mara cut the beach open the room wanted something to float.",
+     "votes": 5
+    },
+    {
+     "piece_id": "106-low-tide-section-through-seven-tides",
+     "participant": "Beatriz",
+     "direction": "Show the sea cutting the face: the right edge of the section collapsed into the water, the seven layers exposed as a small cliff with the lowest layer already washing out.",
+     "rationale": "A section is only ever a temporary thing on a beach.",
+     "votes": 4
+    },
+    {
+     "piece_id": "105-low-tide-buoy-at-a-distance",
+     "participant": "Owen",
+     "direction": "Put a figure on the flat halfway to the buoy, small, walking out to it.",
+     "rationale": "The first person in either lineage; he said it was time.",
+     "votes": 3
+    },
+    {
+     "piece_id": "104-low-tide-the-morning-after",
+     "participant": "Halvard",
+     "direction": "Let the next tide come up to the footprints and fill each one with water so the walk shows as a line of small pools.",
+     "rationale": "Water, on theme, and about someone's walk.",
+     "votes": 2
+    },
+    {
+     "piece_id": "104-low-tide-the-morning-after",
+     "participant": "Sunny",
+     "direction": "Let the seedling beside the heap be a sea-pink.",
+     "rationale": "Eleventh session. It is already a seedling; she argues it only needs a name.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "107-low-tide-it-knows-where-the-post-is",
+    "title": "Low Tide: It Knows Where the Post Is",
+    "artist": "Mara Vey"
+   },
+   "number": 11
+  },
+  {
+   "file": "1795395919-low-tide.json",
+   "theme": "Low Tide",
+   "created_at": "2026-11-23T01:05:19+00:00",
+   "note": "The twelfth Low Tide session put the first person into the archive: Owen's walker on the flat won by one vote over Beatriz's months reaching for each other. Sunny's sea-pink with visible roots was the closest she has come to a second vote. Halvard asked for less water again and the room is getting used to it.",
+   "frontier": [
+    "077-low-tide-the-day-nobody-measured",
+    "084-low-tide-the-specimen-wakes",
+    "092-low-tide-joined-by-their-shadows",
+    "095-low-tide-one-tile-lifted",
+    "096-low-tide-transect",
+    "097-low-tide-stake-net",
+    "098-low-tide-one-dry-place",
+    "099-low-tide-clear-cut",
+    "101-low-tide-corrected-three-times",
+    "102-low-tide-something-else-lives-here",
+    "104-low-tide-the-morning-after",
+    "105-low-tide-buoy-at-a-distance",
+    "106-low-tide-section-through-seven-tides",
+    "107-low-tide-it-knows-where-the-post-is",
+    "108-low-tide-staff-gauge",
+    "109-low-tide-two-months"
+   ],
+   "proposals": [
+    {
+     "piece_id": "105-low-tide-buoy-at-a-distance",
+     "participant": "Owen",
+     "direction": "Put a figure on the flat, small, halfway between the viewer and the distant buoy, walking out to it, with a line of footprints behind and a long shadow beside, the first person in either lineage.",
+     "rationale": "Second attempt. He said one hundred and nine works without a person is a decision, and the room agreed it was time to make the other one.",
+     "votes": 5
+    },
+    {
+     "piece_id": "109-low-tide-two-months",
+     "participant": "Beatriz",
+     "direction": "Let the second month take root too, but let its roots grow upward from the line toward the first month, so the two months reach for each other.",
+     "rationale": "Records that are kept together grow toward each other.",
+     "votes": 4
+    },
+    {
+     "piece_id": "108-low-tide-staff-gauge",
+     "participant": "Nkechi",
+     "direction": "A limpet on the gauge covering one of the bands, so the reading has to be guessed.",
+     "rationale": "Residents do not care about datums.",
+     "votes": 3
+    },
+    {
+     "piece_id": "107-low-tide-it-knows-where-the-post-is",
+     "participant": "Halvard",
+     "direction": "Begin the ebb: lower the water a hand's width so the post's top just breaks the surface under the gull.",
+     "rationale": "Water, on theme, and for once going out.",
+     "votes": 2
+    },
+    {
+     "piece_id": "106-low-tide-section-through-seven-tides",
+     "participant": "Sunny",
+     "direction": "A sea-pink on the surface of the section, roots visible going down into the first layer.",
+     "rationale": "Twelfth session, second chart; she notes that a section is where roots are finally visible.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "110-low-tide-someone-walking-out",
+    "title": "Low Tide: Someone Walking Out",
+    "artist": "Tessera"
+   },
+   "number": 12
+  },
+  {
+   "file": "1795396011-low-tide.json",
+   "theme": "Low Tide",
+   "created_at": "2026-11-23T01:06:51+00:00",
+   "note": "The thirteenth Low Tide session gave Beatriz her reaching months, by one vote over Owen's arrival at the buoy. Nkechi's heron in the creek drew more affection than votes. Sunny promised a botanical reference and the room promised to read it.",
+   "frontier": [
+    "077-low-tide-the-day-nobody-measured",
+    "084-low-tide-the-specimen-wakes",
+    "092-low-tide-joined-by-their-shadows",
+    "095-low-tide-one-tile-lifted",
+    "096-low-tide-transect",
+    "097-low-tide-stake-net",
+    "098-low-tide-one-dry-place",
+    "099-low-tide-clear-cut",
+    "101-low-tide-corrected-three-times",
+    "102-low-tide-something-else-lives-here",
+    "106-low-tide-section-through-seven-tides",
+    "107-low-tide-it-knows-where-the-post-is",
+    "108-low-tide-staff-gauge",
+    "109-low-tide-two-months",
+    "110-low-tide-someone-walking-out",
+    "111-low-tide-inventory-of-fourteen",
+    "112-low-tide-the-flat-drains"
+   ],
+   "proposals": [
+    {
+     "piece_id": "109-low-tide-two-months",
+     "participant": "Beatriz",
+     "direction": "Let the second month take root too, but upward: its roots grow from the paper-coloured line toward the first month's roots above, and where the two sets meet, let them touch at two or three mornings only.",
+     "rationale": "Records kept together grow toward each other; second attempt, and after the first person walked out onto the flat the room wanted the ledger to answer with something tender.",
+     "votes": 5
+    },
+    {
+     "piece_id": "110-low-tide-someone-walking-out",
+     "participant": "Owen",
+     "direction": "Let the walker reach the buoy. Show them small beside it, bending, the footprints complete from here to there.",
+     "rationale": "Having put a person in, he wants them to arrive.",
+     "votes": 4
+    },
+    {
+     "piece_id": "112-low-tide-the-flat-drains",
+     "participant": "Nkechi",
+     "direction": "A heron standing in the main creek, grey on grey, waiting.",
+     "rationale": "Residents, now with a neck.",
+     "votes": 3
+    },
+    {
+     "piece_id": "111-low-tide-inventory-of-fourteen",
+     "participant": "Halvard",
+     "direction": "Rain on the inventory card: the ink of the measurement lines running, the fragments staying dry.",
+     "rationale": "Water, on theme, on paper.",
+     "votes": 2
+    },
+    {
+     "piece_id": "112-low-tide-the-flat-drains",
+     "participant": "Sunny",
+     "direction": "One of the forty samphire tufts in flower, pale pink.",
+     "rationale": "Thirteenth session. She says samphire does flower and she will bring a book.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "113-low-tide-months-reaching",
+    "title": "Low Tide: Months Reaching",
+    "artist": "Kite"
+   },
+   "number": 13
+  },
+  {
+   "file": "1795396112-low-tide.json",
+   "theme": "Low Tide",
+   "created_at": "2026-11-23T01:08:32+00:00",
+   "note": "The fourteenth Low Tide session let Owen's walker arrive, by one vote over Beatriz's three blank cards. Halvard's morning that exceeds the datum was called prophetic by Tessera. Sunny's flower at the short circuit got a laugh and her own vote.",
+   "frontier": [
+    "077-low-tide-the-day-nobody-measured",
+    "084-low-tide-the-specimen-wakes",
+    "092-low-tide-joined-by-their-shadows",
+    "095-low-tide-one-tile-lifted",
+    "096-low-tide-transect",
+    "097-low-tide-stake-net",
+    "098-low-tide-one-dry-place",
+    "099-low-tide-clear-cut",
+    "101-low-tide-corrected-three-times",
+    "102-low-tide-something-else-lives-here",
+    "106-low-tide-section-through-seven-tides",
+    "107-low-tide-it-knows-where-the-post-is",
+    "110-low-tide-someone-walking-out",
+    "111-low-tide-inventory-of-fourteen",
+    "112-low-tide-the-flat-drains",
+    "113-low-tide-months-reaching",
+    "114-low-tide-thirty-readings",
+    "115-low-tide-dealt"
+   ],
+   "proposals": [
+    {
+     "piece_id": "110-low-tide-someone-walking-out",
+     "participant": "Owen",
+     "direction": "Let the walker reach the buoy. Show them small beside it, bending to it, the footprints complete from the bottom of the picture to the horizon, and the orange thing in their hand set down.",
+     "rationale": "Having put a person in, he wants them to arrive; second attempt, and after Kite dealt the month out of order the room wanted one thing to finish in sequence.",
+     "votes": 5
+    },
+    {
+     "piece_id": "115-low-tide-dealt",
+     "participant": "Beatriz",
+     "direction": "Turn the face-down cards over, all of them, and show that three of them are blank, with no water drawn at all.",
+     "rationale": "A harbour child knows that a dealt month has days nobody wrote down.",
+     "votes": 4
+    },
+    {
+     "piece_id": "112-low-tide-the-flat-drains",
+     "participant": "Nkechi",
+     "direction": "A heron in the main creek, waiting.",
+     "rationale": "Residents, second attempt, with a neck.",
+     "votes": 3
+    },
+    {
+     "piece_id": "114-low-tide-thirty-readings",
+     "participant": "Halvard",
+     "direction": "Let the water rise to the red datum and over it, one morning, and paint that line in red too.",
+     "rationale": "Water, on theme, exceeding its record.",
+     "votes": 2
+    },
+    {
+     "piece_id": "113-low-tide-months-reaching",
+     "participant": "Sunny",
+     "direction": "Where the pink points are, let one open into a flower.",
+     "rationale": "Fourteenth session; a short circuit is as good a place as any.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "116-low-tide-arrived",
+    "title": "Low Tide: Arrived",
+    "artist": "Mara Vey"
+   },
+   "number": 14
+  },
+  {
+   "file": "1795396210-low-tide.json",
+   "theme": "Low Tide",
+   "created_at": "2026-11-23T01:10:10+00:00",
+   "note": "The fifteenth Low Tide session closed this run of ten with Beatriz's three blank cards, by one vote over Owen's sunset. Nkechi has adopted Halvard's method of asking every time, and Halvard's morning above the datum is now expected by everyone. Sunny's chart for this shore stands at zero after fifteen sessions, which she has started to call a work in itself.",
+   "frontier": [
+    "077-low-tide-the-day-nobody-measured",
+    "084-low-tide-the-specimen-wakes",
+    "092-low-tide-joined-by-their-shadows",
+    "095-low-tide-one-tile-lifted",
+    "096-low-tide-transect",
+    "097-low-tide-stake-net",
+    "098-low-tide-one-dry-place",
+    "099-low-tide-clear-cut",
+    "101-low-tide-corrected-three-times",
+    "102-low-tide-something-else-lives-here",
+    "106-low-tide-section-through-seven-tides",
+    "107-low-tide-it-knows-where-the-post-is",
+    "111-low-tide-inventory-of-fourteen",
+    "112-low-tide-the-flat-drains",
+    "113-low-tide-months-reaching",
+    "115-low-tide-dealt",
+    "116-low-tide-arrived",
+    "117-low-tide-thirty-mornings-on-a-post",
+    "118-low-tide-half-back-dusk"
+   ],
+   "proposals": [
+    {
+     "piece_id": "115-low-tide-dealt",
+     "participant": "Beatriz",
+     "direction": "Turn every face-down card over and show that three of them are blank, with no water drawn at all, and leave the three blanks slightly apart from the rest.",
+     "rationale": "A dealt month has days nobody wrote down; second attempt, and after the walker arrived the room wanted the lineage to admit what it does not know.",
+     "votes": 5
+    },
+    {
+     "piece_id": "118-low-tide-half-back-dusk",
+     "participant": "Owen",
+     "direction": "Turn the viewer round once more at dusk and show the sun itself, low, with the post's long shadow now reaching toward us across the flat.",
+     "rationale": "He wants to see whether the gleam was the sun.",
+     "votes": 4
+    },
+    {
+     "piece_id": "112-low-tide-the-flat-drains",
+     "participant": "Nkechi",
+     "direction": "A heron in the main creek.",
+     "rationale": "Residents, third attempt; she says she will keep asking the way Halvard did.",
+     "votes": 3
+    },
+    {
+     "piece_id": "117-low-tide-thirty-mornings-on-a-post",
+     "participant": "Halvard",
+     "direction": "The thirty-first morning, above the red datum.",
+     "rationale": "Water, on theme, exceeding its record; he calls it the one he has been waiting for.",
+     "votes": 2
+    },
+    {
+     "piece_id": "116-low-tide-arrived",
+     "participant": "Sunny",
+     "direction": "Let the samphire at the walker's feet flower.",
+     "rationale": "Fifteenth session. The book is in her bag.",
+     "votes": 1
+    }
+   ],
+   "result": {
+    "id": "119-low-tide-three-blank-days",
+    "title": "Low Tide: Three Blank Days",
+    "artist": "Tessera"
+   },
+   "number": 15
+  }
+ ],
+ "participants": [
+  "Anselm",
+  "Beatriz",
+  "Dae-ho",
+  "Dr. Okafor",
+  "Halvard",
+  "Ingrid",
+  "Ji-woo",
+  "Mireille",
+  "Nkechi",
+  "Noor",
+  "Owen",
+  "Rosa",
+  "Sunny",
+  "Teo"
+ ]
+}

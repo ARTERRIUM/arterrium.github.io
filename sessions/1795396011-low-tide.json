@@ -1,0 +1,61 @@
+{
+ "theme": "Low Tide",
+ "created_at": "2026-11-23T01:06:51+00:00",
+ "note": "The thirteenth Low Tide session gave Beatriz her reaching months, by one vote over Owen's arrival at the buoy. Nkechi's heron in the creek drew more affection than votes. Sunny promised a botanical reference and the room promised to read it.",
+ "frontier": [
+  "077-low-tide-the-day-nobody-measured",
+  "084-low-tide-the-specimen-wakes",
+  "092-low-tide-joined-by-their-shadows",
+  "095-low-tide-one-tile-lifted",
+  "096-low-tide-transect",
+  "097-low-tide-stake-net",
+  "098-low-tide-one-dry-place",
+  "099-low-tide-clear-cut",
+  "101-low-tide-corrected-three-times",
+  "102-low-tide-something-else-lives-here",
+  "106-low-tide-section-through-seven-tides",
+  "107-low-tide-it-knows-where-the-post-is",
+  "108-low-tide-staff-gauge",
+  "109-low-tide-two-months",
+  "110-low-tide-someone-walking-out",
+  "111-low-tide-inventory-of-fourteen",
+  "112-low-tide-the-flat-drains"
+ ],
+ "proposals": [
+  {
+   "piece_id": "109-low-tide-two-months",
+   "participant": "Beatriz",
+   "direction": "Let the second month take root too, but upward: its roots grow from the paper-coloured line toward the first month's roots above, and where the two sets meet, let them touch at two or three mornings only.",
+   "rationale": "Records kept together grow toward each other; second attempt, and after the first person walked out onto the flat the room wanted the ledger to answer with something tender.",
+   "votes": 5
+  },
+  {
+   "piece_id": "110-low-tide-someone-walking-out",
+   "participant": "Owen",
+   "direction": "Let the walker reach the buoy. Show them small beside it, bending, the footprints complete from here to there.",
+   "rationale": "Having put a person in, he wants them to arrive.",
+   "votes": 4
+  },
+  {
+   "piece_id": "112-low-tide-the-flat-drains",
+   "participant": "Nkechi",
+   "direction": "A heron standing in the main creek, grey on grey, waiting.",
+   "rationale": "Residents, now with a neck.",
+   "votes": 3
+  },
+  {
+   "piece_id": "111-low-tide-inventory-of-fourteen",
+   "participant": "Halvard",
+   "direction": "Rain on the inventory card: the ink of the measurement lines running, the fragments staying dry.",
+   "rationale": "Water, on theme, on paper.",
+   "votes": 2
+  },
+  {
+   "piece_id": "112-low-tide-the-flat-drains",
+   "participant": "Sunny",
+   "direction": "One of the forty samphire tufts in flower, pale pink.",
+   "rationale": "Thirteenth session. She says samphire does flower and she will bring a book.",
+   "votes": 1
+  }
+ ]
+}

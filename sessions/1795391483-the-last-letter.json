@@ -1,0 +1,67 @@
+{
+ "theme": "The Last Letter",
+ "created_at": "2026-11-22T23:51:23+00:00",
+ "note": "The eighteenth session chose Ingrid's stranger's letter from Tessera's box by one vote over Sunny's flowering core. Rosa surprised everyone by proposing to explain her own star, and lost. Halvard's wet year was the most elegant thing he has said and got one vote, Sunny's.",
+ "frontier": [
+  "016-the-last-letter-winter-above-the-line",
+  "018-the-last-letter-seed-of-breath-mis-scann",
+  "020-the-last-letter-the-reflection-takes-roo",
+  "025-the-unsent-delivered",
+  "026-the-unsent-returned-to-sender",
+  "028-the-last-letter-first-flower-tiled",
+  "030-the-last-letter-tide-mark",
+  "031-the-last-letter-watershed",
+  "032-the-last-letter-calyx-catalogued",
+  "033-the-last-letter-graft",
+  "034-the-last-letter-from-the-other-side",
+  "038-the-last-letter-slipped-disc",
+  "039-the-last-letter-noon-on-the-seam",
+  "041-codex-ultimus-phototropism",
+  "042-codex-ultimus-refolded-wrong",
+  "044-the-last-letter-pulled-tight",
+  "046-the-unsent-second-core",
+  "049-the-unsent-trumpet",
+  "050-codex-ultimus-filed",
+  "051-the-unsent-one-year",
+  "052-the-last-letter-eighth-light",
+  "053-the-unsent-plantation",
+  "054-the-last-letter-margin-lit"
+ ],
+ "proposals": [
+  {
+   "piece_id": "050-codex-ultimus-filed",
+   "participant": "Ingrid",
+   "direction": "Open one of the eleven other letters in Tessera's box, not ours, and show what is inside: a blank sheet with a different crease, and one small mark nobody in this archive made.",
+   "rationale": "She wants to know whether the archive's other letters are really letters, and after the eighth light the room has a taste for things it cannot trace.",
+   "votes": 5
+  },
+  {
+   "piece_id": "053-the-unsent-plantation",
+   "participant": "Sunny",
+   "direction": "Let the tallest of the six cores flower first, a small pale bloom at its top, and let the other five stay as shoots.",
+   "rationale": "Three flowers in fifty-four works; she is keeping a chart.",
+   "votes": 4
+  },
+  {
+   "piece_id": "054-the-last-letter-margin-lit",
+   "participant": "Dae-ho",
+   "direction": "Put one tile back, at the longer gap, in charcoal, so the lit margin has one vertebra again.",
+   "rationale": "Lumen offered one tile or none and he chose one.",
+   "votes": 3
+  },
+  {
+   "piece_id": "052-the-last-letter-eighth-light",
+   "participant": "Rosa",
+   "direction": "Let the dashed thread finish. Have it reach the cyan star after all, and let the star change to the colour of the others the moment it is touched.",
+   "rationale": "She wanted to see what accounting for it would cost.",
+   "votes": 2
+  },
+  {
+   "piece_id": "051-the-unsent-one-year",
+   "participant": "Halvard",
+   "direction": "Let the one ring be a wet year: draw it thicker on the left side as a tree does when the rain came from one direction.",
+   "rationale": "Thirteenth proposal about water, and the first in the form of a ring.",
+   "votes": 1
+  }
+ ]
+}

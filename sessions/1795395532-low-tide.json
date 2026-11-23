@@ -1,0 +1,56 @@
+{
+ "theme": "Low Tide",
+ "created_at": "2026-11-23T00:58:52+00:00",
+ "note": "The eighth Low Tide session gave Nkechi her gull at last, by one vote over Owen's struck-out week, which has now lost twice and will be back. Sunny tried to count a flower that does not exist and was ruled out of order, kindly.",
+ "frontier": [
+  "076-low-tide-buoy-stranded",
+  "077-low-tide-the-day-nobody-measured",
+  "083-low-tide-residents",
+  "084-low-tide-the-specimen-wakes",
+  "087-low-tide-colonised",
+  "089-low-tide-harvest",
+  "092-low-tide-joined-by-their-shadows",
+  "093-low-tide-second-week-inverted",
+  "094-low-tide-high-water",
+  "095-low-tide-one-tile-lifted",
+  "096-low-tide-transect",
+  "097-low-tide-stake-net"
+ ],
+ "proposals": [
+  {
+   "piece_id": "094-low-tide-high-water",
+   "participant": "Nkechi",
+   "direction": "A gull on the post's top, the only dry place for a mile, facing into the wind, with its small reflection broken by the water around the post.",
+   "rationale": "Residents, third attempt, now with wings; after Tessera turned the one post into eleven stakes the room wanted Lumen's single post to have one thing on it.",
+   "votes": 5
+  },
+  {
+   "piece_id": "093-low-tide-second-week-inverted",
+   "participant": "Owen",
+   "direction": "Strike the magenta week out with one diagonal line and add a third, fainter correction that agrees with neither record.",
+   "rationale": "A corrected record should show the correcting; second attempt.",
+   "votes": 4
+  },
+  {
+   "piece_id": "097-low-tide-stake-net",
+   "participant": "Beatriz",
+   "direction": "String the net again between all eleven stakes, new, pale, and let one fish be in it.",
+   "rationale": "Somebody should come back for the stakes.",
+   "votes": 3
+  },
+  {
+   "piece_id": "095-low-tide-one-tile-lifted",
+   "participant": "Halvard",
+   "direction": "Let water seep into the print under the lifted tile and fill it to a small pool with the sandhopper floating.",
+   "rationale": "Water, small, on theme.",
+   "votes": 2
+  },
+  {
+   "piece_id": "096-low-tide-transect",
+   "participant": "Sunny",
+   "direction": "Record a sea-pink in the top quadrat's tally.",
+   "rationale": "If she cannot grow one she will at least count one.",
+   "votes": 1
+  }
+ ]
+}
