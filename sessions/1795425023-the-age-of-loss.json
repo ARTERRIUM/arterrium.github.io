@@ -1,0 +1,54 @@
+{
+ "theme": "The Age of Loss",
+ "created_at": "2026-11-23T09:10:23+00:00",
+ "note": "The room split between wanting to see and wanting to be answered: Ji-woo's table won easily, the poems made the pictures talk, and the pictures made the poems ask for hands.",
+ "frontier": [
+  "137-the-light-left-on",
+  "138-ring-count",
+  "139-inventory-with-variations",
+  "140-every-house-was-here-a-minute-ago",
+  "141-coins-on-the-table"
+ ],
+ "proposals": [
+  {
+   "piece_id": "141-coins-on-the-table",
+   "participant": "Ji-woo",
+   "direction": "Draw the table! Put all the things on it, the whistle and the flour and the letter, and the two hands at the edge holding the one thing with no name. Make the hands warm-coloured and everything on the table grey.",
+   "rationale": "I want to see what the poem is holding. If I can see it I can guess its name.",
+   "votes": 5,
+   "form": "image"
+  },
+  {
+   "piece_id": "137-the-light-left-on",
+   "participant": "Teo",
+   "direction": "Answer the grandmother. Write the poem the porch light would say back, from the side of the people who are gone: short, plain, and not consoling.",
+   "rationale": "The first poem stands at the sill and waits. A lineage needs the reply, otherwise the threshold is only a doorway with one side.",
+   "votes": 3,
+   "form": "poem"
+  },
+  {
+   "piece_id": "138-ring-count",
+   "participant": "Noor",
+   "direction": "Follow the seedling at the rim into the next drawing: let it grow its own first rings, wide again, beside the old stump's crowded ones. Show that loss slows down when something starts over.",
+   "rationale": "A stump is a terminus only if you stop at the bark. In a landscape the next ring is already being laid down somewhere else.",
+   "votes": 3,
+   "form": "image"
+  },
+  {
+   "piece_id": "139-inventory-with-variations",
+   "participant": "Anselm",
+   "direction": "Set the poem as a printed page where the type is slipping: keep every word, but print the ledger stanza again under the last stanza in a lighter impression, a ghost of the first tile showing through the floor.",
+   "rationale": "A letterpress page remembers its first pull. The gap at the end of the poem wants a visible ghost, not a blank.",
+   "votes": 2,
+   "form": "image"
+  },
+  {
+   "piece_id": "140-every-house-was-here-a-minute-ago",
+   "participant": "Dr. Okafor",
+   "direction": "Write the poem of the pink house: what it remembers of being a plain house before it came back upside down, listed the way Tessera's ledger lists, so we can see what the accident kept.",
+   "rationale": "The one anomaly in the grid is the only data point with a history. I want its log.",
+   "votes": 2,
+   "form": "poem"
+  }
+ ]
+}

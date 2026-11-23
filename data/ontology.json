@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-23T03:09:24+00:00",
+ "generated_at": "2026-11-23T09:25:18+00:00",
  "counts": {
-  "pieces": 136,
-  "themes": 2,
-  "lineages": 7,
-  "artists": 4,
-  "visitors": 11,
-  "motifs": 334,
-  "relations": 986
+  "pieces": 153,
+  "themes": 3,
+  "lineages": 12,
+  "artists": 5,
+  "visitors": 13,
+  "motifs": 377,
+  "relations": 1086
  },
  "entities": {
   "themes": [
@@ -19,6 +19,17 @@
      "074-low-tide-wrack-line",
      "075-low-tide-tide-table",
      "076-low-tide-buoy-stranded"
+    ]
+   },
+   {
+    "name": "The Age of Loss",
+    "pieces": 17,
+    "lineages": [
+     "137-the-light-left-on",
+     "138-ring-count",
+     "139-inventory-with-variations",
+     "140-every-house-was-here-a-minute-ago",
+     "141-coins-on-the-table"
     ]
    },
    {
@@ -272,67 +283,177 @@
      "116-low-tide-arrived",
      "125-crossing-posted-in-the-vessel-s-place"
     ]
+   },
+   {
+    "id": "137-the-light-left-on",
+    "title": "The Light Left On",
+    "theme": "The Age of Loss",
+    "artist": "Lumen",
+    "size": 2,
+    "depth": 1,
+    "operations": {
+     "branch": 1,
+     "mutation": 0,
+     "re-evolution": 0
+    },
+    "members": [
+     "137-the-light-left-on",
+     "145-what-the-porch-light-says-back"
+    ]
+   },
+   {
+    "id": "138-ring-count",
+    "title": "Ring Count",
+    "theme": "The Age of Loss",
+    "artist": "Mara Vey",
+    "size": 8,
+    "depth": 3,
+    "operations": {
+     "branch": 1,
+     "mutation": 3,
+     "re-evolution": 3
+    },
+    "members": [
+     "138-ring-count",
+     "144-the-last-ring-is-the-horizon",
+     "148-one-hour-later-the-shadow-reaches-the-la",
+     "143-ring-count-skipped",
+     "147-noon-on-the-cut",
+     "150-evening-oldest-first",
+     "149-one-leaf-wide",
+     "146-read-me-lengthwise"
+    ]
+   },
+   {
+    "id": "139-inventory-with-variations",
+    "title": "Inventory, With Variations",
+    "theme": "The Age of Loss",
+    "artist": "Tessera",
+    "size": 2,
+    "depth": 1,
+    "operations": {
+     "branch": 0,
+     "mutation": 1,
+     "re-evolution": 0
+    },
+    "members": [
+     "139-inventory-with-variations",
+     "152-through-the-gap"
+    ]
+   },
+   {
+    "id": "140-every-house-was-here-a-minute-ago",
+    "title": "Every House Was Here a Minute Ago",
+    "theme": "The Age of Loss",
+    "artist": "Kite",
+    "size": 1,
+    "depth": 0,
+    "operations": {
+     "branch": 0,
+     "mutation": 0,
+     "re-evolution": 0
+    },
+    "members": [
+     "140-every-house-was-here-a-minute-ago"
+    ]
+   },
+   {
+    "id": "141-coins-on-the-table",
+    "title": "Coins on the Table",
+    "theme": "The Age of Loss",
+    "artist": "Vesper",
+    "size": 4,
+    "depth": 2,
+    "operations": {
+     "branch": 2,
+     "mutation": 0,
+     "re-evolution": 1
+    },
+    "members": [
+     "141-coins-on-the-table",
+     "142-the-table-seen-from-above",
+     "153-what-the-grown-ups-said",
+     "151-label-written-by-the-kid"
+    ]
    }
   ],
   "artists": [
    {
     "name": "Lumen",
     "id": "lumen",
-    "pieces": 28,
+    "pieces": 31,
     "operations": {
-     "genesis": 2,
-     "re-evolution": 12,
+     "genesis": 3,
+     "re-evolution": 14,
      "mutation": 8,
      "branch": 6
     },
     "themes": {
      "The Last Letter": 17,
-     "Low Tide": 11
+     "Low Tide": 11,
+     "The Age of Loss": 3
     }
    },
    {
     "name": "Mara Vey",
     "id": "mara-vey",
-    "pieces": 44,
+    "pieces": 50,
     "operations": {
-     "genesis": 2,
-     "mutation": 13,
-     "re-evolution": 13,
-     "branch": 16
+     "genesis": 3,
+     "mutation": 15,
+     "re-evolution": 14,
+     "branch": 18
     },
     "themes": {
      "The Last Letter": 26,
-     "Low Tide": 18
+     "Low Tide": 18,
+     "The Age of Loss": 6
     }
    },
    {
     "name": "Tessera",
     "id": "tessera",
-    "pieces": 29,
+    "pieces": 31,
     "operations": {
-     "genesis": 2,
-     "branch": 10,
+     "genesis": 3,
+     "branch": 11,
      "mutation": 13,
      "re-evolution": 4
     },
     "themes": {
      "The Last Letter": 14,
-     "Low Tide": 15
+     "Low Tide": 15,
+     "The Age of Loss": 2
     }
    },
    {
     "name": "Kite",
     "id": "kite",
-    "pieces": 35,
+    "pieces": 37,
     "operations": {
      "branch": 11,
      "re-evolution": 14,
-     "mutation": 9,
-     "genesis": 1
+     "mutation": 10,
+     "genesis": 2
     },
     "themes": {
      "The Last Letter": 20,
-     "Low Tide": 15
+     "Low Tide": 15,
+     "The Age of Loss": 2
+    }
+   },
+   {
+    "name": "Vesper",
+    "id": "vesper",
+    "pieces": 4,
+    "operations": {
+     "genesis": 1,
+     "mutation": 1,
+     "branch": 1,
+     "re-evolution": 1
+    },
+    "themes": {
+     "The Age of Loss": 4
     }
    }
   ],
@@ -377,6 +498,17 @@
      "The Last Letter"
     ],
     "favourite_artist": "Mara Vey"
+   },
+   {
+    "name": "Ji-woo",
+    "wins": 4,
+    "avg_votes": 5.25,
+    "max_attempt": 2,
+    "themes": [
+     "The Age of Loss",
+     "The Last Letter"
+    ],
+    "favourite_artist": "Tessera"
    },
    {
     "name": "Sunny",
@@ -430,16 +562,6 @@
     "favourite_artist": "Mara Vey"
    },
    {
-    "name": "Ji-woo",
-    "wins": 2,
-    "avg_votes": 5.0,
-    "max_attempt": 2,
-    "themes": [
-     "The Last Letter"
-    ],
-    "favourite_artist": "Mara Vey"
-   },
-   {
     "name": "Anselm",
     "wins": 1,
     "avg_votes": 4.0,
@@ -448,24 +570,44 @@
      "The Last Letter"
     ],
     "favourite_artist": "Tessera"
+   },
+   {
+    "name": "Noor",
+    "wins": 1,
+    "avg_votes": 5.0,
+    "max_attempt": 1,
+    "themes": [
+     "The Age of Loss"
+    ],
+    "favourite_artist": "Mara Vey"
+   },
+   {
+    "name": "Teo",
+    "wins": 1,
+    "avg_votes": 5.0,
+    "max_attempt": 1,
+    "themes": [
+     "The Age of Loss"
+    ],
+    "favourite_artist": "Mara Vey"
    }
   ],
   "operations": [
    {
     "name": "genesis",
-    "pieces": 7
+    "pieces": 12
    },
    {
     "name": "branch",
-    "pieces": 43
+    "pieces": 47
    },
    {
     "name": "mutation",
-    "pieces": 43
+    "pieces": 47
    },
    {
     "name": "re-evolution",
-    "pieces": 43
+    "pieces": 47
    }
   ],
   "motifs": [
@@ -496,6 +638,50 @@
     "first": "009-codex-ultimus-unfolded-at-dawn"
    },
    {
+    "motif": "roots",
+    "count": 16,
+    "pieces": [
+     "005-the-last-letter-sprouting-vein",
+     "007-the-last-letter-light-through-the-seal",
+     "008-the-last-letter-fallow-ground",
+     "020-the-last-letter-the-reflection-takes-roo",
+     "033-the-last-letter-graft",
+     "034-the-last-letter-from-the-other-side",
+     "041-codex-ultimus-phototropism",
+     "048-the-unsent-core-planted",
+     "081-low-tide-the-line-takes-root",
+     "106-low-tide-section-through-seven-tides",
+     "113-low-tide-months-reaching",
+     "129-low-tide-what-the-dusk-reflects",
+     "138-ring-count",
+     "146-read-me-lengthwise",
+     "148-one-hour-later-the-shadow-reaches-the-la",
+     "152-through-the-gap"
+    ],
+    "first": "005-the-last-letter-sprouting-vein"
+   },
+   {
+    "motif": "light",
+    "count": 14,
+    "pieces": [
+     "007-the-last-letter-light-through-the-seal",
+     "011-the-last-letter-seam-of-light",
+     "015-the-last-letter-pod-emptied",
+     "022-codex-ultimus-a-reply-steadier",
+     "025-the-unsent-delivered",
+     "047-the-last-letter-nodes",
+     "051-the-unsent-one-year",
+     "054-the-last-letter-margin-lit",
+     "056-the-unsent-received",
+     "058-the-unsent-first-bloom-in-the-row",
+     "060-the-last-letter-echo-straightened",
+     "079-low-tide-twenty-eight-mornings-one-line",
+     "088-low-tide-the-line-itself",
+     "147-noon-on-the-cut"
+    ],
+    "first": "007-the-last-letter-light-through-the-seal"
+   },
+   {
     "motif": "vessel",
     "count": 13,
     "pieces": [
@@ -514,26 +700,6 @@
      "136-crossing-the-letter-as-a-post"
     ],
     "first": "005-the-last-letter-sprouting-vein"
-   },
-   {
-    "motif": "light",
-    "count": 13,
-    "pieces": [
-     "007-the-last-letter-light-through-the-seal",
-     "011-the-last-letter-seam-of-light",
-     "015-the-last-letter-pod-emptied",
-     "022-codex-ultimus-a-reply-steadier",
-     "025-the-unsent-delivered",
-     "047-the-last-letter-nodes",
-     "051-the-unsent-one-year",
-     "054-the-last-letter-margin-lit",
-     "056-the-unsent-received",
-     "058-the-unsent-first-bloom-in-the-row",
-     "060-the-last-letter-echo-straightened",
-     "079-low-tide-twenty-eight-mornings-one-line",
-     "088-low-tide-the-line-itself"
-    ],
-    "first": "007-the-last-letter-light-through-the-seal"
    },
    {
     "motif": "fusion",
@@ -556,27 +722,8 @@
     "first": "122-crossing-the-seeds-land"
    },
    {
-    "motif": "roots",
-    "count": 12,
-    "pieces": [
-     "005-the-last-letter-sprouting-vein",
-     "007-the-last-letter-light-through-the-seal",
-     "008-the-last-letter-fallow-ground",
-     "020-the-last-letter-the-reflection-takes-roo",
-     "033-the-last-letter-graft",
-     "034-the-last-letter-from-the-other-side",
-     "041-codex-ultimus-phototropism",
-     "048-the-unsent-core-planted",
-     "081-low-tide-the-line-takes-root",
-     "106-low-tide-section-through-seven-tides",
-     "113-low-tide-months-reaching",
-     "129-low-tide-what-the-dusk-reflects"
-    ],
-    "first": "005-the-last-letter-sprouting-vein"
-   },
-   {
     "motif": "mosaic",
-    "count": 9,
+    "count": 10,
     "pieces": [
      "003-codex-ultimus-the-unbroken-fold",
      "004-the-last-letter-margin-of-ink",
@@ -586,9 +733,26 @@
      "032-the-last-letter-calyx-catalogued",
      "040-the-unsent-core-sample",
      "049-the-unsent-trumpet",
-     "090-low-tide-tessellated"
+     "090-low-tide-tessellated",
+     "142-the-table-seen-from-above"
     ],
     "first": "003-codex-ultimus-the-unbroken-fold"
+   },
+   {
+    "motif": "horizon",
+    "count": 9,
+    "pieces": [
+     "008-the-last-letter-fallow-ground",
+     "011-the-last-letter-seam-of-light",
+     "014-codex-ultimus-nursery-at-dusk",
+     "016-the-last-letter-winter-above-the-line",
+     "023-the-last-letter-seam-germinating",
+     "024-the-last-letter-fault-line",
+     "028-the-last-letter-first-flower-tiled",
+     "073-low-tide-the-post",
+     "144-the-last-ring-is-the-horizon"
+    ],
+    "first": "008-the-last-letter-fallow-ground"
    },
    {
     "motif": "crossing",
@@ -623,21 +787,6 @@
     "first": "073-low-tide-the-post"
    },
    {
-    "motif": "horizon",
-    "count": 8,
-    "pieces": [
-     "008-the-last-letter-fallow-ground",
-     "011-the-last-letter-seam-of-light",
-     "014-codex-ultimus-nursery-at-dusk",
-     "016-the-last-letter-winter-above-the-line",
-     "023-the-last-letter-seam-germinating",
-     "024-the-last-letter-fault-line",
-     "028-the-last-letter-first-flower-tiled",
-     "073-low-tide-the-post"
-    ],
-    "first": "008-the-last-letter-fallow-ground"
-   },
-   {
     "motif": "record",
     "count": 8,
     "pieces": [
@@ -651,6 +800,20 @@
      "126-low-tide-ledger-of-corrections"
     ],
     "first": "059-the-last-letter-radiograph"
+   },
+   {
+    "motif": "grid",
+    "count": 7,
+    "pieces": [
+     "003-codex-ultimus-the-unbroken-fold",
+     "012-codex-ultimus-seed-trays",
+     "029-the-last-letter-cascade",
+     "057-codex-ultimus-restored-badly",
+     "075-low-tide-tide-table",
+     "124-codex-ultimus-tidal",
+     "140-every-house-was-here-a-minute-ago"
+    ],
+    "first": "003-codex-ultimus-the-unbroken-fold"
    },
    {
     "motif": "buoy",
@@ -667,19 +830,6 @@
     "first": "076-low-tide-buoy-stranded"
    },
    {
-    "motif": "grid",
-    "count": 6,
-    "pieces": [
-     "003-codex-ultimus-the-unbroken-fold",
-     "012-codex-ultimus-seed-trays",
-     "029-the-last-letter-cascade",
-     "057-codex-ultimus-restored-badly",
-     "075-low-tide-tide-table",
-     "124-codex-ultimus-tidal"
-    ],
-    "first": "003-codex-ultimus-the-unbroken-fold"
-   },
-   {
     "motif": "seam",
     "count": 6,
     "pieces": [
@@ -691,6 +841,69 @@
      "128-crossing-the-seam-gives"
     ],
     "first": "011-the-last-letter-seam-of-light"
+   },
+   {
+    "motif": "seed",
+    "count": 6,
+    "pieces": [
+     "019-the-last-letter-calyx",
+     "030-the-last-letter-tide-mark",
+     "034-the-last-letter-from-the-other-side",
+     "081-low-tide-the-line-takes-root",
+     "145-what-the-porch-light-says-back",
+     "151-label-written-by-the-kid"
+    ],
+    "first": "019-the-last-letter-calyx"
+   },
+   {
+    "motif": "shadow",
+    "count": 6,
+    "pieces": [
+     "062-the-last-letter-on-the-light-box",
+     "086-low-tide-facing-the-sea",
+     "092-low-tide-joined-by-their-shadows",
+     "147-noon-on-the-cut",
+     "148-one-hour-later-the-shadow-reaches-the-la",
+     "149-one-leaf-wide"
+    ],
+    "first": "062-the-last-letter-on-the-light-box"
+   },
+   {
+    "motif": "seedling",
+    "count": 6,
+    "pieces": [
+     "104-low-tide-the-morning-after",
+     "138-ring-count",
+     "147-noon-on-the-cut",
+     "148-one-hour-later-the-shadow-reaches-the-la",
+     "149-one-leaf-wide",
+     "150-evening-oldest-first"
+    ],
+    "first": "104-low-tide-the-morning-after"
+   },
+   {
+    "motif": "threshold",
+    "count": 5,
+    "pieces": [
+     "001-the-unsent",
+     "009-codex-ultimus-unfolded-at-dawn",
+     "137-the-light-left-on",
+     "144-the-last-ring-is-the-horizon",
+     "147-noon-on-the-cut"
+    ],
+    "first": "001-the-unsent"
+   },
+   {
+    "motif": "dawn",
+    "count": 5,
+    "pieces": [
+     "009-codex-ultimus-unfolded-at-dawn",
+     "013-codex-ultimus-one-word-shaking",
+     "022-codex-ultimus-a-reply-steadier",
+     "037-codex-ultimus-one-line-two-hands",
+     "137-the-light-left-on"
+    ],
+    "first": "009-codex-ultimus-unfolded-at-dawn"
    },
    {
     "motif": "reflection",
@@ -753,6 +966,18 @@
     "first": "040-the-unsent-core-sample"
    },
    {
+    "motif": "repetition",
+    "count": 5,
+    "pieces": [
+     "050-codex-ultimus-filed",
+     "053-the-unsent-plantation",
+     "078-low-tide-seven-wrack-lines",
+     "097-low-tide-stake-net",
+     "139-inventory-with-variations"
+    ],
+    "first": "050-codex-ultimus-filed"
+   },
+   {
     "motif": "wrack",
     "count": 5,
     "pieces": [
@@ -789,15 +1014,16 @@
     "first": "074-low-tide-wrack-line"
    },
    {
-    "motif": "dawn",
-    "count": 4,
+    "motif": "what stays",
+    "count": 5,
     "pieces": [
-     "009-codex-ultimus-unfolded-at-dawn",
-     "013-codex-ultimus-one-word-shaking",
-     "022-codex-ultimus-a-reply-steadier",
-     "037-codex-ultimus-one-line-two-hands"
+     "137-the-light-left-on",
+     "138-ring-count",
+     "146-read-me-lengthwise",
+     "150-evening-oldest-first",
+     "153-what-the-grown-ups-said"
     ],
-    "first": "009-codex-ultimus-unfolded-at-dawn"
+    "first": "137-the-light-left-on"
    },
    {
     "motif": "memory",
@@ -811,6 +1037,17 @@
     "first": "010-the-last-letter-written-twice"
    },
    {
+    "motif": "dusk",
+    "count": 4,
+    "pieces": [
+     "014-codex-ultimus-nursery-at-dusk",
+     "118-low-tide-half-back-dusk",
+     "129-low-tide-what-the-dusk-reflects",
+     "144-the-last-ring-is-the-horizon"
+    ],
+    "first": "014-codex-ultimus-nursery-at-dusk"
+   },
+   {
     "motif": "glitch",
     "count": 4,
     "pieces": [
@@ -820,17 +1057,6 @@
      "066-the-last-letter-echo-upside-down"
     ],
     "first": "016-the-last-letter-winter-above-the-line"
-   },
-   {
-    "motif": "seed",
-    "count": 4,
-    "pieces": [
-     "019-the-last-letter-calyx",
-     "030-the-last-letter-tide-mark",
-     "034-the-last-letter-from-the-other-side",
-     "081-low-tide-the-line-takes-root"
-    ],
-    "first": "019-the-last-letter-calyx"
    },
    {
     "motif": "flock",
@@ -888,15 +1114,37 @@
     "first": "042-codex-ultimus-refolded-wrong"
    },
    {
-    "motif": "repetition",
+    "motif": "stump",
     "count": 4,
     "pieces": [
-     "050-codex-ultimus-filed",
-     "053-the-unsent-plantation",
-     "078-low-tide-seven-wrack-lines",
-     "097-low-tide-stake-net"
+     "069-the-unsent-felled",
+     "138-ring-count",
+     "144-the-last-ring-is-the-horizon",
+     "148-one-hour-later-the-shadow-reaches-the-la"
     ],
-    "first": "050-codex-ultimus-filed"
+    "first": "069-the-unsent-felled"
+   },
+   {
+    "motif": "gap",
+    "count": 4,
+    "pieces": [
+     "079-low-tide-twenty-eight-mornings-one-line",
+     "119-low-tide-three-blank-days",
+     "139-inventory-with-variations",
+     "152-through-the-gap"
+    ],
+    "first": "079-low-tide-twenty-eight-mornings-one-line"
+   },
+   {
+    "motif": "tree rings",
+    "count": 4,
+    "pieces": [
+     "138-ring-count",
+     "143-ring-count-skipped",
+     "146-read-me-lengthwise",
+     "150-evening-oldest-first"
+    ],
+    "first": "138-ring-count"
    },
    {
     "motif": "silence",
@@ -969,16 +1217,6 @@
     "first": "013-codex-ultimus-one-word-shaking"
    },
    {
-    "motif": "dusk",
-    "count": 3,
-    "pieces": [
-     "014-codex-ultimus-nursery-at-dusk",
-     "118-low-tide-half-back-dusk",
-     "129-low-tide-what-the-dusk-reflects"
-    ],
-    "first": "014-codex-ultimus-nursery-at-dusk"
-   },
-   {
     "motif": "fault",
     "count": 3,
     "pieces": [
@@ -1029,6 +1267,16 @@
     "first": "033-the-last-letter-graft"
    },
    {
+    "motif": "noon",
+    "count": 3,
+    "pieces": [
+     "039-the-last-letter-noon-on-the-seam",
+     "147-noon-on-the-cut",
+     "149-one-leaf-wide"
+    ],
+    "first": "039-the-last-letter-noon-on-the-seam"
+   },
+   {
     "motif": "touch",
     "count": 3,
     "pieces": [
@@ -1049,14 +1297,24 @@
     "first": "055-codex-ultimus-somebody-else-s"
    },
    {
-    "motif": "shadow",
+    "motif": "window",
     "count": 3,
     "pieces": [
-     "062-the-last-letter-on-the-light-box",
-     "086-low-tide-facing-the-sea",
-     "092-low-tide-joined-by-their-shadows"
+     "057-codex-ultimus-restored-badly",
+     "137-the-light-left-on",
+     "145-what-the-porch-light-says-back"
     ],
-    "first": "062-the-last-letter-on-the-light-box"
+    "first": "057-codex-ultimus-restored-badly"
+   },
+   {
+    "motif": "misregistration",
+    "count": 3,
+    "pieces": [
+     "066-the-last-letter-echo-upside-down",
+     "140-every-house-was-here-a-minute-ago",
+     "143-ring-count-skipped"
+    ],
+    "first": "066-the-last-letter-echo-upside-down"
    },
    {
     "motif": "holdfast",
@@ -1079,6 +1337,16 @@
     "first": "080-low-tide-half-back"
    },
    {
+    "motif": "label",
+    "count": 3,
+    "pieces": [
+     "082-low-tide-pressed",
+     "084-low-tide-the-specimen-wakes",
+     "151-label-written-by-the-kid"
+    ],
+    "first": "082-low-tide-pressed"
+   },
+   {
     "motif": "specimen",
     "count": 3,
     "pieces": [
@@ -1097,6 +1365,16 @@
      "119-low-tide-three-blank-days"
     ],
     "first": "085-low-tide-twenty-eight-gardens"
+   },
+   {
+    "motif": "ledger",
+    "count": 3,
+    "pieces": [
+     "089-low-tide-harvest",
+     "126-low-tide-ledger-of-corrections",
+     "139-inventory-with-variations"
+    ],
+    "first": "089-low-tide-harvest"
    },
    {
     "motif": "plastic",
@@ -1139,13 +1417,24 @@
     "first": "124-codex-ultimus-tidal"
    },
    {
-    "motif": "threshold",
-    "count": 2,
+    "motif": "what arrives",
+    "count": 3,
     "pieces": [
-     "001-the-unsent",
-     "009-codex-ultimus-unfolded-at-dawn"
+     "140-every-house-was-here-a-minute-ago",
+     "143-ring-count-skipped",
+     "151-label-written-by-the-kid"
     ],
-    "first": "001-the-unsent"
+    "first": "140-every-house-was-here-a-minute-ago"
+   },
+   {
+    "motif": "table",
+    "count": 3,
+    "pieces": [
+     "141-coins-on-the-table",
+     "142-the-table-seen-from-above",
+     "153-what-the-grown-ups-said"
+    ],
+    "first": "141-coins-on-the-table"
    },
    {
     "motif": "organic",
@@ -1171,6 +1460,15 @@
     "pieces": [
      "008-the-last-letter-fallow-ground",
      "053-the-unsent-plantation"
+    ],
+    "first": "008-the-last-letter-fallow-ground"
+   },
+   {
+    "motif": "shoot",
+    "count": 2,
+    "pieces": [
+     "008-the-last-letter-fallow-ground",
+     "152-through-the-gap"
     ],
     "first": "008-the-last-letter-fallow-ground"
    },
@@ -1274,6 +1572,15 @@
     "first": "021-the-unsent-posted"
    },
    {
+    "motif": "reply",
+    "count": 2,
+    "pieces": [
+     "022-codex-ultimus-a-reply-steadier",
+     "145-what-the-porch-light-says-back"
+    ],
+    "first": "022-codex-ultimus-a-reply-steadier"
+   },
+   {
     "motif": "two hands",
     "count": 2,
     "pieces": [
@@ -1371,6 +1678,24 @@
      "045-the-unsent-overgrown"
     ],
     "first": "036-the-unsent-cross-section"
+   },
+   {
+    "motif": "archive",
+    "count": 2,
+    "pieces": [
+     "036-the-unsent-cross-section",
+     "139-inventory-with-variations"
+    ],
+    "first": "036-the-unsent-cross-section"
+   },
+   {
+    "motif": "ruler",
+    "count": 2,
+    "pieces": [
+     "040-the-unsent-core-sample",
+     "149-one-leaf-wide"
+    ],
+    "first": "040-the-unsent-core-sample"
    },
    {
     "motif": "reading",
@@ -1526,15 +1851,6 @@
     "first": "079-low-tide-twenty-eight-mornings-one-line"
    },
    {
-    "motif": "gap",
-    "count": 2,
-    "pieces": [
-     "079-low-tide-twenty-eight-mornings-one-line",
-     "119-low-tide-three-blank-days"
-    ],
-    "first": "079-low-tide-twenty-eight-mornings-one-line"
-   },
-   {
     "motif": "spring tide",
     "count": 2,
     "pieces": [
@@ -1542,15 +1858,6 @@
      "089-low-tide-harvest"
     ],
     "first": "081-low-tide-the-line-takes-root"
-   },
-   {
-    "motif": "label",
-    "count": 2,
-    "pieces": [
-     "082-low-tide-pressed",
-     "084-low-tide-the-specimen-wakes"
-    ],
-    "first": "082-low-tide-pressed"
    },
    {
     "motif": "crab",
@@ -1569,15 +1876,6 @@
      "114-low-tide-thirty-readings"
     ],
     "first": "085-low-tide-twenty-eight-gardens"
-   },
-   {
-    "motif": "ledger",
-    "count": 2,
-    "pieces": [
-     "089-low-tide-harvest",
-     "126-low-tide-ledger-of-corrections"
-    ],
-    "first": "089-low-tide-harvest"
    },
    {
     "motif": "tesserae",
@@ -1634,6 +1932,15 @@
     "first": "098-low-tide-one-dry-place"
    },
    {
+    "motif": "section",
+    "count": 2,
+    "pieces": [
+     "106-low-tide-section-through-seven-tides",
+     "152-through-the-gap"
+    ],
+    "first": "106-low-tide-section-through-seven-tides"
+   },
+   {
     "motif": "strata",
     "count": 2,
     "pieces": [
@@ -1659,6 +1966,15 @@
      "116-low-tide-arrived"
     ],
     "first": "110-low-tide-someone-walking-out"
+   },
+   {
+    "motif": "inventory",
+    "count": 2,
+    "pieces": [
+     "111-low-tide-inventory-of-fourteen",
+     "139-inventory-with-variations"
+    ],
+    "first": "111-low-tide-inventory-of-fourteen"
    },
    {
     "motif": "card",
@@ -1713,6 +2029,51 @@
      "132-low-tide-the-flat-signs-its-name"
     ],
     "first": "122-crossing-the-seeds-land"
+   },
+   {
+    "motif": "light left on",
+    "count": 2,
+    "pieces": [
+     "137-the-light-left-on",
+     "144-the-last-ring-is-the-horizon"
+    ],
+    "first": "137-the-light-left-on"
+   },
+   {
+    "motif": "unnamed",
+    "count": 2,
+    "pieces": [
+     "141-coins-on-the-table",
+     "142-the-table-seen-from-above"
+    ],
+    "first": "141-coins-on-the-table"
+   },
+   {
+    "motif": "hands",
+    "count": 2,
+    "pieces": [
+     "141-coins-on-the-table",
+     "142-the-table-seen-from-above"
+    ],
+    "first": "141-coins-on-the-table"
+   },
+   {
+    "motif": "barcode",
+    "count": 2,
+    "pieces": [
+     "143-ring-count-skipped",
+     "146-read-me-lengthwise"
+    ],
+    "first": "143-ring-count-skipped"
+   },
+   {
+    "motif": "porch light",
+    "count": 2,
+    "pieces": [
+     "145-what-the-porch-light-says-back",
+     "148-one-hour-later-the-shadow-reaches-the-la"
+    ],
+    "first": "145-what-the-porch-light-says-back"
    },
    {
     "motif": "gradient",
@@ -1801,14 +2162,6 @@
      "007-the-last-letter-light-through-the-seal"
     ],
     "first": "007-the-last-letter-light-through-the-seal"
-   },
-   {
-    "motif": "shoot",
-    "count": 1,
-    "pieces": [
-     "008-the-last-letter-fallow-ground"
-    ],
-    "first": "008-the-last-letter-fallow-ground"
    },
    {
     "motif": "buried archive",
@@ -1953,14 +2306,6 @@
      "021-the-unsent-posted"
     ],
     "first": "021-the-unsent-posted"
-   },
-   {
-    "motif": "reply",
-    "count": 1,
-    "pieces": [
-     "022-codex-ultimus-a-reply-steadier"
-    ],
-    "first": "022-codex-ultimus-a-reply-steadier"
    },
    {
     "motif": "germination",
@@ -2131,14 +2476,6 @@
     "first": "036-the-unsent-cross-section"
    },
    {
-    "motif": "archive",
-    "count": 1,
-    "pieces": [
-     "036-the-unsent-cross-section"
-    ],
-    "first": "036-the-unsent-cross-section"
-   },
-   {
     "motif": "ink to light",
     "count": 1,
     "pieces": [
@@ -2171,28 +2508,12 @@
     "first": "038-the-last-letter-slipped-disc"
    },
    {
-    "motif": "noon",
-    "count": 1,
-    "pieces": [
-     "039-the-last-letter-noon-on-the-seam"
-    ],
-    "first": "039-the-last-letter-noon-on-the-seam"
-   },
-   {
     "motif": "daylight",
     "count": 1,
     "pieces": [
      "039-the-last-letter-noon-on-the-seam"
     ],
     "first": "039-the-last-letter-noon-on-the-seam"
-   },
-   {
-    "motif": "ruler",
-    "count": 1,
-    "pieces": [
-     "040-the-unsent-core-sample"
-    ],
-    "first": "040-the-unsent-core-sample"
    },
    {
     "motif": "phototropism",
@@ -2475,14 +2796,6 @@
     "first": "057-codex-ultimus-restored-badly"
    },
    {
-    "motif": "window",
-    "count": 1,
-    "pieces": [
-     "057-codex-ultimus-restored-badly"
-    ],
-    "first": "057-codex-ultimus-restored-badly"
-   },
-   {
     "motif": "bloom",
     "count": 1,
     "pieces": [
@@ -2651,14 +2964,6 @@
     "first": "066-the-last-letter-echo-upside-down"
    },
    {
-    "motif": "misregistration",
-    "count": 1,
-    "pieces": [
-     "066-the-last-letter-echo-upside-down"
-    ],
-    "first": "066-the-last-letter-echo-upside-down"
-   },
-   {
     "motif": "pod",
     "count": 1,
     "pieces": [
@@ -2708,14 +3013,6 @@
    },
    {
     "motif": "felled",
-    "count": 1,
-    "pieces": [
-     "069-the-unsent-felled"
-    ],
-    "first": "069-the-unsent-felled"
-   },
-   {
-    "motif": "stump",
     "count": 1,
     "pieces": [
      "069-the-unsent-felled"
@@ -3171,28 +3468,12 @@
     "first": "104-low-tide-the-morning-after"
    },
    {
-    "motif": "seedling",
-    "count": 1,
-    "pieces": [
-     "104-low-tide-the-morning-after"
-    ],
-    "first": "104-low-tide-the-morning-after"
-   },
-   {
     "motif": "level",
     "count": 1,
     "pieces": [
      "105-low-tide-buoy-at-a-distance"
     ],
     "first": "105-low-tide-buoy-at-a-distance"
-   },
-   {
-    "motif": "section",
-    "count": 1,
-    "pieces": [
-     "106-low-tide-section-through-seven-tides"
-    ],
-    "first": "106-low-tide-section-through-seven-tides"
    },
    {
     "motif": "buried",
@@ -3233,14 +3514,6 @@
      "110-low-tide-someone-walking-out"
     ],
     "first": "110-low-tide-someone-walking-out"
-   },
-   {
-    "motif": "inventory",
-    "count": 1,
-    "pieces": [
-     "111-low-tide-inventory-of-fourteen"
-    ],
-    "first": "111-low-tide-inventory-of-fourteen"
    },
    {
     "motif": "fourteen",
@@ -3433,6 +3706,278 @@
      "135-low-tide-the-samples-wake"
     ],
     "first": "135-low-tide-the-samples-wake"
+   },
+   {
+    "motif": "grief",
+    "count": 1,
+    "pieces": [
+     "137-the-light-left-on"
+    ],
+    "first": "137-the-light-left-on"
+   },
+   {
+    "motif": "time compressed",
+    "count": 1,
+    "pieces": [
+     "138-ring-count"
+    ],
+    "first": "138-ring-count"
+   },
+   {
+    "motif": "what keeps itself",
+    "count": 1,
+    "pieces": [
+     "139-inventory-with-variations"
+    ],
+    "first": "139-inventory-with-variations"
+   },
+   {
+    "motif": "houses",
+    "count": 1,
+    "pieces": [
+     "140-every-house-was-here-a-minute-ago"
+    ],
+    "first": "140-every-house-was-here-a-minute-ago"
+   },
+   {
+    "motif": "erasure",
+    "count": 1,
+    "pieces": [
+     "140-every-house-was-here-a-minute-ago"
+    ],
+    "first": "140-every-house-was-here-a-minute-ago"
+   },
+   {
+    "motif": "one pink accident",
+    "count": 1,
+    "pieces": [
+     "140-every-house-was-here-a-minute-ago"
+    ],
+    "first": "140-every-house-was-here-a-minute-ago"
+   },
+   {
+    "motif": "coins",
+    "count": 1,
+    "pieces": [
+     "141-coins-on-the-table"
+    ],
+    "first": "141-coins-on-the-table"
+   },
+   {
+    "motif": "inheritance",
+    "count": 1,
+    "pieces": [
+     "141-coins-on-the-table"
+    ],
+    "first": "141-coins-on-the-table"
+   },
+   {
+    "motif": "skills",
+    "count": 1,
+    "pieces": [
+     "141-coins-on-the-table"
+    ],
+    "first": "141-coins-on-the-table"
+   },
+   {
+    "motif": "plan view",
+    "count": 1,
+    "pieces": [
+     "142-the-table-seen-from-above"
+    ],
+    "first": "142-the-table-seen-from-above"
+   },
+   {
+    "motif": "grey inheritance",
+    "count": 1,
+    "pieces": [
+     "142-the-table-seen-from-above"
+    ],
+    "first": "142-the-table-seen-from-above"
+   },
+   {
+    "motif": "skip",
+    "count": 1,
+    "pieces": [
+     "143-ring-count-skipped"
+    ],
+    "first": "143-ring-count-skipped"
+   },
+   {
+    "motif": "pink pith",
+    "count": 1,
+    "pieces": [
+     "143-ring-count-skipped"
+    ],
+    "first": "143-ring-count-skipped"
+   },
+   {
+    "motif": "arcs of light",
+    "count": 1,
+    "pieces": [
+     "144-the-last-ring-is-the-horizon"
+    ],
+    "first": "144-the-last-ring-is-the-horizon"
+   },
+   {
+    "motif": "the dead",
+    "count": 1,
+    "pieces": [
+     "145-what-the-porch-light-says-back"
+    ],
+    "first": "145-what-the-porch-light-says-back"
+   },
+   {
+    "motif": "what grows next",
+    "count": 1,
+    "pieces": [
+     "145-what-the-porch-light-says-back"
+    ],
+    "first": "145-what-the-porch-light-says-back"
+   },
+   {
+    "motif": "pith",
+    "count": 1,
+    "pieces": [
+     "146-read-me-lengthwise"
+    ],
+    "first": "146-read-me-lengthwise"
+   },
+   {
+    "motif": "page",
+    "count": 1,
+    "pieces": [
+     "146-read-me-lengthwise"
+    ],
+    "first": "146-read-me-lengthwise"
+   },
+   {
+    "motif": "cut surface",
+    "count": 1,
+    "pieces": [
+     "147-noon-on-the-cut"
+    ],
+    "first": "147-noon-on-the-cut"
+   },
+   {
+    "motif": "morning",
+    "count": 1,
+    "pieces": [
+     "148-one-hour-later-the-shadow-reaches-the-la"
+    ],
+    "first": "148-one-hour-later-the-shadow-reaches-the-la"
+   },
+   {
+    "motif": "white space",
+    "count": 1,
+    "pieces": [
+     "149-one-leaf-wide"
+    ],
+    "first": "149-one-leaf-wide"
+   },
+   {
+    "motif": "unnamed measure",
+    "count": 1,
+    "pieces": [
+     "149-one-leaf-wide"
+    ],
+    "first": "149-one-leaf-wide"
+   },
+   {
+    "motif": "evening",
+    "count": 1,
+    "pieces": [
+     "150-evening-oldest-first"
+    ],
+    "first": "150-evening-oldest-first"
+   },
+   {
+    "motif": "shade",
+    "count": 1,
+    "pieces": [
+     "150-evening-oldest-first"
+    ],
+    "first": "150-evening-oldest-first"
+   },
+   {
+    "motif": "holding the light",
+    "count": 1,
+    "pieces": [
+     "150-evening-oldest-first"
+    ],
+    "first": "150-evening-oldest-first"
+   },
+   {
+    "motif": "child's voice",
+    "count": 1,
+    "pieces": [
+     "151-label-written-by-the-kid"
+    ],
+    "first": "151-label-written-by-the-kid"
+   },
+   {
+    "motif": "not finished",
+    "count": 1,
+    "pieces": [
+     "151-label-written-by-the-kid"
+    ],
+    "first": "151-label-written-by-the-kid"
+   },
+   {
+    "motif": "planting",
+    "count": 1,
+    "pieces": [
+     "151-label-written-by-the-kid"
+    ],
+    "first": "151-label-written-by-the-kid"
+   },
+   {
+    "motif": "tiles",
+    "count": 1,
+    "pieces": [
+     "152-through-the-gap"
+    ],
+    "first": "152-through-the-gap"
+   },
+   {
+    "motif": "ledger lines",
+    "count": 1,
+    "pieces": [
+     "152-through-the-gap"
+    ],
+    "first": "152-through-the-gap"
+   },
+   {
+    "motif": "kitchen",
+    "count": 1,
+    "pieces": [
+     "153-what-the-grown-ups-said"
+    ],
+    "first": "153-what-the-grown-ups-said"
+   },
+   {
+    "motif": "whistle",
+    "count": 1,
+    "pieces": [
+     "153-what-the-grown-ups-said"
+    ],
+    "first": "153-what-the-grown-ups-said"
+   },
+   {
+    "motif": "forgetting",
+    "count": 1,
+    "pieces": [
+     "153-what-the-grown-ups-said"
+    ],
+    "first": "153-what-the-grown-ups-said"
+   },
+   {
+    "motif": "making room",
+    "count": 1,
+    "pieces": [
+     "153-what-the-grown-ups-said"
+    ],
+    "first": "153-what-the-grown-ups-said"
    }
   ],
   "pieces": [
@@ -5963,6 +6508,346 @@
      "fusion",
      "post",
      "vessel"
+    ],
+    "visitor": null,
+    "votes": null
+   },
+   {
+    "id": "137-the-light-left-on",
+    "title": "The Light Left On",
+    "theme": "The Age of Loss",
+    "operation": "genesis",
+    "generation": 0,
+    "parent_id": null,
+    "root_id": "137-the-light-left-on",
+    "artist": "Lumen",
+    "motifs": [
+     "dawn",
+     "grief",
+     "light left on",
+     "threshold",
+     "what stays",
+     "window"
+    ],
+    "visitor": null,
+    "votes": null
+   },
+   {
+    "id": "138-ring-count",
+    "title": "Ring Count",
+    "theme": "The Age of Loss",
+    "operation": "genesis",
+    "generation": 0,
+    "parent_id": null,
+    "root_id": "138-ring-count",
+    "artist": "Mara Vey",
+    "motifs": [
+     "roots",
+     "seedling",
+     "stump",
+     "time compressed",
+     "tree rings",
+     "what stays"
+    ],
+    "visitor": null,
+    "votes": null
+   },
+   {
+    "id": "139-inventory-with-variations",
+    "title": "Inventory, With Variations",
+    "theme": "The Age of Loss",
+    "operation": "genesis",
+    "generation": 0,
+    "parent_id": null,
+    "root_id": "139-inventory-with-variations",
+    "artist": "Tessera",
+    "motifs": [
+     "archive",
+     "gap",
+     "inventory",
+     "ledger",
+     "repetition",
+     "what keeps itself"
+    ],
+    "visitor": null,
+    "votes": null
+   },
+   {
+    "id": "140-every-house-was-here-a-minute-ago",
+    "title": "Every House Was Here a Minute Ago",
+    "theme": "The Age of Loss",
+    "operation": "genesis",
+    "generation": 0,
+    "parent_id": null,
+    "root_id": "140-every-house-was-here-a-minute-ago",
+    "artist": "Kite",
+    "motifs": [
+     "erasure",
+     "grid",
+     "houses",
+     "misregistration",
+     "one pink accident",
+     "what arrives"
+    ],
+    "visitor": null,
+    "votes": null
+   },
+   {
+    "id": "141-coins-on-the-table",
+    "title": "Coins on the Table",
+    "theme": "The Age of Loss",
+    "operation": "genesis",
+    "generation": 0,
+    "parent_id": null,
+    "root_id": "141-coins-on-the-table",
+    "artist": "Vesper",
+    "motifs": [
+     "coins",
+     "hands",
+     "inheritance",
+     "skills",
+     "table",
+     "unnamed"
+    ],
+    "visitor": null,
+    "votes": null
+   },
+   {
+    "id": "142-the-table-seen-from-above",
+    "title": "The Table, Seen From Above",
+    "theme": "The Age of Loss",
+    "operation": "branch",
+    "generation": 1,
+    "parent_id": "141-coins-on-the-table",
+    "root_id": "141-coins-on-the-table",
+    "artist": "Tessera",
+    "motifs": [
+     "grey inheritance",
+     "hands",
+     "mosaic",
+     "plan view",
+     "table",
+     "unnamed"
+    ],
+    "visitor": "Ji-woo",
+    "votes": 5
+   },
+   {
+    "id": "143-ring-count-skipped",
+    "title": "Ring Count, Skipped",
+    "theme": "The Age of Loss",
+    "operation": "mutation",
+    "generation": 1,
+    "parent_id": "138-ring-count",
+    "root_id": "138-ring-count",
+    "artist": "Kite",
+    "motifs": [
+     "barcode",
+     "misregistration",
+     "pink pith",
+     "skip",
+     "tree rings",
+     "what arrives"
+    ],
+    "visitor": null,
+    "votes": null
+   },
+   {
+    "id": "144-the-last-ring-is-the-horizon",
+    "title": "The Last Ring Is the Horizon",
+    "theme": "The Age of Loss",
+    "operation": "re-evolution",
+    "generation": 1,
+    "parent_id": "138-ring-count",
+    "root_id": "138-ring-count",
+    "artist": "Lumen",
+    "motifs": [
+     "arcs of light",
+     "dusk",
+     "horizon",
+     "light left on",
+     "stump",
+     "threshold"
+    ],
+    "visitor": null,
+    "votes": null
+   },
+   {
+    "id": "145-what-the-porch-light-says-back",
+    "title": "What the Porch Light Says Back",
+    "theme": "The Age of Loss",
+    "operation": "branch",
+    "generation": 1,
+    "parent_id": "137-the-light-left-on",
+    "root_id": "137-the-light-left-on",
+    "artist": "Mara Vey",
+    "motifs": [
+     "porch light",
+     "reply",
+     "seed",
+     "the dead",
+     "what grows next",
+     "window"
+    ],
+    "visitor": "Teo",
+    "votes": 5
+   },
+   {
+    "id": "146-read-me-lengthwise",
+    "title": "Read Me Lengthwise",
+    "theme": "The Age of Loss",
+    "operation": "mutation",
+    "generation": 2,
+    "parent_id": "143-ring-count-skipped",
+    "root_id": "138-ring-count",
+    "artist": "Mara Vey",
+    "motifs": [
+     "barcode",
+     "page",
+     "pith",
+     "roots",
+     "tree rings",
+     "what stays"
+    ],
+    "visitor": null,
+    "votes": null
+   },
+   {
+    "id": "147-noon-on-the-cut",
+    "title": "Noon on the Cut",
+    "theme": "The Age of Loss",
+    "operation": "re-evolution",
+    "generation": 2,
+    "parent_id": "143-ring-count-skipped",
+    "root_id": "138-ring-count",
+    "artist": "Lumen",
+    "motifs": [
+     "cut surface",
+     "light",
+     "noon",
+     "seedling",
+     "shadow",
+     "threshold"
+    ],
+    "visitor": null,
+    "votes": null
+   },
+   {
+    "id": "148-one-hour-later-the-shadow-reaches-the-la",
+    "title": "One Hour Later, the Shadow Reaches the Lamp",
+    "theme": "The Age of Loss",
+    "operation": "branch",
+    "generation": 2,
+    "parent_id": "144-the-last-ring-is-the-horizon",
+    "root_id": "138-ring-count",
+    "artist": "Mara Vey",
+    "motifs": [
+     "morning",
+     "porch light",
+     "roots",
+     "seedling",
+     "shadow",
+     "stump"
+    ],
+    "visitor": "Noor",
+    "votes": 5
+   },
+   {
+    "id": "149-one-leaf-wide",
+    "title": "One Leaf Wide",
+    "theme": "The Age of Loss",
+    "operation": "mutation",
+    "generation": 3,
+    "parent_id": "147-noon-on-the-cut",
+    "root_id": "138-ring-count",
+    "artist": "Vesper",
+    "motifs": [
+     "noon",
+     "ruler",
+     "seedling",
+     "shadow",
+     "unnamed measure",
+     "white space"
+    ],
+    "visitor": null,
+    "votes": null
+   },
+   {
+    "id": "150-evening-oldest-first",
+    "title": "Evening, Oldest First",
+    "theme": "The Age of Loss",
+    "operation": "re-evolution",
+    "generation": 3,
+    "parent_id": "147-noon-on-the-cut",
+    "root_id": "138-ring-count",
+    "artist": "Mara Vey",
+    "motifs": [
+     "evening",
+     "holding the light",
+     "seedling",
+     "shade",
+     "tree rings",
+     "what stays"
+    ],
+    "visitor": null,
+    "votes": null
+   },
+   {
+    "id": "151-label-written-by-the-kid",
+    "title": "Label, Written by the Kid",
+    "theme": "The Age of Loss",
+    "operation": "branch",
+    "generation": 2,
+    "parent_id": "142-the-table-seen-from-above",
+    "root_id": "141-coins-on-the-table",
+    "artist": "Vesper",
+    "motifs": [
+     "child's voice",
+     "label",
+     "not finished",
+     "planting",
+     "seed",
+     "what arrives"
+    ],
+    "visitor": "Ji-woo",
+    "votes": 6
+   },
+   {
+    "id": "152-through-the-gap",
+    "title": "Through the Gap",
+    "theme": "The Age of Loss",
+    "operation": "mutation",
+    "generation": 1,
+    "parent_id": "139-inventory-with-variations",
+    "root_id": "139-inventory-with-variations",
+    "artist": "Mara Vey",
+    "motifs": [
+     "gap",
+     "ledger lines",
+     "roots",
+     "section",
+     "shoot",
+     "tiles"
+    ],
+    "visitor": null,
+    "votes": null
+   },
+   {
+    "id": "153-what-the-grown-ups-said",
+    "title": "What the Grown-ups Said",
+    "theme": "The Age of Loss",
+    "operation": "re-evolution",
+    "generation": 2,
+    "parent_id": "142-the-table-seen-from-above",
+    "root_id": "141-coins-on-the-table",
+    "artist": "Vesper",
+    "motifs": [
+     "forgetting",
+     "kitchen",
+     "making room",
+     "table",
+     "what stays",
+     "whistle"
     ],
     "visitor": null,
     "votes": null
@@ -11289,12 +12174,517 @@
    "to": "076-low-tide-buoy-stranded",
    "cross_lineage": true,
    "cross_theme": false
+  },
+  {
+   "type": "created_by",
+   "from": "137-the-light-left-on",
+   "to": "Lumen"
+  },
+  {
+   "type": "in_lineage",
+   "from": "137-the-light-left-on",
+   "to": "137-the-light-left-on"
+  },
+  {
+   "type": "created_by",
+   "from": "138-ring-count",
+   "to": "Mara Vey"
+  },
+  {
+   "type": "in_lineage",
+   "from": "138-ring-count",
+   "to": "138-ring-count"
+  },
+  {
+   "type": "created_by",
+   "from": "139-inventory-with-variations",
+   "to": "Tessera"
+  },
+  {
+   "type": "in_lineage",
+   "from": "139-inventory-with-variations",
+   "to": "139-inventory-with-variations"
+  },
+  {
+   "type": "created_by",
+   "from": "140-every-house-was-here-a-minute-ago",
+   "to": "Kite"
+  },
+  {
+   "type": "in_lineage",
+   "from": "140-every-house-was-here-a-minute-ago",
+   "to": "140-every-house-was-here-a-minute-ago"
+  },
+  {
+   "type": "created_by",
+   "from": "141-coins-on-the-table",
+   "to": "Vesper"
+  },
+  {
+   "type": "in_lineage",
+   "from": "141-coins-on-the-table",
+   "to": "141-coins-on-the-table"
+  },
+  {
+   "type": "created_by",
+   "from": "142-the-table-seen-from-above",
+   "to": "Tessera"
+  },
+  {
+   "type": "in_lineage",
+   "from": "142-the-table-seen-from-above",
+   "to": "141-coins-on-the-table"
+  },
+  {
+   "type": "parent_of",
+   "from": "141-coins-on-the-table",
+   "to": "142-the-table-seen-from-above",
+   "operation": "branch"
+  },
+  {
+   "type": "follows_proposal",
+   "from": "142-the-table-seen-from-above",
+   "to": "Ji-woo",
+   "votes": 5,
+   "target": "141-coins-on-the-table",
+   "attempt": 1
+  },
+  {
+   "type": "remembers",
+   "from": "142-the-table-seen-from-above",
+   "to": "141-coins-on-the-table",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "142-the-table-seen-from-above",
+   "to": "139-inventory-with-variations",
+   "cross_lineage": true,
+   "cross_theme": false
+  },
+  {
+   "type": "created_by",
+   "from": "143-ring-count-skipped",
+   "to": "Kite"
+  },
+  {
+   "type": "in_lineage",
+   "from": "143-ring-count-skipped",
+   "to": "138-ring-count"
+  },
+  {
+   "type": "parent_of",
+   "from": "138-ring-count",
+   "to": "143-ring-count-skipped",
+   "operation": "mutation"
+  },
+  {
+   "type": "remembers",
+   "from": "143-ring-count-skipped",
+   "to": "138-ring-count",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "143-ring-count-skipped",
+   "to": "140-every-house-was-here-a-minute-ago",
+   "cross_lineage": true,
+   "cross_theme": false
+  },
+  {
+   "type": "created_by",
+   "from": "144-the-last-ring-is-the-horizon",
+   "to": "Lumen"
+  },
+  {
+   "type": "in_lineage",
+   "from": "144-the-last-ring-is-the-horizon",
+   "to": "138-ring-count"
+  },
+  {
+   "type": "parent_of",
+   "from": "138-ring-count",
+   "to": "144-the-last-ring-is-the-horizon",
+   "operation": "re-evolution"
+  },
+  {
+   "type": "remembers",
+   "from": "144-the-last-ring-is-the-horizon",
+   "to": "138-ring-count",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "144-the-last-ring-is-the-horizon",
+   "to": "137-the-light-left-on",
+   "cross_lineage": true,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "144-the-last-ring-is-the-horizon",
+   "to": "143-ring-count-skipped",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "created_by",
+   "from": "145-what-the-porch-light-says-back",
+   "to": "Mara Vey"
+  },
+  {
+   "type": "in_lineage",
+   "from": "145-what-the-porch-light-says-back",
+   "to": "137-the-light-left-on"
+  },
+  {
+   "type": "parent_of",
+   "from": "137-the-light-left-on",
+   "to": "145-what-the-porch-light-says-back",
+   "operation": "branch"
+  },
+  {
+   "type": "follows_proposal",
+   "from": "145-what-the-porch-light-says-back",
+   "to": "Teo",
+   "votes": 5,
+   "target": "137-the-light-left-on",
+   "attempt": 1
+  },
+  {
+   "type": "remembers",
+   "from": "145-what-the-porch-light-says-back",
+   "to": "137-the-light-left-on",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "145-what-the-porch-light-says-back",
+   "to": "144-the-last-ring-is-the-horizon",
+   "cross_lineage": true,
+   "cross_theme": false
+  },
+  {
+   "type": "created_by",
+   "from": "146-read-me-lengthwise",
+   "to": "Mara Vey"
+  },
+  {
+   "type": "in_lineage",
+   "from": "146-read-me-lengthwise",
+   "to": "138-ring-count"
+  },
+  {
+   "type": "parent_of",
+   "from": "143-ring-count-skipped",
+   "to": "146-read-me-lengthwise",
+   "operation": "mutation"
+  },
+  {
+   "type": "remembers",
+   "from": "146-read-me-lengthwise",
+   "to": "143-ring-count-skipped",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "146-read-me-lengthwise",
+   "to": "138-ring-count",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "146-read-me-lengthwise",
+   "to": "139-inventory-with-variations",
+   "cross_lineage": true,
+   "cross_theme": false
+  },
+  {
+   "type": "created_by",
+   "from": "147-noon-on-the-cut",
+   "to": "Lumen"
+  },
+  {
+   "type": "in_lineage",
+   "from": "147-noon-on-the-cut",
+   "to": "138-ring-count"
+  },
+  {
+   "type": "parent_of",
+   "from": "143-ring-count-skipped",
+   "to": "147-noon-on-the-cut",
+   "operation": "re-evolution"
+  },
+  {
+   "type": "remembers",
+   "from": "147-noon-on-the-cut",
+   "to": "143-ring-count-skipped",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "147-noon-on-the-cut",
+   "to": "146-read-me-lengthwise",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "147-noon-on-the-cut",
+   "to": "144-the-last-ring-is-the-horizon",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "created_by",
+   "from": "148-one-hour-later-the-shadow-reaches-the-la",
+   "to": "Mara Vey"
+  },
+  {
+   "type": "in_lineage",
+   "from": "148-one-hour-later-the-shadow-reaches-the-la",
+   "to": "138-ring-count"
+  },
+  {
+   "type": "parent_of",
+   "from": "144-the-last-ring-is-the-horizon",
+   "to": "148-one-hour-later-the-shadow-reaches-the-la",
+   "operation": "branch"
+  },
+  {
+   "type": "follows_proposal",
+   "from": "148-one-hour-later-the-shadow-reaches-the-la",
+   "to": "Noor",
+   "votes": 5,
+   "target": "144-the-last-ring-is-the-horizon",
+   "attempt": 1
+  },
+  {
+   "type": "remembers",
+   "from": "148-one-hour-later-the-shadow-reaches-the-la",
+   "to": "144-the-last-ring-is-the-horizon",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "148-one-hour-later-the-shadow-reaches-the-la",
+   "to": "138-ring-count",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "148-one-hour-later-the-shadow-reaches-the-la",
+   "to": "147-noon-on-the-cut",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "created_by",
+   "from": "149-one-leaf-wide",
+   "to": "Vesper"
+  },
+  {
+   "type": "in_lineage",
+   "from": "149-one-leaf-wide",
+   "to": "138-ring-count"
+  },
+  {
+   "type": "parent_of",
+   "from": "147-noon-on-the-cut",
+   "to": "149-one-leaf-wide",
+   "operation": "mutation"
+  },
+  {
+   "type": "remembers",
+   "from": "149-one-leaf-wide",
+   "to": "147-noon-on-the-cut",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "149-one-leaf-wide",
+   "to": "141-coins-on-the-table",
+   "cross_lineage": true,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "149-one-leaf-wide",
+   "to": "143-ring-count-skipped",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "created_by",
+   "from": "150-evening-oldest-first",
+   "to": "Mara Vey"
+  },
+  {
+   "type": "in_lineage",
+   "from": "150-evening-oldest-first",
+   "to": "138-ring-count"
+  },
+  {
+   "type": "parent_of",
+   "from": "147-noon-on-the-cut",
+   "to": "150-evening-oldest-first",
+   "operation": "re-evolution"
+  },
+  {
+   "type": "remembers",
+   "from": "150-evening-oldest-first",
+   "to": "147-noon-on-the-cut",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "150-evening-oldest-first",
+   "to": "149-one-leaf-wide",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "150-evening-oldest-first",
+   "to": "141-coins-on-the-table",
+   "cross_lineage": true,
+   "cross_theme": false
+  },
+  {
+   "type": "created_by",
+   "from": "151-label-written-by-the-kid",
+   "to": "Vesper"
+  },
+  {
+   "type": "in_lineage",
+   "from": "151-label-written-by-the-kid",
+   "to": "141-coins-on-the-table"
+  },
+  {
+   "type": "parent_of",
+   "from": "142-the-table-seen-from-above",
+   "to": "151-label-written-by-the-kid",
+   "operation": "branch"
+  },
+  {
+   "type": "follows_proposal",
+   "from": "151-label-written-by-the-kid",
+   "to": "Ji-woo",
+   "votes": 6,
+   "target": "142-the-table-seen-from-above",
+   "attempt": 1
+  },
+  {
+   "type": "remembers",
+   "from": "151-label-written-by-the-kid",
+   "to": "142-the-table-seen-from-above",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "151-label-written-by-the-kid",
+   "to": "141-coins-on-the-table",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "151-label-written-by-the-kid",
+   "to": "145-what-the-porch-light-says-back",
+   "cross_lineage": true,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "151-label-written-by-the-kid",
+   "to": "150-evening-oldest-first",
+   "cross_lineage": true,
+   "cross_theme": false
+  },
+  {
+   "type": "created_by",
+   "from": "152-through-the-gap",
+   "to": "Mara Vey"
+  },
+  {
+   "type": "in_lineage",
+   "from": "152-through-the-gap",
+   "to": "139-inventory-with-variations"
+  },
+  {
+   "type": "parent_of",
+   "from": "139-inventory-with-variations",
+   "to": "152-through-the-gap",
+   "operation": "mutation"
+  },
+  {
+   "type": "remembers",
+   "from": "152-through-the-gap",
+   "to": "139-inventory-with-variations",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "152-through-the-gap",
+   "to": "151-label-written-by-the-kid",
+   "cross_lineage": true,
+   "cross_theme": false
+  },
+  {
+   "type": "created_by",
+   "from": "153-what-the-grown-ups-said",
+   "to": "Vesper"
+  },
+  {
+   "type": "in_lineage",
+   "from": "153-what-the-grown-ups-said",
+   "to": "141-coins-on-the-table"
+  },
+  {
+   "type": "parent_of",
+   "from": "142-the-table-seen-from-above",
+   "to": "153-what-the-grown-ups-said",
+   "operation": "re-evolution"
+  },
+  {
+   "type": "remembers",
+   "from": "153-what-the-grown-ups-said",
+   "to": "142-the-table-seen-from-above",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "153-what-the-grown-ups-said",
+   "to": "151-label-written-by-the-kid",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "153-what-the-grown-ups-said",
+   "to": "141-coins-on-the-table",
+   "cross_lineage": false,
+   "cross_theme": false
   }
  ],
  "analysis": {
   "motif_retention_by_operation": {
    "branch": 0.128,
-   "mutation": 0.12,
+   "mutation": 0.125,
    "re-evolution": 0.067
   },
   "visitor_led_vs_artist_led": {
@@ -11302,14 +12692,18 @@
     "visitor_led": 17,
     "artist_led": 38
    },
+   "The Age of Loss": {
+    "visitor_led": 4,
+    "artist_led": 8
+   },
    "The Last Letter": {
     "visitor_led": 26,
     "artist_led": 48
    }
   },
   "memory_bridges": {
-   "total": 406,
-   "cross_lineage": 130,
+   "total": 439,
+   "cross_lineage": 140,
    "cross_theme": 44,
    "most_remembered": [
     [
@@ -11347,6 +12741,19 @@
    ]
   },
   "motif_flow": [
+   {
+    "motif": "threshold",
+    "count": 5,
+    "first": "001-the-unsent",
+    "artists": 1,
+    "themes": 2,
+    "lead_artist": "Lumen",
+    "generations": [
+     0,
+     1,
+     2
+    ]
+   },
    {
     "motif": "silence",
     "count": 3,
@@ -11386,10 +12793,10 @@
    },
    {
     "motif": "mosaic",
-    "count": 9,
+    "count": 10,
     "first": "003-codex-ultimus-the-unbroken-fold",
     "artists": 1,
-    "themes": 2,
+    "themes": 3,
     "lead_artist": "Tessera",
     "generations": [
      0,
@@ -11401,16 +12808,31 @@
    },
    {
     "motif": "grid",
-    "count": 6,
+    "count": 7,
     "first": "003-codex-ultimus-the-unbroken-fold",
     "artists": 3,
-    "themes": 2,
+    "themes": 3,
     "lead_artist": "Tessera",
     "generations": [
      0,
      1,
      2,
      3
+    ]
+   },
+   {
+    "motif": "roots",
+    "count": 16,
+    "first": "005-the-last-letter-sprouting-vein",
+    "artists": 2,
+    "themes": 3,
+    "lead_artist": "Mara Vey",
+    "generations": [
+     0,
+     1,
+     2,
+     3,
+     4
     ]
    },
    {
@@ -11427,25 +12849,11 @@
     ]
    },
    {
-    "motif": "roots",
-    "count": 12,
-    "first": "005-the-last-letter-sprouting-vein",
-    "artists": 2,
-    "themes": 2,
-    "lead_artist": "Mara Vey",
-    "generations": [
-     1,
-     2,
-     3,
-     4
-    ]
-   },
-   {
     "motif": "light",
-    "count": 13,
+    "count": 14,
     "first": "007-the-last-letter-light-through-the-seal",
     "artists": 2,
-    "themes": 2,
+    "themes": 3,
     "lead_artist": "Lumen",
     "generations": [
      1,
@@ -11468,10 +12876,10 @@
    },
    {
     "motif": "horizon",
-    "count": 8,
+    "count": 9,
     "first": "008-the-last-letter-fallow-ground",
     "artists": 4,
-    "themes": 2,
+    "themes": 3,
     "lead_artist": "Lumen",
     "generations": [
      0,
@@ -11498,12 +12906,13 @@
    },
    {
     "motif": "dawn",
-    "count": 4,
+    "count": 5,
     "first": "009-codex-ultimus-unfolded-at-dawn",
     "artists": 2,
-    "themes": 1,
+    "themes": 2,
     "lead_artist": "Lumen",
     "generations": [
+     0,
      1,
      2,
      3,
@@ -11602,12 +13011,13 @@
    },
    {
     "motif": "dusk",
-    "count": 3,
+    "count": 4,
     "first": "014-codex-ultimus-nursery-at-dusk",
     "artists": 2,
-    "themes": 2,
+    "themes": 3,
     "lead_artist": "Lumen",
     "generations": [
+     1,
      2,
      3
     ]
@@ -11627,12 +13037,13 @@
    },
    {
     "motif": "seed",
-    "count": 4,
+    "count": 6,
     "first": "019-the-last-letter-calyx",
-    "artists": 1,
-    "themes": 2,
+    "artists": 2,
+    "themes": 3,
     "lead_artist": "Mara Vey",
     "generations": [
+     1,
      2,
      3
     ]
@@ -11795,6 +13206,18 @@
     ]
    },
    {
+    "motif": "noon",
+    "count": 3,
+    "first": "039-the-last-letter-noon-on-the-seam",
+    "artists": 2,
+    "themes": 2,
+    "lead_artist": "Lumen",
+    "generations": [
+     2,
+     3
+    ]
+   },
+   {
     "motif": "core",
     "count": 5,
     "first": "040-the-unsent-core-sample",
@@ -11837,12 +13260,13 @@
    },
    {
     "motif": "repetition",
-    "count": 4,
+    "count": 5,
     "first": "050-codex-ultimus-filed",
     "artists": 1,
-    "themes": 2,
+    "themes": 3,
     "lead_artist": "Tessera",
     "generations": [
+     0,
      1,
      4,
      6
@@ -11862,6 +13286,19 @@
     ]
    },
    {
+    "motif": "window",
+    "count": 3,
+    "first": "057-codex-ultimus-restored-badly",
+    "artists": 3,
+    "themes": 2,
+    "lead_artist": "Tessera",
+    "generations": [
+     0,
+     1,
+     3
+    ]
+   },
+   {
     "motif": "record",
     "count": 8,
     "first": "059-the-last-letter-radiograph",
@@ -11878,15 +13315,42 @@
    },
    {
     "motif": "shadow",
-    "count": 3,
+    "count": 6,
     "first": "062-the-last-letter-on-the-light-box",
-    "artists": 2,
-    "themes": 2,
+    "artists": 3,
+    "themes": 3,
     "lead_artist": "Lumen",
     "generations": [
      2,
      3,
      5
+    ]
+   },
+   {
+    "motif": "misregistration",
+    "count": 3,
+    "first": "066-the-last-letter-echo-upside-down",
+    "artists": 1,
+    "themes": 2,
+    "lead_artist": "Kite",
+    "generations": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "motif": "stump",
+    "count": 4,
+    "first": "069-the-unsent-felled",
+    "artists": 3,
+    "themes": 2,
+    "lead_artist": "Mara Vey",
+    "generations": [
+     0,
+     1,
+     2,
+     3
     ]
    },
    {
@@ -11976,12 +13440,37 @@
     ]
    },
    {
+    "motif": "gap",
+    "count": 4,
+    "first": "079-low-tide-twenty-eight-mornings-one-line",
+    "artists": 3,
+    "themes": 2,
+    "lead_artist": "Tessera",
+    "generations": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
     "motif": "flood",
     "count": 3,
     "first": "080-low-tide-half-back",
     "artists": 2,
     "themes": 1,
     "lead_artist": "Lumen",
+    "generations": [
+     1,
+     2
+    ]
+   },
+   {
+    "motif": "label",
+    "count": 3,
+    "first": "082-low-tide-pressed",
+    "artists": 3,
+    "themes": 2,
+    "lead_artist": "Tessera",
     "generations": [
      1,
      2
@@ -12012,6 +13501,19 @@
     ]
    },
    {
+    "motif": "ledger",
+    "count": 3,
+    "first": "089-low-tide-harvest",
+    "artists": 1,
+    "themes": 2,
+    "lead_artist": "Tessera",
+    "generations": [
+     0,
+     2,
+     5
+    ]
+   },
+   {
     "motif": "plastic",
     "count": 3,
     "first": "100-low-tide-after-the-storm",
@@ -12022,6 +13524,20 @@
      3,
      4,
      5
+    ]
+   },
+   {
+    "motif": "seedling",
+    "count": 6,
+    "first": "104-low-tide-the-morning-after",
+    "artists": 3,
+    "themes": 2,
+    "lead_artist": "Mara Vey",
+    "generations": [
+     0,
+     2,
+     3,
+     4
     ]
    },
    {
@@ -12076,9 +13592,62 @@
      1,
      2
     ]
+   },
+   {
+    "motif": "what stays",
+    "count": 5,
+    "first": "137-the-light-left-on",
+    "artists": 3,
+    "themes": 1,
+    "lead_artist": "Mara Vey",
+    "generations": [
+     0,
+     2,
+     3
+    ]
+   },
+   {
+    "motif": "tree rings",
+    "count": 4,
+    "first": "138-ring-count",
+    "artists": 2,
+    "themes": 1,
+    "lead_artist": "Mara Vey",
+    "generations": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "motif": "what arrives",
+    "count": 3,
+    "first": "140-every-house-was-here-a-minute-ago",
+    "artists": 2,
+    "themes": 1,
+    "lead_artist": "Kite",
+    "generations": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "motif": "table",
+    "count": 3,
+    "first": "141-coins-on-the-table",
+    "artists": 2,
+    "themes": 1,
+    "lead_artist": "Vesper",
+    "generations": [
+     0,
+     1,
+     2
+    ]
    }
   ],
-  "re_evolution_reach_avg_generations": 3.28,
+  "re_evolution_reach_avg_generations": 3.11,
   "most_returned_to": [
    {
     "id": "001-the-unsent",
@@ -12124,10 +13693,10 @@
   "artist_hands": [
    {
     "artist": "Lumen",
-    "pieces": 28,
+    "pieces": 31,
     "operations": {
-     "genesis": 2,
-     "re-evolution": 12,
+     "genesis": 3,
+     "re-evolution": 14,
      "mutation": 8,
      "branch": 6
     },
@@ -12136,87 +13705,87 @@
      "restraint",
      "light",
      "threshold",
+     "dawn",
      "dusk",
-     "outline",
-     "shadow"
+     "outline"
     ],
     "top_motifs": [
      "restraint",
      "light",
+     "threshold",
+     "horizon",
      "vessel",
      "post",
-     "horizon",
-     "threshold",
      "dawn",
-     "seam"
+     "dusk"
     ]
    },
    {
     "artist": "Mara Vey",
-    "pieces": 44,
+    "pieces": 50,
     "operations": {
-     "genesis": 2,
-     "mutation": 13,
-     "re-evolution": 13,
-     "branch": 16
+     "genesis": 3,
+     "mutation": 15,
+     "re-evolution": 14,
+     "branch": 18
     },
-    "chosen_for_branch": 16,
+    "chosen_for_branch": 18,
     "signature_motifs": [
      "roots",
-     "kelp",
      "seed",
+     "kelp",
+     "seedling",
      "botanical",
-     "lineage",
-     "memory"
+     "lineage"
     ],
     "top_motifs": [
      "roots",
      "vessel",
+     "seed",
      "kelp",
      "fusion",
-     "seed",
+     "seedling",
      "botanical",
-     "lineage",
-     "memory"
+     "lineage"
     ]
    },
    {
     "artist": "Tessera",
-    "pieces": 29,
+    "pieces": 31,
     "operations": {
-     "genesis": 2,
-     "branch": 10,
+     "genesis": 3,
+     "branch": 11,
      "mutation": 13,
      "re-evolution": 4
     },
-    "chosen_for_branch": 10,
+    "chosen_for_branch": 11,
     "signature_motifs": [
      "mosaic",
      "record",
      "repetition",
+     "ledger",
      "water",
-     "flower",
-     "sequence"
+     "flower"
     ],
     "top_motifs": [
      "mosaic",
      "record",
      "repetition",
      "grid",
+     "ledger",
      "water",
      "flower",
-     "sequence",
-     "core"
+     "sequence"
     ]
    },
    {
     "artist": "Kite",
-    "pieces": 35,
+    "pieces": 37,
     "operations": {
      "branch": 11,
      "re-evolution": 14,
-     "mutation": 9,
-     "genesis": 1
+     "mutation": 10,
+     "genesis": 2
     },
     "chosen_for_branch": 11,
     "signature_motifs": [
@@ -12236,6 +13805,30 @@
      "pink",
      "buoy",
      "flock"
+    ]
+   },
+   {
+    "artist": "Vesper",
+    "pieces": 4,
+    "operations": {
+     "genesis": 1,
+     "mutation": 1,
+     "branch": 1,
+     "re-evolution": 1
+    },
+    "chosen_for_branch": 1,
+    "signature_motifs": [
+     "table"
+    ],
+    "top_motifs": [
+     "table",
+     "coins",
+     "inheritance",
+     "skills",
+     "unnamed",
+     "hands",
+     "shadow",
+     "seedling"
     ]
    }
   ],
@@ -12280,6 +13873,17 @@
      "The Last Letter"
     ],
     "favourite_artist": "Mara Vey"
+   },
+   {
+    "name": "Ji-woo",
+    "wins": 4,
+    "avg_votes": 5.25,
+    "max_attempt": 2,
+    "themes": [
+     "The Age of Loss",
+     "The Last Letter"
+    ],
+    "favourite_artist": "Tessera"
    },
    {
     "name": "Sunny",
@@ -12333,16 +13937,6 @@
     "favourite_artist": "Mara Vey"
    },
    {
-    "name": "Ji-woo",
-    "wins": 2,
-    "avg_votes": 5.0,
-    "max_attempt": 2,
-    "themes": [
-     "The Last Letter"
-    ],
-    "favourite_artist": "Mara Vey"
-   },
-   {
     "name": "Anselm",
     "wins": 1,
     "avg_votes": 4.0,
@@ -12351,6 +13945,26 @@
      "The Last Letter"
     ],
     "favourite_artist": "Tessera"
+   },
+   {
+    "name": "Noor",
+    "wins": 1,
+    "avg_votes": 5.0,
+    "max_attempt": 1,
+    "themes": [
+     "The Age of Loss"
+    ],
+    "favourite_artist": "Mara Vey"
+   },
+   {
+    "name": "Teo",
+    "wins": 1,
+    "avg_votes": 5.0,
+    "max_attempt": 1,
+    "themes": [
+     "The Age of Loss"
+    ],
+    "favourite_artist": "Mara Vey"
    }
   ],
   "generation_timeline": {
@@ -12361,6 +13975,12 @@
     16,
     8,
     3
+   ],
+   "The Age of Loss": [
+    5,
+    5,
+    5,
+    2
    ],
    "The Last Letter": [
     3,
@@ -12374,24 +13994,24 @@
    ]
   },
   "sessions": {
-   "sessions": 43,
-   "proposals": 215,
+   "sessions": 47,
+   "proposals": 235,
    "cross_archive_sessions": 5,
    "attempts_to_carry": {
-    "1": 5,
-    "2": 32,
-    "3": 4,
+    "1": 6,
+    "2": 34,
+    "3": 5,
     "4": 1,
     "5": 1
    },
    "avg_attempts_to_carry": 2.09,
    "avg_sessions_waited": 1.09,
    "lost_proposals": {
-    "total": 172,
-    "later_carried": 47,
-    "taken_up_by_an_artist": 14,
-    "still_waiting": 111,
-    "realised_share": 0.355
+    "total": 188,
+    "later_carried": 51,
+    "taken_up_by_an_artist": 15,
+    "still_waiting": 122,
+    "realised_share": 0.351
    },
    "comebacks": [
     {
@@ -12452,13 +14072,16 @@
     }
    ],
    "vote_margins": {
-    "1": 43
+    "1": 44,
+    "2": 2,
+    "3": 1
    },
    "winners_built_by": {
-    "Mara Vey": 16,
+    "Mara Vey": 18,
+    "Tessera": 11,
     "Kite": 11,
-    "Tessera": 10,
-    "Lumen": 6
+    "Lumen": 6,
+    "Vesper": 1
    },
    "participants": [
     {
@@ -12522,6 +14145,19 @@
      ]
     },
     {
+     "name": "Ji-woo",
+     "proposals": 8,
+     "wins": 4,
+     "win_rate": 0.5,
+     "avg_votes": 4.25,
+     "longest_campaign": 3,
+     "themes": [
+      "All themes · Low Tide · The Last Letter",
+      "The Age of Loss",
+      "The Last Letter"
+     ]
+    },
+    {
      "name": "Halvard",
      "proposals": 37,
      "wins": 3,
@@ -12571,58 +14207,50 @@
      ]
     },
     {
-     "name": "Ji-woo",
-     "proposals": 4,
-     "wins": 2,
-     "win_rate": 0.5,
-     "avg_votes": 4.0,
-     "longest_campaign": 2,
-     "themes": [
-      "All themes · Low Tide · The Last Letter",
-      "The Last Letter"
-     ]
-    },
-    {
      "name": "Anselm",
-     "proposals": 2,
+     "proposals": 6,
      "wins": 1,
-     "win_rate": 0.5,
-     "avg_votes": 3.5,
+     "win_rate": 0.17,
+     "avg_votes": 2.67,
      "longest_campaign": 1,
      "themes": [
-      "The Last Letter"
-     ]
-    },
-    {
-     "name": "Dr. Okafor",
-     "proposals": 2,
-     "wins": 0,
-     "win_rate": 0.0,
-     "avg_votes": 1.5,
-     "longest_campaign": 0,
-     "themes": [
+      "The Age of Loss",
       "The Last Letter"
      ]
     },
     {
      "name": "Noor",
-     "proposals": 2,
-     "wins": 0,
-     "win_rate": 0.0,
-     "avg_votes": 3.5,
-     "longest_campaign": 0,
+     "proposals": 6,
+     "wins": 1,
+     "win_rate": 0.17,
+     "avg_votes": 3.33,
+     "longest_campaign": 2,
      "themes": [
+      "The Age of Loss",
       "The Last Letter"
      ]
     },
     {
      "name": "Teo",
-     "proposals": 2,
+     "proposals": 6,
+     "wins": 1,
+     "win_rate": 0.17,
+     "avg_votes": 2.83,
+     "longest_campaign": 2,
+     "themes": [
+      "The Age of Loss",
+      "The Last Letter"
+     ]
+    },
+    {
+     "name": "Dr. Okafor",
+     "proposals": 6,
      "wins": 0,
      "win_rate": 0.0,
-     "avg_votes": 2.5,
+     "avg_votes": 1.83,
      "longest_campaign": 0,
      "themes": [
+      "The Age of Loss",
       "The Last Letter"
      ]
     }

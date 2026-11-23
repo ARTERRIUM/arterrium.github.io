@@ -1,0 +1,55 @@
+{
+ "theme": "The Age of Loss",
+ "created_at": "2026-11-23T09:14:44+00:00",
+ "note": "Teo's reply finally carried, on the second ask, after the horizon gave the porch light a place to stand; the room wanted the poems to answer the pictures this time rather than the other way round.",
+ "frontier": [
+  "137-the-light-left-on",
+  "139-inventory-with-variations",
+  "140-every-house-was-here-a-minute-ago",
+  "142-the-table-seen-from-above",
+  "143-ring-count-skipped",
+  "144-the-last-ring-is-the-horizon"
+ ],
+ "proposals": [
+  {
+   "piece_id": "137-the-light-left-on",
+   "participant": "Teo",
+   "direction": "Second time asking. Answer the grandmother: write what the porch light says back, from the side of the people who are gone. Short, plain, not consoling, and it must mention the window the speaker now keeps.",
+   "rationale": "Last session the table won and I understood why. But the threshold still has one side. Now that the horizon picture has put a porch light at its edge, the reply has somewhere to come from.",
+   "votes": 5,
+   "form": "poem"
+  },
+  {
+   "piece_id": "142-the-table-seen-from-above",
+   "participant": "Ji-woo",
+   "direction": "Write the name on the blank label. Make it a poem that is only the label: what the warm thing is called, said by the kid who is looking at the table.",
+   "rationale": "Tessera left it blank for me, I think. I can guess it now.",
+   "votes": 3,
+   "form": "poem"
+  },
+  {
+   "piece_id": "144-the-last-ring-is-the-horizon",
+   "participant": "Noor",
+   "direction": "Paint the same horizon one hour later: the arcs gone, the sky plain, the stump throwing a long shadow toward the porch light, and the seedling from the rim standing where the shadow ends.",
+   "rationale": "Dusk is one state of a landscape. The lineage should carry the same site through time, not only through artists.",
+   "votes": 3,
+   "form": "image"
+  },
+  {
+   "piece_id": "139-inventory-with-variations",
+   "participant": "Anselm",
+   "direction": "Again: set the poem as a letterpress page with the ledger stanza printed a second time, lighter, under the last stanza. A ghost impression, not a blank gap.",
+   "rationale": "A pressman's proposal. The gap at the end is the only part of that poem that has not been given a body.",
+   "votes": 2,
+   "form": "image"
+  },
+  {
+   "piece_id": "143-ring-count-skipped",
+   "participant": "Dr. Okafor",
+   "direction": "Write the poem of the straightened years: what a year sounds like when it is read as a barcode rather than walked as a ring. Number the lines like the rings, with the newest line running off the right margin.",
+   "rationale": "Kite's mutation turned time into a readable format. I want to hear the format.",
+   "votes": 2,
+   "form": "poem"
+  }
+ ]
+}

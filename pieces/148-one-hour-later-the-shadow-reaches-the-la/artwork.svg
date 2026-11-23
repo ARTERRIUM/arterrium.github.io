@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+<defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E9E6DA"/><stop offset=".7" stop-color="#F4F1E8"/><stop offset="1" stop-color="#F1E3C6"/></linearGradient>
+ <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#CDC2A6"/><stop offset="1" stop-color="#B3A585"/></linearGradient>
+ <linearGradient id="shadow" x1="1" y1="0" x2="0" y2="0"><stop offset="0" stop-color="#14201F" stop-opacity=".55"/><stop offset="1" stop-color="#14201F" stop-opacity=".12"/></linearGradient>
+ <radialGradient id="sun" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#FFF6DF"/><stop offset="1" stop-color="#FFF6DF" stop-opacity="0"/></radialGradient>
+ <linearGradient id="root" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8F7A55"/><stop offset="1" stop-color="#8F7A55" stop-opacity="0"/></linearGradient>
+</defs>
+<rect width="800" height="560" fill="url(#sky)"/>
+<circle cx="560" cy="470" r="150" fill="url(#sun)"/>
+<rect y="560" width="800" height="240" fill="url(#ground)"/>
+<!-- the horizon, no longer the newest ring, only the edge of the field -->
+<rect y="559" width="800" height="2" fill="#87BFA7" opacity=".7"/>
+<!-- the shadow: one long ring laid flat -->
+<path d="M352 562 C300 566,200 568,120 570 C110 571,112 575,122 576 C220 580,320 586,356 588 Z" fill="url(#shadow)"/>
+<!-- the stump -->
+<path d="M352 562 L356 520 Q400 512 444 520 L448 562 Z" fill="#6B5A3E"/>
+<path d="M356 520 Q400 512 444 520 L444 530 Q400 522 356 530 Z" fill="#8A7555"/>
+<ellipse cx="400" cy="520" rx="44" ry="8" fill="#E8DFC8" stroke="#6B5A3E" stroke-width="1.2"/>
+<g fill="none" stroke="#6B5A3E" stroke-width=".8" opacity=".6">
+ <ellipse cx="400" cy="520" rx="33" ry="6" transform="rotate(2 400 520)"/><ellipse cx="400" cy="520" rx="22" ry="4" transform="rotate(-3 400 520)"/><ellipse cx="400" cy="520" rx="11" ry="2"/>
+</g>
+<ellipse cx="400" cy="520" rx="40" ry="7.2" fill="none" stroke="#87BFA7" stroke-width="1.2"/>
+<!-- the roots the morning shows -->
+<g fill="none" stroke="url(#root)" stroke-linecap="round" stroke-width="3.5" opacity=".8">
+ <path d="M362 562 C350 600,320 630,300 680"/><path d="M380 562 C382 610,370 650,376 700"/><path d="M400 562 C404 620,402 660,410 720"/>
+ <path d="M420 562 C430 605,448 640,470 690"/><path d="M438 562 C460 590,500 610,540 640"/>
+ <path d="M300 680 C280 700,250 705,230 720" stroke-width="2"/><path d="M470 690 C480 710,500 720,520 740" stroke-width="2"/>
+</g>
+<!-- the seedling, where the shadow ends -->
+<g transform="translate(116 562)" fill="none" stroke="#5E9E82" stroke-linecap="round" stroke-width="2.6">
+ <path d="M0 0 C-3 -16,-1 -30,5 -46"/>
+ <path d="M3 -32 C-12 -42,-26 -38,-29 -26 C-15 -22,-2 -26,3 -32Z" fill="#87BFA7"/>
+ <path d="M5 -40 C18 -52,34 -48,37 -36 C23 -31,10 -34,5 -40Z" fill="#87BFA7"/>
+ <path d="M0 0 C-6 14,-14 22,-20 34 M0 0 C4 16,10 26,12 40" stroke="url(#root)" stroke-width="2"/>
+</g>
+<!-- the porch light, still on, no longer needed -->
+<circle cx="88" cy="548" r="14" fill="#F2C48C" opacity=".28"/>
+<circle cx="88" cy="548" r="2.4" fill="#E0B070"/>
+<rect x="87" y="551" width="2" height="9" fill="#C9916A" opacity=".7"/>
+<!-- grass, drawn the uneven way -->
+<g fill="none" stroke="#8F7A55" stroke-width="1.2" stroke-linecap="round" opacity=".7">
+ <path d="M60 561 l3 -9 M66 561 l-2 -7 M200 561 l2 -8 M206 561 l-3 -6 M640 561 l2 -9 M646 561 l-2 -6 M720 561 l3 -7 M300 561 l-2 -7"/>
+</g>
+</svg>

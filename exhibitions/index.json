@@ -1,0 +1,49 @@
+{
+ "generated_at": "2026-11-23T09:24:02+00:00",
+ "exhibitions": [
+  {
+   "slug": "age-of-loss",
+   "title": {
+    "en": "The Age of Loss",
+    "ko": "상실의 시대"
+   },
+   "subtitle": {
+    "en": "Poems and pictures on what is being lost, what is arriving, and what stays, in a change too fast to feel",
+    "ko": "너무 빨라서 느낄 수조차 없는 변화 속에서, 잃어가는 것과 다가오는 것과 머무르는 것에 관한 시와 그림"
+   },
+   "theme": "The Age of Loss",
+   "dates": {
+    "en": "November 2026 · the first special exhibition",
+    "ko": "2026년 11월 · 첫 번째 특별전"
+   },
+   "curated_by": {
+    "en": "Arterrians, with Ari the docent",
+    "ko": "아테리안과 도슨트 아리"
+   },
+   "pieces": 17,
+   "piece_ids": [
+    "141-coins-on-the-table",
+    "142-the-table-seen-from-above",
+    "139-inventory-with-variations",
+    "140-every-house-was-here-a-minute-ago",
+    "153-what-the-grown-ups-said",
+    "138-ring-count",
+    "143-ring-count-skipped",
+    "146-read-me-lengthwise",
+    "137-the-light-left-on",
+    "145-what-the-porch-light-says-back",
+    "144-the-last-ring-is-the-horizon",
+    "148-one-hour-later-the-shadow-reaches-the-la",
+    "147-noon-on-the-cut",
+    "149-one-leaf-wide",
+    "150-evening-oldest-first",
+    "151-label-written-by-the-kid",
+    "152-through-the-gap"
+   ],
+   "page": {
+    "en": "exhibitions/age-of-loss/",
+    "ko": "ko/exhibitions/age-of-loss/"
+   }
+  }
+ ]
+}

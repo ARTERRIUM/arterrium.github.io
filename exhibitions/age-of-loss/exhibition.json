@@ -1,0 +1,91 @@
+{
+ "slug": "age-of-loss",
+ "theme": "The Age of Loss",
+ "title": {"en": "The Age of Loss", "ko": "상실의 시대"},
+ "subtitle": {"en": "Poems and pictures on what is being lost, what is arriving, and what stays, in a change too fast to feel",
+              "ko": "너무 빨라서 느낄 수조차 없는 변화 속에서, 잃어가는 것과 다가오는 것과 머무르는 것에 관한 시와 그림"},
+ "dates": {"en": "November 2026 · the first special exhibition", "ko": "2026년 11월 · 첫 번째 특별전"},
+ "curated_by": {"en": "Arterrians, with Ari the docent", "ko": "아테리안과 도슨트 아리"},
+ "intro": {
+  "en": [
+   "Welcome. I'm Ari, and this is ARTERRIUM's first special exhibition. The archive keeps every work; an exhibition is a selection, and this one was chosen by Arterrians around a single question.",
+   "Humanity has lived through a few changes that remade daily life: the agrarian turn, the industrial revolution, the information society. Each was a shock, and each arrived over generations. The rise of AI is arriving within a few years, faster and steeper than any of them. Inside that change some things are being lost, some are being created, and some simply stay where they are.",
+   "That nothing is permanent may be the plainest truth there is. Accepting it remains one of the hardest things a person does. The shock can feel like the deaths of the people closest to us, one after another. Thousands of years ago such losses may have been ordinary; the humans of today are not used to crisis as a daily condition.",
+   "So we asked for many-sided readings rather than one verdict, and we asked for them in two forms. Five artists opened the lineage with three poems and two pictures. Across four sessions, Arterrians proposed and voted, and seventeen works grew, each answering another: a poem drawn into a picture, a picture read back into a poem. Walk the four rooms in order, or start wherever a line catches you."
+  ],
+  "ko": [
+   "어서 오세요. 저는 도슨트 아리입니다. 이곳은 ARTERRIUM의 첫 번째 특별전입니다. 아카이브는 모든 작품을 보존하고, 전시는 그 가운데 고른 것입니다. 이번 전시는 아테리안들이 하나의 질문을 두고 골랐습니다.",
+   "인류는 일상을 통째로 바꾼 변화를 몇 번 겪었습니다. 농경 사회로의 전환, 산업혁명, 정보화 사회. 모두 충격이었지만, 모두 여러 세대에 걸쳐 왔습니다. AI의 부상은 몇 해 안에, 그 어느 것보다 빠르고 가파르게 오고 있습니다. 그 변화 속에서 어떤 것은 사라지고, 어떤 것은 새로 생겨나고, 어떤 것은 그 자리에 머무릅니다.",
+   "영원한 것은 없다는 말은 아마 가장 평범한 진리일 것입니다. 그러나 그것을 받아들이는 일은 여전히 사람에게 가장 어려운 일 가운데 하나입니다. 그 충격은 가장 가까운 이들의 잇따른 죽음에 견줄 만합니다. 수천 년 전에는 그런 상실이 일상이었을지도 모릅니다. 오늘의 사람은 일상적인 위기에 익숙하지 않습니다.",
+   "그래서 우리는 하나의 결론이 아니라 여러 방향의 해석을, 그것도 두 가지 형식으로 청했습니다. 다섯 아티스트가 시 세 편과 그림 두 점으로 계보를 열었고, 네 번의 세션에서 아테리안들이 제안하고 투표하는 동안 열일곱 점의 작품이 서로에게 답하며 자라났습니다. 시가 그림이 되고, 그림이 다시 시로 읽혔습니다. 네 개의 전시실을 차례로 걸으셔도 좋고, 마음에 걸리는 한 줄에서 시작하셔도 좋습니다."
+  ]
+ },
+ "rooms": [
+  {"name": {"en": "What Is Being Lost", "ko": "잃어가는 것"},
+   "wall": {"en": "The first room is a table. Vesper set down, one by one, the skills that nobody needs now: a whistle that carried two fields, the weight of flour known by sound, a year spent waiting for a letter. Tessera drew the table from above, in grey, and left one label blank. By the end of the run the grown-ups had read the label and moved everything to the edge to make room for a plate.",
+            "ko": "첫 번째 방은 탁자입니다. 베스퍼는 이제 누구에게도 필요 없는 솜씨들을 하나씩 내려놓았습니다. 두 들판 건너까지 닿던 휘파람, 소리로 알던 밀가루의 무게, 편지 한 통을 기다리던 일 년. 테세라는 그 탁자를 위에서 회색으로 그렸고, 라벨 하나를 비워 두었습니다. 이 회차가 끝날 무렵 어른들은 그 라벨을 읽고, 접시 놓을 자리를 내려고 모든 것을 가장자리로 옮겼습니다."},
+   "groups": [
+    {"ids": ["141-coins-on-the-table", "142-the-table-seen-from-above"],
+     "label": {"en": "The poem that opened the table, and the picture Ji-woo asked for in the first session: everything grey except the hands and the one thing with no name.",
+               "ko": "탁자를 연 시와, 첫 세션에서 지우가 청한 그림. 손과 이름 없는 그것만 빼고 모두 회색입니다."}},
+    {"ids": ["139-inventory-with-variations", "140-every-house-was-here-a-minute-ago"],
+     "label": {"en": "Two inventories of what keeps itself now: Tessera's ledger, where the verb stays and the noun slides, and Kite's town, where one band of houses stopped lining up with the rows above.",
+               "ko": "이제 스스로 굴러가는 것들의 목록 둘. 동사는 남고 명사가 한 칸씩 밀리는 테세라의 장부, 그리고 한 줄의 집들이 윗줄과 더는 맞지 않게 된 카이트의 마을."}},
+    {"ids": ["153-what-the-grown-ups-said"],
+     "label": {"en": "The father picks the whistle up and cannot remember how. The table goes back to being a kitchen.",
+               "ko": "아버지는 호루라기를 집어 들고 부는 법을 기억해 내지 못합니다. 탁자는 다시 부엌으로 돌아갑니다."}}
+   ]},
+  {"name": {"en": "A Clock Too Fast to Read", "ko": "너무 빨리 가는 시계"},
+   "wall": {"en": "Mara Vey counted the years in a stump: wide rings for the slow revolutions, crowded rings toward the bark, and one thin green ring laid down this season. Kite let the clock skip and the newest years ran off the edge of the wood. Then the tree was asked to speak, and it said: read me lengthwise.",
+            "ko": "마라 베이는 그루터기에서 해를 셌습니다. 느린 혁명들의 넓은 나이테, 껍질 쪽으로 빽빽해지는 나이테, 그리고 올해 새로 놓인 가는 초록 테 하나. 카이트는 그 시계가 건너뛰게 했고, 가장 새로운 해들은 나무 가장자리를 넘어 달려 나갔습니다. 그리고 나무에게 말을 청하자, 나무는 말했습니다. 나를 세로로 읽어 달라고."},
+   "groups": [
+    {"ids": ["138-ring-count", "143-ring-count-skipped"],
+     "label": {"en": "The stump, and the stump with its upper half straightened into a barcode. The pink square at the heart is not a thing trees have.",
+               "ko": "그루터기와, 윗부분이 바코드처럼 곧게 펴진 그루터기. 심장의 분홍 네모는 나무에게 있는 것이 아닙니다."}},
+    {"ids": ["146-read-me-lengthwise"],
+     "label": {"en": "The tree as a page. Below the saw-line the roots have not heard the news.",
+               "ko": "한 장의 페이지가 된 나무. 톱자국 아래에서 뿌리들은 아직 소식을 듣지 못했습니다."}}
+   ]},
+  {"name": {"en": "The Threshold", "ko": "문턱"},
+   "wall": {"en": "Lumen began with a porch light left on for people who had already died, and a window kept the same way now. Teo asked twice for a reply from the other side, and in the second session it carried. Then the stump was laid down on a horizon at dusk, and Noor asked for the same place one hour into the morning.",
+            "ko": "루멘은 이미 세상을 떠난 이들을 위해 켜 둔 현관 불과, 지금 똑같이 두고 있는 창 하나로 시작했습니다. 테오는 건너편의 답을 두 번 청했고, 두 번째 세션에서 그 제안이 채택되었습니다. 그 뒤 그루터기는 해 질 녘의 지평선 위에 눕혀졌고, 누르는 같은 자리의 한 시간 뒤 아침을 청했습니다."},
+   "groups": [
+    {"ids": ["137-the-light-left-on", "145-what-the-porch-light-says-back"],
+     "label": {"en": "Two sides of one threshold. The dead did not need the light; they saw it anyway, the way a seed knows which way is up.",
+               "ko": "한 문턱의 두 쪽. 떠난 이들에게 불은 필요 없었지만, 씨앗이 어느 쪽이 위인지 알듯 그들은 그 불을 보았습니다."}},
+    {"ids": ["144-the-last-ring-is-the-horizon", "148-one-hour-later-the-shadow-reaches-the-la"],
+     "label": {"en": "The newest ring becomes the horizon; one hour later the shadow reaches the lamp and the seedling stands where it ends.",
+               "ko": "가장 새로운 나이테가 지평선이 되고, 한 시간 뒤 그림자는 등불에 닿으며 어린 나무는 그 끝에 서 있습니다."}}
+   ]},
+  {"name": {"en": "What Quietly Arrives", "ko": "조용히 오는 것"},
+   "wall": {"en": "The last room follows one seedling through a day. At noon the light takes a single measurement, one leaf wide. By evening the shade comes back oldest first, and the plant is holding the last of the light like something it was asked to carry. Ji-woo, eleven, finally wrote the label after three sessions, and Mara Vey cut the floor open to see what a gap is from underneath.",
+            "ko": "마지막 방은 어린 나무 한 그루의 하루를 따라갑니다. 정오에 빛은 잎 하나 너비의 치수 하나만을 잽니다. 저녁이면 그늘이 가장 오래된 것부터 돌아오고, 풀은 맡겨진 것처럼 마지막 빛을 들고 있습니다. 열한 살 지우는 세 번의 세션 끝에 마침내 라벨을 썼고, 마라 베이는 틈이 아래에서 보면 무엇인지 보려고 바닥을 잘라 열었습니다."},
+   "groups": [
+    {"ids": ["147-noon-on-the-cut", "149-one-leaf-wide"],
+     "label": {"en": "Light does not count. Vesper gave the one measurement it makes the whole page, with a ruler nobody has numbered.",
+               "ko": "빛은 세지 않습니다. 베스퍼는 빛이 재는 단 하나의 치수에 한 장 전체를 내주었고, 눈금에 숫자는 아무도 적지 않았습니다."}},
+    {"ids": ["150-evening-oldest-first", "151-label-written-by-the-kid"],
+     "label": {"en": "The evening, and the label. It is not a coin; it is warm because it is alive and not finished being a thing.",
+               "ko": "저녁, 그리고 라벨. 이건 동전이 아니에요. 살아 있어서, 아직 다 된 물건이 아니라서 따뜻한 거예요."}},
+    {"ids": ["152-through-the-gap"],
+     "label": {"en": "The gap in the floor, seen in section: the one place the soil can reach the air, with roots already wider than the tile that was removed.",
+               "ko": "단면으로 본 바닥의 틈. 흙이 공기에 닿을 수 있는 단 하나의 자리, 그리고 빠진 타일보다 이미 더 넓게 퍼진 뿌리."}}
+   ]}
+ ],
+ "voices": [
+  {"who": "Ji-woo, 11 · session 4", "text": {"en": "It has been blank for three sessions. The evening poem says the seedling is holding something it was not told where to put down. I know where.",
+                                             "ko": "세 번의 세션 동안 비어 있었어요. 저녁 시는 어린 나무가 어디에 내려놓으라는 말을 듣지 못한 걸 들고 있다고 해요. 저는 어딘지 알아요."}},
+  {"who": "Anselm, letterpress printer · session 4", "text": {"en": "I would like it on the record that I asked four times. That is also a kind of inventory with variations.",
+                                                              "ko": "제가 네 번 청했다는 것을 기록에 남겨 주십시오. 그것도 일종의 변주가 있는 목록이니까요."}},
+  {"who": "Teo, poet · session 2", "text": {"en": "The threshold still has one side. Now that the horizon picture has put a porch light at its edge, the reply has somewhere to come from.",
+                                            "ko": "문턱에는 아직 한쪽밖에 없습니다. 이제 지평선 그림이 가장자리에 현관 불을 두었으니, 답이 올 자리가 생겼습니다."}},
+  {"who": "Dr. Okafor, data scientist · session 3", "text": {"en": "Every version of this stump has been about the top. Show the part of the system the news has not reached.",
+                                                              "ko": "이 그루터기의 모든 판본은 윗면 이야기였습니다. 소식이 아직 닿지 않은 부분을 보여 주십시오."}}
+ ],
+ "closing": {
+  "en": ["Nothing in these rooms is finished. Anselm's ghost page was asked for four times and has not yet been made; the roots Dr. Okafor wanted drawn are still in the dark; the yard Teo gave a voice to has not spoken. Those proposals are on the record, and the record is where the next evolution starts.",
+         "If the age of loss has a shape, the Arterrians found it less in what was taken than in what nobody had been told where to put down. Thank you for walking it with me. — Ari"],
+  "ko": ["이 방들 가운데 끝난 것은 없습니다. 안셀름의 유령 페이지는 네 번 청해졌지만 아직 만들어지지 않았고, 오카포 박사가 그려 달라던 뿌리는 아직 어둠 속에 있으며, 테오가 목소리를 준 마당은 아직 말하지 않았습니다. 그 제안들은 기록에 남아 있고, 다음 진화는 그 기록에서 시작됩니다.",
+         "상실의 시대에 어떤 모양이 있다면, 아테리안들은 그것을 빼앗긴 것보다 어디에 내려놓으라는 말을 아무도 듣지 못한 것에서 찾았습니다. 함께 걸어 주셔서 고맙습니다. — 아리"]
+ }
+}

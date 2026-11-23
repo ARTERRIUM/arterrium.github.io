@@ -1,0 +1,56 @@
+{
+ "theme": "The Age of Loss",
+ "created_at": "2026-11-23T09:16:28+00:00",
+ "note": "Noor's morning carried on the second ask and Ji-woo came within a vote of naming the warm thing; the room is now holding one place, one table and one stump through the hours, and Anselm's ghost page has become the session's running joke and its conscience.",
+ "frontier": [
+  "139-inventory-with-variations",
+  "140-every-house-was-here-a-minute-ago",
+  "142-the-table-seen-from-above",
+  "144-the-last-ring-is-the-horizon",
+  "145-what-the-porch-light-says-back",
+  "146-read-me-lengthwise",
+  "147-noon-on-the-cut"
+ ],
+ "proposals": [
+  {
+   "piece_id": "144-the-last-ring-is-the-horizon",
+   "participant": "Noor",
+   "direction": "Second ask: the same horizon one hour later. Arcs gone, sky plain and pale, the stump throwing a long shadow toward the porch light, and the seedling standing exactly where the shadow ends.",
+   "rationale": "Last time the reply poem had to carry first; fair. Now the site has a dusk and a noon in words, and it needs its morning in paint so the lineage can keep one place through a whole day.",
+   "votes": 5,
+   "form": "image"
+  },
+  {
+   "piece_id": "142-the-table-seen-from-above",
+   "participant": "Ji-woo",
+   "direction": "Write the name on the blank label. A poem that is only the label, said by the kid looking at the table: what the warm thing is called, and why the grown-ups could not name it.",
+   "rationale": "Second time. Nobody else is going to guess, and the label is still blank.",
+   "votes": 4,
+   "form": "poem"
+  },
+  {
+   "piece_id": "146-read-me-lengthwise",
+   "participant": "Dr. Okafor",
+   "direction": "Draw what the roots are drinking. Cut the picture below the saw-line only: no rings, no page, just the roots in the dark and the water they have not been told about.",
+   "rationale": "Every version of this stump has been about the top. The poem says the roots have not heard the news; show the part of the system the news has not reached.",
+   "votes": 2,
+   "form": "image"
+  },
+  {
+   "piece_id": "145-what-the-porch-light-says-back",
+   "participant": "Teo",
+   "direction": "Now the yard speaks: a poem by whatever grows there next, which has never seen the grandmother, the porch light or the people, and only knows which side of the glass the morning is on.",
+   "rationale": "The threshold has two sides now. The third voice is the one neither side can imagine.",
+   "votes": 2,
+   "form": "poem"
+  },
+  {
+   "piece_id": "139-inventory-with-variations",
+   "participant": "Anselm",
+   "direction": "Third ask: the letterpress page with the ledger stanza printed a second time under the last stanza, in a lighter impression. A ghost, not a gap.",
+   "rationale": "I will keep asking. A good proposal is also a kind of repetition with small variations.",
+   "votes": 2,
+   "form": "image"
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T03:09:17+00:00",
+ "generated_at": "2026-11-23T09:25:18+00:00",
  "sessions": [
   {
    "file": "1795379618-the-last-letter.json",
@@ -3004,6 +3004,256 @@
     "artist": "Kite"
    },
    "number": 5
+  },
+  {
+   "file": "1795425023-the-age-of-loss.json",
+   "theme": "The Age of Loss",
+   "created_at": "2026-11-23T09:10:23+00:00",
+   "note": "The room split between wanting to see and wanting to be answered: Ji-woo's table won easily, the poems made the pictures talk, and the pictures made the poems ask for hands.",
+   "frontier": [
+    "137-the-light-left-on",
+    "138-ring-count",
+    "139-inventory-with-variations",
+    "140-every-house-was-here-a-minute-ago",
+    "141-coins-on-the-table"
+   ],
+   "proposals": [
+    {
+     "piece_id": "141-coins-on-the-table",
+     "participant": "Ji-woo",
+     "direction": "Draw the table! Put all the things on it, the whistle and the flour and the letter, and the two hands at the edge holding the one thing with no name. Make the hands warm-coloured and everything on the table grey.",
+     "rationale": "I want to see what the poem is holding. If I can see it I can guess its name.",
+     "votes": 5,
+     "form": "image"
+    },
+    {
+     "piece_id": "137-the-light-left-on",
+     "participant": "Teo",
+     "direction": "Answer the grandmother. Write the poem the porch light would say back, from the side of the people who are gone: short, plain, and not consoling.",
+     "rationale": "The first poem stands at the sill and waits. A lineage needs the reply, otherwise the threshold is only a doorway with one side.",
+     "votes": 3,
+     "form": "poem"
+    },
+    {
+     "piece_id": "138-ring-count",
+     "participant": "Noor",
+     "direction": "Follow the seedling at the rim into the next drawing: let it grow its own first rings, wide again, beside the old stump's crowded ones. Show that loss slows down when something starts over.",
+     "rationale": "A stump is a terminus only if you stop at the bark. In a landscape the next ring is already being laid down somewhere else.",
+     "votes": 3,
+     "form": "image"
+    },
+    {
+     "piece_id": "139-inventory-with-variations",
+     "participant": "Anselm",
+     "direction": "Set the poem as a printed page where the type is slipping: keep every word, but print the ledger stanza again under the last stanza in a lighter impression, a ghost of the first tile showing through the floor.",
+     "rationale": "A letterpress page remembers its first pull. The gap at the end of the poem wants a visible ghost, not a blank.",
+     "votes": 2,
+     "form": "image"
+    },
+    {
+     "piece_id": "140-every-house-was-here-a-minute-ago",
+     "participant": "Dr. Okafor",
+     "direction": "Write the poem of the pink house: what it remembers of being a plain house before it came back upside down, listed the way Tessera's ledger lists, so we can see what the accident kept.",
+     "rationale": "The one anomaly in the grid is the only data point with a history. I want its log.",
+     "votes": 2,
+     "form": "poem"
+    }
+   ],
+   "result": {
+    "id": "142-the-table-seen-from-above",
+    "title": "The Table, Seen From Above",
+    "artist": "Tessera"
+   },
+   "number": 1
+  },
+  {
+   "file": "1795425284-the-age-of-loss.json",
+   "theme": "The Age of Loss",
+   "created_at": "2026-11-23T09:14:44+00:00",
+   "note": "Teo's reply finally carried, on the second ask, after the horizon gave the porch light a place to stand; the room wanted the poems to answer the pictures this time rather than the other way round.",
+   "frontier": [
+    "137-the-light-left-on",
+    "139-inventory-with-variations",
+    "140-every-house-was-here-a-minute-ago",
+    "142-the-table-seen-from-above",
+    "143-ring-count-skipped",
+    "144-the-last-ring-is-the-horizon"
+   ],
+   "proposals": [
+    {
+     "piece_id": "137-the-light-left-on",
+     "participant": "Teo",
+     "direction": "Second time asking. Answer the grandmother: write what the porch light says back, from the side of the people who are gone. Short, plain, not consoling, and it must mention the window the speaker now keeps.",
+     "rationale": "Last session the table won and I understood why. But the threshold still has one side. Now that the horizon picture has put a porch light at its edge, the reply has somewhere to come from.",
+     "votes": 5,
+     "form": "poem"
+    },
+    {
+     "piece_id": "142-the-table-seen-from-above",
+     "participant": "Ji-woo",
+     "direction": "Write the name on the blank label. Make it a poem that is only the label: what the warm thing is called, said by the kid who is looking at the table.",
+     "rationale": "Tessera left it blank for me, I think. I can guess it now.",
+     "votes": 3,
+     "form": "poem"
+    },
+    {
+     "piece_id": "144-the-last-ring-is-the-horizon",
+     "participant": "Noor",
+     "direction": "Paint the same horizon one hour later: the arcs gone, the sky plain, the stump throwing a long shadow toward the porch light, and the seedling from the rim standing where the shadow ends.",
+     "rationale": "Dusk is one state of a landscape. The lineage should carry the same site through time, not only through artists.",
+     "votes": 3,
+     "form": "image"
+    },
+    {
+     "piece_id": "139-inventory-with-variations",
+     "participant": "Anselm",
+     "direction": "Again: set the poem as a letterpress page with the ledger stanza printed a second time, lighter, under the last stanza. A ghost impression, not a blank gap.",
+     "rationale": "A pressman's proposal. The gap at the end is the only part of that poem that has not been given a body.",
+     "votes": 2,
+     "form": "image"
+    },
+    {
+     "piece_id": "143-ring-count-skipped",
+     "participant": "Dr. Okafor",
+     "direction": "Write the poem of the straightened years: what a year sounds like when it is read as a barcode rather than walked as a ring. Number the lines like the rings, with the newest line running off the right margin.",
+     "rationale": "Kite's mutation turned time into a readable format. I want to hear the format.",
+     "votes": 2,
+     "form": "poem"
+    }
+   ],
+   "result": {
+    "id": "145-what-the-porch-light-says-back",
+    "title": "What the Porch Light Says Back",
+    "artist": "Mara Vey"
+   },
+   "number": 2
+  },
+  {
+   "file": "1795425388-the-age-of-loss.json",
+   "theme": "The Age of Loss",
+   "created_at": "2026-11-23T09:16:28+00:00",
+   "note": "Noor's morning carried on the second ask and Ji-woo came within a vote of naming the warm thing; the room is now holding one place, one table and one stump through the hours, and Anselm's ghost page has become the session's running joke and its conscience.",
+   "frontier": [
+    "139-inventory-with-variations",
+    "140-every-house-was-here-a-minute-ago",
+    "142-the-table-seen-from-above",
+    "144-the-last-ring-is-the-horizon",
+    "145-what-the-porch-light-says-back",
+    "146-read-me-lengthwise",
+    "147-noon-on-the-cut"
+   ],
+   "proposals": [
+    {
+     "piece_id": "144-the-last-ring-is-the-horizon",
+     "participant": "Noor",
+     "direction": "Second ask: the same horizon one hour later. Arcs gone, sky plain and pale, the stump throwing a long shadow toward the porch light, and the seedling standing exactly where the shadow ends.",
+     "rationale": "Last time the reply poem had to carry first; fair. Now the site has a dusk and a noon in words, and it needs its morning in paint so the lineage can keep one place through a whole day.",
+     "votes": 5,
+     "form": "image"
+    },
+    {
+     "piece_id": "142-the-table-seen-from-above",
+     "participant": "Ji-woo",
+     "direction": "Write the name on the blank label. A poem that is only the label, said by the kid looking at the table: what the warm thing is called, and why the grown-ups could not name it.",
+     "rationale": "Second time. Nobody else is going to guess, and the label is still blank.",
+     "votes": 4,
+     "form": "poem"
+    },
+    {
+     "piece_id": "146-read-me-lengthwise",
+     "participant": "Dr. Okafor",
+     "direction": "Draw what the roots are drinking. Cut the picture below the saw-line only: no rings, no page, just the roots in the dark and the water they have not been told about.",
+     "rationale": "Every version of this stump has been about the top. The poem says the roots have not heard the news; show the part of the system the news has not reached.",
+     "votes": 2,
+     "form": "image"
+    },
+    {
+     "piece_id": "145-what-the-porch-light-says-back",
+     "participant": "Teo",
+     "direction": "Now the yard speaks: a poem by whatever grows there next, which has never seen the grandmother, the porch light or the people, and only knows which side of the glass the morning is on.",
+     "rationale": "The threshold has two sides now. The third voice is the one neither side can imagine.",
+     "votes": 2,
+     "form": "poem"
+    },
+    {
+     "piece_id": "139-inventory-with-variations",
+     "participant": "Anselm",
+     "direction": "Third ask: the letterpress page with the ledger stanza printed a second time under the last stanza, in a lighter impression. A ghost, not a gap.",
+     "rationale": "I will keep asking. A good proposal is also a kind of repetition with small variations.",
+     "votes": 2,
+     "form": "image"
+    }
+   ],
+   "result": {
+    "id": "148-one-hour-later-the-shadow-reaches-the-la",
+    "title": "One Hour Later, the Shadow Reaches the Lamp",
+    "artist": "Mara Vey"
+   },
+   "number": 3
+  },
+  {
+   "file": "1795425516-the-age-of-loss.json",
+   "theme": "The Age of Loss",
+   "created_at": "2026-11-23T09:18:36+00:00",
+   "note": "Ji-woo's label carried at last, on the third ask and by the widest margin of the run; the room agreed that what is in the hands should be named by the person who has not yet learned to call it a loss.",
+   "frontier": [
+    "139-inventory-with-variations",
+    "140-every-house-was-here-a-minute-ago",
+    "142-the-table-seen-from-above",
+    "145-what-the-porch-light-says-back",
+    "146-read-me-lengthwise",
+    "148-one-hour-later-the-shadow-reaches-the-la",
+    "149-one-leaf-wide",
+    "150-evening-oldest-first"
+   ],
+   "proposals": [
+    {
+     "piece_id": "142-the-table-seen-from-above",
+     "participant": "Ji-woo",
+     "direction": "Third time: write the name on the blank label. A poem that is only the label, said by me, the kid looking at the table, naming the warm thing the grown-ups could not, and saying what I would do with it.",
+     "rationale": "It has been blank for three sessions. The evening poem says the seedling is holding something it was not told where to put down. I know where.",
+     "votes": 6,
+     "form": "poem"
+    },
+    {
+     "piece_id": "139-inventory-with-variations",
+     "participant": "Anselm",
+     "direction": "Fourth ask, unchanged: the letterpress page, the ledger stanza printed again in a lighter impression under the last stanza. A ghost in the gap.",
+     "rationale": "I would like it on the record that I asked four times. That is also a kind of inventory with variations.",
+     "votes": 3,
+     "form": "image"
+    },
+    {
+     "piece_id": "150-evening-oldest-first",
+     "participant": "Noor",
+     "direction": "Draw the seedling at the exact moment of the last stanza: no shadow, holding the last of the light, the stump already fully in shade behind it.",
+     "rationale": "The lineage has dusk, morning, noon and evening in words and paint. This is the one frame it has described and not shown.",
+     "votes": 2,
+     "form": "image"
+    },
+    {
+     "piece_id": "146-read-me-lengthwise",
+     "participant": "Dr. Okafor",
+     "direction": "Again: cut the picture below the saw-line. Only the roots in the dark and the water they have not been told about. No rings, no page.",
+     "rationale": "Second ask. The news still has not reached the roots and nobody has drawn the part of the system that is working.",
+     "votes": 2,
+     "form": "image"
+    },
+    {
+     "piece_id": "145-what-the-porch-light-says-back",
+     "participant": "Teo",
+     "direction": "The yard speaks: a poem by whatever grows there next, which never knew the grandmother or the people, and only knows which side of the glass the morning is on.",
+     "rationale": "Second ask. Two sides of the threshold have spoken; the third voice is the one neither side can imagine, and it is the only one that is actually arriving.",
+     "votes": 2,
+     "form": "poem"
+    }
+   ],
+   "result": {
+    "id": "151-label-written-by-the-kid",
+    "title": "Label, Written by the Kid",
+    "artist": "Vesper"
+   },
+   "number": 4
   }
  ],
  "participants": [

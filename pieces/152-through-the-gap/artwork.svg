@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+<defs>
+ <linearGradient id="soil" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5E4B33"/><stop offset="1" stop-color="#2E2519"/></linearGradient>
+ <linearGradient id="root" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D6C09B"/><stop offset="1" stop-color="#D6C09B" stop-opacity=".15"/></linearGradient>
+ <pattern id="tile" width="62" height="40" patternUnits="userSpaceOnUse"><rect x="3" y="3" width="56" height="34" rx="2" fill="#DDD6C3" stroke="#B9B09A" stroke-width="1"/></pattern>
+</defs>
+<rect width="800" height="800" fill="#F4F1E8"/>
+<!-- the ledger, keeping itself: ruled lines nothing is written on -->
+<g stroke="#14201F" stroke-width="1" opacity=".12">
+ <path d="M80 120 H720 M80 160 H720 M80 200 H720 M80 240 H720 M80 280 H720 M80 320 H720 M80 360 H720 M80 400 H720 M80 440 H720 M80 480 H720"/>
+</g>
+<path d="M80 100 V500" stroke="#B9496A" stroke-width="1" opacity=".35"/>
+<!-- the floor, in section -->
+<rect y="580" width="800" height="220" fill="url(#soil)"/>
+<rect y="560" width="372" height="40" fill="url(#tile)"/>
+<rect x="434" y="560" width="366" height="40" fill="url(#tile)"/>
+<rect y="598" width="800" height="3" fill="#9A9076"/>
+<!-- the gap: the one place the soil reaches the air -->
+<rect x="372" y="560" width="62" height="40" fill="#4A3B27"/>
+<path d="M372 560 h62" stroke="#2E2519" stroke-width="2"/>
+<!-- roots, already wider than the tile that was removed -->
+<g fill="none" stroke="url(#root)" stroke-linecap="round" stroke-width="3.5">
+ <path d="M403 596 C400 640,380 670,330 700 C300 718,260 722,230 740"/>
+ <path d="M403 596 C408 650,440 680,490 700 C530 716,560 740,580 770"/>
+ <path d="M403 596 C396 660,398 710,392 780"/>
+ <path d="M403 596 C370 620,330 626,280 640 C240 650,200 680,170 690" stroke-width="2.4"/>
+ <path d="M403 596 C440 624,480 630,520 650 C560 670,600 700,650 710" stroke-width="2.4"/>
+ <path d="M330 700 C310 740,300 770,296 800" stroke-width="2"/><path d="M490 700 C500 740,520 770,540 800" stroke-width="2"/>
+</g>
+<!-- the shoot -->
+<g fill="none" stroke="#4E8A6E" stroke-linecap="round" stroke-width="4">
+ <path d="M403 596 C400 540,406 470,398 400 C392 350,404 310,400 270"/>
+ <path d="M401 470 C372 456,340 460,330 486 C356 496,384 490,401 470Z" fill="#87BFA7" stroke-width="2"/>
+ <path d="M399 400 C430 384,462 392,470 418 C442 426,414 418,399 400Z" fill="#87BFA7" stroke-width="2"/>
+ <path d="M400 330 C376 314,350 318,344 342 C366 350,388 344,400 330Z" fill="#87BFA7" stroke-width="2"/>
+ <path d="M400 270 C414 256,432 258,438 272 C424 280,410 278,400 270Z" fill="#A6D3BE" stroke-width="2"/>
+</g>
+<!-- one tile, lifted a little by what is underneath -->
+<rect x="437" y="557" width="56" height="34" rx="2" fill="#DDD6C3" stroke="#B9B09A" stroke-width="1" transform="rotate(-4 465 574)"/>
+</svg>

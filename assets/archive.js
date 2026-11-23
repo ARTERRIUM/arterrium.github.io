@@ -6,7 +6,7 @@
   var ROOT = (script && script.getAttribute('data-root')) || './';
   var LANG = (script && script.getAttribute('data-lang')) || 'en';
   var T = {
-    en: { pieces: 'pieces', gen: 'gen', from: 'from', continuedBy: 'continued by', statement: 'Statement',
+    en: { forms: { poem: 'Poem', image: 'Picture' }, allForms: 'All forms', pieces: 'pieces', gen: 'gen', from: 'from', continuedBy: 'continued by', statement: 'Statement',
           proposal: 'Proposal from the session', memory: 'Memory sources', model: 'Model', open: 'Open',
           empty: 'No pieces in the archive yet.', failed: 'The archive could not be loaded.',
           tree: 'Evolution tree', click: 'click a node', archive: 'Archive', live: 'live',
@@ -29,7 +29,7 @@
                  comebacks: 'Comebacks', comebacksNote: 'Ideas that lost, then carried.', lostIn: 'lost in session', carriedIn: 'carried in session',
                  arterrians: 'Arterrians at the table', arterriansNote: 'Proposals made, carried, average votes and the longest campaign.',
                  carried: 'carried', builders: 'Who builds what the room chose', buildersNote: 'The artist assigned to each carried proposal.', sessionsTotal: 'sessions', proposalsTotal: 'proposals', crossSessions: 'over the whole archive' } },
-    ko: { pieces: '작품', gen: '세대', from: '←', continuedBy: '이어진 작품', statement: '작가 노트',
+    ko: { forms: { poem: '시', image: '그림' }, allForms: '모든 형식', pieces: '작품', gen: '세대', from: '←', continuedBy: '이어진 작품', statement: '작가 노트',
           proposal: '현장 세션의 제안', memory: '기억 출처', model: '모델', open: '열기',
           empty: '아직 아카이브에 작품이 없습니다.', failed: '아카이브를 불러오지 못했습니다.',
           tree: '진화 트리', click: '점을 누르면 작품이 열립니다', archive: '아카이브', live: '실시간',
@@ -139,7 +139,7 @@
   function card(p) {
     return '<figure class="piece-card" data-id="' + esc(p.id) + '" tabindex="0" role="button">' +
       '<img src="' + ROOT + 'pieces/' + esc(p.svg) + '" alt="' + esc(p.title) + '" loading="lazy">' +
-      '<figcaption><div class="op ' + esc(p.operation) + '">' + esc(T.ops[p.operation] || p.operation) + ' · ' + esc(T.gen) + ' ' + p.generation + ' · ' + esc(p.artist) + '</div>' +
+      '<figcaption><div class="op ' + esc(p.operation) + '">' + (p.form === 'poem' ? '<span class="form-badge">' + esc(T.forms.poem) + '</span>' : '') + esc(T.ops[p.operation] || p.operation) + ' · ' + esc(T.gen) + ' ' + p.generation + ' · ' + esc(p.artist) + '</div>' +
       '<h3>' + esc(p.title) + '</h3><p>' + esc(p.statement || '') + '</p>' +
       (p.parent_id && byId[p.parent_id] ? '<div class="lineage-note">' + esc(T.from) + ' ' + esc(byId[p.parent_id].title) + '</div>' : '') +
       '</figcaption></figure>';
@@ -150,17 +150,19 @@
     if (!list.length) { grid.innerHTML = '<p class="dim">' + esc(T.empty) + '</p>'; return; }
     var themes = []; list.forEach(function (p) { if (p.theme && themes.indexOf(p.theme) < 0) themes.push(p.theme); });
     var ops = ['genesis', 'branch', 'mutation', 're-evolution'];
-    var state = { theme: null, op: null, shown: PAGE };
+    var forms = []; list.forEach(function (p) { var f = p.form || 'image'; if (forms.indexOf(f) < 0) forms.push(f); });
+    var state = { theme: null, op: null, form: null, shown: PAGE };
     // toolbar: theme chips, operation chips, count
     var tools = document.createElement('div'); tools.className = 'grid-tools';
     tools.innerHTML = (themes.length > 1 ? '<div class="theme-chips" data-k="theme"><button class="on" data-v="">' + esc(T.all) + '</button>' + themes.map(function (t) { return '<button data-v="' + esc(t) + '">' + esc(t) + '</button>'; }).join('') + '</div>' : '') +
       '<div class="theme-chips" data-k="op"><button class="on" data-v="">' + esc(T.allOps) + '</button>' + ops.map(function (o) { return '<button data-v="' + o + '">' + esc(T.ops[o] || o) + '</button>'; }).join('') + '</div>' +
+      (forms.length > 1 ? '<div class="theme-chips" data-k="form"><button class="on" data-v="">' + esc(T.allForms) + '</button>' + forms.map(function (f) { return '<button data-v="' + f + '">' + esc(T.forms[f] || f) + '</button>'; }).join('') + '</div>' : '') +
       '<span class="grid-count"></span>';
     grid.insertAdjacentElement('beforebegin', tools);
     var more = document.createElement('div'); more.className = 'more-row'; more.innerHTML = '<button class="btn ghost"></button>';
     grid.insertAdjacentElement('afterend', more);
     function render() {
-      var sub = list.filter(function (p) { return (!state.theme || p.theme === state.theme) && (!state.op || p.operation === state.op); });
+      var sub = list.filter(function (p) { return (!state.theme || p.theme === state.theme) && (!state.op || p.operation === state.op) && (!state.form || (p.form || 'image') === state.form); });
       sub.sort(function (a, b) { return (b.generation - a.generation) || (b.id > a.id ? 1 : -1); });
       var page = sub.slice(0, state.shown);
       grid.innerHTML = page.length ? page.map(card).join('') : '<p class="dim">' + esc(T.empty) + '</p>';
@@ -211,8 +213,12 @@
     var p = byId[id]; if (!p) return;
     var d = ensureDialog(), body = d.querySelector('.dlg-body');
     var kids = children[id] || [];
-    body.innerHTML = '<div class="dlg-art"><img src="' + ROOT + 'pieces/' + esc(p.svg) + '" alt="' + esc(p.title) + '"></div>' +
-      '<div class="dlg-text"><div class="op ' + esc(p.operation) + '">' + esc(T.ops[p.operation] || p.operation) + ' · ' + esc(T.gen) + ' ' + p.generation + '</div>' +
+    var art = p.form === 'poem' && p.text
+      ? '<div class="dlg-poem"><div class="poem-title">' + esc(p.title) + '</div>' +
+        (LANG === 'ko' && p.text_ko ? '<pre class="ko">' + esc(p.text_ko) + '</pre><pre class="en">' + esc(p.text) + '</pre>' : '<pre class="en">' + esc(p.text) + '</pre>' + (p.text_ko ? '<pre class="ko">' + esc(p.text_ko) + '</pre>' : '')) + '</div>'
+      : '<div class="dlg-art"><img src="' + ROOT + 'pieces/' + esc(p.svg) + '" alt="' + esc(p.title) + '"></div>';
+    body.innerHTML = art +
+      '<div class="dlg-text"><div class="op ' + esc(p.operation) + '">' + (p.form === 'poem' ? '<span class="form-badge">' + esc(T.forms.poem) + '</span>' : '') + esc(T.ops[p.operation] || p.operation) + ' · ' + esc(T.gen) + ' ' + p.generation + '</div>' +
       '<h3>' + esc(p.title) + '</h3><div class="dlg-meta">' + esc(p.artist) + ' · ' + esc(p.model || '') + '</div>' +
       '<div class="dlg-section"><div class="eyebrow">' + esc(T.statement) + '</div><p id="dlg-statement">' + esc(p.statement || '') + '</p></div>' +
       (p.proposal ? '<div class="dlg-section"><div class="eyebrow">' + esc(T.proposal) + '</div><blockquote>' + esc(p.proposal) + '</blockquote></div>' : '') +

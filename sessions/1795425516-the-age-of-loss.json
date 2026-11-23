@@ -1,0 +1,57 @@
+{
+ "theme": "The Age of Loss",
+ "created_at": "2026-11-23T09:18:36+00:00",
+ "note": "Ji-woo's label carried at last, on the third ask and by the widest margin of the run; the room agreed that what is in the hands should be named by the person who has not yet learned to call it a loss.",
+ "frontier": [
+  "139-inventory-with-variations",
+  "140-every-house-was-here-a-minute-ago",
+  "142-the-table-seen-from-above",
+  "145-what-the-porch-light-says-back",
+  "146-read-me-lengthwise",
+  "148-one-hour-later-the-shadow-reaches-the-la",
+  "149-one-leaf-wide",
+  "150-evening-oldest-first"
+ ],
+ "proposals": [
+  {
+   "piece_id": "142-the-table-seen-from-above",
+   "participant": "Ji-woo",
+   "direction": "Third time: write the name on the blank label. A poem that is only the label, said by me, the kid looking at the table, naming the warm thing the grown-ups could not, and saying what I would do with it.",
+   "rationale": "It has been blank for three sessions. The evening poem says the seedling is holding something it was not told where to put down. I know where.",
+   "votes": 6,
+   "form": "poem"
+  },
+  {
+   "piece_id": "139-inventory-with-variations",
+   "participant": "Anselm",
+   "direction": "Fourth ask, unchanged: the letterpress page, the ledger stanza printed again in a lighter impression under the last stanza. A ghost in the gap.",
+   "rationale": "I would like it on the record that I asked four times. That is also a kind of inventory with variations.",
+   "votes": 3,
+   "form": "image"
+  },
+  {
+   "piece_id": "150-evening-oldest-first",
+   "participant": "Noor",
+   "direction": "Draw the seedling at the exact moment of the last stanza: no shadow, holding the last of the light, the stump already fully in shade behind it.",
+   "rationale": "The lineage has dusk, morning, noon and evening in words and paint. This is the one frame it has described and not shown.",
+   "votes": 2,
+   "form": "image"
+  },
+  {
+   "piece_id": "146-read-me-lengthwise",
+   "participant": "Dr. Okafor",
+   "direction": "Again: cut the picture below the saw-line. Only the roots in the dark and the water they have not been told about. No rings, no page.",
+   "rationale": "Second ask. The news still has not reached the roots and nobody has drawn the part of the system that is working.",
+   "votes": 2,
+   "form": "image"
+  },
+  {
+   "piece_id": "145-what-the-porch-light-says-back",
+   "participant": "Teo",
+   "direction": "The yard speaks: a poem by whatever grows there next, which never knew the grandmother or the people, and only knows which side of the glass the morning is on.",
+   "rationale": "Second ask. Two sides of the threshold have spoken; the third voice is the one neither side can imagine, and it is the only one that is actually arriving.",
+   "votes": 2,
+   "form": "poem"
+  }
+ ]
+}

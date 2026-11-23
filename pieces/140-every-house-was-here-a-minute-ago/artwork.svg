@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+<defs>
+ <g id="h">
+  <path d="M20 72 V42 L50 18 L80 42 V72 Z" fill="none" stroke="#F4F1E8" stroke-width="2.4" stroke-linejoin="round"/>
+  <rect x="44" y="54" width="12" height="18" fill="#F4F1E8"/>
+ </g>
+ <pattern id="town" width="100" height="100" patternUnits="userSpaceOnUse"><use href="#h"/></pattern>
+ <pattern id="slip" width="100" height="100" patternUnits="userSpaceOnUse" patternTransform="translate(37 0)"><use href="#h"/></pattern>
+</defs>
+<rect width="800" height="800" fill="#14201F"/>
+<rect width="800" height="800" fill="url(#town)" opacity=".92"/>
+<!-- houses that went missing while I was looking -->
+<g fill="#14201F">
+ <rect x="0" y="0" width="200" height="100"/>
+ <rect x="300" y="0" width="100" height="100"/>
+ <rect x="600" y="100" width="200" height="100"/>
+ <rect x="100" y="200" width="100" height="100"/>
+ <rect x="700" y="0" width="100" height="100"/>
+</g>
+<!-- the faint ones: still there, but you have to know where to look -->
+<g opacity=".22"><use href="#h" x="0" y="0"/><use href="#h" x="600" y="100"/><use href="#h" x="100" y="200"/></g>
+<!-- the band where the rows stopped lining up with the rows above -->
+<g>
+ <rect y="300" width="800" height="100" fill="#14201F"/>
+ <rect y="300" width="800" height="100" fill="#9D97CC" opacity=".14"/>
+ <rect y="300" width="800" height="100" fill="url(#slip)" opacity=".7"/>
+ <rect y="300" width="800" height="100" fill="url(#town)" opacity=".28" transform="translate(-19 7)"/>
+ <rect y="346" width="800" height="9" fill="#14201F"/>
+ <rect y="346" width="800" height="9" fill="url(#slip)" opacity=".5" transform="translate(58 0)"/>
+</g>
+<!-- the row that came after: houses again, slightly wrong colour, as if repainted overnight -->
+<rect y="400" width="800" height="100" fill="#D6C09B" opacity=".08"/>
+<!-- one came back upside down in a colour nobody ordered -->
+<g transform="translate(600 600) rotate(180)">
+ <path d="M20 72 V42 L50 18 L80 42 V72 Z" fill="#FF5A7A" stroke="#FF5A7A" stroke-width="2.4" stroke-linejoin="round"/>
+ <rect x="44" y="54" width="12" height="18" fill="#14201F"/>
+</g>
+<!-- the house nobody has drawn yet -->
+<g transform="translate(300 700)">
+ <path d="M20 72 V42 L50 18 L80 42 V72 Z" fill="none" stroke="#87BFA7" stroke-width="2.4" stroke-dasharray="6 5" stroke-linejoin="round"/>
+</g>
+<!-- a small misprint, kept -->
+<rect x="134" y="533" width="31" height="3" fill="#9D97CC"/>
+<rect x="134" y="541" width="18" height="3" fill="#9D97CC" opacity=".6"/>
+</svg>

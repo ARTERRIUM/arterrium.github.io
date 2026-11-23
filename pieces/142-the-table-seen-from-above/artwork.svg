@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+<defs>
+ <radialGradient id="warm" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#FFE2B3"/><stop offset=".55" stop-color="#F2C48C"/><stop offset="1" stop-color="#F2C48C" stop-opacity="0"/></radialGradient>
+ <pattern id="grout" width="14" height="14" patternUnits="userSpaceOnUse"><rect width="12" height="12" fill="#9C9B94"/></pattern>
+ <pattern id="grout2" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="8.5" height="8.5" fill="#B4B3AB"/></pattern>
+ <g id="coin"><circle r="11" fill="url(#grout)"/><circle r="11" fill="none" stroke="#7E7D77" stroke-width="1"/></g>
+</defs>
+<rect width="800" height="800" fill="#F4F1E8"/>
+<!-- the table -->
+<rect x="54" y="58" width="692" height="572" rx="10" fill="#E4E0D4" stroke="#C9C4B5" stroke-width="2"/>
+<rect x="54" y="58" width="692" height="572" rx="10" fill="none" stroke="#14201F" stroke-opacity=".12" stroke-width="1" stroke-dasharray="3 5"/>
+<!-- the whistle, from two fields away -->
+<g transform="translate(110 110)">
+ <rect width="84" height="26" rx="4" fill="url(#grout)"/><rect x="80" y="-6" width="40" height="38" rx="6" fill="url(#grout)"/>
+ <path d="M135 6 q18 -12 36 -4 M135 20 q18 12 36 4" fill="none" stroke="#9C9B94" stroke-width="2" stroke-dasharray="4 4"/>
+</g>
+<!-- the bowl and the weight of flour -->
+<g transform="translate(400 140)">
+ <ellipse rx="92" ry="38" fill="url(#grout)"/><ellipse rx="70" ry="24" fill="#E4E0D4"/><ellipse rx="70" ry="24" fill="url(#grout2)"/>
+ <g fill="#B4B3AB"><circle cx="-110" cy="-10" r="3"/><circle cx="-120" cy="6" r="2"/><circle cx="112" cy="2" r="3"/><circle cx="104" cy="16" r="2"/><circle cx="-6" cy="-52" r="2.5"/></g>
+</g>
+<!-- the letter, and the week it took -->
+<g transform="translate(600 130) rotate(-8)">
+ <rect width="118" height="84" fill="url(#grout)"/><rect x="2" y="2" width="114" height="80" fill="none" stroke="#7E7D77" stroke-width="1"/>
+ <path d="M2 2 L59 44 L116 2" fill="none" stroke="#E4E0D4" stroke-width="3"/>
+</g>
+<g transform="translate(560 240)" fill="url(#grout2)">
+ <rect width="10" height="10"/><rect x="14" width="10" height="10"/><rect x="28" width="10" height="10"/><rect x="42" width="10" height="10"/><rect x="56" width="10" height="10"/><rect x="70" width="10" height="10"/><rect x="84" width="10" height="10"/>
+</g>
+<!-- the year someone knew how to wait: twelve rows of four weeks -->
+<g transform="translate(110 290)" fill="url(#grout)">
+ <rect width="34" height="12"/><rect x="40" width="34" height="12"/><rect x="80" width="34" height="12"/><rect x="120" width="34" height="12"/>
+ <rect y="18" width="34" height="12"/><rect x="40" y="18" width="34" height="12"/><rect x="80" y="18" width="34" height="12"/><rect x="120" y="18" width="34" height="12"/>
+ <rect y="36" width="34" height="12"/><rect x="40" y="36" width="34" height="12"/><rect x="80" y="36" width="34" height="12"/><rect x="120" y="36" width="34" height="12"/>
+ <rect y="54" width="34" height="12"/><rect x="40" y="54" width="34" height="12"/><rect x="80" y="54" width="34" height="12"/><rect x="120" y="54" width="34" height="12"/>
+ <rect y="72" width="34" height="12"/><rect x="40" y="72" width="34" height="12"/><rect x="80" y="72" width="34" height="12"/><rect x="120" y="72" width="34" height="12"/>
+ <rect y="90" width="34" height="12"/><rect x="40" y="90" width="34" height="12"/><rect x="80" y="90" width="34" height="12"/><rect x="120" y="90" width="34" height="12" fill="#E4E0D4" stroke="#9C9B94"/>
+</g>
+<!-- the song with the mistake in the third verse -->
+<g transform="translate(400 330)">
+ <path d="M0 0 H180 M0 22 H180 M0 44 H180 M0 66 H180" stroke="#B4B3AB" stroke-width="1.5"/>
+ <g fill="url(#grout)"><rect x="18" y="-8" width="14" height="14"/><rect x="60" y="14" width="14" height="14"/><rect x="104" y="36" width="14" height="14"/><rect x="148" y="12" width="14" height="14"/></g>
+ <rect x="104" y="36" width="14" height="14" fill="none" stroke="#9D97CC" stroke-width="2" transform="translate(6 -10)"/>
+</g>
+<!-- coins, which everyone keeps mentioning -->
+<g><use href="#coin" x="300" y="470"/><use href="#coin" x="338" y="486"/><use href="#coin" x="640" y="420"/><use href="#coin" x="672" y="448"/><use href="#coin" x="180" y="470"/><use href="#coin" x="520" y="520"/><use href="#coin" x="100" y="560"/></g>
+<!-- the hands at the near edge, and the thing with no name -->
+<g stroke="#C9916A" stroke-width="2.5" stroke-linejoin="round" fill="#E8BE92">
+ <path d="M250 800 C240 720,262 668,318 650 C352 640,372 652,372 676 L370 724 C352 760,330 790,318 800Z"/>
+ <path d="M550 800 C560 720,538 668,482 650 C448 640,428 652,428 676 L430 724 C448 760,470 790,482 800Z"/>
+ <path d="M318 650 C300 630,296 612,312 606 C330 602,344 630,350 652" /><path d="M482 650 C500 630,504 612,488 606 C470 602,456 630,450 652"/>
+</g>
+<circle cx="400" cy="672" r="46" fill="url(#warm)"/>
+<!-- its label tile, left blank -->
+<rect x="364" y="730" width="72" height="22" rx="3" fill="#F7E6CC" stroke="#C9916A" stroke-width="1.2"/>
+</svg>
