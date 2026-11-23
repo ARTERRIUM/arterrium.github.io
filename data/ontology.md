@@ -1,6 +1,6 @@
 # ARTERRIUM ontology report
 
-Generated 2026-11-23T02:13:54+00:00
+Generated 2026-11-23T02:20:40+00:00
 
 121 pieces · 2 themes · 7 lineages · 4 artists · 11 visitors · 316 motifs · 871 relations
 
