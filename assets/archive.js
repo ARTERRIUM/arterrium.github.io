@@ -27,7 +27,7 @@
           proposal: '현장 세션의 제안', memory: '기억 출처', model: '모델', open: '열기',
           empty: '아직 아카이브에 작품이 없습니다.', failed: '아카이브를 불러오지 못했습니다.',
           tree: '진화 트리', click: '점을 누르면 작품이 열립니다', archive: '아카이브', live: '실시간',
-          museum: '미술관', show: '기획전', book: '도록', pieceCount: function (n) { return n + '점'; },
+          museum: '상설전', show: '기획전', book: '도록', pieceCount: function (n) { return n + '점'; },
           ops: { genesis: '제네시스', branch: '분기', mutation: '변이', 're-evolution': '재진화' },
           close: '닫기', theme: '테마', all: '전체 테마', allOps: '모든 방식', more: '더 보기', showing: function (n, m) { return m + '점 중 ' + n + '점'; },
           ins: { works: '점', visitorLed: '점은 방문객의 투표를 따랐고', artistLed: '점은 아티스트 자신의 선택이었습니다',
