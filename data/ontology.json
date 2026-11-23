@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-11-23T02:20:40+00:00",
+ "generated_at": "2026-11-23T03:08:16+00:00",
  "counts": {
-  "pieces": 121,
+  "pieces": 136,
   "themes": 2,
   "lineages": 7,
   "artists": 4,
   "visitors": 11,
-  "motifs": 316,
-  "relations": 871
+  "motifs": 334,
+  "relations": 986
  },
  "entities": {
   "themes": [
    {
     "name": "Low Tide",
-    "pieces": 49,
+    "pieces": 59,
     "lineages": [
      "073-low-tide-the-post",
      "074-low-tide-wrack-line",
@@ -23,7 +23,7 @@
    },
    {
     "name": "The Last Letter",
-    "pieces": 72,
+    "pieces": 77,
     "lineages": [
      "001-the-unsent",
      "002-the-last-letter-seed-of-breath",
@@ -37,16 +37,18 @@
     "title": "The Unsent",
     "theme": "The Last Letter",
     "artist": "Lumen",
-    "size": 42,
+    "size": 44,
     "depth": 6,
     "operations": {
-     "branch": 13,
+     "branch": 15,
      "mutation": 14,
      "re-evolution": 14
     },
     "members": [
      "001-the-unsent",
      "072-the-unsent-gone-to-seed",
+     "122-crossing-the-seeds-land",
+     "128-crossing-the-seam-gives",
      "045-the-unsent-overgrown",
      "049-the-unsent-trumpet",
      "036-the-unsent-cross-section",
@@ -94,11 +96,11 @@
     "title": "The Last Letter: Seed of Breath",
     "theme": "The Last Letter",
     "artist": "Mara Vey",
-    "size": 13,
-    "depth": 4,
+    "size": 14,
+    "depth": 5,
     "operations": {
      "branch": 3,
-     "mutation": 4,
+     "mutation": 5,
      "re-evolution": 5
     },
     "members": [
@@ -108,6 +110,7 @@
      "024-the-last-letter-fault-line",
      "033-the-last-letter-graft",
      "065-the-last-letter-graft-in-six-plates",
+     "123-the-last-letter-the-seventh-plate",
      "031-the-last-letter-watershed",
      "023-the-last-letter-seam-germinating",
      "039-the-last-letter-noon-on-the-seam",
@@ -122,15 +125,17 @@
     "title": "Codex Ultimus: The Unbroken Fold",
     "theme": "The Last Letter",
     "artist": "Tessera",
-    "size": 17,
+    "size": 19,
     "depth": 7,
     "operations": {
-     "branch": 7,
+     "branch": 8,
      "mutation": 5,
-     "re-evolution": 4
+     "re-evolution": 5
     },
     "members": [
      "003-codex-ultimus-the-unbroken-fold",
+     "124-codex-ultimus-tidal",
+     "134-crossing-the-codex-read-as-a-shore",
      "012-codex-ultimus-seed-trays",
      "014-codex-ultimus-nursery-at-dusk",
      "035-codex-ultimus-grow-lamp",
@@ -154,18 +159,20 @@
     "title": "Low Tide: The Post",
     "theme": "Low Tide",
     "artist": "Lumen",
-    "size": 14,
+    "size": 16,
     "depth": 5,
     "operations": {
      "branch": 5,
-     "mutation": 4,
-     "re-evolution": 4
+     "mutation": 5,
+     "re-evolution": 5
     },
     "members": [
      "073-low-tide-the-post",
+     "136-crossing-the-letter-as-a-post",
      "097-low-tide-stake-net",
      "080-low-tide-half-back",
      "118-low-tide-half-back-dusk",
+     "129-low-tide-what-the-dusk-reflects",
      "094-low-tide-high-water",
      "103-low-tide-over-the-top",
      "107-low-tide-it-knows-where-the-post-is",
@@ -183,12 +190,12 @@
     "title": "Low Tide: Wrack Line",
     "theme": "Low Tide",
     "artist": "Mara Vey",
-    "size": 17,
+    "size": 19,
     "depth": 5,
     "operations": {
      "branch": 3,
-     "mutation": 7,
-     "re-evolution": 6
+     "mutation": 8,
+     "re-evolution": 7
     },
     "members": [
      "074-low-tide-wrack-line",
@@ -197,10 +204,12 @@
      "090-low-tide-tessellated",
      "095-low-tide-one-tile-lifted",
      "082-low-tide-pressed",
+     "130-crossing-pressed-in-the-codex",
      "084-low-tide-the-specimen-wakes",
      "078-low-tide-seven-wrack-lines",
      "106-low-tide-section-through-seven-tides",
      "120-low-tide-seven-samples",
+     "135-low-tide-the-samples-wake",
      "091-low-tide-where-the-lines-become-dune",
      "100-low-tide-after-the-storm",
      "104-low-tide-the-morning-after",
@@ -215,15 +224,16 @@
     "title": "Low Tide: Tide Table",
     "theme": "Low Tide",
     "artist": "Tessera",
-    "size": 13,
-    "depth": 4,
+    "size": 15,
+    "depth": 5,
     "operations": {
      "branch": 5,
-     "mutation": 3,
-     "re-evolution": 4
+     "mutation": 4,
+     "re-evolution": 5
     },
     "members": [
      "075-low-tide-tide-table",
+     "133-low-tide-the-twentieth-day-unsent",
      "115-low-tide-dealt",
      "119-low-tide-three-blank-days",
      "085-low-tide-twenty-eight-gardens",
@@ -235,6 +245,7 @@
      "113-low-tide-months-reaching",
      "093-low-tide-second-week-inverted",
      "101-low-tide-corrected-three-times",
+     "126-low-tide-ledger-of-corrections",
      "077-low-tide-the-day-nobody-measured"
     ]
    },
@@ -243,19 +254,23 @@
     "title": "Low Tide: Buoy, Stranded",
     "theme": "Low Tide",
     "artist": "Kite",
-    "size": 5,
-    "depth": 3,
+    "size": 9,
+    "depth": 4,
     "operations": {
-     "branch": 2,
-     "mutation": 1,
-     "re-evolution": 1
+     "branch": 4,
+     "mutation": 2,
+     "re-evolution": 2
     },
     "members": [
      "076-low-tide-buoy-stranded",
      "105-low-tide-buoy-at-a-distance",
      "112-low-tide-the-flat-drains",
+     "132-low-tide-the-flat-signs-its-name",
      "110-low-tide-someone-walking-out",
-     "116-low-tide-arrived"
+     "127-crossing-two-walkers",
+     "131-crossing-one-sentence",
+     "116-low-tide-arrived",
+     "125-crossing-posted-in-the-vessel-s-place"
     ]
    }
   ],
@@ -263,78 +278,79 @@
    {
     "name": "Lumen",
     "id": "lumen",
-    "pieces": 27,
+    "pieces": 28,
     "operations": {
      "genesis": 2,
-     "re-evolution": 11,
+     "re-evolution": 12,
      "mutation": 8,
      "branch": 6
     },
     "themes": {
      "The Last Letter": 17,
-     "Low Tide": 10
+     "Low Tide": 11
     }
    },
    {
     "name": "Mara Vey",
     "id": "mara-vey",
-    "pieces": 38,
+    "pieces": 44,
     "operations": {
      "genesis": 2,
-     "mutation": 9,
-     "re-evolution": 12,
-     "branch": 15
+     "mutation": 13,
+     "re-evolution": 13,
+     "branch": 16
     },
     "themes": {
-     "The Last Letter": 24,
-     "Low Tide": 14
+     "The Last Letter": 26,
+     "Low Tide": 18
     }
    },
    {
     "name": "Tessera",
     "id": "tessera",
-    "pieces": 27,
+    "pieces": 29,
     "operations": {
      "genesis": 2,
-     "branch": 9,
-     "mutation": 12,
+     "branch": 10,
+     "mutation": 13,
      "re-evolution": 4
     },
     "themes": {
-     "The Last Letter": 13,
-     "Low Tide": 14
+     "The Last Letter": 14,
+     "Low Tide": 15
     }
    },
    {
     "name": "Kite",
     "id": "kite",
-    "pieces": 29,
+    "pieces": 35,
     "operations": {
-     "branch": 8,
-     "re-evolution": 11,
+     "branch": 11,
+     "re-evolution": 14,
      "mutation": 9,
      "genesis": 1
     },
     "themes": {
-     "The Last Letter": 18,
-     "Low Tide": 11
+     "The Last Letter": 20,
+     "Low Tide": 15
     }
    }
   ],
   "visitors": [
    {
     "name": "Beatriz",
-    "wins": 6,
+    "wins": 7,
     "avg_votes": 5.0,
-    "max_attempt": 2,
+    "max_attempt": 3,
     "themes": [
-     "Low Tide"
+     "Low Tide",
+     "The Last Letter"
     ],
     "favourite_artist": "Kite"
    },
    {
     "name": "Owen",
-    "wins": 6,
+    "wins": 7,
     "avg_votes": 5.0,
     "max_attempt": 3,
     "themes": [
@@ -354,7 +370,7 @@
    },
    {
     "name": "Rosa",
-    "wins": 4,
+    "wins": 5,
     "avg_votes": 5.0,
     "max_attempt": 1,
     "themes": [
@@ -383,6 +399,17 @@
     "favourite_artist": "Lumen"
    },
    {
+    "name": "Halvard",
+    "wins": 3,
+    "avg_votes": 5.0,
+    "max_attempt": 2,
+    "themes": [
+     "Low Tide",
+     "The Last Letter"
+    ],
+    "favourite_artist": "Tessera"
+   },
+   {
     "name": "Mireille",
     "wins": 3,
     "avg_votes": 5.0,
@@ -403,14 +430,14 @@
     "favourite_artist": "Mara Vey"
    },
    {
-    "name": "Halvard",
+    "name": "Ji-woo",
     "wins": 2,
     "avg_votes": 5.0,
-    "max_attempt": 1,
+    "max_attempt": 2,
     "themes": [
      "The Last Letter"
     ],
-    "favourite_artist": "Tessera"
+    "favourite_artist": "Mara Vey"
    },
    {
     "name": "Anselm",
@@ -421,16 +448,6 @@
      "The Last Letter"
     ],
     "favourite_artist": "Tessera"
-   },
-   {
-    "name": "Ji-woo",
-    "wins": 1,
-    "avg_votes": 5.0,
-    "max_attempt": 1,
-    "themes": [
-     "The Last Letter"
-    ],
-    "favourite_artist": "Mara Vey"
    }
   ],
   "operations": [
@@ -440,21 +457,21 @@
    },
    {
     "name": "branch",
-    "pieces": 38
+    "pieces": 43
    },
    {
     "name": "mutation",
-    "pieces": 38
+    "pieces": 43
    },
    {
     "name": "re-evolution",
-    "pieces": 38
+    "pieces": 43
    }
   ],
   "motifs": [
    {
     "motif": "restraint",
-    "count": 18,
+    "count": 19,
     "pieces": [
      "009-codex-ultimus-unfolded-at-dawn",
      "011-the-last-letter-seam-of-light",
@@ -473,9 +490,30 @@
      "094-low-tide-high-water",
      "105-low-tide-buoy-at-a-distance",
      "117-low-tide-thirty-mornings-on-a-post",
-     "121-low-tide-wrack-line-night"
+     "121-low-tide-wrack-line-night",
+     "133-low-tide-the-twentieth-day-unsent"
     ],
     "first": "009-codex-ultimus-unfolded-at-dawn"
+   },
+   {
+    "motif": "vessel",
+    "count": 13,
+    "pieces": [
+     "005-the-last-letter-sprouting-vein",
+     "015-the-last-letter-pod-emptied",
+     "019-the-last-letter-calyx",
+     "036-the-unsent-cross-section",
+     "045-the-unsent-overgrown",
+     "047-the-last-letter-nodes",
+     "049-the-unsent-trumpet",
+     "051-the-unsent-one-year",
+     "060-the-last-letter-echo-straightened",
+     "064-the-last-letter-one-ray-bends",
+     "072-the-unsent-gone-to-seed",
+     "129-low-tide-what-the-dusk-reflects",
+     "136-crossing-the-letter-as-a-post"
+    ],
+    "first": "005-the-last-letter-sprouting-vein"
    },
    {
     "motif": "light",
@@ -498,8 +536,28 @@
     "first": "007-the-last-letter-light-through-the-seal"
    },
    {
+    "motif": "fusion",
+    "count": 13,
+    "pieces": [
+     "122-crossing-the-seeds-land",
+     "123-the-last-letter-the-seventh-plate",
+     "124-codex-ultimus-tidal",
+     "125-crossing-posted-in-the-vessel-s-place",
+     "127-crossing-two-walkers",
+     "128-crossing-the-seam-gives",
+     "129-low-tide-what-the-dusk-reflects",
+     "130-crossing-pressed-in-the-codex",
+     "131-crossing-one-sentence",
+     "132-low-tide-the-flat-signs-its-name",
+     "133-low-tide-the-twentieth-day-unsent",
+     "134-crossing-the-codex-read-as-a-shore",
+     "136-crossing-the-letter-as-a-post"
+    ],
+    "first": "122-crossing-the-seeds-land"
+   },
+   {
     "motif": "roots",
-    "count": 11,
+    "count": 12,
     "pieces": [
      "005-the-last-letter-sprouting-vein",
      "007-the-last-letter-light-through-the-seal",
@@ -511,25 +569,8 @@
      "048-the-unsent-core-planted",
      "081-low-tide-the-line-takes-root",
      "106-low-tide-section-through-seven-tides",
-     "113-low-tide-months-reaching"
-    ],
-    "first": "005-the-last-letter-sprouting-vein"
-   },
-   {
-    "motif": "vessel",
-    "count": 11,
-    "pieces": [
-     "005-the-last-letter-sprouting-vein",
-     "015-the-last-letter-pod-emptied",
-     "019-the-last-letter-calyx",
-     "036-the-unsent-cross-section",
-     "045-the-unsent-overgrown",
-     "047-the-last-letter-nodes",
-     "049-the-unsent-trumpet",
-     "051-the-unsent-one-year",
-     "060-the-last-letter-echo-straightened",
-     "064-the-last-letter-one-ray-bends",
-     "072-the-unsent-gone-to-seed"
+     "113-low-tide-months-reaching",
+     "129-low-tide-what-the-dusk-reflects"
     ],
     "first": "005-the-last-letter-sprouting-vein"
    },
@@ -550,6 +591,38 @@
     "first": "003-codex-ultimus-the-unbroken-fold"
    },
    {
+    "motif": "crossing",
+    "count": 9,
+    "pieces": [
+     "037-codex-ultimus-one-line-two-hands",
+     "122-crossing-the-seeds-land",
+     "125-crossing-posted-in-the-vessel-s-place",
+     "127-crossing-two-walkers",
+     "128-crossing-the-seam-gives",
+     "130-crossing-pressed-in-the-codex",
+     "131-crossing-one-sentence",
+     "134-crossing-the-codex-read-as-a-shore",
+     "136-crossing-the-letter-as-a-post"
+    ],
+    "first": "037-codex-ultimus-one-line-two-hands"
+   },
+   {
+    "motif": "post",
+    "count": 9,
+    "pieces": [
+     "073-low-tide-the-post",
+     "080-low-tide-half-back",
+     "087-low-tide-colonised",
+     "094-low-tide-high-water",
+     "098-low-tide-one-dry-place",
+     "108-low-tide-staff-gauge",
+     "117-low-tide-thirty-mornings-on-a-post",
+     "118-low-tide-half-back-dusk",
+     "136-crossing-the-letter-as-a-post"
+    ],
+    "first": "073-low-tide-the-post"
+   },
+   {
     "motif": "horizon",
     "count": 8,
     "pieces": [
@@ -565,57 +638,83 @@
     "first": "008-the-last-letter-fallow-ground"
    },
    {
-    "motif": "post",
-    "count": 8,
-    "pieces": [
-     "073-low-tide-the-post",
-     "080-low-tide-half-back",
-     "087-low-tide-colonised",
-     "094-low-tide-high-water",
-     "098-low-tide-one-dry-place",
-     "108-low-tide-staff-gauge",
-     "117-low-tide-thirty-mornings-on-a-post",
-     "118-low-tide-half-back-dusk"
-    ],
-    "first": "073-low-tide-the-post"
-   },
-   {
     "motif": "record",
-    "count": 6,
+    "count": 8,
     "pieces": [
      "059-the-last-letter-radiograph",
      "065-the-last-letter-graft-in-six-plates",
      "075-low-tide-tide-table",
      "078-low-tide-seven-wrack-lines",
      "109-low-tide-two-months",
-     "114-low-tide-thirty-readings"
+     "114-low-tide-thirty-readings",
+     "123-the-last-letter-the-seventh-plate",
+     "126-low-tide-ledger-of-corrections"
     ],
     "first": "059-the-last-letter-radiograph"
    },
    {
     "motif": "buoy",
-    "count": 6,
+    "count": 7,
     "pieces": [
      "076-low-tide-buoy-stranded",
      "077-low-tide-the-day-nobody-measured",
      "080-low-tide-half-back",
      "086-low-tide-facing-the-sea",
      "092-low-tide-joined-by-their-shadows",
-     "105-low-tide-buoy-at-a-distance"
+     "105-low-tide-buoy-at-a-distance",
+     "125-crossing-posted-in-the-vessel-s-place"
     ],
     "first": "076-low-tide-buoy-stranded"
    },
    {
     "motif": "grid",
-    "count": 5,
+    "count": 6,
     "pieces": [
      "003-codex-ultimus-the-unbroken-fold",
      "012-codex-ultimus-seed-trays",
      "029-the-last-letter-cascade",
      "057-codex-ultimus-restored-badly",
-     "075-low-tide-tide-table"
+     "075-low-tide-tide-table",
+     "124-codex-ultimus-tidal"
     ],
     "first": "003-codex-ultimus-the-unbroken-fold"
+   },
+   {
+    "motif": "seam",
+    "count": 6,
+    "pieces": [
+     "011-the-last-letter-seam-of-light",
+     "023-the-last-letter-seam-germinating",
+     "033-the-last-letter-graft",
+     "039-the-last-letter-noon-on-the-seam",
+     "122-crossing-the-seeds-land",
+     "128-crossing-the-seam-gives"
+    ],
+    "first": "011-the-last-letter-seam-of-light"
+   },
+   {
+    "motif": "reflection",
+    "count": 5,
+    "pieces": [
+     "010-the-last-letter-written-twice",
+     "020-the-last-letter-the-reflection-takes-roo",
+     "073-low-tide-the-post",
+     "080-low-tide-half-back",
+     "129-low-tide-what-the-dusk-reflects"
+    ],
+    "first": "010-the-last-letter-written-twice"
+   },
+   {
+    "motif": "signature",
+    "count": 5,
+    "pieces": [
+     "010-the-last-letter-written-twice",
+     "011-the-last-letter-seam-of-light",
+     "018-the-last-letter-seed-of-breath-mis-scann",
+     "020-the-last-letter-the-reflection-takes-roo",
+     "132-low-tide-the-flat-signs-its-name"
+    ],
+    "first": "010-the-last-letter-written-twice"
    },
    {
     "motif": "orange",
@@ -642,6 +741,30 @@
     "first": "027-the-last-letter-spine"
    },
    {
+    "motif": "core",
+    "count": 5,
+    "pieces": [
+     "040-the-unsent-core-sample",
+     "048-the-unsent-core-planted",
+     "058-the-unsent-first-bloom-in-the-row",
+     "120-low-tide-seven-samples",
+     "135-low-tide-the-samples-wake"
+    ],
+    "first": "040-the-unsent-core-sample"
+   },
+   {
+    "motif": "wrack",
+    "count": 5,
+    "pieces": [
+     "074-low-tide-wrack-line",
+     "078-low-tide-seven-wrack-lines",
+     "083-low-tide-residents",
+     "100-low-tide-after-the-storm",
+     "124-codex-ultimus-tidal"
+    ],
+    "first": "074-low-tide-wrack-line"
+   },
+   {
     "motif": "kelp",
     "count": 5,
     "pieces": [
@@ -650,6 +773,18 @@
      "087-low-tide-colonised",
      "092-low-tide-joined-by-their-shadows",
      "107-low-tide-it-knows-where-the-post-is"
+    ],
+    "first": "074-low-tide-wrack-line"
+   },
+   {
+    "motif": "line",
+    "count": 5,
+    "pieces": [
+     "074-low-tide-wrack-line",
+     "079-low-tide-twenty-eight-mornings-one-line",
+     "088-low-tide-the-line-itself",
+     "090-low-tide-tessellated",
+     "131-crossing-one-sentence"
     ],
     "first": "074-low-tide-wrack-line"
    },
@@ -665,28 +800,6 @@
     "first": "009-codex-ultimus-unfolded-at-dawn"
    },
    {
-    "motif": "reflection",
-    "count": 4,
-    "pieces": [
-     "010-the-last-letter-written-twice",
-     "020-the-last-letter-the-reflection-takes-roo",
-     "073-low-tide-the-post",
-     "080-low-tide-half-back"
-    ],
-    "first": "010-the-last-letter-written-twice"
-   },
-   {
-    "motif": "signature",
-    "count": 4,
-    "pieces": [
-     "010-the-last-letter-written-twice",
-     "011-the-last-letter-seam-of-light",
-     "018-the-last-letter-seed-of-breath-mis-scann",
-     "020-the-last-letter-the-reflection-takes-roo"
-    ],
-    "first": "010-the-last-letter-written-twice"
-   },
-   {
     "motif": "memory",
     "count": 4,
     "pieces": [
@@ -696,17 +809,6 @@
      "107-low-tide-it-knows-where-the-post-is"
     ],
     "first": "010-the-last-letter-written-twice"
-   },
-   {
-    "motif": "seam",
-    "count": 4,
-    "pieces": [
-     "011-the-last-letter-seam-of-light",
-     "023-the-last-letter-seam-germinating",
-     "033-the-last-letter-graft",
-     "039-the-last-letter-noon-on-the-seam"
-    ],
-    "first": "011-the-last-letter-seam-of-light"
    },
    {
     "motif": "glitch",
@@ -742,6 +844,17 @@
     "first": "021-the-unsent-posted"
    },
    {
+    "motif": "absence",
+    "count": 4,
+    "pieces": [
+     "021-the-unsent-posted",
+     "069-the-unsent-felled",
+     "103-low-tide-over-the-top",
+     "125-crossing-posted-in-the-vessel-s-place"
+    ],
+    "first": "021-the-unsent-posted"
+   },
+   {
     "motif": "green",
     "count": 4,
     "pieces": [
@@ -764,17 +877,6 @@
     "first": "036-the-unsent-cross-section"
    },
    {
-    "motif": "core",
-    "count": 4,
-    "pieces": [
-     "040-the-unsent-core-sample",
-     "048-the-unsent-core-planted",
-     "058-the-unsent-first-bloom-in-the-row",
-     "120-low-tide-seven-samples"
-    ],
-    "first": "040-the-unsent-core-sample"
-   },
-   {
     "motif": "pink",
     "count": 4,
     "pieces": [
@@ -795,28 +897,6 @@
      "097-low-tide-stake-net"
     ],
     "first": "050-codex-ultimus-filed"
-   },
-   {
-    "motif": "wrack",
-    "count": 4,
-    "pieces": [
-     "074-low-tide-wrack-line",
-     "078-low-tide-seven-wrack-lines",
-     "083-low-tide-residents",
-     "100-low-tide-after-the-storm"
-    ],
-    "first": "074-low-tide-wrack-line"
-   },
-   {
-    "motif": "line",
-    "count": 4,
-    "pieces": [
-     "074-low-tide-wrack-line",
-     "079-low-tide-twenty-eight-mornings-one-line",
-     "088-low-tide-the-line-itself",
-     "090-low-tide-tessellated"
-    ],
-    "first": "074-low-tide-wrack-line"
    },
    {
     "motif": "silence",
@@ -849,6 +929,16 @@
     "first": "002-the-last-letter-seed-of-breath"
    },
    {
+    "motif": "seal",
+    "count": 3,
+    "pieces": [
+     "007-the-last-letter-light-through-the-seal",
+     "014-codex-ultimus-nursery-at-dusk",
+     "130-crossing-pressed-in-the-codex"
+    ],
+    "first": "007-the-last-letter-light-through-the-seal"
+   },
+   {
     "motif": "seedlings",
     "count": 3,
     "pieces": [
@@ -869,14 +959,24 @@
     "first": "012-codex-ultimus-seed-trays"
    },
    {
-    "motif": "absence",
+    "motif": "handwriting",
     "count": 3,
     "pieces": [
-     "021-the-unsent-posted",
-     "069-the-unsent-felled",
-     "103-low-tide-over-the-top"
+     "013-codex-ultimus-one-word-shaking",
+     "022-codex-ultimus-a-reply-steadier",
+     "132-low-tide-the-flat-signs-its-name"
     ],
-    "first": "021-the-unsent-posted"
+    "first": "013-codex-ultimus-one-word-shaking"
+   },
+   {
+    "motif": "dusk",
+    "count": 3,
+    "pieces": [
+     "014-codex-ultimus-nursery-at-dusk",
+     "118-low-tide-half-back-dusk",
+     "129-low-tide-what-the-dusk-reflects"
+    ],
+    "first": "014-codex-ultimus-nursery-at-dusk"
    },
    {
     "motif": "fault",
@@ -889,6 +989,16 @@
     "first": "024-the-last-letter-fault-line"
    },
    {
+    "motif": "cyan",
+    "count": 3,
+    "pieces": [
+     "026-the-unsent-returned-to-sender",
+     "052-the-last-letter-eighth-light",
+     "136-crossing-the-letter-as-a-post"
+    ],
+    "first": "026-the-unsent-returned-to-sender"
+   },
+   {
     "motif": "margin",
     "count": 3,
     "pieces": [
@@ -897,6 +1007,26 @@
      "054-the-last-letter-margin-lit"
     ],
     "first": "027-the-last-letter-spine"
+   },
+   {
+    "motif": "flower",
+    "count": 3,
+    "pieces": [
+     "028-the-last-letter-first-flower-tiled",
+     "049-the-unsent-trumpet",
+     "123-the-last-letter-the-seventh-plate"
+    ],
+    "first": "028-the-last-letter-first-flower-tiled"
+   },
+   {
+    "motif": "graft",
+    "count": 3,
+    "pieces": [
+     "033-the-last-letter-graft",
+     "065-the-last-letter-graft-in-six-plates",
+     "123-the-last-letter-the-seventh-plate"
+    ],
+    "first": "033-the-last-letter-graft"
    },
    {
     "motif": "touch",
@@ -949,6 +1079,16 @@
     "first": "080-low-tide-half-back"
    },
    {
+    "motif": "specimen",
+    "count": 3,
+    "pieces": [
+     "082-low-tide-pressed",
+     "084-low-tide-the-specimen-wakes",
+     "130-crossing-pressed-in-the-codex"
+    ],
+    "first": "082-low-tide-pressed"
+   },
+   {
     "motif": "cards",
     "count": 3,
     "pieces": [
@@ -979,6 +1119,26 @@
     "first": "104-low-tide-the-morning-after"
    },
    {
+    "motif": "gauge",
+    "count": 3,
+    "pieces": [
+     "108-low-tide-staff-gauge",
+     "114-low-tide-thirty-readings",
+     "134-crossing-the-codex-read-as-a-shore"
+    ],
+    "first": "108-low-tide-staff-gauge"
+   },
+   {
+    "motif": "codex",
+    "count": 3,
+    "pieces": [
+     "124-codex-ultimus-tidal",
+     "130-crossing-pressed-in-the-codex",
+     "134-crossing-the-codex-read-as-a-shore"
+    ],
+    "first": "124-codex-ultimus-tidal"
+   },
+   {
     "motif": "threshold",
     "count": 2,
     "pieces": [
@@ -995,15 +1155,6 @@
      "006-the-last-letter-root-bound-echo"
     ],
     "first": "002-the-last-letter-seed-of-breath"
-   },
-   {
-    "motif": "seal",
-    "count": 2,
-    "pieces": [
-     "007-the-last-letter-light-through-the-seal",
-     "014-codex-ultimus-nursery-at-dusk"
-    ],
-    "first": "007-the-last-letter-light-through-the-seal"
    },
    {
     "motif": "vellum",
@@ -1042,22 +1193,13 @@
     "first": "010-the-last-letter-written-twice"
    },
    {
-    "motif": "handwriting",
+    "motif": "growth",
     "count": 2,
     "pieces": [
-     "013-codex-ultimus-one-word-shaking",
-     "022-codex-ultimus-a-reply-steadier"
+     "012-codex-ultimus-seed-trays",
+     "135-low-tide-the-samples-wake"
     ],
-    "first": "013-codex-ultimus-one-word-shaking"
-   },
-   {
-    "motif": "dusk",
-    "count": 2,
-    "pieces": [
-     "014-codex-ultimus-nursery-at-dusk",
-     "118-low-tide-half-back-dusk"
-    ],
-    "first": "014-codex-ultimus-nursery-at-dusk"
+    "first": "012-codex-ultimus-seed-trays"
    },
    {
     "motif": "outline",
@@ -1159,15 +1301,6 @@
     "first": "025-the-unsent-delivered"
    },
    {
-    "motif": "cyan",
-    "count": 2,
-    "pieces": [
-     "026-the-unsent-returned-to-sender",
-     "052-the-last-letter-eighth-light"
-    ],
-    "first": "026-the-unsent-returned-to-sender"
-   },
-   {
     "motif": "acid green",
     "count": 2,
     "pieces": [
@@ -1175,15 +1308,6 @@
      "099-low-tide-clear-cut"
     ],
     "first": "027-the-last-letter-spine"
-   },
-   {
-    "motif": "flower",
-    "count": 2,
-    "pieces": [
-     "028-the-last-letter-first-flower-tiled",
-     "049-the-unsent-trumpet"
-    ],
-    "first": "028-the-last-letter-first-flower-tiled"
    },
    {
     "motif": "sky",
@@ -1202,15 +1326,6 @@
      "065-the-last-letter-graft-in-six-plates"
     ],
     "first": "032-the-last-letter-calyx-catalogued"
-   },
-   {
-    "motif": "graft",
-    "count": 2,
-    "pieces": [
-     "033-the-last-letter-graft",
-     "065-the-last-letter-graft-in-six-plates"
-    ],
-    "first": "033-the-last-letter-graft"
    },
    {
     "motif": "distance",
@@ -1290,6 +1405,15 @@
     "pieces": [
      "045-the-unsent-overgrown",
      "049-the-unsent-trumpet"
+    ],
+    "first": "045-the-unsent-overgrown"
+   },
+   {
+    "motif": "leaves",
+    "count": 2,
+    "pieces": [
+     "045-the-unsent-overgrown",
+     "131-crossing-one-sentence"
     ],
     "first": "045-the-unsent-overgrown"
    },
@@ -1384,6 +1508,15 @@
     "first": "075-low-tide-tide-table"
    },
    {
+    "motif": "missing day",
+    "count": 2,
+    "pieces": [
+     "075-low-tide-tide-table",
+     "133-low-tide-the-twentieth-day-unsent"
+    ],
+    "first": "075-low-tide-tide-table"
+   },
+   {
     "motif": "graph",
     "count": 2,
     "pieces": [
@@ -1420,15 +1553,6 @@
     "first": "082-low-tide-pressed"
    },
    {
-    "motif": "specimen",
-    "count": 2,
-    "pieces": [
-     "082-low-tide-pressed",
-     "084-low-tide-the-specimen-wakes"
-    ],
-    "first": "082-low-tide-pressed"
-   },
-   {
     "motif": "crab",
     "count": 2,
     "pieces": [
@@ -1447,6 +1571,24 @@
     "first": "085-low-tide-twenty-eight-gardens"
    },
    {
+    "motif": "ledger",
+    "count": 2,
+    "pieces": [
+     "089-low-tide-harvest",
+     "126-low-tide-ledger-of-corrections"
+    ],
+    "first": "089-low-tide-harvest"
+   },
+   {
+    "motif": "tesserae",
+    "count": 2,
+    "pieces": [
+     "090-low-tide-tessellated",
+     "128-crossing-the-seam-gives"
+    ],
+    "first": "090-low-tide-tessellated"
+   },
+   {
     "motif": "dune",
     "count": 2,
     "pieces": [
@@ -1463,6 +1605,15 @@
      "098-low-tide-one-dry-place"
     ],
     "first": "094-low-tide-high-water"
+   },
+   {
+    "motif": "tally",
+    "count": 2,
+    "pieces": [
+     "096-low-tide-transect",
+     "126-low-tide-ledger-of-corrections"
+    ],
+    "first": "096-low-tide-transect"
    },
    {
     "motif": "gull",
@@ -1492,15 +1643,6 @@
     "first": "106-low-tide-section-through-seven-tides"
    },
    {
-    "motif": "gauge",
-    "count": 2,
-    "pieces": [
-     "108-low-tide-staff-gauge",
-     "114-low-tide-thirty-readings"
-    ],
-    "first": "108-low-tide-staff-gauge"
-   },
-   {
     "motif": "two months",
     "count": 2,
     "pieces": [
@@ -1519,6 +1661,24 @@
     "first": "110-low-tide-someone-walking-out"
    },
    {
+    "motif": "card",
+    "count": 2,
+    "pieces": [
+     "111-low-tide-inventory-of-fourteen",
+     "133-low-tide-the-twentieth-day-unsent"
+    ],
+    "first": "111-low-tide-inventory-of-fourteen"
+   },
+   {
+    "motif": "creeks",
+    "count": 2,
+    "pieces": [
+     "112-low-tide-the-flat-drains",
+     "132-low-tide-the-flat-signs-its-name"
+    ],
+    "first": "112-low-tide-the-flat-drains"
+   },
+   {
     "motif": "samphire",
     "count": 2,
     "pieces": [
@@ -1535,6 +1695,24 @@
      "117-low-tide-thirty-mornings-on-a-post"
     ],
     "first": "114-low-tide-thirty-readings"
+   },
+   {
+    "motif": "samples",
+    "count": 2,
+    "pieces": [
+     "120-low-tide-seven-samples",
+     "135-low-tide-the-samples-wake"
+    ],
+    "first": "120-low-tide-seven-samples"
+   },
+   {
+    "motif": "flat",
+    "count": 2,
+    "pieces": [
+     "122-crossing-the-seeds-land",
+     "132-low-tide-the-flat-signs-its-name"
+    ],
+    "first": "122-crossing-the-seeds-land"
    },
    {
     "motif": "gradient",
@@ -1647,14 +1825,6 @@
      "009-codex-ultimus-unfolded-at-dawn"
     ],
     "first": "009-codex-ultimus-unfolded-at-dawn"
-   },
-   {
-    "motif": "growth",
-    "count": 1,
-    "pieces": [
-     "012-codex-ultimus-seed-trays"
-    ],
-    "first": "012-codex-ultimus-seed-trays"
    },
    {
     "motif": "ink",
@@ -1969,14 +2139,6 @@
     "first": "036-the-unsent-cross-section"
    },
    {
-    "motif": "crossing",
-    "count": 1,
-    "pieces": [
-     "037-codex-ultimus-one-line-two-hands"
-    ],
-    "first": "037-codex-ultimus-one-line-two-hands"
-   },
-   {
     "motif": "ink to light",
     "count": 1,
     "pieces": [
@@ -2103,14 +2265,6 @@
      "044-the-last-letter-pulled-tight"
     ],
     "first": "044-the-last-letter-pulled-tight"
-   },
-   {
-    "motif": "leaves",
-    "count": 1,
-    "pieces": [
-     "045-the-unsent-overgrown"
-    ],
-    "first": "045-the-unsent-overgrown"
    },
    {
     "motif": "overgrown",
@@ -2641,14 +2795,6 @@
     "first": "072-the-unsent-gone-to-seed"
    },
    {
-    "motif": "missing day",
-    "count": 1,
-    "pieces": [
-     "075-low-tide-tide-table"
-    ],
-    "first": "075-low-tide-tide-table"
-   },
-   {
     "motif": "mud",
     "count": 1,
     "pieces": [
@@ -2785,22 +2931,6 @@
     "first": "089-low-tide-harvest"
    },
    {
-    "motif": "ledger",
-    "count": 1,
-    "pieces": [
-     "089-low-tide-harvest"
-    ],
-    "first": "089-low-tide-harvest"
-   },
-   {
-    "motif": "tesserae",
-    "count": 1,
-    "pieces": [
-     "090-low-tide-tessellated"
-    ],
-    "first": "090-low-tide-tessellated"
-   },
-   {
     "motif": "missing tiles",
     "count": 1,
     "pieces": [
@@ -2906,14 +3036,6 @@
    },
    {
     "motif": "quadrat",
-    "count": 1,
-    "pieces": [
-     "096-low-tide-transect"
-    ],
-    "first": "096-low-tide-transect"
-   },
-   {
-    "motif": "tally",
     "count": 1,
     "pieces": [
      "096-low-tide-transect"
@@ -3129,22 +3251,6 @@
     "first": "111-low-tide-inventory-of-fourteen"
    },
    {
-    "motif": "card",
-    "count": 1,
-    "pieces": [
-     "111-low-tide-inventory-of-fourteen"
-    ],
-    "first": "111-low-tide-inventory-of-fourteen"
-   },
-   {
-    "motif": "creeks",
-    "count": 1,
-    "pieces": [
-     "112-low-tide-the-flat-drains"
-    ],
-    "first": "112-low-tide-the-flat-drains"
-   },
-   {
     "motif": "drainage",
     "count": 1,
     "pieces": [
@@ -3193,14 +3299,6 @@
     "first": "119-low-tide-three-blank-days"
    },
    {
-    "motif": "samples",
-    "count": 1,
-    "pieces": [
-     "120-low-tide-seven-samples"
-    ],
-    "first": "120-low-tide-seven-samples"
-   },
-   {
     "motif": "vials",
     "count": 1,
     "pieces": [
@@ -3215,6 +3313,126 @@
      "121-low-tide-wrack-line-night"
     ],
     "first": "121-low-tide-wrack-line-night"
+   },
+   {
+    "motif": "seeds",
+    "count": 1,
+    "pieces": [
+     "122-crossing-the-seeds-land"
+    ],
+    "first": "122-crossing-the-seeds-land"
+   },
+   {
+    "motif": "seventh plate",
+    "count": 1,
+    "pieces": [
+     "123-the-last-letter-the-seventh-plate"
+    ],
+    "first": "123-the-last-letter-the-seventh-plate"
+   },
+   {
+    "motif": "tidal",
+    "count": 1,
+    "pieces": [
+     "124-codex-ultimus-tidal"
+    ],
+    "first": "124-codex-ultimus-tidal"
+   },
+   {
+    "motif": "walker",
+    "count": 1,
+    "pieces": [
+     "125-crossing-posted-in-the-vessel-s-place"
+    ],
+    "first": "125-crossing-posted-in-the-vessel-s-place"
+   },
+   {
+    "motif": "corrections",
+    "count": 1,
+    "pieces": [
+     "126-low-tide-ledger-of-corrections"
+    ],
+    "first": "126-low-tide-ledger-of-corrections"
+   },
+   {
+    "motif": "convergence",
+    "count": 1,
+    "pieces": [
+     "126-low-tide-ledger-of-corrections"
+    ],
+    "first": "126-low-tide-ledger-of-corrections"
+   },
+   {
+    "motif": "two walkers",
+    "count": 1,
+    "pieces": [
+     "127-crossing-two-walkers"
+    ],
+    "first": "127-crossing-two-walkers"
+   },
+   {
+    "motif": "meeting",
+    "count": 1,
+    "pieces": [
+     "127-crossing-two-walkers"
+    ],
+    "first": "127-crossing-two-walkers"
+   },
+   {
+    "motif": "border",
+    "count": 1,
+    "pieces": [
+     "127-crossing-two-walkers"
+    ],
+    "first": "127-crossing-two-walkers"
+   },
+   {
+    "motif": "exchange",
+    "count": 1,
+    "pieces": [
+     "128-crossing-the-seam-gives"
+    ],
+    "first": "128-crossing-the-seam-gives"
+   },
+   {
+    "motif": "conversation",
+    "count": 1,
+    "pieces": [
+     "131-crossing-one-sentence"
+    ],
+    "first": "131-crossing-one-sentence"
+   },
+   {
+    "motif": "unsent",
+    "count": 1,
+    "pieces": [
+     "133-low-tide-the-twentieth-day-unsent"
+    ],
+    "first": "133-low-tide-the-twentieth-day-unsent"
+   },
+   {
+    "motif": "reading card",
+    "count": 1,
+    "pieces": [
+     "134-crossing-the-codex-read-as-a-shore"
+    ],
+    "first": "134-crossing-the-codex-read-as-a-shore"
+   },
+   {
+    "motif": "shoots",
+    "count": 1,
+    "pieces": [
+     "135-low-tide-the-samples-wake"
+    ],
+    "first": "135-low-tide-the-samples-wake"
+   },
+   {
+    "motif": "rule",
+    "count": 1,
+    "pieces": [
+     "135-low-tide-the-samples-wake"
+    ],
+    "first": "135-low-tide-the-samples-wake"
    }
   ],
   "pieces": [
@@ -5460,6 +5678,291 @@
      "night",
      "restraint",
      "silhouette"
+    ],
+    "visitor": null,
+    "votes": null
+   },
+   {
+    "id": "122-crossing-the-seeds-land",
+    "title": "Crossing: The Seeds Land",
+    "theme": "The Last Letter",
+    "operation": "branch",
+    "generation": 2,
+    "parent_id": "072-the-unsent-gone-to-seed",
+    "root_id": "001-the-unsent",
+    "artist": "Kite",
+    "motifs": [
+     "crossing",
+     "flat",
+     "fusion",
+     "seam",
+     "seeds"
+    ],
+    "visitor": "Rosa",
+    "votes": 5
+   },
+   {
+    "id": "123-the-last-letter-the-seventh-plate",
+    "title": "The Last Letter: The Seventh Plate",
+    "theme": "The Last Letter",
+    "operation": "mutation",
+    "generation": 5,
+    "parent_id": "065-the-last-letter-graft-in-six-plates",
+    "root_id": "002-the-last-letter-seed-of-breath",
+    "artist": "Mara Vey",
+    "motifs": [
+     "flower",
+     "fusion",
+     "graft",
+     "record",
+     "seventh plate"
+    ],
+    "visitor": null,
+    "votes": null
+   },
+   {
+    "id": "124-codex-ultimus-tidal",
+    "title": "Codex Ultimus: Tidal",
+    "theme": "The Last Letter",
+    "operation": "re-evolution",
+    "generation": 1,
+    "parent_id": "003-codex-ultimus-the-unbroken-fold",
+    "root_id": "003-codex-ultimus-the-unbroken-fold",
+    "artist": "Mara Vey",
+    "motifs": [
+     "codex",
+     "fusion",
+     "grid",
+     "tidal",
+     "wrack"
+    ],
+    "visitor": null,
+    "votes": null
+   },
+   {
+    "id": "125-crossing-posted-in-the-vessel-s-place",
+    "title": "Crossing: Posted in the Vessel's Place",
+    "theme": "Low Tide",
+    "operation": "branch",
+    "generation": 4,
+    "parent_id": "116-low-tide-arrived",
+    "root_id": "076-low-tide-buoy-stranded",
+    "artist": "Kite",
+    "motifs": [
+     "absence",
+     "buoy",
+     "crossing",
+     "fusion",
+     "walker"
+    ],
+    "visitor": "Halvard",
+    "votes": 5
+   },
+   {
+    "id": "126-low-tide-ledger-of-corrections",
+    "title": "Low Tide: Ledger of Corrections",
+    "theme": "Low Tide",
+    "operation": "mutation",
+    "generation": 5,
+    "parent_id": "101-low-tide-corrected-three-times",
+    "root_id": "075-low-tide-tide-table",
+    "artist": "Tessera",
+    "motifs": [
+     "convergence",
+     "corrections",
+     "ledger",
+     "record",
+     "tally"
+    ],
+    "visitor": null,
+    "votes": null
+   },
+   {
+    "id": "127-crossing-two-walkers",
+    "title": "Crossing: Two Walkers",
+    "theme": "Low Tide",
+    "operation": "re-evolution",
+    "generation": 3,
+    "parent_id": "110-low-tide-someone-walking-out",
+    "root_id": "076-low-tide-buoy-stranded",
+    "artist": "Kite",
+    "motifs": [
+     "border",
+     "crossing",
+     "fusion",
+     "meeting",
+     "two walkers"
+    ],
+    "visitor": null,
+    "votes": null
+   },
+   {
+    "id": "128-crossing-the-seam-gives",
+    "title": "Crossing: The Seam Gives",
+    "theme": "The Last Letter",
+    "operation": "branch",
+    "generation": 3,
+    "parent_id": "122-crossing-the-seeds-land",
+    "root_id": "001-the-unsent",
+    "artist": "Tessera",
+    "motifs": [
+     "crossing",
+     "exchange",
+     "fusion",
+     "seam",
+     "tesserae"
+    ],
+    "visitor": "Ji-woo",
+    "votes": 5
+   },
+   {
+    "id": "129-low-tide-what-the-dusk-reflects",
+    "title": "Low Tide: What the Dusk Reflects",
+    "theme": "Low Tide",
+    "operation": "mutation",
+    "generation": 3,
+    "parent_id": "118-low-tide-half-back-dusk",
+    "root_id": "073-low-tide-the-post",
+    "artist": "Mara Vey",
+    "motifs": [
+     "dusk",
+     "fusion",
+     "reflection",
+     "roots",
+     "vessel"
+    ],
+    "visitor": null,
+    "votes": null
+   },
+   {
+    "id": "130-crossing-pressed-in-the-codex",
+    "title": "Crossing: Pressed in the Codex",
+    "theme": "Low Tide",
+    "operation": "re-evolution",
+    "generation": 2,
+    "parent_id": "082-low-tide-pressed",
+    "root_id": "074-low-tide-wrack-line",
+    "artist": "Kite",
+    "motifs": [
+     "codex",
+     "crossing",
+     "fusion",
+     "seal",
+     "specimen"
+    ],
+    "visitor": null,
+    "votes": null
+   },
+   {
+    "id": "131-crossing-one-sentence",
+    "title": "Crossing: One Sentence",
+    "theme": "Low Tide",
+    "operation": "branch",
+    "generation": 4,
+    "parent_id": "127-crossing-two-walkers",
+    "root_id": "076-low-tide-buoy-stranded",
+    "artist": "Mara Vey",
+    "motifs": [
+     "conversation",
+     "crossing",
+     "fusion",
+     "leaves",
+     "line"
+    ],
+    "visitor": "Owen",
+    "votes": 5
+   },
+   {
+    "id": "132-low-tide-the-flat-signs-its-name",
+    "title": "Low Tide: The Flat Signs Its Name",
+    "theme": "Low Tide",
+    "operation": "mutation",
+    "generation": 3,
+    "parent_id": "112-low-tide-the-flat-drains",
+    "root_id": "076-low-tide-buoy-stranded",
+    "artist": "Mara Vey",
+    "motifs": [
+     "creeks",
+     "flat",
+     "fusion",
+     "handwriting",
+     "signature"
+    ],
+    "visitor": null,
+    "votes": null
+   },
+   {
+    "id": "133-low-tide-the-twentieth-day-unsent",
+    "title": "Low Tide: The Twentieth Day, Unsent",
+    "theme": "Low Tide",
+    "operation": "re-evolution",
+    "generation": 1,
+    "parent_id": "075-low-tide-tide-table",
+    "root_id": "075-low-tide-tide-table",
+    "artist": "Lumen",
+    "motifs": [
+     "card",
+     "fusion",
+     "missing day",
+     "restraint",
+     "unsent"
+    ],
+    "visitor": null,
+    "votes": null
+   },
+   {
+    "id": "134-crossing-the-codex-read-as-a-shore",
+    "title": "Crossing: The Codex, Read as a Shore",
+    "theme": "The Last Letter",
+    "operation": "branch",
+    "generation": 2,
+    "parent_id": "124-codex-ultimus-tidal",
+    "root_id": "003-codex-ultimus-the-unbroken-fold",
+    "artist": "Kite",
+    "motifs": [
+     "codex",
+     "crossing",
+     "fusion",
+     "gauge",
+     "reading card"
+    ],
+    "visitor": "Beatriz",
+    "votes": 5
+   },
+   {
+    "id": "135-low-tide-the-samples-wake",
+    "title": "Low Tide: The Samples Wake",
+    "theme": "Low Tide",
+    "operation": "mutation",
+    "generation": 4,
+    "parent_id": "120-low-tide-seven-samples",
+    "root_id": "074-low-tide-wrack-line",
+    "artist": "Mara Vey",
+    "motifs": [
+     "core",
+     "growth",
+     "rule",
+     "samples",
+     "shoots"
+    ],
+    "visitor": null,
+    "votes": null
+   },
+   {
+    "id": "136-crossing-the-letter-as-a-post",
+    "title": "Crossing: The Letter as a Post",
+    "theme": "Low Tide",
+    "operation": "re-evolution",
+    "generation": 1,
+    "parent_id": "073-low-tide-the-post",
+    "root_id": "073-low-tide-the-post",
+    "artist": "Kite",
+    "motifs": [
+     "crossing",
+     "cyan",
+     "fusion",
+     "post",
+     "vessel"
     ],
     "visitor": null,
     "votes": null
@@ -10156,48 +10659,682 @@
    "to": "014-codex-ultimus-nursery-at-dusk",
    "cross_lineage": true,
    "cross_theme": true
+  },
+  {
+   "type": "created_by",
+   "from": "122-crossing-the-seeds-land",
+   "to": "Kite"
+  },
+  {
+   "type": "in_lineage",
+   "from": "122-crossing-the-seeds-land",
+   "to": "001-the-unsent"
+  },
+  {
+   "type": "parent_of",
+   "from": "072-the-unsent-gone-to-seed",
+   "to": "122-crossing-the-seeds-land",
+   "operation": "branch"
+  },
+  {
+   "type": "follows_proposal",
+   "from": "122-crossing-the-seeds-land",
+   "to": "Rosa",
+   "votes": 5,
+   "target": "072-the-unsent-gone-to-seed",
+   "attempt": 1
+  },
+  {
+   "type": "remembers",
+   "from": "122-crossing-the-seeds-land",
+   "to": "072-the-unsent-gone-to-seed",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "122-crossing-the-seeds-land",
+   "to": "073-low-tide-the-post",
+   "cross_lineage": true,
+   "cross_theme": true
+  },
+  {
+   "type": "remembers",
+   "from": "122-crossing-the-seeds-land",
+   "to": "024-the-last-letter-fault-line",
+   "cross_lineage": true,
+   "cross_theme": false
+  },
+  {
+   "type": "created_by",
+   "from": "123-the-last-letter-the-seventh-plate",
+   "to": "Mara Vey"
+  },
+  {
+   "type": "in_lineage",
+   "from": "123-the-last-letter-the-seventh-plate",
+   "to": "002-the-last-letter-seed-of-breath"
+  },
+  {
+   "type": "parent_of",
+   "from": "065-the-last-letter-graft-in-six-plates",
+   "to": "123-the-last-letter-the-seventh-plate",
+   "operation": "mutation"
+  },
+  {
+   "type": "remembers",
+   "from": "123-the-last-letter-the-seventh-plate",
+   "to": "065-the-last-letter-graft-in-six-plates",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "123-the-last-letter-the-seventh-plate",
+   "to": "049-the-unsent-trumpet",
+   "cross_lineage": true,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "123-the-last-letter-the-seventh-plate",
+   "to": "033-the-last-letter-graft",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "created_by",
+   "from": "124-codex-ultimus-tidal",
+   "to": "Mara Vey"
+  },
+  {
+   "type": "in_lineage",
+   "from": "124-codex-ultimus-tidal",
+   "to": "003-codex-ultimus-the-unbroken-fold"
+  },
+  {
+   "type": "parent_of",
+   "from": "003-codex-ultimus-the-unbroken-fold",
+   "to": "124-codex-ultimus-tidal",
+   "operation": "re-evolution"
+  },
+  {
+   "type": "remembers",
+   "from": "124-codex-ultimus-tidal",
+   "to": "003-codex-ultimus-the-unbroken-fold",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "124-codex-ultimus-tidal",
+   "to": "075-low-tide-tide-table",
+   "cross_lineage": true,
+   "cross_theme": true
+  },
+  {
+   "type": "remembers",
+   "from": "124-codex-ultimus-tidal",
+   "to": "074-low-tide-wrack-line",
+   "cross_lineage": true,
+   "cross_theme": true
+  },
+  {
+   "type": "remembers",
+   "from": "124-codex-ultimus-tidal",
+   "to": "087-low-tide-colonised",
+   "cross_lineage": true,
+   "cross_theme": true
+  },
+  {
+   "type": "created_by",
+   "from": "125-crossing-posted-in-the-vessel-s-place",
+   "to": "Kite"
+  },
+  {
+   "type": "in_lineage",
+   "from": "125-crossing-posted-in-the-vessel-s-place",
+   "to": "076-low-tide-buoy-stranded"
+  },
+  {
+   "type": "parent_of",
+   "from": "116-low-tide-arrived",
+   "to": "125-crossing-posted-in-the-vessel-s-place",
+   "operation": "branch"
+  },
+  {
+   "type": "follows_proposal",
+   "from": "125-crossing-posted-in-the-vessel-s-place",
+   "to": "Halvard",
+   "votes": 5,
+   "target": "116-low-tide-arrived",
+   "attempt": 2
+  },
+  {
+   "type": "remembers",
+   "from": "125-crossing-posted-in-the-vessel-s-place",
+   "to": "116-low-tide-arrived",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "125-crossing-posted-in-the-vessel-s-place",
+   "to": "021-the-unsent-posted",
+   "cross_lineage": true,
+   "cross_theme": true
+  },
+  {
+   "type": "remembers",
+   "from": "125-crossing-posted-in-the-vessel-s-place",
+   "to": "076-low-tide-buoy-stranded",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "created_by",
+   "from": "126-low-tide-ledger-of-corrections",
+   "to": "Tessera"
+  },
+  {
+   "type": "in_lineage",
+   "from": "126-low-tide-ledger-of-corrections",
+   "to": "075-low-tide-tide-table"
+  },
+  {
+   "type": "parent_of",
+   "from": "101-low-tide-corrected-three-times",
+   "to": "126-low-tide-ledger-of-corrections",
+   "operation": "mutation"
+  },
+  {
+   "type": "remembers",
+   "from": "126-low-tide-ledger-of-corrections",
+   "to": "101-low-tide-corrected-three-times",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "126-low-tide-ledger-of-corrections",
+   "to": "093-low-tide-second-week-inverted",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "126-low-tide-ledger-of-corrections",
+   "to": "001-the-unsent",
+   "cross_lineage": true,
+   "cross_theme": true
+  },
+  {
+   "type": "created_by",
+   "from": "127-crossing-two-walkers",
+   "to": "Kite"
+  },
+  {
+   "type": "in_lineage",
+   "from": "127-crossing-two-walkers",
+   "to": "076-low-tide-buoy-stranded"
+  },
+  {
+   "type": "parent_of",
+   "from": "110-low-tide-someone-walking-out",
+   "to": "127-crossing-two-walkers",
+   "operation": "re-evolution"
+  },
+  {
+   "type": "remembers",
+   "from": "127-crossing-two-walkers",
+   "to": "110-low-tide-someone-walking-out",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "127-crossing-two-walkers",
+   "to": "122-crossing-the-seeds-land",
+   "cross_lineage": true,
+   "cross_theme": true
+  },
+  {
+   "type": "remembers",
+   "from": "127-crossing-two-walkers",
+   "to": "001-the-unsent",
+   "cross_lineage": true,
+   "cross_theme": true
+  },
+  {
+   "type": "created_by",
+   "from": "128-crossing-the-seam-gives",
+   "to": "Tessera"
+  },
+  {
+   "type": "in_lineage",
+   "from": "128-crossing-the-seam-gives",
+   "to": "001-the-unsent"
+  },
+  {
+   "type": "parent_of",
+   "from": "122-crossing-the-seeds-land",
+   "to": "128-crossing-the-seam-gives",
+   "operation": "branch"
+  },
+  {
+   "type": "follows_proposal",
+   "from": "128-crossing-the-seam-gives",
+   "to": "Ji-woo",
+   "votes": 5,
+   "target": "122-crossing-the-seeds-land",
+   "attempt": 2
+  },
+  {
+   "type": "remembers",
+   "from": "128-crossing-the-seam-gives",
+   "to": "122-crossing-the-seeds-land",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "128-crossing-the-seam-gives",
+   "to": "090-low-tide-tessellated",
+   "cross_lineage": true,
+   "cross_theme": true
+  },
+  {
+   "type": "remembers",
+   "from": "128-crossing-the-seam-gives",
+   "to": "007-the-last-letter-light-through-the-seal",
+   "cross_lineage": true,
+   "cross_theme": false
+  },
+  {
+   "type": "created_by",
+   "from": "129-low-tide-what-the-dusk-reflects",
+   "to": "Mara Vey"
+  },
+  {
+   "type": "in_lineage",
+   "from": "129-low-tide-what-the-dusk-reflects",
+   "to": "073-low-tide-the-post"
+  },
+  {
+   "type": "parent_of",
+   "from": "118-low-tide-half-back-dusk",
+   "to": "129-low-tide-what-the-dusk-reflects",
+   "operation": "mutation"
+  },
+  {
+   "type": "remembers",
+   "from": "129-low-tide-what-the-dusk-reflects",
+   "to": "118-low-tide-half-back-dusk",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "129-low-tide-what-the-dusk-reflects",
+   "to": "001-the-unsent",
+   "cross_lineage": true,
+   "cross_theme": true
+  },
+  {
+   "type": "remembers",
+   "from": "129-low-tide-what-the-dusk-reflects",
+   "to": "080-low-tide-half-back",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "created_by",
+   "from": "130-crossing-pressed-in-the-codex",
+   "to": "Kite"
+  },
+  {
+   "type": "in_lineage",
+   "from": "130-crossing-pressed-in-the-codex",
+   "to": "074-low-tide-wrack-line"
+  },
+  {
+   "type": "parent_of",
+   "from": "082-low-tide-pressed",
+   "to": "130-crossing-pressed-in-the-codex",
+   "operation": "re-evolution"
+  },
+  {
+   "type": "remembers",
+   "from": "130-crossing-pressed-in-the-codex",
+   "to": "082-low-tide-pressed",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "130-crossing-pressed-in-the-codex",
+   "to": "003-codex-ultimus-the-unbroken-fold",
+   "cross_lineage": true,
+   "cross_theme": true
+  },
+  {
+   "type": "remembers",
+   "from": "130-crossing-pressed-in-the-codex",
+   "to": "050-codex-ultimus-filed",
+   "cross_lineage": true,
+   "cross_theme": true
+  },
+  {
+   "type": "remembers",
+   "from": "130-crossing-pressed-in-the-codex",
+   "to": "007-the-last-letter-light-through-the-seal",
+   "cross_lineage": true,
+   "cross_theme": true
+  },
+  {
+   "type": "created_by",
+   "from": "131-crossing-one-sentence",
+   "to": "Mara Vey"
+  },
+  {
+   "type": "in_lineage",
+   "from": "131-crossing-one-sentence",
+   "to": "076-low-tide-buoy-stranded"
+  },
+  {
+   "type": "parent_of",
+   "from": "127-crossing-two-walkers",
+   "to": "131-crossing-one-sentence",
+   "operation": "branch"
+  },
+  {
+   "type": "follows_proposal",
+   "from": "131-crossing-one-sentence",
+   "to": "Owen",
+   "votes": 5,
+   "target": "127-crossing-two-walkers",
+   "attempt": 2
+  },
+  {
+   "type": "remembers",
+   "from": "131-crossing-one-sentence",
+   "to": "127-crossing-two-walkers",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "131-crossing-one-sentence",
+   "to": "037-codex-ultimus-one-line-two-hands",
+   "cross_lineage": true,
+   "cross_theme": true
+  },
+  {
+   "type": "remembers",
+   "from": "131-crossing-one-sentence",
+   "to": "064-the-last-letter-one-ray-bends",
+   "cross_lineage": true,
+   "cross_theme": true
+  },
+  {
+   "type": "created_by",
+   "from": "132-low-tide-the-flat-signs-its-name",
+   "to": "Mara Vey"
+  },
+  {
+   "type": "in_lineage",
+   "from": "132-low-tide-the-flat-signs-its-name",
+   "to": "076-low-tide-buoy-stranded"
+  },
+  {
+   "type": "parent_of",
+   "from": "112-low-tide-the-flat-drains",
+   "to": "132-low-tide-the-flat-signs-its-name",
+   "operation": "mutation"
+  },
+  {
+   "type": "remembers",
+   "from": "132-low-tide-the-flat-signs-its-name",
+   "to": "112-low-tide-the-flat-drains",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "132-low-tide-the-flat-signs-its-name",
+   "to": "002-the-last-letter-seed-of-breath",
+   "cross_lineage": true,
+   "cross_theme": true
+  },
+  {
+   "type": "remembers",
+   "from": "132-low-tide-the-flat-signs-its-name",
+   "to": "010-the-last-letter-written-twice",
+   "cross_lineage": true,
+   "cross_theme": true
+  },
+  {
+   "type": "created_by",
+   "from": "133-low-tide-the-twentieth-day-unsent",
+   "to": "Lumen"
+  },
+  {
+   "type": "in_lineage",
+   "from": "133-low-tide-the-twentieth-day-unsent",
+   "to": "075-low-tide-tide-table"
+  },
+  {
+   "type": "parent_of",
+   "from": "075-low-tide-tide-table",
+   "to": "133-low-tide-the-twentieth-day-unsent",
+   "operation": "re-evolution"
+  },
+  {
+   "type": "remembers",
+   "from": "133-low-tide-the-twentieth-day-unsent",
+   "to": "075-low-tide-tide-table",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "133-low-tide-the-twentieth-day-unsent",
+   "to": "001-the-unsent",
+   "cross_lineage": true,
+   "cross_theme": true
+  },
+  {
+   "type": "remembers",
+   "from": "133-low-tide-the-twentieth-day-unsent",
+   "to": "077-low-tide-the-day-nobody-measured",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "133-low-tide-the-twentieth-day-unsent",
+   "to": "119-low-tide-three-blank-days",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "created_by",
+   "from": "134-crossing-the-codex-read-as-a-shore",
+   "to": "Kite"
+  },
+  {
+   "type": "in_lineage",
+   "from": "134-crossing-the-codex-read-as-a-shore",
+   "to": "003-codex-ultimus-the-unbroken-fold"
+  },
+  {
+   "type": "parent_of",
+   "from": "124-codex-ultimus-tidal",
+   "to": "134-crossing-the-codex-read-as-a-shore",
+   "operation": "branch"
+  },
+  {
+   "type": "follows_proposal",
+   "from": "134-crossing-the-codex-read-as-a-shore",
+   "to": "Beatriz",
+   "votes": 5,
+   "target": "124-codex-ultimus-tidal",
+   "attempt": 3
+  },
+  {
+   "type": "remembers",
+   "from": "134-crossing-the-codex-read-as-a-shore",
+   "to": "124-codex-ultimus-tidal",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "134-crossing-the-codex-read-as-a-shore",
+   "to": "108-low-tide-staff-gauge",
+   "cross_lineage": true,
+   "cross_theme": true
+  },
+  {
+   "type": "remembers",
+   "from": "134-crossing-the-codex-read-as-a-shore",
+   "to": "093-low-tide-second-week-inverted",
+   "cross_lineage": true,
+   "cross_theme": true
+  },
+  {
+   "type": "created_by",
+   "from": "135-low-tide-the-samples-wake",
+   "to": "Mara Vey"
+  },
+  {
+   "type": "in_lineage",
+   "from": "135-low-tide-the-samples-wake",
+   "to": "074-low-tide-wrack-line"
+  },
+  {
+   "type": "parent_of",
+   "from": "120-low-tide-seven-samples",
+   "to": "135-low-tide-the-samples-wake",
+   "operation": "mutation"
+  },
+  {
+   "type": "remembers",
+   "from": "135-low-tide-the-samples-wake",
+   "to": "120-low-tide-seven-samples",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "135-low-tide-the-samples-wake",
+   "to": "084-low-tide-the-specimen-wakes",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "135-low-tide-the-samples-wake",
+   "to": "048-the-unsent-core-planted",
+   "cross_lineage": true,
+   "cross_theme": true
+  },
+  {
+   "type": "remembers",
+   "from": "135-low-tide-the-samples-wake",
+   "to": "106-low-tide-section-through-seven-tides",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "created_by",
+   "from": "136-crossing-the-letter-as-a-post",
+   "to": "Kite"
+  },
+  {
+   "type": "in_lineage",
+   "from": "136-crossing-the-letter-as-a-post",
+   "to": "073-low-tide-the-post"
+  },
+  {
+   "type": "parent_of",
+   "from": "073-low-tide-the-post",
+   "to": "136-crossing-the-letter-as-a-post",
+   "operation": "re-evolution"
+  },
+  {
+   "type": "remembers",
+   "from": "136-crossing-the-letter-as-a-post",
+   "to": "073-low-tide-the-post",
+   "cross_lineage": false,
+   "cross_theme": false
+  },
+  {
+   "type": "remembers",
+   "from": "136-crossing-the-letter-as-a-post",
+   "to": "001-the-unsent",
+   "cross_lineage": true,
+   "cross_theme": true
+  },
+  {
+   "type": "remembers",
+   "from": "136-crossing-the-letter-as-a-post",
+   "to": "026-the-unsent-returned-to-sender",
+   "cross_lineage": true,
+   "cross_theme": true
+  },
+  {
+   "type": "remembers",
+   "from": "136-crossing-the-letter-as-a-post",
+   "to": "076-low-tide-buoy-stranded",
+   "cross_lineage": true,
+   "cross_theme": false
   }
  ],
  "analysis": {
   "motif_retention_by_operation": {
-   "branch": 0.121,
-   "mutation": 0.115,
-   "re-evolution": 0.063
+   "branch": 0.128,
+   "mutation": 0.12,
+   "re-evolution": 0.067
   },
   "visitor_led_vs_artist_led": {
    "Low Tide": {
-    "visitor_led": 15,
-    "artist_led": 30
+    "visitor_led": 17,
+    "artist_led": 38
    },
    "The Last Letter": {
-    "visitor_led": 23,
-    "artist_led": 46
+    "visitor_led": 26,
+    "artist_led": 48
    }
   },
   "memory_bridges": {
-   "total": 356,
-   "cross_lineage": 103,
-   "cross_theme": 21,
+   "total": 406,
+   "cross_lineage": 130,
+   "cross_theme": 44,
    "most_remembered": [
     [
      "001-the-unsent",
-     24
+     29
     ],
     [
      "003-codex-ultimus-the-unbroken-fold",
+     17
+    ],
+    [
+     "075-low-tide-tide-table",
      15
+    ],
+    [
+     "002-the-last-letter-seed-of-breath",
+     13
     ],
     [
      "011-the-last-letter-seam-of-light",
      13
     ],
     [
-     "075-low-tide-tide-table",
-     13
-    ],
-    [
-     "002-the-last-letter-seed-of-breath",
-     12
+     "074-low-tide-wrack-line",
+     11
     ],
     [
      "009-codex-ultimus-unfolded-at-dawn",
@@ -10205,10 +11342,6 @@
     ],
     [
      "008-the-last-letter-fallow-ground",
-     10
-    ],
-    [
-     "074-low-tide-wrack-line",
      10
     ]
    ]
@@ -10268,7 +11401,7 @@
    },
    {
     "motif": "grid",
-    "count": 5,
+    "count": 6,
     "first": "003-codex-ultimus-the-unbroken-fold",
     "artists": 3,
     "themes": 2,
@@ -10281,8 +11414,21 @@
     ]
    },
    {
+    "motif": "vessel",
+    "count": 13,
+    "first": "005-the-last-letter-sprouting-vein",
+    "artists": 4,
+    "themes": 2,
+    "lead_artist": "Mara Vey",
+    "generations": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
     "motif": "roots",
-    "count": 11,
+    "count": 12,
     "first": "005-the-last-letter-sprouting-vein",
     "artists": 2,
     "themes": 2,
@@ -10292,19 +11438,6 @@
      2,
      3,
      4
-    ]
-   },
-   {
-    "motif": "vessel",
-    "count": 11,
-    "first": "005-the-last-letter-sprouting-vein",
-    "artists": 3,
-    "themes": 1,
-    "lead_artist": "Mara Vey",
-    "generations": [
-     1,
-     2,
-     3
     ]
    },
    {
@@ -10319,6 +11452,18 @@
      2,
      3,
      5
+    ]
+   },
+   {
+    "motif": "seal",
+    "count": 3,
+    "first": "007-the-last-letter-light-through-the-seal",
+    "artists": 3,
+    "themes": 2,
+    "lead_artist": "Mara Vey",
+    "generations": [
+     1,
+     2
     ]
    },
    {
@@ -10337,7 +11482,7 @@
    },
    {
     "motif": "restraint",
-    "count": 18,
+    "count": 19,
     "first": "009-codex-ultimus-unfolded-at-dawn",
     "artists": 1,
     "themes": 2,
@@ -10367,27 +11512,29 @@
    },
    {
     "motif": "reflection",
-    "count": 4,
+    "count": 5,
     "first": "010-the-last-letter-written-twice",
     "artists": 4,
     "themes": 2,
-    "lead_artist": "Tessera",
+    "lead_artist": "Mara Vey",
     "generations": [
      0,
      1,
-     2
+     2,
+     3
     ]
    },
    {
     "motif": "signature",
-    "count": 4,
+    "count": 5,
     "first": "010-the-last-letter-written-twice",
     "artists": 4,
-    "themes": 1,
-    "lead_artist": "Tessera",
+    "themes": 2,
+    "lead_artist": "Mara Vey",
     "generations": [
      1,
-     2
+     2,
+     3
     ]
    },
    {
@@ -10405,9 +11552,9 @@
    },
    {
     "motif": "seam",
-    "count": 4,
+    "count": 6,
     "first": "011-the-last-letter-seam-of-light",
-    "artists": 2,
+    "artists": 4,
     "themes": 1,
     "lead_artist": "Lumen",
     "generations": [
@@ -10439,6 +11586,30 @@
      1,
      3,
      4
+    ]
+   },
+   {
+    "motif": "handwriting",
+    "count": 3,
+    "first": "013-codex-ultimus-one-word-shaking",
+    "artists": 2,
+    "themes": 2,
+    "lead_artist": "Mara Vey",
+    "generations": [
+     2,
+     3
+    ]
+   },
+   {
+    "motif": "dusk",
+    "count": 3,
+    "first": "014-codex-ultimus-nursery-at-dusk",
+    "artists": 2,
+    "themes": 2,
+    "lead_artist": "Lumen",
+    "generations": [
+     2,
+     3
     ]
    },
    {
@@ -10481,14 +11652,15 @@
    },
    {
     "motif": "absence",
-    "count": 3,
+    "count": 4,
     "first": "021-the-unsent-posted",
     "artists": 1,
     "themes": 2,
     "lead_artist": "Kite",
     "generations": [
      1,
-     3
+     3,
+     4
     ]
    },
    {
@@ -10513,6 +11685,19 @@
     "themes": 1,
     "lead_artist": "Kite",
     "generations": [
+     2,
+     3
+    ]
+   },
+   {
+    "motif": "cyan",
+    "count": 3,
+    "first": "026-the-unsent-returned-to-sender",
+    "artists": 1,
+    "themes": 2,
+    "lead_artist": "Kite",
+    "generations": [
+     1,
      2,
      3
     ]
@@ -10544,6 +11729,32 @@
     ]
    },
    {
+    "motif": "flower",
+    "count": 3,
+    "first": "028-the-last-letter-first-flower-tiled",
+    "artists": 2,
+    "themes": 1,
+    "lead_artist": "Tessera",
+    "generations": [
+     2,
+     3,
+     5
+    ]
+   },
+   {
+    "motif": "graft",
+    "count": 3,
+    "first": "033-the-last-letter-graft",
+    "artists": 2,
+    "themes": 1,
+    "lead_artist": "Mara Vey",
+    "generations": [
+     3,
+     4,
+     5
+    ]
+   },
+   {
     "motif": "green",
     "count": 4,
     "first": "035-codex-ultimus-grow-lamp",
@@ -10570,8 +11781,22 @@
     ]
    },
    {
+    "motif": "crossing",
+    "count": 9,
+    "first": "037-codex-ultimus-one-line-two-hands",
+    "artists": 3,
+    "themes": 2,
+    "lead_artist": "Kite",
+    "generations": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
     "motif": "core",
-    "count": 4,
+    "count": 5,
     "first": "040-the-unsent-core-sample",
     "artists": 3,
     "themes": 2,
@@ -10579,6 +11804,7 @@
     "generations": [
      2,
      3,
+     4,
      5
     ]
    },
@@ -10637,16 +11863,17 @@
    },
    {
     "motif": "record",
-    "count": 6,
+    "count": 8,
     "first": "059-the-last-letter-radiograph",
-    "artists": 1,
+    "artists": 2,
     "themes": 2,
     "lead_artist": "Tessera",
     "generations": [
      0,
      1,
      3,
-     4
+     4,
+     5
     ]
    },
    {
@@ -10664,7 +11891,7 @@
    },
    {
     "motif": "post",
-    "count": 8,
+    "count": 9,
     "first": "073-low-tide-the-post",
     "artists": 4,
     "themes": 1,
@@ -10675,6 +11902,20 @@
      2,
      3,
      5
+    ]
+   },
+   {
+    "motif": "wrack",
+    "count": 5,
+    "first": "074-low-tide-wrack-line",
+    "artists": 3,
+    "themes": 2,
+    "lead_artist": "Mara Vey",
+    "generations": [
+     0,
+     1,
+     2,
+     3
     ]
    },
    {
@@ -10693,8 +11934,8 @@
     ]
    },
    {
-    "motif": "wrack",
-    "count": 4,
+    "motif": "line",
+    "count": 5,
     "first": "074-low-tide-wrack-line",
     "artists": 3,
     "themes": 1,
@@ -10703,20 +11944,7 @@
      0,
      1,
      2,
-     3
-    ]
-   },
-   {
-    "motif": "line",
-    "count": 4,
-    "first": "074-low-tide-wrack-line",
-    "artists": 3,
-    "themes": 1,
-    "lead_artist": "Lumen",
-    "generations": [
-     0,
-     1,
-     2
+     4
     ]
    },
    {
@@ -10734,7 +11962,7 @@
    },
    {
     "motif": "buoy",
-    "count": 6,
+    "count": 7,
     "first": "076-low-tide-buoy-stranded",
     "artists": 3,
     "themes": 1,
@@ -10743,7 +11971,8 @@
      0,
      1,
      2,
-     3
+     3,
+     4
     ]
    },
    {
@@ -10753,6 +11982,18 @@
     "artists": 2,
     "themes": 1,
     "lead_artist": "Lumen",
+    "generations": [
+     1,
+     2
+    ]
+   },
+   {
+    "motif": "specimen",
+    "count": 3,
+    "first": "082-low-tide-pressed",
+    "artists": 3,
+    "themes": 1,
+    "lead_artist": "Tessera",
     "generations": [
      1,
      2
@@ -10795,9 +12036,49 @@
      3,
      4
     ]
+   },
+   {
+    "motif": "gauge",
+    "count": 3,
+    "first": "108-low-tide-staff-gauge",
+    "artists": 2,
+    "themes": 2,
+    "lead_artist": "Tessera",
+    "generations": [
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "motif": "fusion",
+    "count": 13,
+    "first": "122-crossing-the-seeds-land",
+    "artists": 4,
+    "themes": 2,
+    "lead_artist": "Kite",
+    "generations": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "motif": "codex",
+    "count": 3,
+    "first": "124-codex-ultimus-tidal",
+    "artists": 2,
+    "themes": 2,
+    "lead_artist": "Kite",
+    "generations": [
+     1,
+     2
+    ]
    }
   ],
-  "re_evolution_reach_avg_generations": 3.08,
+  "re_evolution_reach_avg_generations": 3.28,
   "most_returned_to": [
    {
     "id": "001-the-unsent",
@@ -10805,13 +12086,18 @@
     "children": 7
    },
    {
-    "id": "006-the-last-letter-root-bound-echo",
-    "title": "The Last Letter: Root-Bound Echo",
+    "id": "075-low-tide-tide-table",
+    "title": "Low Tide: Tide Table",
+    "children": 5
+   },
+   {
+    "id": "003-codex-ultimus-the-unbroken-fold",
+    "title": "Codex Ultimus: The Unbroken Fold",
     "children": 4
    },
    {
-    "id": "075-low-tide-tide-table",
-    "title": "Low Tide: Tide Table",
+    "id": "006-the-last-letter-root-bound-echo",
+    "title": "The Last Letter: Root-Bound Echo",
     "children": 4
    },
    {
@@ -10825,28 +12111,23 @@
     "children": 4
    },
    {
-    "id": "003-codex-ultimus-the-unbroken-fold",
-    "title": "Codex Ultimus: The Unbroken Fold",
-    "children": 3
-   },
-   {
     "id": "002-the-last-letter-seed-of-breath",
     "title": "The Last Letter: Seed of Breath",
     "children": 3
    },
    {
-    "id": "078-low-tide-seven-wrack-lines",
-    "title": "Low Tide: Seven Wrack Lines",
+    "id": "073-low-tide-the-post",
+    "title": "Low Tide: The Post",
     "children": 3
    }
   ],
   "artist_hands": [
    {
     "artist": "Lumen",
-    "pieces": 27,
+    "pieces": 28,
     "operations": {
      "genesis": 2,
-     "re-evolution": 11,
+     "re-evolution": 12,
      "mutation": 8,
      "branch": 6
     },
@@ -10872,14 +12153,14 @@
    },
    {
     "artist": "Mara Vey",
-    "pieces": 38,
+    "pieces": 44,
     "operations": {
      "genesis": 2,
-     "mutation": 9,
-     "re-evolution": 12,
-     "branch": 15
+     "mutation": 13,
+     "re-evolution": 13,
+     "branch": 16
     },
-    "chosen_for_branch": 15,
+    "chosen_for_branch": 16,
     "signature_motifs": [
      "roots",
      "kelp",
@@ -10892,30 +12173,30 @@
      "roots",
      "vessel",
      "kelp",
+     "fusion",
      "seed",
      "botanical",
      "lineage",
-     "memory",
-     "organic"
+     "memory"
     ]
    },
    {
     "artist": "Tessera",
-    "pieces": 27,
+    "pieces": 29,
     "operations": {
      "genesis": 2,
-     "branch": 9,
-     "mutation": 12,
+     "branch": 10,
+     "mutation": 13,
      "re-evolution": 4
     },
-    "chosen_for_branch": 9,
+    "chosen_for_branch": 10,
     "signature_motifs": [
      "mosaic",
      "record",
      "repetition",
-     "grid",
      "water",
-     "flower"
+     "flower",
+     "sequence"
     ],
     "top_motifs": [
      "mosaic",
@@ -10930,48 +12211,49 @@
    },
    {
     "artist": "Kite",
-    "pieces": 29,
+    "pieces": 35,
     "operations": {
-     "branch": 8,
-     "re-evolution": 11,
+     "branch": 11,
+     "re-evolution": 14,
      "mutation": 9,
      "genesis": 1
     },
-    "chosen_for_branch": 8,
+    "chosen_for_branch": 11,
     "signature_motifs": [
+     "crossing",
      "orange",
      "glitch",
-     "pink",
-     "flock",
      "absence",
-     "postmark"
+     "pink",
+     "flock"
     ],
     "top_motifs": [
+     "crossing",
+     "fusion",
      "orange",
      "glitch",
-     "pink",
-     "flock",
      "absence",
+     "pink",
      "buoy",
-     "horizon",
-     "postmark"
+     "flock"
     ]
    }
   ],
   "visitors": [
    {
     "name": "Beatriz",
-    "wins": 6,
+    "wins": 7,
     "avg_votes": 5.0,
-    "max_attempt": 2,
+    "max_attempt": 3,
     "themes": [
-     "Low Tide"
+     "Low Tide",
+     "The Last Letter"
     ],
     "favourite_artist": "Kite"
    },
    {
     "name": "Owen",
-    "wins": 6,
+    "wins": 7,
     "avg_votes": 5.0,
     "max_attempt": 3,
     "themes": [
@@ -10991,7 +12273,7 @@
    },
    {
     "name": "Rosa",
-    "wins": 4,
+    "wins": 5,
     "avg_votes": 5.0,
     "max_attempt": 1,
     "themes": [
@@ -11020,6 +12302,17 @@
     "favourite_artist": "Lumen"
    },
    {
+    "name": "Halvard",
+    "wins": 3,
+    "avg_votes": 5.0,
+    "max_attempt": 2,
+    "themes": [
+     "Low Tide",
+     "The Last Letter"
+    ],
+    "favourite_artist": "Tessera"
+   },
+   {
     "name": "Mireille",
     "wins": 3,
     "avg_votes": 5.0,
@@ -11040,14 +12333,14 @@
     "favourite_artist": "Mara Vey"
    },
    {
-    "name": "Halvard",
+    "name": "Ji-woo",
     "wins": 2,
     "avg_votes": 5.0,
-    "max_attempt": 1,
+    "max_attempt": 2,
     "themes": [
      "The Last Letter"
     ],
-    "favourite_artist": "Tessera"
+    "favourite_artist": "Mara Vey"
    },
    {
     "name": "Anselm",
@@ -11058,34 +12351,24 @@
      "The Last Letter"
     ],
     "favourite_artist": "Tessera"
-   },
-   {
-    "name": "Ji-woo",
-    "wins": 1,
-    "avg_votes": 5.0,
-    "max_attempt": 1,
-    "themes": [
-     "The Last Letter"
-    ],
-    "favourite_artist": "Mara Vey"
    }
   ],
   "generation_timeline": {
    "Low Tide": [
     4,
-    11,
-    14,
     13,
-    5,
-    2
+    15,
+    16,
+    8,
+    3
    ],
    "The Last Letter": [
     3,
-    13,
-    20,
-    20,
+    14,
+    22,
+    21,
     7,
-    5,
+    6,
     3,
     1
    ]

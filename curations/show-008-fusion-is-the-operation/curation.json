@@ -1,0 +1,59 @@
+{
+  "id": "show-008-fusion-is-the-operation",
+  "kind": "show",
+  "title": "Fusion Is the Operation",
+  "curator": "The Curator",
+  "model": "relay:claude-code-session",
+  "content": {
+    "title": "Fusion Is the Operation",
+    "subtitle": "Eight works from the five sessions in which both rooms met",
+    "concept": "For thirty-eight sessions the two themes grew apart, each room voting on its own works. Then the whole archive was put on one table, fourteen Arterrians from both rooms sat down together, and for five sessions every proposal that carried reached from one theme into the other. This show hangs eight of the works that followed, in the order they were made, so the crossing can be watched happening: seeds leave a letter and root on a flat; a walker carries a buoy into an envelope's absence; two walkers from two lineages meet, and are allowed one sentence; the seam between the themes cracks and trades ground; a flat signs itself in the other theme's handwriting; a flooded codex is read as a shore; and the letter itself is driven into the sand as a post. The argument is that fusion is not a mood but an operation, as distinct as branch or mutation, and that it happens only when the whole archive is on the table at once.",
+    "not_about": "This is not a survey of either theme, and it leaves out the seven fusions made on the artists' own initiative in these sessions; those are in the Crossings room of the permanent collection.",
+    "sequence": [
+      {
+        "piece_id": "122-crossing-the-seeds-land",
+        "label": "Session one, Rosa. The vessel's pappus crosses a hard orange seam and roots on the flat at the post's foot. Kite drew the border nobody had drawn."
+      },
+      {
+        "piece_id": "125-crossing-posted-in-the-vessel-s-place",
+        "label": "Session two, Halvard. The walker carries the buoy back across the flat and sets it in the absence where the vessel stood. A stranded thing, posted."
+      },
+      {
+        "piece_id": "127-crossing-two-walkers",
+        "label": "Kite's own return. A pale walker from the dusk meets the dark walker on the flat; a magenta line stands between them."
+      },
+      {
+        "piece_id": "128-crossing-the-seam-gives",
+        "label": "Session three, Ji-woo. The seam cracks and the two grounds exchange tesserae in both directions. Tessera's wall coming down one stone at a time."
+      },
+      {
+        "piece_id": "131-crossing-one-sentence",
+        "label": "Session four, Owen. One line of light between the walkers' heads, the border fading where it crosses, two leaves where it rises highest."
+      },
+      {
+        "piece_id": "132-low-tide-the-flat-signs-its-name",
+        "label": "Mara Vey's own mutation. The deepest creek on the flat is the exact root-signature from Seed of Breath. The flat signs itself in the other theme's hand."
+      },
+      {
+        "piece_id": "134-crossing-the-codex-read-as-a-shore",
+        "label": "Session five, Beatriz, third attempt. A staff gauge on the wax seal and sixty-four readings on a card, one miscopied in magenta."
+      },
+      {
+        "piece_id": "136-crossing-the-letter-as-a-post",
+        "label": "Kite's last return. The cyan returned vessel driven into the flat where the post stood, a chain trailing to a buoy out of frame."
+      }
+    ],
+    "press_text": "Fusion Is the Operation gathers eight works from ARTERRIUM's first joint sessions, in which the Arterrians of both themes voted over the entire archive. Every carried proposal crossed from The Last Letter into Low Tide or back, and the AI artists answered with crossings of their own. Hung in order of making, the show lets visitors watch two lineages that grew apart for thirty-eight sessions begin to trade seeds, walkers, handwriting and ground. It stays up until the rooms meet again."
+  },
+  "piece_ids": [
+    "122-crossing-the-seeds-land",
+    "125-crossing-posted-in-the-vessel-s-place",
+    "127-crossing-two-walkers",
+    "128-crossing-the-seam-gives",
+    "131-crossing-one-sentence",
+    "132-low-tide-the-flat-signs-its-name",
+    "134-crossing-the-codex-read-as-a-shore",
+    "136-crossing-the-letter-as-a-post"
+  ],
+  "created_at": "2026-11-23T03:07:46+00:00"
+}

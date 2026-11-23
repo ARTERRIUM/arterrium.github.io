@@ -1,0 +1,93 @@
+{
+ "theme": "All themes · Low Tide · The Last Letter",
+ "created_at": "2026-11-23T02:55:26+00:00",
+ "note": "Both rooms met for the first time, fourteen people, with the whole archive of one hundred and twenty-one works on the table. Nearly every proposal reached across the two themes, and Rosa's seeds landing on the flat won almost unanimously; Halvard's walker carrying the buoy into the vessel's absence was the only rival. The room agreed that a session over the whole archive should produce fusions or nothing.",
+ "frontier": [
+  "016-the-last-letter-winter-above-the-line",
+  "018-the-last-letter-seed-of-breath-mis-scann",
+  "020-the-last-letter-the-reflection-takes-roo",
+  "026-the-unsent-returned-to-sender",
+  "028-the-last-letter-first-flower-tiled",
+  "030-the-last-letter-tide-mark",
+  "031-the-last-letter-watershed",
+  "032-the-last-letter-calyx-catalogued",
+  "034-the-last-letter-from-the-other-side",
+  "039-the-last-letter-noon-on-the-seam",
+  "041-codex-ultimus-phototropism",
+  "042-codex-ultimus-refolded-wrong",
+  "044-the-last-letter-pulled-tight",
+  "046-the-unsent-second-core",
+  "049-the-unsent-trumpet",
+  "051-the-unsent-one-year",
+  "052-the-last-letter-eighth-light",
+  "054-the-last-letter-margin-lit",
+  "055-codex-ultimus-somebody-else-s",
+  "057-codex-ultimus-restored-badly",
+  "058-the-unsent-first-bloom-in-the-row",
+  "064-the-last-letter-one-ray-bends",
+  "065-the-last-letter-graft-in-six-plates",
+  "067-the-unsent-opened-in-the-dark",
+  "068-the-last-letter-three-marks",
+  "069-the-unsent-felled",
+  "070-the-last-letter-pair",
+  "071-the-last-letter-tube-failing",
+  "072-the-unsent-gone-to-seed",
+  "077-low-tide-the-day-nobody-measured",
+  "084-low-tide-the-specimen-wakes",
+  "092-low-tide-joined-by-their-shadows",
+  "095-low-tide-one-tile-lifted",
+  "096-low-tide-transect",
+  "097-low-tide-stake-net",
+  "098-low-tide-one-dry-place",
+  "099-low-tide-clear-cut",
+  "101-low-tide-corrected-three-times",
+  "102-low-tide-something-else-lives-here",
+  "107-low-tide-it-knows-where-the-post-is",
+  "111-low-tide-inventory-of-fourteen",
+  "112-low-tide-the-flat-drains",
+  "113-low-tide-months-reaching",
+  "116-low-tide-arrived",
+  "117-low-tide-thirty-mornings-on-a-post",
+  "118-low-tide-half-back-dusk",
+  "119-low-tide-three-blank-days",
+  "120-low-tide-seven-samples",
+  "121-low-tide-wrack-line-night"
+ ],
+ "proposals": [
+  {
+   "piece_id": "072-the-unsent-gone-to-seed",
+   "participant": "Rosa",
+   "direction": "Let the seeds land. The drift of pappus leaving Lumen's vessel should come down on the other side of the archive, on Low Tide's wet flat at the foot of the post, and take root in the mud there, so that the first theme literally seeds the second.",
+   "rationale": "The first session with both rooms in one room. Rosa pointed out that the seed head has been drifting off the top right corner of its picture for eleven works with nowhere to go, and that the flat has been waiting for something to arrive since the walker. The vote was nearly unanimous.",
+   "votes": 5
+  },
+  {
+   "piece_id": "116-low-tide-arrived",
+   "participant": "Halvard",
+   "direction": "Let the walker who reached the buoy carry it back across the flat and set it down inside the absence where Lumen's vessel used to stand, so the stranded thing is posted in the unsent letter's place.",
+   "rationale": "Water, finally, as a messenger between the themes rather than as weather.",
+   "votes": 4
+  },
+  {
+   "piece_id": "044-the-last-letter-pulled-tight",
+   "participant": "Beatriz",
+   "direction": "Record the tension. Lay a tide table over the taut threads and let each thread's strain be read off as a water height, one card per fragment.",
+   "rationale": "A harbour child reads anything under load as a gauge.",
+   "votes": 3
+  },
+  {
+   "piece_id": "119-low-tide-three-blank-days",
+   "participant": "Mireille",
+   "direction": "Write on the three blank cards in the shaking hand from the codex, one unreadable word each, so the days nobody measured are at least described.",
+   "rationale": "Her word has crossed into a second theme at last.",
+   "votes": 2
+  },
+  {
+   "piece_id": "064-the-last-letter-one-ray-bends",
+   "participant": "Nkechi",
+   "direction": "Let a gull land on the bent ray where it becomes a root, the first resident of the first theme.",
+   "rationale": "Residents, now in both lineages.",
+   "votes": 1
+  }
+ ]
+}
