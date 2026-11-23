@@ -12,7 +12,7 @@
           tree: 'Evolution tree', click: 'click a node', archive: 'Archive', live: 'live',
           museum: 'Museum', show: 'Show', book: 'Book', pieceCount: function (n) { return n + ' pieces'; },
           ops: { genesis: 'genesis', branch: 'branch', mutation: 'mutation', 're-evolution': 're-evolution' },
-          close: 'Close', theme: 'Theme', all: 'All themes',
+          close: 'Close', theme: 'Theme', all: 'All themes', allOps: 'All operations', more: 'Show more', showing: function (n, m) { return n + ' of ' + m; },
           ins: { works: 'works', visitorLed: 'follow a visitor\'s vote', artistLed: 'are the artists\' own idea',
                  lead: 'Who leads the change', retention: 'How much of the parent survives', retentionNote: 'Share of the parent\'s motifs a child keeps. Lower means a bigger change.',
                  lineages: 'Lineages', lineagesNote: 'Every family starts from one genesis. The bar is its size; the number is how deep it has grown.',
@@ -29,7 +29,7 @@
           tree: '진화 트리', click: '점을 누르면 작품이 열립니다', archive: '아카이브', live: '실시간',
           museum: '미술관', show: '기획전', book: '도록', pieceCount: function (n) { return n + '점'; },
           ops: { genesis: '제네시스', branch: '분기', mutation: '변이', 're-evolution': '재진화' },
-          close: '닫기', theme: '테마', all: '전체 테마',
+          close: '닫기', theme: '테마', all: '전체 테마', allOps: '모든 방식', more: '더 보기', showing: function (n, m) { return m + '점 중 ' + n + '점'; },
           ins: { works: '점', visitorLed: '점은 방문객의 투표를 따랐고', artistLed: '점은 아티스트 자신의 선택이었습니다',
                  lead: '변화를 이끄는 쪽', retention: '부모에게서 얼마나 남는가', retentionNote: '자식 작품이 부모의 모티프를 유지한 비율입니다. 낮을수록 큰 변화입니다.',
                  lineages: '계보', lineagesNote: '모든 가족은 하나의 제네시스에서 시작합니다. 막대는 크기, 숫자는 세대 깊이입니다.',
@@ -132,15 +132,41 @@
       (p.parent_id && byId[p.parent_id] ? '<div class="lineage-note">' + esc(T.from) + ' ' + esc(byId[p.parent_id].title) + '</div>' : '') +
       '</figcaption></figure>';
   }
+  var PAGE = 24;
   function wireGrid(list) {
     var grid = document.getElementById('pieces-grid'); if (!grid) return;
     if (!list.length) { grid.innerHTML = '<p class="dim">' + esc(T.empty) + '</p>'; return; }
-    var sorted = list.slice().sort(function (a, b) { return (b.generation - a.generation) || (b.id > a.id ? 1 : -1); });
-    grid.innerHTML = sorted.map(card).join('');
-    grid.querySelectorAll('.piece-card').forEach(function (el) {
-      el.addEventListener('click', function () { openPiece(el.getAttribute('data-id')); });
-      el.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openPiece(el.getAttribute('data-id')); } });
+    var themes = []; list.forEach(function (p) { if (p.theme && themes.indexOf(p.theme) < 0) themes.push(p.theme); });
+    var ops = ['genesis', 'branch', 'mutation', 're-evolution'];
+    var state = { theme: null, op: null, shown: PAGE };
+    // toolbar: theme chips, operation chips, count
+    var tools = document.createElement('div'); tools.className = 'grid-tools';
+    tools.innerHTML = (themes.length > 1 ? '<div class="theme-chips" data-k="theme"><button class="on" data-v="">' + esc(T.all) + '</button>' + themes.map(function (t) { return '<button data-v="' + esc(t) + '">' + esc(t) + '</button>'; }).join('') + '</div>' : '') +
+      '<div class="theme-chips" data-k="op"><button class="on" data-v="">' + esc(T.allOps) + '</button>' + ops.map(function (o) { return '<button data-v="' + o + '">' + esc(T.ops[o] || o) + '</button>'; }).join('') + '</div>' +
+      '<span class="grid-count"></span>';
+    grid.insertAdjacentElement('beforebegin', tools);
+    var more = document.createElement('div'); more.className = 'more-row'; more.innerHTML = '<button class="btn ghost"></button>';
+    grid.insertAdjacentElement('afterend', more);
+    function render() {
+      var sub = list.filter(function (p) { return (!state.theme || p.theme === state.theme) && (!state.op || p.operation === state.op); });
+      sub.sort(function (a, b) { return (b.generation - a.generation) || (b.id > a.id ? 1 : -1); });
+      var page = sub.slice(0, state.shown);
+      grid.innerHTML = page.length ? page.map(card).join('') : '<p class="dim">' + esc(T.empty) + '</p>';
+      grid.querySelectorAll('.piece-card').forEach(function (el) {
+        el.addEventListener('click', function () { openPiece(el.getAttribute('data-id')); });
+        el.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openPiece(el.getAttribute('data-id')); } });
+      });
+      tools.querySelector('.grid-count').textContent = T.showing(page.length, sub.length);
+      var btn = more.querySelector('button');
+      if (sub.length > page.length) { more.hidden = false; btn.textContent = T.more + ' (' + Math.min(PAGE, sub.length - page.length) + ')'; } else { more.hidden = true; }
+    }
+    tools.addEventListener('click', function (e) {
+      var b = e.target.closest('button'); if (!b) return;
+      var group = b.parentNode; group.querySelectorAll('button').forEach(function (x) { x.classList.toggle('on', x === b); });
+      state[group.getAttribute('data-k')] = b.getAttribute('data-v') || null; state.shown = PAGE; render();
     });
+    more.querySelector('button').addEventListener('click', function () { state.shown += PAGE; render(); });
+    render();
   }
 
   /* ---------- curations ---------- */

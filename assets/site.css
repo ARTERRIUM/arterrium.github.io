@@ -328,3 +328,21 @@ section.first{border-top:0}
 .menu a.on{color:var(--canvas);border-bottom:1px solid var(--growth);padding-bottom:2px}
 .next-row{padding:0 0 clamp(48px,7vw,96px);border-top:0;text-align:center}
 .menus a.menu-card{display:block}
+
+/* ---------- selection-space pair + Arterrians ---------- */
+.concept figure.pair{display:grid;grid-template-columns:1fr 1fr;gap:12px;place-items:stretch}
+.concept figure.pair div{display:grid;gap:6px;justify-items:center}
+.concept figure.pair span{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-dim)}
+.name-stage.arterrian{margin-top:22px}
+.arterrian-body{display:grid;grid-template-columns:150px 1fr;gap:22px;align-items:start}
+.arterrian-body img{width:150px}
+.arterrian-body ul{margin:0}
+@media (max-width:620px){.arterrian-body{grid-template-columns:1fr}.arterrian-body img{width:120px}}
+.grid-tools{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;margin:26px 0 6px}
+.grid-tools .theme-chips{margin:0}
+.grid-count{font-size:.74rem;color:var(--ink-dim);margin-left:auto}
+.more-row{text-align:center;margin-top:28px}
+.more-row[hidden]{display:none}
+.name-stage.arterrian{grid-template-columns:1fr;gap:28px}
+.arterrian-body{grid-template-columns:170px 1fr;gap:32px;align-items:center}
+.arterrian-body img{width:170px}
