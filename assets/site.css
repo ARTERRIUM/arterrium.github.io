@@ -316,3 +316,15 @@ canvas#tree[hidden]{display:none}
 .concept h3{font-family:var(--serif);font-weight:400;font-size:1.3rem;margin:0;color:var(--canvas)}
 .concept p{margin:0;font-size:.92rem;color:var(--ink)}
 .concept .k{font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-dim)}
+
+/* ---------- sub-pages ---------- */
+.page-head{padding:clamp(40px,6vw,72px) 0 0}
+.page-head h1{font-family:var(--serif);font-weight:300;font-size:clamp(2rem,4.6vw,3.4rem);line-height:1.08;letter-spacing:-.01em;margin:8px 0 14px;color:var(--canvas)}
+.page-head .lead{margin-bottom:28px}
+.tree-wide{max-width:980px;margin:0 auto}
+.tree-wide .live-card{padding:22px}
+.tree-wide svg.lineage{width:100%;height:auto;max-height:540px}
+section.first{border-top:0}
+.menu a.on{color:var(--canvas);border-bottom:1px solid var(--growth);padding-bottom:2px}
+.next-row{padding:0 0 clamp(48px,7vw,96px);border-top:0;text-align:center}
+.menus a.menu-card{display:block}

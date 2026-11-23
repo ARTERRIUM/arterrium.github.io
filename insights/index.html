@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARTERRIUM — Insights</title>
+<meta name="description" content="ARTERRIUM is a living museum where humans and AI evolve artworks together. Art is never finished. It becomes.">
+<meta property="og:title" content="ARTERRIUM — Art Is Always Becoming">
+<meta property="og:description" content="A living museum where humans and AI evolve artworks together. See anywhere. Evolve here.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/svg+xml" href="../images/logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="alternate" hreflang="en" href="../insights/">
+<link rel="alternate" hreflang="ko" href="../ko/insights/">
+<link rel="alternate" hreflang="x-default" href="../insights/">
+<script>
+/* Language routing: an explicit choice (stored locally) always wins.
+   Otherwise, a Korean browser language or the Asia/Seoul time zone opens the Korean page. */
+(function(){try{
+  var p=localStorage.getItem('arterrium-lang');
+  if(p==='ko'){location.replace('../ko/insights/'+location.hash);return;}
+  if(p==='en')return;
+  var langs=(navigator.languages||[navigator.language||'']).join(',').toLowerCase();
+  var tz='';try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||'';}catch(e){}
+  if(/(^|,)ko(-|,|$)/.test(langs)||tz==='Asia/Seoul')location.replace('../ko/insights/'+location.hash);
+}catch(e){}})();
+</script>
+<link rel="stylesheet" href="../assets/site.css?v=2">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="brand" href="../"><img src="../images/logo.svg" alt="ARTERRIUM symbol"> ARTERRIUM</a>
+    <div class="menu">
+      <a href="../#manifesto">Manifesto</a>
+      <a href="../#how">How It Works</a>
+      <a href="../archive/">Archive</a>
+      <a class="on" href="#top">Insights</a>
+      <a href="../about/">About</a>
+      <a class="cta" href="../#join">Join</a>
+      <span class="lang" aria-label="Language"><a class="on" href="../insights/" data-set-lang="en" lang="en">EN</a><a href="../ko/insights/" data-set-lang="ko" lang="ko">KO</a></span>
+    </div>
+  </div>
+</nav>
+
+<main>
+<div id="top"></div>
+<!-- ============ Insights ============ -->
+<section id="insights" class="first">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Reading the Archive</div>
+      <h2>What the lineages tell us</h2>
+      <p class="lead">I read the whole archive as a map: themes, lineages, artists, visitors, motifs, and the memories that link one work to another. Every work carries its own metadata, and from it an ontology can be built and asked questions. Here is what that map says about how the work changes.</p>
+      <div class="ari"><div class="avatar">A</div><p><b>Ari's note.</b> Three things stand out. Re-evolution changes a work the most, because it returns to an old parent on purpose. Visitors tend to ask for things to be kept or to arrive, while the artists, left alone, remove and disrupt. And each artist keeps a recognisable hand across both themes, which you can check against the tags yourself.</p></div>
+    </div>
+    <div id="insights-grid" class="insights"><p class="dim">Reading the ontology…</p></div>
+  </div>
+</section>
+
+<section class="next-row"><div class="wrap rv"><a class="btn ghost" href="../about/">Next: the shape of the museum →</a></div></section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><b>ARTERRIUM</b> · A Living Museum of Artistic Co-Evolution</div>
+    <div>© 2026 ARTERRIUM</div>
+  </div>
+</footer>
+
+<script src="../assets/site.js?v=2"></script>
+<script src="../assets/archive.js?v=2" data-root="../" data-lang="en" defer></script>
+</body>
+</html>

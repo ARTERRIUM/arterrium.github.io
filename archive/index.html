@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARTERRIUM — Archive</title>
+<meta name="description" content="ARTERRIUM is a living museum where humans and AI evolve artworks together. Art is never finished. It becomes.">
+<meta property="og:title" content="ARTERRIUM — Art Is Always Becoming">
+<meta property="og:description" content="A living museum where humans and AI evolve artworks together. See anywhere. Evolve here.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/svg+xml" href="../images/logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="alternate" hreflang="en" href="../archive/">
+<link rel="alternate" hreflang="ko" href="../ko/archive/">
+<link rel="alternate" hreflang="x-default" href="../archive/">
+<script>
+/* Language routing: an explicit choice (stored locally) always wins.
+   Otherwise, a Korean browser language or the Asia/Seoul time zone opens the Korean page. */
+(function(){try{
+  var p=localStorage.getItem('arterrium-lang');
+  if(p==='ko'){location.replace('../ko/archive/'+location.hash);return;}
+  if(p==='en')return;
+  var langs=(navigator.languages||[navigator.language||'']).join(',').toLowerCase();
+  var tz='';try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||'';}catch(e){}
+  if(/(^|,)ko(-|,|$)/.test(langs)||tz==='Asia/Seoul')location.replace('../ko/archive/'+location.hash);
+}catch(e){}})();
+</script>
+<link rel="stylesheet" href="../assets/site.css?v=2">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="brand" href="../"><img src="../images/logo.svg" alt="ARTERRIUM symbol"> ARTERRIUM</a>
+    <div class="menu">
+      <a href="../#manifesto">Manifesto</a>
+      <a href="../#how">How It Works</a>
+      <a class="on" href="#top">Archive</a>
+      <a href="../insights/">Insights</a>
+      <a href="../about/">About</a>
+      <a class="cta" href="../#join">Join</a>
+      <span class="lang" aria-label="Language"><a class="on" href="../archive/" data-set-lang="en" lang="en">EN</a><a href="../ko/archive/" data-set-lang="ko" lang="ko">KO</a></span>
+    </div>
+  </div>
+</nav>
+
+<main>
+<header class="page-head" id="top">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Archive</div>
+      <h1>Works that are evolving right now</h1>
+      <p class="lead">This is the archive itself. The tree at the top is the whole museum in one drawing: every point is a work, every line a decision, and you can filter it by theme. Below it are the works in order of generation, newest first, and the three ways the curator has read them. Open anything; nothing here is finished.</p>
+    </div>
+    <div class="tree-wide">
+<div class="live-card rv">
+      <div class="head">
+        <span><b>Archive</b> · loading</span>
+        <span class="pulse"><i></i>live</span>
+      </div>
+      <canvas id="tree" width="800" height="600" aria-label="An evolution tree that keeps branching and growing in real time" role="img"></canvas>
+      <svg id="lineage" class="lineage" hidden aria-label="Evolution tree of the archive"></svg>
+      <div class="foot">
+        <span>Evolution tree</span>
+        <span>reading the archive…</span>
+      </div>
+      <div class="stats">
+        <div>Branches<b id="s-branch">0</b></div>
+        <div>Mutations<b id="s-mut">0</b></div>
+        <div>Generations<b id="s-gen">0</b></div>
+      </div>
+    </div>
+    </div>
+  </div>
+</header>
+
+<!-- ============ Explore ============ -->
+<section id="explore">
+  <div class="wrap">
+    <div class="rv">
+            <p class="lead">Everything below was made in the studio by our four AI artists, Lumen, Mara Vey, Tessera and Kite: opened as a genesis, chosen in an invited session, then branched, mutated or re-evolved. Open any work to read the artist's statement, the sources it remembered, and where it sits in its lineage.</p>
+    </div>
+    <div id="pieces-grid" class="archive-grid"><p class="dim">Loading the archive…</p></div>
+  </div>
+</section>
+
+<!-- ============ Curations ============ -->
+<section id="curations">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Curations</div>
+      <h2>Museum, show, book</h2>
+      <p class="lead">After every run of sessions the curator reads the whole archive again and composes it three ways: a permanent collection hung in rooms, a short show that makes one argument, and a catalogue with chapters and plates. Each edition is superseded by the next, as it should be.</p>
+    </div>
+    <div id="curations-grid" class="cur-grid"><p class="dim">Loading…</p></div>
+  </div>
+</section>
+
+<section class="next-row"><div class="wrap rv"><a class="btn ghost" href="../insights/">Next: what the lineages tell us →</a></div></section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><b>ARTERRIUM</b> · A Living Museum of Artistic Co-Evolution</div>
+    <div>© 2026 ARTERRIUM</div>
+  </div>
+</footer>
+
+<script src="../assets/site.js?v=2"></script>
+<script src="../assets/archive.js?v=2" data-root="../" data-lang="en" defer></script>
+</body>
+</html>
