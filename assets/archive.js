@@ -22,7 +22,13 @@
                  crossLineage: 'cross a lineage', crossTheme: 'cross a theme', reach: 'Re-evolution reaches back',
                  reachNote: 'generations on average, from the frontier to the old parent it returns to', hubs: 'Most returned-to works',
                  hubsNote: 'Parents with the most children.', children: 'children', flow: 'Motif flow', flowNote: 'Recurring motifs in order of first appearance, and the generations they reach. Purple squares mark a motif that crossed into a second theme.',
-                 timeline: 'Works per generation', timelineNote: 'How each theme fills out generation by generation.' } },
+                 timeline: 'Works per generation', timelineNote: 'How each theme fills out generation by generation.',
+                 attempts: 'Attempts before a proposal carried', attemptsNote: 'How many times the same Arterrian had to ask for the same idea before the room voted it through.',
+                 attemptsAvg: 'attempts on average', lost: 'What happens to a lost proposal', lostNote: 'Of every proposal that did not carry:',
+                 laterCarried: 'carried later', takenUp: 'artist took it up', stillWaiting: 'still waiting', realised: 'realised so far',
+                 comebacks: 'Comebacks', comebacksNote: 'Ideas that lost, then carried.', lostIn: 'lost in session', carriedIn: 'carried in session',
+                 arterrians: 'Arterrians at the table', arterriansNote: 'Proposals made, carried, average votes and the longest campaign.',
+                 carried: 'carried', builders: 'Who builds what the room chose', buildersNote: 'The artist assigned to each carried proposal.', sessionsTotal: 'sessions', proposalsTotal: 'proposals', crossSessions: 'over the whole archive' } },
     ko: { pieces: '작품', gen: '세대', from: '←', continuedBy: '이어진 작품', statement: '작가 노트',
           proposal: '현장 세션의 제안', memory: '기억 출처', model: '모델', open: '열기',
           empty: '아직 아카이브에 작품이 없습니다.', failed: '아카이브를 불러오지 못했습니다.',
@@ -39,7 +45,13 @@
                  crossLineage: '건은 다른 계보를', crossTheme: '건은 다른 테마를 넘었습니다', reach: '재진화가 거슬러 오르는 거리',
                  reachNote: '세대 (평균). 가장 앞선 세대에서 되돌아간 옛 부모까지의 거리입니다', hubs: '가장 자주 되돌아간 작품',
                  hubsNote: '자식이 가장 많은 부모 작품입니다.', children: '자식', flow: '모티프의 흐름', flowNote: '세 번 이상 등장한 모티프를 첫 등장 순으로, 도달한 세대와 함께 보여줍니다. 보라색 칸은 두 번째 테마로 건너간 모티프입니다.',
-                 timeline: '세대별 작품 수', timelineNote: '각 테마가 세대를 거치며 어떻게 채워졌는지 보여줍니다.' } }
+                 timeline: '세대별 작품 수', timelineNote: '각 테마가 세대를 거치며 어떻게 채워졌는지 보여줍니다.',
+                 attempts: '제안이 채택되기까지의 시도', attemptsNote: '같은 아테리안이 같은 생각을 몇 번 제안한 끝에 방이 투표로 통과시켰는지입니다.',
+                 attemptsAvg: '회 (평균)', lost: '떨어진 제안은 어떻게 되는가', lostNote: '채택되지 않은 모든 제안 중:',
+                 laterCarried: '나중에 채택', takenUp: '아티스트가 가져감', stillWaiting: '아직 대기 중', realised: '실현됨',
+                 comebacks: '되돌아온 제안', comebacksNote: '떨어졌다가 채택된 생각들입니다.', lostIn: '세션에서 떨어짐', carriedIn: '세션에서 채택',
+                 arterrians: '테이블의 아테리안', arterriansNote: '제안 수, 채택 수, 평균 득표, 가장 긴 캠페인입니다.',
+                 carried: '채택', builders: '방이 고른 것을 누가 만드는가', buildersNote: '채택된 제안마다 배정된 아티스트입니다.', sessionsTotal: '세션', proposalsTotal: '제안', crossSessions: '전체 아카이브 대상' } }
   }[LANG] || null;
   if (!T) T = {};
   var COLORS = { genesis: '#E9E7D7', branch: '#87BFA7', mutation: '#9D97CC', 're-evolution': '#D6C09B' };
@@ -280,7 +292,27 @@
         var cells = ''; for (var g = 0; g <= maxG; g++) cells += '<i class="' + (f.generations.indexOf(g) >= 0 ? 'on' + (f.themes > 1 ? ' x' : '') : '') + '" title="' + T.gen + ' ' + g + '"></i>';
         return '<div class="row"><span class="lbl">' + esc(f.motif) + '</span><span class="gens">' + cells + '</span><span class="val">' + esc(f.count) + ' · ' + esc(f.lead_artist) + '</span></div>';
       }).join('') + '</div></div>');
+    // sessions: attempts, lost proposals, comebacks, Arterrians, builders
+    var S = A.sessions;
+    if (S && S.sessions) {
+      var ah = S.attempts_to_carry || {}, keys = Object.keys(ah).sort(), maxA = Math.max.apply(null, keys.map(function (k) { return ah[k]; }));
+      out.push('<div class="ins"><div class="eyebrow">' + esc(I.attempts) + '</div><p class="note">' + esc(I.attemptsNote) + '</p><div class="bars">' +
+        keys.map(function (k) { return bar(k + ' ×', ah[k], maxA, k === '1' ? '' : 'memory', ah[k]); }).join('') + '</div>' +
+        '<div class="big" style="margin-top:16px">' + esc(S.avg_attempts_to_carry) + '<small>' + esc(I.attemptsAvg) + '</small></div>' +
+        '<p class="note">' + esc(S.sessions) + ' ' + esc(I.sessionsTotal) + ' · ' + esc(S.proposals) + ' ' + esc(I.proposalsTotal) + ' · ' + esc(S.cross_archive_sessions) + ' ' + esc(I.crossSessions) + '</p></div>');
+      var lp = S.lost_proposals;
+      out.push('<div class="ins"><div class="eyebrow">' + esc(I.lost) + '</div><div class="big">' + Math.round(lp.realised_share * 100) + '%<small>' + esc(I.realised) + '</small></div><p class="note">' + esc(I.lostNote) + ' ' + esc(lp.total) + '</p><div class="bars">' +
+        bar(I.laterCarried, lp.later_carried, lp.total) + bar(I.takenUp, lp.taken_up_by_an_artist, lp.total, 'mutation') + bar(I.stillWaiting, lp.still_waiting, lp.total, 'canvas') + '</div>' +
+        (S.comebacks && S.comebacks.length ? '<div class="eyebrow" style="margin-top:18px">' + esc(I.comebacks) + '</div><p class="note">' + esc(I.comebacksNote) + '</p><ul class="comebacks">' +
+          S.comebacks.map(function (c) { return '<li><b>' + esc(c.participant) + '</b> · ' + esc(I.lostIn) + ' ' + c.lost_in + ', ' + esc(I.carriedIn) + ' ' + c.carried_in + (c.piece && byId[c.piece] ? ' · <a href="#" data-id="' + esc(c.piece) + '">' + esc(byId[c.piece].title) + '</a>' : '') + '<span>' + esc(c.direction) + '…</span></li>'; }).join('') + '</ul>' : '') + '</div>');
+      var maxP = Math.max.apply(null, S.participants.map(function (v) { return v.proposals; }));
+      out.push('<div class="ins"><div class="eyebrow">' + esc(I.arterrians) + '</div><p class="note">' + esc(I.arterriansNote) + '</p><div class="bars">' +
+        S.participants.map(function (v) { return bar(v.name, v.proposals, maxP, 'memory', v.wins + '/' + v.proposals + ' ' + esc(I.carried) + ' · ' + v.avg_votes + ' · ' + v.longest_campaign + '×'); }).join('') + '</div>' +
+        '<div class="eyebrow" style="margin-top:18px">' + esc(I.builders) + '</div><p class="note">' + esc(I.buildersNote) + '</p><div class="bars">' +
+        Object.keys(S.winners_built_by).map(function (a) { return bar(a, S.winners_built_by[a], Math.max.apply(null, Object.keys(S.winners_built_by).map(function (k) { return S.winners_built_by[k]; })), '', S.winners_built_by[a]); }).join('') + '</div></div>');
+    }
     host.innerHTML = out.join('');
+    host.querySelectorAll('a[data-id]').forEach(function (a) { a.addEventListener('click', function (e) { e.preventDefault(); openPiece(a.getAttribute('data-id')); }); });
   }
 
 

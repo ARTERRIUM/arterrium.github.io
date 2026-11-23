@@ -1,6 +1,6 @@
 # ARTERRIUM ontology report
 
-Generated 2026-11-23T03:08:16+00:00
+Generated 2026-11-23T03:09:24+00:00
 
 136 pieces · 2 themes · 7 lineages · 4 artists · 11 visitors · 334 motifs · 986 relations
 
@@ -121,3 +121,24 @@ Generated 2026-11-23T03:08:16+00:00
 - gauge: 3 uses from 108-low-tide-staff-gauge, 2 artists, 2 theme(s), generations [2, 3, 4]
 - fusion: 13 uses from 122-crossing-the-seeds-land, 4 artists, 2 theme(s), generations [1, 2, 3, 4, 5]
 - codex: 3 uses from 124-codex-ultimus-tidal, 2 artists, 2 theme(s), generations [1, 2]
+
+## Sessions
+
+- 43 sessions, 215 proposals, 5 over the whole archive
+- a carried proposal took 2.09 attempts on average (distribution: {'1': 5, '2': 32, '3': 4, '4': 1, '5': 1})
+- lost proposals: 172; 47 later carried by vote, 14 taken up by an artist, 111 still waiting (36% realised)
+- vote margins: {'1': 43}; winners built by: {'Mara Vey': 16, 'Kite': 11, 'Tessera': 10, 'Lumen': 6}
+- Beatriz: 7/20 carried, avg 4.15 votes, longest campaign 4
+- Owen: 7/17 carried, avg 4.29 votes, longest campaign 3
+- Ingrid: 5/19 carried, avg 3.63 votes, longest campaign 2
+- Rosa: 5/19 carried, avg 3.05 votes, longest campaign 2
+- Sunny: 4/38 carried, avg 2.16 votes, longest campaign 3
+- Halvard: 3/37 carried, avg 2.32 votes, longest campaign 3
+- Mireille: 3/18 carried, avg 2.61 votes, longest campaign 5
+- Nkechi: 3/18 carried, avg 3.0 votes, longest campaign 2
+- Dae-ho: 3/17 carried, avg 3.24 votes, longest campaign 3
+- Ji-woo: 2/4 carried, avg 4.0 votes, longest campaign 2
+- Anselm: 1/2 carried, avg 3.5 votes, longest campaign 1
+- Dr. Okafor: 0/2 carried, avg 1.5 votes, longest campaign 0
+- Noor: 0/2 carried, avg 3.5 votes, longest campaign 0
+- Teo: 0/2 carried, avg 2.5 votes, longest campaign 0

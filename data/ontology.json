@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T03:08:16+00:00",
+ "generated_at": "2026-11-23T03:09:24+00:00",
  "counts": {
   "pieces": 136,
   "themes": 2,
@@ -12371,6 +12371,261 @@
     6,
     3,
     1
+   ]
+  },
+  "sessions": {
+   "sessions": 43,
+   "proposals": 215,
+   "cross_archive_sessions": 5,
+   "attempts_to_carry": {
+    "1": 5,
+    "2": 32,
+    "3": 4,
+    "4": 1,
+    "5": 1
+   },
+   "avg_attempts_to_carry": 2.09,
+   "avg_sessions_waited": 1.09,
+   "lost_proposals": {
+    "total": 172,
+    "later_carried": 47,
+    "taken_up_by_an_artist": 14,
+    "still_waiting": 111,
+    "realised_share": 0.355
+   },
+   "comebacks": [
+    {
+     "participant": "Sunny",
+     "direction": "The shoot is too polite. Let it grow into a whole plant that fills the sky half, pale and ",
+     "lost_in": 3,
+     "carried_in": 5,
+     "piece": "016-the-last-letter-winter-above-the-line"
+    },
+    {
+     "participant": "Mireille",
+     "direction": "Put one single word back. Not readable, just the gesture of handwriting, placed in the bri",
+     "lost_in": 3,
+     "carried_in": 4,
+     "piece": "013-codex-ultimus-one-word-shaking"
+    },
+    {
+     "participant": "Sunny",
+     "direction": "The shoot is too polite. Let it grow into a whole winter plant, pale and leafless, that fi",
+     "lost_in": 4,
+     "carried_in": 5,
+     "piece": "016-the-last-letter-winter-above-the-line"
+    },
+    {
+     "participant": "Ingrid",
+     "direction": "Catch the seed. Put a second, smaller outline above the pod, an open hand or a cup, so the",
+     "lost_in": 5,
+     "carried_in": 6,
+     "piece": "019-the-last-letter-calyx"
+    },
+    {
+     "participant": "Dae-ho",
+     "direction": "Answer the word. Write a second stroke underneath in a different, steadier hand, as if som",
+     "lost_in": 5,
+     "carried_in": 7,
+     "piece": "022-codex-ultimus-a-reply-steadier"
+    },
+    {
+     "participant": "Dae-ho",
+     "direction": "Answer the word. Write a second stroke underneath in a different, steadier hand, as if som",
+     "lost_in": 6,
+     "carried_in": 7,
+     "piece": "022-codex-ultimus-a-reply-steadier"
+    },
+    {
+     "participant": "Rosa",
+     "direction": "Show where it arrives. Keep the flock, but draw a second dark absence in the top right cor",
+     "lost_in": 7,
+     "carried_in": 8,
+     "piece": "025-the-unsent-delivered"
+    },
+    {
+     "participant": "Halvard",
+     "direction": "Let water find the fault. Have the dusk half drain through the orange gap into the night h",
+     "lost_in": 8,
+     "carried_in": 10,
+     "piece": "031-the-last-letter-watershed"
+    }
+   ],
+   "vote_margins": {
+    "1": 43
+   },
+   "winners_built_by": {
+    "Mara Vey": 16,
+    "Kite": 11,
+    "Tessera": 10,
+    "Lumen": 6
+   },
+   "participants": [
+    {
+     "name": "Beatriz",
+     "proposals": 20,
+     "wins": 7,
+     "win_rate": 0.35,
+     "avg_votes": 4.15,
+     "longest_campaign": 4,
+     "themes": [
+      "All themes · Low Tide · The Last Letter",
+      "Low Tide"
+     ]
+    },
+    {
+     "name": "Owen",
+     "proposals": 17,
+     "wins": 7,
+     "win_rate": 0.41,
+     "avg_votes": 4.29,
+     "longest_campaign": 3,
+     "themes": [
+      "All themes · Low Tide · The Last Letter",
+      "Low Tide"
+     ]
+    },
+    {
+     "name": "Ingrid",
+     "proposals": 19,
+     "wins": 5,
+     "win_rate": 0.26,
+     "avg_votes": 3.63,
+     "longest_campaign": 2,
+     "themes": [
+      "The Last Letter"
+     ]
+    },
+    {
+     "name": "Rosa",
+     "proposals": 19,
+     "wins": 5,
+     "win_rate": 0.26,
+     "avg_votes": 3.05,
+     "longest_campaign": 2,
+     "themes": [
+      "All themes · Low Tide · The Last Letter",
+      "The Last Letter"
+     ]
+    },
+    {
+     "name": "Sunny",
+     "proposals": 38,
+     "wins": 4,
+     "win_rate": 0.11,
+     "avg_votes": 2.16,
+     "longest_campaign": 3,
+     "themes": [
+      "All themes · Low Tide · The Last Letter",
+      "Low Tide",
+      "The Last Letter"
+     ]
+    },
+    {
+     "name": "Halvard",
+     "proposals": 37,
+     "wins": 3,
+     "win_rate": 0.08,
+     "avg_votes": 2.32,
+     "longest_campaign": 3,
+     "themes": [
+      "All themes · Low Tide · The Last Letter",
+      "Low Tide",
+      "The Last Letter"
+     ]
+    },
+    {
+     "name": "Mireille",
+     "proposals": 18,
+     "wins": 3,
+     "win_rate": 0.17,
+     "avg_votes": 2.61,
+     "longest_campaign": 5,
+     "themes": [
+      "All themes · Low Tide · The Last Letter",
+      "The Last Letter"
+     ]
+    },
+    {
+     "name": "Nkechi",
+     "proposals": 18,
+     "wins": 3,
+     "win_rate": 0.17,
+     "avg_votes": 3.0,
+     "longest_campaign": 2,
+     "themes": [
+      "All themes · Low Tide · The Last Letter",
+      "Low Tide"
+     ]
+    },
+    {
+     "name": "Dae-ho",
+     "proposals": 17,
+     "wins": 3,
+     "win_rate": 0.18,
+     "avg_votes": 3.24,
+     "longest_campaign": 3,
+     "themes": [
+      "All themes · Low Tide · The Last Letter",
+      "The Last Letter"
+     ]
+    },
+    {
+     "name": "Ji-woo",
+     "proposals": 4,
+     "wins": 2,
+     "win_rate": 0.5,
+     "avg_votes": 4.0,
+     "longest_campaign": 2,
+     "themes": [
+      "All themes · Low Tide · The Last Letter",
+      "The Last Letter"
+     ]
+    },
+    {
+     "name": "Anselm",
+     "proposals": 2,
+     "wins": 1,
+     "win_rate": 0.5,
+     "avg_votes": 3.5,
+     "longest_campaign": 1,
+     "themes": [
+      "The Last Letter"
+     ]
+    },
+    {
+     "name": "Dr. Okafor",
+     "proposals": 2,
+     "wins": 0,
+     "win_rate": 0.0,
+     "avg_votes": 1.5,
+     "longest_campaign": 0,
+     "themes": [
+      "The Last Letter"
+     ]
+    },
+    {
+     "name": "Noor",
+     "proposals": 2,
+     "wins": 0,
+     "win_rate": 0.0,
+     "avg_votes": 3.5,
+     "longest_campaign": 0,
+     "themes": [
+      "The Last Letter"
+     ]
+    },
+    {
+     "name": "Teo",
+     "proposals": 2,
+     "wins": 0,
+     "win_rate": 0.0,
+     "avg_votes": 2.5,
+     "longest_campaign": 0,
+     "themes": [
+      "The Last Letter"
+     ]
+    }
    ]
   }
  }
