@@ -258,3 +258,52 @@ svg.lineage .node{cursor:pointer}svg.lineage .node:hover circle,svg.lineage .nod
 .dlg-lineage a{color:var(--growth)}
 .dlg-id{margin-top:10px;font-size:.72rem;color:var(--ink-dim)}.dlg-id a{color:var(--ink-dim);text-decoration:underline}
 canvas#tree[hidden]{display:none}
+
+/* ---------- theme toggle on the lineage tree ---------- */
+.theme-chips{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0 2px}
+.theme-chips button{font:inherit;font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink);background:transparent;border:1px solid var(--line-strong);border-radius:999px;padding:4px 10px;cursor:pointer;transition:.2s}
+.theme-chips button:hover{border-color:var(--growth);color:var(--canvas)}
+.theme-chips button.on{background:var(--growth);color:var(--origin);border-color:var(--growth)}
+
+/* ---------- insights (ontology analysis) ---------- */
+.ari{display:flex;gap:14px;align-items:flex-start;margin-top:18px;padding:16px 18px;border:1px solid var(--line);border-radius:14px;background:rgba(244,241,232,.03);max-width:46em}
+.ari .avatar{flex:0 0 38px;width:38px;height:38px;border-radius:50%;background:radial-gradient(circle at 35% 35%,var(--growth),#2f5a48);display:grid;place-items:center;font-family:var(--serif);color:var(--origin);font-size:1.05rem}
+.ari p{margin:0;font-size:.95rem;color:var(--ink)}
+.ari p b{color:var(--canvas);font-weight:500}
+.insights{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-top:34px}
+.ins{border:1px solid var(--line);border-radius:16px;padding:20px 22px;background:rgba(244,241,232,.025)}
+.ins h3{font-family:var(--serif);font-weight:400;font-size:1.25rem;margin:4px 0 6px;color:var(--canvas)}
+.ins .eyebrow{margin-bottom:2px}
+.ins p.note{font-size:.86rem;color:var(--ink);margin:0 0 12px}
+.bars{display:grid;gap:8px}
+.bar{display:grid;grid-template-columns:minmax(90px,38%) 1fr auto;gap:10px;align-items:center;font-size:.8rem;color:var(--ink)}
+.bar .lbl{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar .trk{height:8px;border-radius:999px;background:rgba(244,241,232,.08);overflow:hidden}
+.bar .trk i{display:block;height:100%;border-radius:999px;background:var(--growth)}
+.bar .trk i.mutation{background:var(--mutation)}
+.bar .trk i.memory{background:var(--memory)}
+.bar .trk i.canvas{background:var(--canvas)}
+.bar .val{font-family:var(--serif);color:var(--canvas);font-size:.95rem;min-width:2.2em;text-align:right}
+.hands{display:grid;gap:12px}
+.hand{display:grid;grid-template-columns:auto 1fr;gap:10px 14px;align-items:baseline;font-size:.84rem;color:var(--ink)}
+.hand b{font-family:var(--serif);font-weight:400;color:var(--canvas);font-size:1.05rem}
+.hand .tags span{display:inline-block;margin:2px 6px 2px 0;padding:2px 9px;border-radius:999px;border:1px solid var(--line-strong);font-size:.74rem}
+.hand .tags span.sig{border-color:var(--memory);color:var(--memory)}
+.hand small{display:block;color:var(--ink-dim);margin-top:4px}
+.flow{display:grid;gap:6px;font-size:.8rem;color:var(--ink)}
+.flow .row{display:grid;grid-template-columns:minmax(100px,30%) 1fr auto;gap:10px;align-items:center}
+.flow .gens{display:flex;gap:3px}
+.flow .gens i{width:12px;height:12px;border-radius:3px;background:rgba(244,241,232,.08)}
+.flow .gens i.on{background:var(--growth)}
+.flow .gens i.on.x{background:var(--mutation)}
+.ins .big{font-family:var(--serif);font-size:2.2rem;line-height:1;color:var(--canvas);margin:6px 0 2px}
+.ins .big small{font-size:.9rem;color:var(--ink-dim);margin-left:6px;font-family:var(--sans)}
+.ins.wide{grid-column:1 / -1}
+.timeline-bars{display:flex;gap:4px;align-items:flex-end;height:90px;margin-top:8px}
+.timeline-bars i{flex:1;background:var(--growth);border-radius:4px 4px 0 0;position:relative;min-width:10px}
+.timeline-bars i.lt{background:var(--memory)}
+.timeline-bars i::after{content:attr(data-n);position:absolute;top:-16px;left:0;right:0;text-align:center;font-size:.64rem;color:var(--ink-dim)}
+.timeline-lbl{display:flex;gap:4px;font-size:.64rem;color:var(--ink-dim);margin-top:4px}
+.timeline-lbl span{flex:1;text-align:center;min-width:10px}
+@media (max-width:620px){.bar{grid-template-columns:minmax(80px,42%) 1fr auto}.hand{grid-template-columns:1fr}}
+.dim{color:var(--ink-dim);font-size:.9rem}
