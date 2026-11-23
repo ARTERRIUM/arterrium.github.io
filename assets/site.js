@@ -8,6 +8,20 @@
     els.forEach(function(el){ io.observe(el); });
   } else { els.forEach(function(el){ el.classList.add('in'); }); }
 
+  /* ---------- mobile menu ---------- */
+  var nav=document.querySelector('nav'),tg=nav&&nav.querySelector('.nav-toggle');
+  if(tg){
+    var sheet=document.createElement('div'); sheet.className='sheet'; sheet.id='nav-sheet';
+    nav.querySelectorAll('.menu > a').forEach(function(a){ var c=a.cloneNode(true); sheet.appendChild(c); });
+    nav.appendChild(sheet);
+    function setOpen(v){ nav.classList.toggle('open',v); tg.setAttribute('aria-expanded',v?'true':'false'); }
+    tg.addEventListener('click',function(){ setOpen(!nav.classList.contains('open')); });
+    sheet.addEventListener('click',function(e){ if(e.target.closest('a')) setOpen(false); });
+    document.addEventListener('keydown',function(e){ if(e.key==='Escape') setOpen(false); });
+    document.addEventListener('click',function(e){ if(nav.classList.contains('open')&&!nav.contains(e.target)) setOpen(false); });
+    window.addEventListener('resize',function(){ if(window.innerWidth>820) setOpen(false); });
+  }
+
   /* ---------- living evolution tree ---------- */
   var cv=document.getElementById('tree'); if(!cv) return;
   var ctx=cv.getContext('2d');
