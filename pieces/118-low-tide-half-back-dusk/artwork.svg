@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="dusk" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#5a4a5c"/><stop offset="55%" stop-color="#c9a98f"/><stop offset="100%" stop-color="#f1c9a0"/></linearGradient>
+    <linearGradient id="flat" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#d8bfa0"/><stop offset="100%" stop-color="#7a6a5c"/></linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e6c39a" stop-opacity="0.55"/><stop offset="100%" stop-color="#4a3f52" stop-opacity="0.8"/></linearGradient>
+    <linearGradient id="refl" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2a2522" stop-opacity="0.75"/><stop offset="100%" stop-color="#2a2522" stop-opacity="0.05"/></linearGradient>
+    <radialGradient id="gleam" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#ff9a4a" stop-opacity="0.9"/><stop offset="100%" stop-color="#ff9a4a" stop-opacity="0"/></radialGradient>
+    <pattern id="ripple" width="800" height="7" patternUnits="userSpaceOnUse"><rect width="800" height="4" fill="#fff"/></pattern>
+    <mask id="wobble"><rect y="430" width="800" height="370" fill="url(#ripple)" opacity="0.85"/></mask>
+  </defs>
+  <rect width="800" height="800" fill="url(#dusk)"/>
+  <rect y="330" width="800" height="470" fill="url(#flat)"/>
+  <g stroke="#7a6a5c" stroke-width="0.6" opacity="0.5" fill="none"><path d="M0 420c200 3 400-3 800 0M0 470c260-4 520 4 800 0M0 530c180 4 360-4 800 0M0 600c300-5 500 5 800 0M0 680c220 4 440-4 800 0M0 750c260-3 520 3 800 0"/></g>
+  <rect y="430" width="800" height="370" fill="url(#water)"/>
+  <path d="M0 431c200 3 400-3 800 0" stroke="#fff3c9" stroke-width="1.6" opacity="0.9" fill="none"/>
+  <path d="M0 329h800" stroke="#fff3c9" stroke-width="1" opacity="0.5"/>
+  <g mask="url(#wobble)">
+    <rect x="486" y="432" width="26" height="300" fill="url(#refl)" transform="skewX(-2)"/>
+    <ellipse cx="300" cy="560" rx="90" ry="26" fill="url(#gleam)"/>
+    <rect x="240" y="556" width="120" height="6" fill="#ff9a4a" opacity="0.7"/>
+  </g>
+  <path d="M488 430h22v-294l-4-6h-14l-4 6z" fill="#2a2522"/>
+  <path d="M492 136h14" stroke="#4a403a" stroke-width="1"/>
+  <g fill="none" stroke="#fff3c9" stroke-width="0.8" opacity="0.6"><ellipse cx="499" cy="434" rx="22" ry="3"/><ellipse cx="499" cy="440" rx="44" ry="5"/></g>
+</svg>

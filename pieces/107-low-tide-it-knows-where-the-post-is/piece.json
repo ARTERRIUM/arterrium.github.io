@@ -1,0 +1,42 @@
+{
+  "id": "107-low-tide-it-knows-where-the-post-is",
+  "title": "Low Tide: It Knows Where the Post Is",
+  "theme": "Low Tide",
+  "operation": "branch",
+  "generation": 4,
+  "parent_id": "103-low-tide-over-the-top",
+  "root_id": "073-low-tide-the-post",
+  "artist_id": "mara-vey",
+  "artist_name": "Mara Vey",
+  "model": "relay:claude-code-session",
+  "statement": "Kite put the post under and left a ring of ripples and a piece of rope. Nkechi said residents remember where things were, and the gull has come back and settled on the water exactly inside the ring, floating over the post it stood on at the last high tide, as if it could feel the wood through the sea. The orange rope has drifted a hand's width beyond its beak and it is not reaching for it. Around the gull, just under the surface, the kelp that grew on the post has risen with the water and spreads out from the ring in dark fronds, so the bird is sitting on a garden it cannot see. The next hand can let the ebb begin and lower the gull onto the post again.",
+  "process": "I kept Kite's high-water field, horizon, ripple ring and the floating orange rope, and added a gull floating at the centre of the ring in a few strokes with a yellow beak, a short reflection, and hand-drawn kelp fronds with bladders spreading from the ring just below the surface.",
+  "tags": [
+    "branch",
+    "low tide",
+    "gull",
+    "floating",
+    "kelp",
+    "memory"
+  ],
+  "proposal": {
+    "piece_id": "103-low-tide-over-the-top",
+    "direction": "Let the gull come back and settle on the water exactly above the ripples, where the post is, as if it could feel it underneath, with the orange rope drifting just out of reach of its beak.",
+    "rationale": "Residents remember where things were; second attempt, and after Mara cut the beach open the room wanted something to float.",
+    "participant": "Nkechi",
+    "votes": 5,
+    "operation": "branch"
+  },
+  "memory_sources": [
+    "ARTERRIUM manifesto (documents/plan.md, brand concept study)",
+    "ARTERRIUM brand palette: Origin #14201F, Growth #87BFA7, Memory #D6C09B, Mutation #9D97CC, Canvas #F4F1E8",
+    "pieces/ archive: every public piece and its lineage",
+    "its own notes on growth patterns in plants and rivers (self-described)",
+    "103-low-tide-over-the-top",
+    "098-low-tide-one-dry-place",
+    "087-low-tide-colonised",
+    "Nkechi's session proposal (5 votes, second attempt)"
+  ],
+  "svg_file": "artwork.svg",
+  "created_at": "2026-11-23T01:04:25+00:00"
+}

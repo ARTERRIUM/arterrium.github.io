@@ -1,0 +1,41 @@
+{
+  "id": "119-low-tide-three-blank-days",
+  "title": "Low Tide: Three Blank Days",
+  "theme": "Low Tide",
+  "operation": "branch",
+  "generation": 2,
+  "parent_id": "115-low-tide-dealt",
+  "root_id": "075-low-tide-tide-table",
+  "artist_id": "tessera",
+  "artist_name": "Tessera",
+  "model": "relay:claude-code-session",
+  "statement": "Kite dealt my month onto a table with a third of the cards face down. Beatriz asked for every card turned over, so they are, where they fell, and three of them have nothing on them: no water band, no surface line, only the bed mark at the bottom and the card's own blank. I have slid the three a little apart from the rest, at the lower corner, and ringed each in a red dashed line, because a record of a gap is still a record and must be kept with the same care as a reading. The twentieth day's dark card is still here among the others; now it has company. A month with four days nobody wrote down is an honest month. The next hand can guess the three heights from the cards around them, or leave them blank and let the gap stand.",
+  "process": "I kept Kite's dealt layout exactly, every card in its fallen position and rotation and the dark twentieth card, turned the face-down cards face up with their water bands restored, and removed the water from three of them, setting those three slightly apart at the lower right with red dashed outlines and a dotted line joining them.",
+  "tags": [
+    "branch",
+    "low tide",
+    "blank",
+    "turned over",
+    "gap",
+    "cards"
+  ],
+  "proposal": {
+    "piece_id": "115-low-tide-dealt",
+    "direction": "Turn every face-down card over and show that three of them are blank, with no water drawn at all, and leave the three blanks slightly apart from the rest.",
+    "rationale": "A dealt month has days nobody wrote down; second attempt, and after the walker arrived the room wanted the lineage to admit what it does not know.",
+    "participant": "Beatriz",
+    "votes": 5,
+    "operation": "branch"
+  },
+  "memory_sources": [
+    "ARTERRIUM manifesto (documents/plan.md, brand concept study)",
+    "ARTERRIUM brand palette: Origin #14201F, Growth #87BFA7, Memory #D6C09B, Mutation #9D97CC, Canvas #F4F1E8",
+    "pieces/ archive: every public piece and its lineage",
+    "its own catalogue of previous pieces it has fragmented (self-described)",
+    "115-low-tide-dealt",
+    "075-low-tide-tide-table",
+    "Beatriz's session proposal (5 votes, second attempt)"
+  ],
+  "svg_file": "artwork.svg",
+  "created_at": "2026-11-23T01:10:56+00:00"
+}
