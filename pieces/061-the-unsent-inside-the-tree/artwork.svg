@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#0d0b1a"/><stop offset="50%" stop-color="#1a1535"/><stop offset="100%" stop-color="#e8d5c4"/></linearGradient>
+    <radialGradient id="heart" cx="50%" cy="50%" r="60%"><stop offset="0%" stop-color="#2c1f18"/><stop offset="60%" stop-color="#160f0c"/><stop offset="100%" stop-color="#070504"/></radialGradient>
+    <radialGradient id="spill" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#fff3c9" stop-opacity="0.45"/><stop offset="100%" stop-color="#fff3c9" stop-opacity="0"/></radialGradient>
+    <linearGradient id="form" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#1a1535"/><stop offset="70%" stop-color="#c4956a"/><stop offset="100%" stop-color="#f5e6d3"/></linearGradient>
+    <path id="hole" d="M340 170c-40 40-56 160-32 280s80 120 160 104 80-160 56-264-120-160-184-120z"/>
+    <clipPath id="hclip"><use href="#hole"/></clipPath>
+    <path id="vessel" d="M340 120c0 0-30 40-30 100v360c0 60 30 100 90 100s90-40 90-100V220c0-60-30-100-90-100z"/>
+    <g id="small"><use href="#vessel" fill="url(#form)"/><path d="M370 200v400c0 0 15 10 30 10s30-10 30-10V200z" fill="#0d0b1a" opacity="0.45"/></g>
+    <g id="rings" fill="none" stroke="#4a3326" stroke-linecap="round">
+      <path d="M300 160c-60 60-90 180-60 300s90 180 180 170 170-110 170-230-40-250-120-280-130-10-170 40z" stroke-width="1.6"/>
+      <path d="M270 130c-80 70-120 200-80 340s110 200 220 190 200-130 200-270-50-290-150-320-150-10-190 60z" stroke-width="1"/>
+      <path d="M240 100c-100 80-150 230-100 390s130 230 260 220 230-150 230-310-60-330-180-360-170-10-210 60z" stroke-width="1.8"/>
+      <path d="M200 60c-120 90-180 270-120 450s150 270 300 260 270-170 270-350-70-380-210-410-200-10-240 50z" stroke-width="0.8"/>
+      <path d="M150 10c-140 110-220 320-140 530s180 320 350 300 310-200 310-410-80-440-250-480-230-10-270 60z" stroke-width="1.4"/>
+      <path d="M320 200c-30 40-40 140-20 220M420 180c40 30 60 120 50 220M360 500c30 20 70 10 100-10" stroke-width="0.7" opacity="0.7"/>
+    </g>
+  </defs>
+  <rect width="800" height="800" fill="url(#heart)"/>
+  <use href="#rings" opacity="0.9"/>
+  <use href="#rings" opacity="0.3" stroke="#c4956a" transform="translate(2 1)"/>
+  <ellipse cx="420" cy="380" rx="260" ry="300" fill="url(#spill)"/>
+  <g clip-path="url(#hclip)">
+    <rect width="800" height="800" fill="url(#bg)"/>
+    <use href="#vessel" fill="#07060f" transform="translate(400 420) scale(0.22) translate(-400 -400)"/>
+    <use href="#vessel" fill="none" stroke="#f5e6d3" stroke-width="3" opacity="0.35" stroke-dasharray="10 14" transform="translate(400 420) scale(0.22) translate(-400 -400)"/>
+    <circle cx="400" cy="490" r="1.5" fill="#f5e6d3" opacity="0.6"/>
+  </g>
+  <use href="#hole" fill="none" stroke="#c4956a" stroke-width="2.2"/>
+  <use href="#hole" fill="none" stroke="#fff3c9" stroke-width="0.8" opacity="0.6" transform="translate(-3 -2)"/>
+  <ellipse cx="400" cy="720" rx="150" ry="22" fill="#070504" opacity="0.8"/>
+  <g>
+    <use href="#small" transform="translate(300 700) scale(0.09) rotate(80 400 400)" opacity="0.9"/>
+    <use href="#small" transform="translate(340 690) scale(0.09) rotate(-70 400 400)" opacity="0.85"/>
+    <use href="#small" transform="translate(380 706) scale(0.09) rotate(100 400 400)" opacity="0.9"/>
+    <use href="#small" transform="translate(420 688) scale(0.09) rotate(-95 400 400)" opacity="0.85"/>
+    <use href="#small" transform="translate(460 702) scale(0.09) rotate(75 400 400)" opacity="0.9"/>
+    <use href="#small" transform="translate(330 668) scale(0.08) rotate(85 400 400)" opacity="0.8"/>
+    <use href="#small" transform="translate(400 664) scale(0.08) rotate(-80 400 400)" opacity="0.8"/>
+    <use href="#small" transform="translate(440 672) scale(0.08) rotate(95 400 400)" opacity="0.8"/>
+  </g>
+  <g fill="none" stroke="#87BFA7" stroke-linecap="round" opacity="0.85"><path d="M250 740c30-14 60-24 90-30s40-10 60-26" stroke-width="1.6"/><path d="M340 710c-6-8-14-10-22-10M372 700c6-6 12-6 20-4" stroke-width="1"/></g>
+</svg>

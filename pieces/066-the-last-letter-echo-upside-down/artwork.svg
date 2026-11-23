@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#070510"/>
+      <stop offset="50%" stop-color="#15102a"/>
+      <stop offset="100%" stop-color="#e8d5c4"/>
+    </linearGradient>
+    <linearGradient id="form" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#1a1535" stop-opacity="0.95"/>
+      <stop offset="70%" stop-color="#c4956a" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#f5e6d3" stop-opacity="0.98"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.4" r="0.5">
+      <stop offset="0%" stop-color="#f5e6d3" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#f5e6d3" stop-opacity="0"/>
+    </radialGradient>
+    <g id="rootlet">
+      <path d="M0 0 C 15 -10, 30 -5, 45 -25 C 55 -40, 50 -60, 70 -75" fill="none" stroke="#c4956a" stroke-width="1.5" opacity="0.6"/>
+      <path d="M20 -15 C 28 -25, 40 -30, 55 -45" fill="none" stroke="#f5e6d3" stroke-width="0.8" opacity="0.5"/>
+    </g>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <g transform="matrix(1 0 0 -1 0 800)">
+    <g transform="translate(-9 0)" opacity="0.5" style="mix-blend-mode:screen"><use href="#vessel" fill="#19d3e0"/></g>
+    <g transform="translate(9 0)" opacity="0.5"><use href="#vessel" fill="#ff2fa0"/></g>
+    
+
+  
+  <ellipse cx="400" cy="380" rx="320" ry="300" fill="url(#glow)"/>
+
+  
+  <g opacity="0.75" transform="translate(400, 500)">
+    <path d="M0 0 C -40 -60, -120 -100, -180 -180 C -220 -230, -280 -250, -320 -300" fill="none" stroke="#2c1f18" stroke-width="4"/>
+    <path d="M0 0 C 40 -60, 120 -100, 180 -180 C 220 -230, 280 -250, 320 -300" fill="none" stroke="#2c1f18" stroke-width="4"/>
+    <path d="M0 0 C -20 -80, -60 -160, -50 -260 C -40 -320, -90 -380, -130 -420" fill="none" stroke="#c4956a" stroke-width="2"/>
+    <path d="M0 0 C 20 -80, 60 -160, 50 -260 C 40 -320, 90 -380, 130 -420" fill="none" stroke="#c4956a" stroke-width="2"/>
+    <path d="M0 0 C 0 -100, 0 -200, 0 -350" fill="none" stroke="#f5e6d3" stroke-width="1.5" opacity="0.8"/>
+  </g>
+
+  
+  <path id="vessel" d="
+    M 340 120
+    C 340 120, 310 160, 310 220
+    L 310 580
+    C 310 640, 340 680, 400 680
+    C 460 680, 490 640, 490 580
+    L 490 220
+    C 490 160, 460 120, 400 120
+    Z
+  " fill="url(#form)" stroke="#5a3d28" stroke-width="2"/>
+
+  
+  <g stroke="#2c1f18" fill="none" stroke-linecap="round" opacity="0.7">
+    <path d="M 400 680 Q 370 500, 340 380 T 360 200" stroke-width="2.5"/>
+    <path d="M 400 680 Q 430 500, 460 380 T 440 200" stroke-width="2.5"/>
+    <path d="M 370 550 C 350 520, 320 500, 310 480" stroke-width="1.5"/>
+    <path d="M 430 550 C 450 520, 480 500, 490 480" stroke-width="1.5"/>
+    <path d="M 385 430 C 360 410, 340 380, 310 350" stroke-width="1.2"/>
+    <path d="M 415 430 C 440 410, 460 380, 490 350" stroke-width="1.2"/>
+    <path d="M 380 300 C 350 280, 330 250, 310 220" stroke-width="1"/>
+    <path d="M 420 300 C 450 280, 470 250, 490 220" stroke-width="1"/>
+  </g>
+
+  
+  <ellipse cx="400" cy="400" rx="40" ry="80" fill="#f5e6d3" opacity="0.3"/>
+  <ellipse cx="400" cy="400" rx="15" ry="30" fill="#ffffff" opacity="0.6"/>
+
+  
+  <use href="#rootlet" transform="translate(310, 580) rotate(-30)"/>
+  <use href="#rootlet" transform="translate(490, 580) scale(-1, 1) rotate(-30)"/>
+  <use href="#rootlet" transform="translate(310, 300) rotate(-110)"/>
+  <use href="#rootlet" transform="translate(490, 300) scale(-1, 1) rotate(-110)"/>
+
+  
+  <path d="
+    M 370 200 L 370 600
+    C 370 600, 385 610, 400 610
+    C 415 610, 430 600, 430 600
+    L 430 200 Z
+  " fill="#0d0b1a" opacity="0.4"/>
+
+  
+  <circle cx="400" cy="680" r="5" fill="#f5e6d3" opacity="0.9"/>
+
+  </g>
+  <ellipse cx="400" cy="400" rx="15" ry="30" fill="#e3261f" opacity="0.95"/>
+  <ellipse cx="400" cy="400" rx="40" ry="80" fill="#e3261f" opacity="0.18"/>
+  <path d="M0 790h800" stroke="#f5e6d3" stroke-width="0.6" opacity="0.4" stroke-dasharray="2 6"/>
+</svg>

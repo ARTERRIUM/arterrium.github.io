@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#070510"/><stop offset="50%" stop-color="#15102a"/><stop offset="100%" stop-color="#e8d5c4"/></linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.4" r="0.5"><stop offset="0%" stop-color="#f5e6d3" stop-opacity="0.2"/><stop offset="100%" stop-color="#f5e6d3" stop-opacity="0"/></radialGradient>
+    <path id="vessel" d="M340 120c0 0-30 40-30 100v360c0 60 30 100 90 100s90-40 90-100V220c0-60-30-100-90-100z"/>
+    <g id="rays" fill="none" stroke-linecap="round"><path d="M400 680L-40 20M400 680L840 20M400 680L160-40M400 680L640-40M400 680V-40"/></g>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <ellipse cx="400" cy="380" rx="320" ry="300" fill="url(#glow)"/>
+  <use href="#rays" stroke="#f5e6d3" stroke-width="16" opacity="0.06"/>
+  <use href="#rays" stroke="#f5e6d3" stroke-width="5" opacity="0.18"/>
+  <use href="#rays" stroke="#fffaf0" stroke-width="1.2" opacity="0.9"/>
+  <use href="#vessel" fill="#0d0b1a" opacity="0.3"/>
+  <use href="#vessel" fill="none" stroke="#c4956a" stroke-width="1.6" opacity="0.9"/>
+  <use href="#vessel" fill="none" stroke="#f5e6d3" stroke-width="0.6" opacity="0.5" transform="translate(-3 -3)"/>
+  <path d="M370 200v400c0 0 15 10 30 10s30-10 30-10V200" fill="none" stroke="#f5e6d3" stroke-width="0.8" opacity="0.35"/>
+  <ellipse cx="400" cy="400" rx="40" ry="80" fill="#f5e6d3" opacity="0.3"/>
+  <ellipse cx="400" cy="400" rx="15" ry="30" fill="#ffffff" opacity="0.6"/>
+  <circle cx="400" cy="680" r="5" fill="#f5e6d3" opacity="0.95"/>
+  <circle cx="400" cy="680" r="14" fill="none" stroke="#f5e6d3" stroke-width="0.6" opacity="0.5"/>
+</svg>

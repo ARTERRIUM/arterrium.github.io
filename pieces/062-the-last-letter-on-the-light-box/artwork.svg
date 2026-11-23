@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="box" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f3e6d2"/><stop offset="30%" stop-color="#fbf6ec"/><stop offset="100%" stop-color="#f7f2e8"/></linearGradient>
+    <radialGradient id="ghalo" cx="0.5" cy="0.5" r="0.5"><stop offset="0%" stop-color="#b8ff2e" stop-opacity="0.35"/><stop offset="100%" stop-color="#b8ff2e" stop-opacity="0"/></radialGradient>
+    <g id="fragment"><path d="M0 0h60v160H0z" fill="#8a8a90" opacity="0.14" stroke="#6a6a72" stroke-width="0.6" stroke-opacity="0.3"/><path d="M15 20h30v120H15z" fill="#6a6a72" opacity="0.1"/></g>
+    <g id="v"><use href="#fragment" transform="scale(1 0.52)"/></g>
+  </defs>
+  <rect width="800" height="800" fill="#e8e0d2"/>
+  <rect x="40" y="40" width="640" height="720" fill="url(#box)"/>
+  <path d="M254 40v720" stroke="#6a6a72" stroke-width="0.8" opacity="0.25"/>
+  <path d="M40 300L680 520" stroke="#6a6a72" stroke-width="0.5" opacity="0.1"/>
+  <g>
+    <use href="#v" transform="translate(690 50) rotate(0 30 42)"/>
+    <use href="#v" transform="translate(684 136) rotate(-4 30 42)"/>
+    <use href="#v" transform="translate(672 222) rotate(-9 30 42)"/>
+    <use href="#v" transform="translate(654 306) rotate(-14 30 42)"/>
+    <use href="#v" transform="translate(632 388) rotate(-19 30 42)"/>
+    <use href="#v" transform="translate(608 468) rotate(-23 30 42)"/>
+    <use href="#v" transform="translate(584 548) rotate(-26 30 42)"/>
+  </g>
+  <circle cx="330" cy="522" r="70" fill="url(#ghalo)"/>
+  <g transform="translate(300 480) rotate(-8)">
+    <path d="M0 0h60v83H0z" fill="#3b3a3f" opacity="0.85"/>
+    <path d="M15 10h30v62H15z" fill="#1e1d22" opacity="0.5"/>
+  </g>
+  <g fill="#6a6a72" opacity="0.35"><circle cx="574" cy="642" r="2"/><circle cx="564" cy="646" r="1"/><circle cx="586" cy="640" r="1.5"/></g>
+  <g stroke="#6a6a72" stroke-width="1" opacity="0.35"><path d="M60 52h16M60 52v16M740 52h-16M740 52v16M60 748h16M60 748v-16M740 748h-16M740 748v-16"/></g>
+  <rect x="24" y="24" width="672" height="752" fill="none" stroke="#d8cfbf" stroke-width="2"/>
+</svg>

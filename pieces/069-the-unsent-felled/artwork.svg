@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#0d0b1a"/><stop offset="50%" stop-color="#1a1535"/><stop offset="100%" stop-color="#e8d5c4"/>
+    </linearGradient>
+    <linearGradient id="form" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#1a1535" stop-opacity="0.9"/><stop offset="70%" stop-color="#c4956a" stop-opacity="0.85"/><stop offset="100%" stop-color="#f5e6d3" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="bark" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2c1f18"/><stop offset="60%" stop-color="#4a3326"/><stop offset="100%" stop-color="#2c1f18"/>
+    </linearGradient>
+    <radialGradient id="spill" cx="0" cy="0" r="1">
+      <stop offset="0%" stop-color="#fff3c9" stop-opacity="0.6"/><stop offset="100%" stop-color="#fff3c9" stop-opacity="0"/>
+    </radialGradient>
+    <path id="vessel" d="M340 120c0 0-30 40-30 100v360c0 60 30 100 90 100s90-40 90-100V220c0-60-30-100-90-100z"/>
+    <g id="small"><use href="#vessel" fill="url(#form)"/><path d="M370 200v400c0 0 15 10 30 10s30-10 30-10V200z" fill="#0d0b1a" opacity="0.45"/></g>
+    <clipPath id="slot"><path d="M0 0h800v800H0zM700 40c-10 10-14 40-8 70s20 30 40 26 20-40 14-66-30-40-46-30z"/></clipPath>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <use href="#vessel" fill="#07060f"/>
+  <use href="#vessel" fill="none" stroke="#f5e6d3" stroke-width="0.8" opacity="0.35" stroke-dasharray="3 5"/>
+  <path d="M370 200v400c0 0 15 10 30 10s30-10 30-10V200z" fill="none" stroke="#f5e6d3" stroke-width="0.6" opacity="0.3"/>
+  <g transform="rotate(-14 470 300)" stroke="#e3261f" fill="none" stroke-linecap="round" opacity="0.45">
+    <circle cx="470" cy="300" r="58" stroke-width="3" stroke-dasharray="6 4"/><circle cx="470" cy="300" r="44" stroke-width="1.2"/>
+    <path d="M540 286c20-4 40 4 60 0s40-6 60 0M540 300c20-4 40 4 60 0s40-6 60 0M540 314c20-4 40 4 60 0s40-6 60 0" stroke-width="2.4"/>
+  </g>
+  <g transform="translate(0 800) rotate(-90) translate(0 -800)">
+    <g transform="translate(0 110)">
+      <path d="M690 0c-20 60 10 120-6 190s-30 140-10 220 40 150 12 230-4 120 0 160h110V0z" fill="url(#bark)"/>
+      <g fill="none" stroke="#1a1030" stroke-linecap="round" opacity="0.7"><path d="M720 0c-10 80 14 140 0 230s-20 160-4 250 10 200 2 320M752 0c-6 90 10 170-2 260s-16 170-2 260 6 180 0 280M776 0c-4 100 8 200-2 300s-8 220 0 320 4 120 0 180" stroke-width="1.4"/></g>
+      <path d="M700 40c-10 10-14 40-8 70s20 30 40 26 20-40 14-66-30-40-46-30z" fill="#07060f"/>
+      <path d="M700 40c-10 10-14 40-8 70s20 30 40 26 20-40 14-66-30-40-46-30z" fill="none" stroke="#c4956a" stroke-width="1.6"/>
+    </g>
+  </g>
+  <g transform="translate(740 690)">
+    <ellipse cx="0" cy="0" rx="44" ry="52" fill="#ff6a00"/>
+    <g fill="none" stroke="#2c1f18" stroke-width="1.2"><ellipse rx="34" ry="41"/><ellipse rx="25" ry="30"/><ellipse rx="16" ry="20"/><ellipse rx="8" ry="10"/></g>
+    <circle r="2.5" fill="#2c1f18"/>
+  </g>
+  <path d="M696 640c10 40 60 70 100 54" fill="none" stroke="#2c1f18" stroke-width="2"/>
+  <g transform="translate(610 520)"><path d="M0 0c20-10 46-12 66-24" stroke="#ff6a00" stroke-width="3" stroke-linecap="round" fill="none"/><path d="M60-16c6 10 20 12 30 8" stroke="#2c1f18" stroke-width="2" fill="none"/></g>
+  <ellipse cx="724" cy="690" rx="120" ry="60" fill="url(#spill)" opacity="0.6"/>
+  <g>
+    <use href="#small" transform="translate(470 470) scale(0.22) rotate(8 400 400)" opacity="0.95"/>
+    <use href="#small" transform="translate(520 400) scale(0.19) rotate(14 400 400)" opacity="0.9"/>
+    <use href="#small" transform="translate(560 330) scale(0.17) rotate(20 400 400)" opacity="0.85"/>
+    <use href="#small" transform="translate(600 270) scale(0.15) rotate(26 400 400)" opacity="0.8"/>
+    <use href="#small" transform="translate(636 216) scale(0.13) rotate(32 400 400)" opacity="0.72"/>
+    <use href="#small" transform="translate(668 170) scale(0.11) rotate(38 400 400)" opacity="0.64"/>
+    <use href="#small" transform="translate(696 130) scale(0.09) rotate(44 400 400)" opacity="0.55"/>
+    <use href="#small" transform="translate(716 96) scale(0.075) rotate(50 400 400)" opacity="0.5"/>
+    <use href="#small" transform="translate(730 72) scale(0.06) rotate(56 400 400)" opacity="0.45"/>
+    <use href="#small" transform="translate(738 56) scale(0.045) rotate(62 400 400)" opacity="0.4"/>
+    <use href="#small" transform="translate(742 46) scale(0.03) rotate(68 400 400)" opacity="0.35"/>
+  </g>
+  <circle cx="400" cy="720" r="3" fill="#f5e6d3" opacity="0.4"/>
+</svg>
