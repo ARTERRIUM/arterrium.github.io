@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="dry" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#eadfca"/><stop offset="100%" stop-color="#dccbb0"/></linearGradient>
+    <linearGradient id="wet" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#a99a82"/><stop offset="100%" stop-color="#6f6555"/></linearGradient>
+    <g id="bladder"><ellipse rx="5" ry="3.2" fill="#4a5a30" stroke="#2f3a1e" stroke-width="0.6"/></g>
+    <g id="shell"><path d="M0 0c-6-2-8-8-6-13 4 2 6 6 6 13zM0 0c6-2 8-8 6-13-4 2-6 6-6 13z" fill="#e9dcc8" stroke="#8f8676" stroke-width="0.6"/></g>
+  <g id="specimen">  <g fill="none" stroke="#2f3a1e" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M70 430c-10 8-24 10-30 22s8 18 20 14-6-20 4-28 20 8 26 2-14-18-4-26 24 6 26-4" stroke-width="3.2"/>
+    <path d="M80 420c30-6 60 4 92 0s64-18 96-10 60 28 94 26 70-20 104-8 70 36 108 30 60-28 92-24" stroke-width="5"/>
+    <path d="M110 416c20-14 44-20 70-16M190 410c22 10 36 26 50 44M260 404c30-10 60-8 86 6M330 406c14 16 20 36 30 56M420 426c26-14 56-16 84-8M490 428c16 14 24 32 28 52M560 430c30-10 62-6 90 8M640 422c20 12 36 30 42 52" stroke-width="2.4"/>
+    <path d="M140 404c8-12 20-18 34-20M224 440c10 10 24 14 38 12M300 412c12-10 26-12 40-8M372 452c12 8 26 8 40 2M460 420c10-10 24-14 38-12M542 466c10 6 24 6 36 0M612 438c14-8 30-8 46-2M676 466c12 6 26 4 40-2" stroke-width="1.4"/>
+  </g>
+<use href="#bladder" transform="translate(150 402) rotate(-20)"/><use href="#bladder" transform="translate(234 442) rotate(30)"/><use href="#bladder" transform="translate(318 408) rotate(-10)"/><use href="#bladder" transform="translate(384 452) rotate(20)"/><use href="#bladder" transform="translate(478 418) rotate(-25)"/><use href="#bladder" transform="translate(556 464) rotate(15)"/><use href="#bladder" transform="translate(634 436) rotate(-15)"/></g></defs>
+  <rect width="800" height="800" fill="#6f6555"/>
+  <rect x="50" y="40" width="700" height="720" fill="#f3ecdd" stroke="#8f8676" stroke-width="1"/>
+  <rect x="62" y="52" width="676" height="696" fill="none" stroke="#8f8676" stroke-width="0.5" opacity="0.6"/>
+  <g stroke="#8f8676" stroke-width="0.6" opacity="0.45"><path d="M80 60v12M140 60v8M200 60v12M260 60v8M320 60v12M380 60v8M440 60v12M500 60v8M560 60v12M620 60v8M680 60v12"/><path d="M80 66h600"/></g>
+  <g transform="translate(560 110) rotate(78)"><use href="#specimen" opacity="0.92"/></g>
+  <g fill="#f3ecdd" stroke="#8f8676" stroke-width="0.8" opacity="0.95">
+    <rect x="300" y="300" width="36" height="12" transform="rotate(-12 318 306)"/><rect x="430" y="470" width="36" height="12" transform="rotate(-12 448 476)"/><rect x="250" y="600" width="36" height="12" transform="rotate(-12 268 606)"/><rect x="520" y="150" width="36" height="12" transform="rotate(-12 538 156)"/>
+  </g>
+  <g transform="translate(470 600)">
+    <rect width="240" height="120" fill="#fbf7ee" stroke="#8f8676" stroke-width="1"/>
+    <g stroke="#6f6555" stroke-width="1.2" opacity="0.6"><path d="M14 26h150M14 50h90M14 74h180M14 98h60"/></g>
+    <path d="M160 92c10-6 22-4 30 2" stroke="#4a5a30" stroke-width="1.5" fill="none"/>
+    <circle cx="214" cy="26" r="9" fill="none" stroke="#8f1d1d" stroke-width="1" stroke-dasharray="2 2"/>
+  </g>
+  <use href="#shell" transform="translate(120 700) rotate(30)"/><use href="#shell" transform="translate(150 712) rotate(-50) scale(0.8)"/>
+</svg>

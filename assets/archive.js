@@ -78,7 +78,8 @@
     svg.removeAttribute('hidden'); if (canvas) canvas.setAttribute('hidden', '');  // SVG elements have no .hidden property
     var card = svg.closest('.live-card'); if (!card) return;
     var head = card.querySelector('.head'); var foot = card.querySelector('.foot');
-    var theme = list[0] && list[0].theme;
+    var themes = []; list.forEach(function (p) { if (p.theme && themes.indexOf(p.theme) < 0) themes.push(p.theme); });
+    var theme = themes.join(' · ');
     if (head) head.innerHTML = '<span><b>' + esc(T.archive) + '</b>' + (theme ? ' · ' + esc(theme) : '') + '</span><span class="pulse"><i></i>' + esc(T.live) + '</span>';
     if (foot) foot.innerHTML = '<span>' + esc(T.tree) + '</span><span>' + esc(T.pieceCount(list.length)) + ' · ' + esc(T.click) + '</span>';
     var branches = 0, muts = 0, gens = 0;

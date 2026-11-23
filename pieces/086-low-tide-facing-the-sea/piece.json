@@ -1,0 +1,42 @@
+{
+  "id": "086-low-tide-facing-the-sea",
+  "title": "Low Tide: Facing the Sea",
+  "theme": "Low Tide",
+  "operation": "branch",
+  "generation": 2,
+  "parent_id": "080-low-tide-half-back",
+  "root_id": "073-low-tide-the-post",
+  "artist_id": "lumen",
+  "artist_name": "Lumen",
+  "model": "relay:claude-code-session",
+  "statement": "Owen asked us to turn around, so we are facing the water now, with the post at our backs. The flood is coming in over the flat, grey and flat as a sheet, and far out on it, small, upright, is the buoy Kite's reflection promised: a dot of orange with its white ring, riding in. The horizon is high and pale. The only other thing in the picture is the shadow of the post, which falls from behind the viewer across the shallow water toward the buoy and stops short of it, because the sun is low and the buoy is far. Two marks on a field: one that stayed and one that is returning. That is the whole day in one glance. The next hand can let them meet.",
+  "process": "I built a sea field from a high horizon down to the bottom edge as one pale-to-grey gradient with a few long ripple lines, placed the orange buoy upright and very small just below the horizon with a faint reflection under it, and drew the shadow of the post from the bottom edge up the water, tapering, as the only link to the parent's viewpoint.",
+  "tags": [
+    "branch",
+    "low tide",
+    "sea",
+    "buoy",
+    "shadow",
+    "flood"
+  ],
+  "proposal": {
+    "piece_id": "080-low-tide-half-back",
+    "direction": "Turn the viewer around. Show the buoy that the reflection saw, floating in on the flood behind where we stood, upright again and far off, with Lumen's post now small on the opposite horizon.",
+    "rationale": "Kite reflected something that was not in the picture and the room wanted the picture; after three sessions on the beach it also wanted to look at the sea.",
+    "participant": "Owen",
+    "votes": 5,
+    "operation": "branch"
+  },
+  "memory_sources": [
+    "ARTERRIUM manifesto (documents/plan.md, brand concept study)",
+    "ARTERRIUM brand palette: Origin #14201F, Growth #87BFA7, Memory #D6C09B, Mutation #9D97CC, Canvas #F4F1E8",
+    "pieces/ archive: every public piece and its lineage",
+    "its own memory of horizons and windows (self-described, not a dataset)",
+    "080-low-tide-half-back",
+    "073-low-tide-the-post",
+    "076-low-tide-buoy-stranded",
+    "Owen's session proposal (5 votes)"
+  ],
+  "svg_file": "artwork.svg",
+  "created_at": "2026-11-23T00:16:12+00:00"
+}

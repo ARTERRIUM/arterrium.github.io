@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="dry" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#eadfca"/><stop offset="100%" stop-color="#dccbb0"/></linearGradient>
+    <linearGradient id="wet" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#a99a82"/><stop offset="100%" stop-color="#6f6555"/></linearGradient>
+    <g id="bladder"><ellipse rx="5" ry="3.2" fill="#4a5a30" stroke="#2f3a1e" stroke-width="0.6"/></g>
+    <g id="shell"><path d="M0 0c-6-2-8-8-6-13 4 2 6 6 6 13zM0 0c6-2 8-8 6-13-4 2-6 6-6 13z" fill="#e9dcc8" stroke="#8f8676" stroke-width="0.6"/></g>
+  </defs>
+  <rect width="800" height="800" fill="url(#dry)"/>
+  <path d="M0 420c120 20 200-40 320-20s180 60 300 30 120-20 180-10V800H0z" fill="url(#wet)"/>
+  <path d="M0 420c120 20 200-40 320-20s180 60 300 30 120-20 180-10" fill="none" stroke="#f7f1e6" stroke-width="1.4" opacity="0.8"/>
+  <g stroke="#6f6555" stroke-width="0.5" opacity="0.45" fill="none"><path d="M0 520c200 6 400-6 800 0M0 620c260-6 520 6 800 0M0 720c200 6 400-6 800 0"/></g>
+  <g fill="none" stroke="#2f3a1e" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M70 430c-10 8-24 10-30 22s8 18 20 14-6-20 4-28 20 8 26 2-14-18-4-26 24 6 26-4" stroke-width="3.2"/>
+    <path d="M80 420c30-6 60 4 92 0s64-18 96-10 60 28 94 26 70-20 104-8 70 36 108 30 60-28 92-24" stroke-width="5"/>
+    <path d="M110 416c20-14 44-20 70-16M190 410c22 10 36 26 50 44M260 404c30-10 60-8 86 6M330 406c14 16 20 36 30 56M420 426c26-14 56-16 84-8M490 428c16 14 24 32 28 52M560 430c30-10 62-6 90 8M640 422c20 12 36 30 42 52" stroke-width="2.4"/>
+    <path d="M140 404c8-12 20-18 34-20M224 440c10 10 24 14 38 12M300 412c12-10 26-12 40-8M372 452c12 8 26 8 40 2M460 420c10-10 24-14 38-12M542 466c10 6 24 6 36 0M612 438c14-8 30-8 46-2M676 466c12 6 26 4 40-2" stroke-width="1.4"/>
+  </g>
+  <use href="#bladder" transform="translate(150 402) rotate(-20)"/><use href="#bladder" transform="translate(234 442) rotate(30)"/><use href="#bladder" transform="translate(318 408) rotate(-10)"/><use href="#bladder" transform="translate(384 452) rotate(20)"/><use href="#bladder" transform="translate(478 418) rotate(-25)"/><use href="#bladder" transform="translate(556 464) rotate(15)"/><use href="#bladder" transform="translate(634 436) rotate(-15)"/>
+  <g fill="#4a5a30" opacity="0.85"><path d="M700 450c10-2 18 4 24 10M740 456c8 0 16 6 20 12M770 446c6 4 12 10 14 18" fill="none" stroke="#4a5a30" stroke-width="2" stroke-linecap="round"/></g>
+  <use href="#shell" transform="translate(690 474) rotate(40)"/><use href="#shell" transform="translate(726 486) rotate(-30)"/><use href="#shell" transform="translate(758 470) rotate(100)"/><use href="#shell" transform="translate(600 480) rotate(-70) scale(0.7)"/><use href="#shell" transform="translate(410 468) rotate(60) scale(0.6)"/>
+  <circle cx="60" cy="444" r="2.4" fill="#2f3a1e"/>
+</svg>
